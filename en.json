@@ -23,14 +23,35 @@
       "description": ""
     },
     "general": {
+      "ban": "",
+      "ban_few": "",
+      "ban_many": "",
+      "ban_zero": "",
       "cooldown": "",
       "disabled": "This command disabled in chat settings!",
+      "message": "",
+      "message_few": "",
+      "message_many": "",
+      "message_zero": "",
+      "mute": "",
+      "mute_few": "",
+      "mute_many": "",
+      "mute_zero": "",
       "no": "false",
       "onlyPM": "",
+      "restricted": "",
+      "restriction": "",
+      "restriction_few": "",
+      "restriction_many": "",
+      "restriction_zero": "",
       "selectChannel": "",
       "selectChat": "",
       "selectUser": "",
       "userNotFound": "",
+      "warn": "",
+      "warn_few": "",
+      "warn_many": "",
+      "warn_zero": "",
       "yes": "true"
     },
     "help": {
@@ -47,20 +68,28 @@
       "send": ""
     },
     "modtop": {
-      "description": ""
+      "bans": "",
+      "description": "",
+      "mutes": "",
+      "total": "",
+      "warns": ""
     },
     "msgtop": {
-      "description": ""
+      "description": "",
+      "header": ""
     },
     "mute": {
       "description": "",
       "onlyUsers": ""
     },
     "note": {
-      "description": ""
+      "description": "",
+      "onlyUsers": ""
     },
     "raidmode": {
-      "description": ""
+      "description": "",
+      "disabled": "",
+      "enabled": ""
     },
     "readonly": {
       "description": ""
