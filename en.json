@@ -23,6 +23,7 @@
       "description": ""
     },
     "general": {
+      "approve": "",
       "ban": "",
       "ban_few": "",
       "ban_many": "",
@@ -39,6 +40,13 @@
       "mute_zero": "",
       "no": "false",
       "onlyPM": "",
+      "open": "",
+      "openWebApp": "",
+      "reject": "",
+      "report": "",
+      "report_few": "",
+      "report_many": "",
+      "report_zero": "",
       "restricted": "",
       "restriction": "",
       "restriction_few": "",
@@ -92,22 +100,54 @@
       "enabled": ""
     },
     "readonly": {
-      "description": ""
+      "description": "",
+      "disabled": "",
+      "enabled": ""
     },
     "report": {
-      "description": ""
+      "alreadySent": "",
+      "deleted": "",
+      "description": "",
+      "got": "",
+      "sent": "",
+      "sentForDelete": ""
     },
     "reptop": {
-      "description": ""
+      "description": "",
+      "header": ""
     },
     "settings": {
-      "description": ""
+      "anonymos": "",
+      "description": "",
+      "header": "",
+      "permission": "",
+      "sent": ""
     },
     "start": {
-      "description": ""
+      "activeRestrictions": "",
+      "description": "",
+      "footer": "",
+      "header": "",
+      "noActiveRestrictions": "",
+      "openUser": "",
+      "restriction": ""
     },
     "stats": {
-      "description": ""
+      "cache": {
+        "cas": "",
+        "chats": "",
+        "members": "",
+        "users": ""
+      },
+      "description": "",
+      "queue": {
+        "messages": "",
+        "updates": ""
+      },
+      "uptime": ""
+    },
+    "supportChat": {
+      "header": ""
     },
     "sync": {
       "description": ""
