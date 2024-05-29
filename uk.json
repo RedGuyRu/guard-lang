@@ -25,9 +25,14 @@
     },
     "general": {
       "approve": "",
+      "canceledRestriction": "",
+      "canceledRestriction_few": "",
+      "canceledRestriction_many": "",
+      "canceledRestriction_zero": "",
       "cooldown": "",
       "disabled": "",
       "no": "",
+      "notFoundUser": "",
       "onlyPM": "",
       "open": "",
       "openWebApp": "",
@@ -118,17 +123,22 @@
       },
       "uptime": ""
     },
-    "supportChat": {
+    "support": {
       "header": ""
     },
     "sync": {
+      "complete": "",
       "description": ""
     },
     "unban": {
-      "description": ""
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
     },
     "unmute": {
-      "description": ""
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
     },
     "user": {
       "activeban": "",
@@ -138,6 +148,7 @@
         "chat": "",
         "user": ""
       },
+      "messages": "",
       "reputation": "",
       "warns": ""
     },

@@ -28,6 +28,10 @@
       "ban_few": "",
       "ban_many": "",
       "ban_zero": "",
+      "canceledRestriction": "",
+      "canceledRestriction_few": "",
+      "canceledRestriction_many": "",
+      "canceledRestriction_zero": "",
       "cooldown": "",
       "disabled": "This command disabled in chat settings!",
       "message": "",
@@ -39,6 +43,7 @@
       "mute_many": "",
       "mute_zero": "",
       "no": "false",
+      "notFoundUser": "",
       "onlyPM": "",
       "open": "",
       "openWebApp": "",
@@ -146,17 +151,22 @@
       },
       "uptime": ""
     },
-    "supportChat": {
+    "support": {
       "header": ""
     },
     "sync": {
+      "complete": "",
       "description": ""
     },
     "unban": {
-      "description": ""
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
     },
     "unmute": {
-      "description": ""
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
     },
     "user": {
       "activeban": "",
@@ -166,6 +176,7 @@
         "chat": "",
         "user": ""
       },
+      "messages": "",
       "reputation": "",
       "warns": ""
     },
