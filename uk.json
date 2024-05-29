@@ -165,6 +165,21 @@
     "automoderation": ""
   },
   "handlers": {
-    "adminsChange": ""
+    "adminsChange": "",
+    "captcha": {
+      "agree": "",
+      "agreed": "",
+      "emoji": ""
+    },
+    "hello": {
+      "full": "",
+      "restricted": ""
+    },
+    "migrate": "",
+    "nativeBan": "",
+    "reactions": {
+      "notify": "",
+      "reason": ""
+    }
   }
 }
