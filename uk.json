@@ -152,10 +152,19 @@
       "reputation": "",
       "warns": ""
     },
+    "userreport": {
+      "sent": ""
+    },
     "warn": {
       "description": "",
       "onlyUsers": ""
     }
   },
-  "extends": ""
+  "extends": "",
+  "general": {
+    "automoderation": ""
+  },
+  "handlers": {
+    "adminsChange": ""
+  }
 }

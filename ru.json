@@ -25,10 +25,6 @@
     },
     "general": {
       "approve": "Одобрить",
-      "ban": "бан",
-      "ban_few": "бана",
-      "ban_many": "банов",
-      "ban_zero": "банов",
       "canceledRestriction": "Снято ограничение!",
       "canceledRestriction_few": "Снято {{count}} ограничения!",
       "canceledRestriction_many": "Снято {{count}} ограничений!",
@@ -181,10 +177,23 @@
       "reputation": "Репутация: ",
       "warns": "Предупреждений: "
     },
+    "userreport": {
+      "sent": "Я отправил информацию в личные сообщения!"
+    },
     "warn": {
       "description": "Выдать предупреждение пользователю",
       "onlyUsers": "Нельзя выдать предупреждение другому администратору!"
     }
   },
-  "extends": "null"
+  "extends": "null",
+  "general": {
+    "automoderation": "Автомодерация",
+    "ban": "бан",
+    "ban_few": "бана",
+    "ban_many": "банов",
+    "ban_zero": "банов"
+  },
+  "handlers": {
+    "adminsChange": "Обнаружено изменение администраторов, список администраторов обновлён!"
+  }
 }

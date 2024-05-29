@@ -24,10 +24,6 @@
     },
     "general": {
       "approve": "",
-      "ban": "",
-      "ban_few": "",
-      "ban_many": "",
-      "ban_zero": "",
       "canceledRestriction": "",
       "canceledRestriction_few": "",
       "canceledRestriction_many": "",
@@ -180,10 +176,23 @@
       "reputation": "",
       "warns": ""
     },
+    "userreport": {
+      "sent": ""
+    },
     "warn": {
       "description": "",
       "onlyUsers": ""
     }
   },
-  "extends": "ru"
+  "extends": "ru",
+  "general": {
+    "automoderation": "",
+    "ban": "",
+    "ban_few": "",
+    "ban_many": "",
+    "ban_zero": ""
+  },
+  "handlers": {
+    "adminsChange": ""
+  }
 }
