@@ -186,11 +186,18 @@
     },
     "extends": "ru",
     "general": {
+        "add": "",
         "automoderation": "",
+        "back": "",
         "ban": "",
         "ban_few": "",
         "ban_many": "",
-        "ban_zero": ""
+        "ban_zero": "",
+        "command": "",
+        "delete": "",
+        "edit": "",
+        "notify": "",
+        "warn": ""
     },
     "handlers": {
         "adminsChange": "",
@@ -208,6 +215,37 @@
         "reactions": {
             "notify": "",
             "reason": ""
+        }
+    },
+    "scenes": {
+        "addCommand": {
+            "enterCommand": ""
+        },
+        "addToken": {
+            "created": "",
+            "enterName": ""
+        },
+        "addTrigger": {
+            "badwordsRU": "",
+            "enterAction": "",
+            "enterName": "",
+            "enterRegex": ""
+        },
+        "commands": {
+            "enterText": "",
+            "header": "",
+            "notFound": ""
+        },
+        "editCommand": {
+            "editAliases": "",
+            "editText": "",
+            "header": ""
+        },
+        "editCommandAlias": {
+            "header": ""
+        },
+        "general": {
+            "placeholders": ""
         }
     }
 }
