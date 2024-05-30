@@ -160,7 +160,7 @@
             "onlyUsers": ""
         }
     },
-    "extends": "",
+    "extends": "ru",
     "general": {
         "add": "",
         "automoderation": "",
