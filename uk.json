@@ -1,185 +1,185 @@
 {
-  "commands": {
-    "admins": {
-      "description": "",
-      "header": ""
+    "commands": {
+        "admins": {
+            "description": "",
+            "header": ""
+        },
+        "ban": {
+            "description": "",
+            "onlyUsers": ""
+        },
+        "chatinfo": {
+            "description": ""
+        },
+        "dban": {
+            "description": ""
+        },
+        "dmute": {
+            "description": ""
+        },
+        "dwarn": {
+            "description": ""
+        },
+        "fulluser": {
+            "description": ""
+        },
+        "general": {
+            "approve": "",
+            "canceledRestriction": "",
+            "canceledRestriction_few": "",
+            "canceledRestriction_many": "",
+            "canceledRestriction_zero": "",
+            "cooldown": "",
+            "disabled": "",
+            "no": "",
+            "notFoundUser": "",
+            "onlyPM": "",
+            "open": "",
+            "openWebApp": "",
+            "reject": "",
+            "report": "",
+            "report_few": "",
+            "report_many": "",
+            "report_zero": "",
+            "selectChannel": "",
+            "selectChat": "",
+            "selectUser": "",
+            "userNotFound": "",
+            "yes": ""
+        },
+        "help": {
+            "commandList": "",
+            "docs": "",
+            "duration": "",
+            "durationHint": "",
+            "idUserReply": "",
+            "reason": "",
+            "reply": ""
+        },
+        "id": {
+            "description": "",
+            "send": ""
+        },
+        "modtop": {
+            "description": ""
+        },
+        "msgtop": {
+            "description": ""
+        },
+        "mute": {
+            "description": "",
+            "onlyUsers": ""
+        },
+        "note": {
+            "description": ""
+        },
+        "raidmode": {
+            "description": ""
+        },
+        "readonly": {
+            "description": "",
+            "disabled": "",
+            "enabled": ""
+        },
+        "report": {
+            "alreadySent": "",
+            "deleted": "",
+            "description": "",
+            "got": "",
+            "sent": "",
+            "sentForDelete": ""
+        },
+        "reptop": {
+            "description": "",
+            "header": ""
+        },
+        "settings": {
+            "anonymos": "",
+            "description": "",
+            "header": "",
+            "permission": "",
+            "sent": ""
+        },
+        "start": {
+            "activeRestrictions": "",
+            "description": "",
+            "footer": "",
+            "header": "",
+            "noActiveRestrictions": "",
+            "openUser": "",
+            "restriction": ""
+        },
+        "stats": {
+            "cache": {
+                "cas": "",
+                "chats": "",
+                "members": "",
+                "users": ""
+            },
+            "description": "",
+            "queue": {
+                "messages": "",
+                "updates": ""
+            },
+            "uptime": ""
+        },
+        "support": {
+            "header": ""
+        },
+        "sync": {
+            "complete": "",
+            "description": ""
+        },
+        "unban": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "unmute": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "user": {
+            "activeban": "",
+            "activemute": "",
+            "description": "",
+            "header": {
+                "chat": "",
+                "user": ""
+            },
+            "messages": "",
+            "reputation": "",
+            "warns": ""
+        },
+        "userreport": {
+            "sent": ""
+        },
+        "warn": {
+            "description": "",
+            "onlyUsers": ""
+        }
     },
-    "ban": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "chatinfo": {
-      "description": ""
-    },
-    "dban": {
-      "description": ""
-    },
-    "dmute": {
-      "description": ""
-    },
-    "dwarn": {
-      "description": ""
-    },
-    "fulluser": {
-      "description": ""
-    },
+    "extends": "",
     "general": {
-      "approve": "",
-      "canceledRestriction": "",
-      "canceledRestriction_few": "",
-      "canceledRestriction_many": "",
-      "canceledRestriction_zero": "",
-      "cooldown": "",
-      "disabled": "",
-      "no": "",
-      "notFoundUser": "",
-      "onlyPM": "",
-      "open": "",
-      "openWebApp": "",
-      "reject": "",
-      "report": "",
-      "report_few": "",
-      "report_many": "",
-      "report_zero": "",
-      "selectChannel": "",
-      "selectChat": "",
-      "selectUser": "",
-      "userNotFound": "",
-      "yes": ""
+        "automoderation": ""
     },
-    "help": {
-      "commandList": "",
-      "docs": "",
-      "duration": "",
-      "durationHint": "",
-      "idUserReply": "",
-      "reason": "",
-      "reply": ""
-    },
-    "id": {
-      "description": "",
-      "send": ""
-    },
-    "modtop": {
-      "description": ""
-    },
-    "msgtop": {
-      "description": ""
-    },
-    "mute": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "note": {
-      "description": ""
-    },
-    "raidmode": {
-      "description": ""
-    },
-    "readonly": {
-      "description": "",
-      "disabled": "",
-      "enabled": ""
-    },
-    "report": {
-      "alreadySent": "",
-      "deleted": "",
-      "description": "",
-      "got": "",
-      "sent": "",
-      "sentForDelete": ""
-    },
-    "reptop": {
-      "description": "",
-      "header": ""
-    },
-    "settings": {
-      "anonymos": "",
-      "description": "",
-      "header": "",
-      "permission": "",
-      "sent": ""
-    },
-    "start": {
-      "activeRestrictions": "",
-      "description": "",
-      "footer": "",
-      "header": "",
-      "noActiveRestrictions": "",
-      "openUser": "",
-      "restriction": ""
-    },
-    "stats": {
-      "cache": {
-        "cas": "",
-        "chats": "",
-        "members": "",
-        "users": ""
-      },
-      "description": "",
-      "queue": {
-        "messages": "",
-        "updates": ""
-      },
-      "uptime": ""
-    },
-    "support": {
-      "header": ""
-    },
-    "sync": {
-      "complete": "",
-      "description": ""
-    },
-    "unban": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "unmute": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "user": {
-      "activeban": "",
-      "activemute": "",
-      "description": "",
-      "header": {
-        "chat": "",
-        "user": ""
-      },
-      "messages": "",
-      "reputation": "",
-      "warns": ""
-    },
-    "userreport": {
-      "sent": ""
-    },
-    "warn": {
-      "description": "",
-      "onlyUsers": ""
+    "handlers": {
+        "adminsChange": "",
+        "captcha": {
+            "agree": "",
+            "agreed": "",
+            "emoji": ""
+        },
+        "hello": {
+            "full": "",
+            "restricted": ""
+        },
+        "migrate": "",
+        "nativeBan": "",
+        "reactions": {
+            "notify": "",
+            "reason": ""
+        }
     }
-  },
-  "extends": "",
-  "general": {
-    "automoderation": ""
-  },
-  "handlers": {
-    "adminsChange": "",
-    "captcha": {
-      "agree": "",
-      "agreed": "",
-      "emoji": ""
-    },
-    "hello": {
-      "full": "",
-      "restricted": ""
-    },
-    "migrate": "",
-    "nativeBan": "",
-    "reactions": {
-      "notify": "",
-      "reason": ""
-    }
-  }
 }
