@@ -1,265 +1,299 @@
 {
-    "commands": {
-        "admins": {
-            "description": "Tags all admins in chat",
-            "header": "Tag of all admins from {{peerName}} #id{{peerId}}"
-        },
-        "ban": {
-            "description": "Bans user",
-            "onlyUsers": "You can't give a ban to another admin!"
-        },
-        "dban": {
-            "description": "Bans user and deletes their message"
-        },
-        "dmute": {
-            "description": "Mutes user and deletes their message"
-        },
-        "dwarn": {
-            "description": "Warns user and deletes their message"
-        },
-        "fulluser": {
-            "description": "Get full info about user"
-        },
-        "general": {
-            "approve": "Approve",
-            "canceledRestriction": "Restriction canceled!",
-            "canceledRestriction_few": "{{count}} restrictions canceled!",
-            "canceledRestriction_many": "{{count}} restrictions canceled!",
-            "canceledRestriction_zero": "There are no restrictions to be removed!",
-            "cooldown": "This user is protected by cooldown!",
-            "disabled": "This command disabled in chat settings!",
-            "message": "message",
-            "message_few": "messages",
-            "message_many": "messages",
-            "message_zero": "messages",
-            "mute": "mute",
-            "mute_few": "mutes",
-            "mute_many": "mutes",
-            "mute_zero": "mutes",
-            "no": "false",
-            "notFoundUser": "Telegram was unable to find the user, if you are sure that you have specified the correct user, ask the user to write to the bot's private messages.",
-            "onlyPM": "This command works only in private messages!",
-            "open": "Open",
-            "openWebApp": "Open in WebApp",
-            "reject": "Reject",
-            "report": "report",
-            "report_few": "reports",
-            "report_many": "reports",
-            "report_zero": "reports",
-            "restriction": "restriction",
-            "restriction_few": "restrictions",
-            "restriction_many": "restrictions",
-            "restriction_zero": "restrictions",
-            "selectChannel": "Select channel",
-            "selectChat": "Select chat",
-            "selectUser": "",
-            "userNotFound": "",
-            "warn": "",
-            "warn_few": "",
-            "warn_many": "",
-            "warn_zero": "",
-            "yes": "true"
-        },
-        "help": {
-            "commandList": "",
-            "docs": "",
-            "duration": "",
-            "durationHint": "",
-            "idUserReply": "",
-            "reason": "",
-            "reply": ""
-        },
-        "id": {
-            "description": "",
-            "send": ""
-        },
-        "modtop": {
-            "bans": "",
-            "description": "",
-            "mutes": "",
-            "total": "",
-            "warns": ""
-        },
-        "msgtop": {
-            "description": "",
-            "header": ""
-        },
-        "mute": {
-            "description": "",
-            "onlyUsers": ""
-        },
-        "note": {
-            "description": "",
-            "onlyUsers": ""
-        },
-        "raidmode": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
-        },
-        "readonly": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
-        },
-        "report": {
-            "alreadySent": "",
-            "deleted": "",
-            "description": "",
-            "got": "",
-            "sent": "",
-            "sentForDelete": ""
-        },
-        "reptop": {
-            "description": "",
-            "header": ""
-        },
-        "settings": {
-            "anonymos": "",
-            "description": "",
-            "permission": "",
-            "sent": ""
-        },
-        "start": {
-            "activeRestrictions": "",
-            "description": "",
-            "footer": "",
-            "header": "",
-            "noActiveRestrictions": "",
-            "openUser": "",
-            "restriction": ""
-        },
-        "stats": {
-            "cache": {
-                "cas": "",
-                "chats": "",
-                "members": "",
-                "users": ""
-            },
-            "description": "",
-            "queue": {
-                "messages": "",
-                "updates": ""
-            },
-            "uptime": ""
-        },
-        "support": {
-            "header": ""
-        },
-        "sync": {
-            "complete": "",
-            "description": ""
-        },
-        "unban": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
-        },
-        "unmute": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
-        },
-        "user": {
-            "activeban": "",
-            "activemute": "",
-            "description": "",
-            "header": {
-                "chat": "",
-                "user": ""
-            },
-            "messages": "",
-            "reputation": "",
-            "warns": ""
-        },
-        "userreport": {
-            "sent": ""
-        },
-        "warn": {
-            "description": "",
-            "onlyUsers": ""
-        }
+  "commands": {
+    "admins": {
+      "description": "Tags all admins in chat",
+      "header": "Tag of all admins from {{peerName}} #id{{peerId}}"
     },
-    "extends": "ru",
+    "ban": {
+      "description": "Bans user",
+      "onlyUsers": "You can't give a ban to another admin!"
+    },
+    "dban": {
+      "description": "Bans user and deletes their message"
+    },
+    "dmute": {
+      "description": "Mutes user and deletes their message"
+    },
+    "dwarn": {
+      "description": "Warns user and deletes their message"
+    },
+    "fulluser": {
+      "description": "Get full info about user"
+    },
     "general": {
-        "add": "",
-        "automoderation": "",
-        "back": "",
-        "ban": "",
-        "ban_few": "",
-        "ban_many": "",
-        "ban_zero": "",
-        "close": "",
-        "command": "",
-        "delete": "",
-        "edit": "",
-        "notify": "",
-        "restricted": "",
-        "settings": {
-            "audit": "",
-            "category": {
-                "automod": "",
-                "customs": "",
-                "reports": "",
-                "warns": ""
-            },
-            "header": ""
-        },
-        "warn": ""
+      "approve": "Approve",
+      "canceledRestriction": "Restriction canceled!",
+      "canceledRestriction_few": "{{count}} restrictions canceled!",
+      "canceledRestriction_many": "{{count}} restrictions canceled!",
+      "canceledRestriction_zero": "There are no restrictions to be removed!",
+      "cooldown": "This user is protected by cooldown!",
+      "disabled": "This command disabled in chat settings!",
+      "message": "message",
+      "message_few": "messages",
+      "message_many": "messages",
+      "message_zero": "messages",
+      "mute": "mute",
+      "mute_few": "mutes",
+      "mute_many": "mutes",
+      "mute_zero": "mutes",
+      "no": "false",
+      "notFoundUser": "Telegram was unable to find the user, if you are sure that you have specified the correct user, ask the user to write to the bot's private messages.",
+      "onlyPM": "This command works only in private messages!",
+      "open": "Open",
+      "openWebApp": "Open in WebApp",
+      "reject": "Reject",
+      "report": "report",
+      "report_few": "reports",
+      "report_many": "reports",
+      "report_zero": "reports",
+      "restriction": "restriction",
+      "restriction_few": "restrictions",
+      "restriction_many": "restrictions",
+      "restriction_zero": "restrictions",
+      "selectChannel": "Select channel",
+      "selectChat": "Select chat",
+      "selectUser": "",
+      "userNotFound": "",
+      "warn": "",
+      "warn_few": "",
+      "warn_many": "",
+      "warn_zero": "",
+      "yes": "true"
     },
-    "handlers": {
-        "adminsChange": "",
-        "captcha": {
-            "agree": "",
-            "agreed": "",
-            "emoji": ""
-        },
-        "hello": {
-            "full": "",
-            "restricted": ""
-        },
-        "migrate": "",
-        "nativeBan": "",
-        "reactions": {
-            "notify": "",
-            "reason": ""
-        }
+    "help": {
+      "commandList": "",
+      "docs": "",
+      "duration": "",
+      "durationHint": "",
+      "idUserReply": "",
+      "reason": "",
+      "reply": ""
     },
-    "scenes": {
-        "addCommand": {
-            "enterCommand": ""
-        },
-        "addToken": {
-            "created": "",
-            "enterName": ""
-        },
-        "addTrigger": {
-            "badwordsRU": "",
-            "enterAction": "",
-            "enterName": "",
-            "enterRegex": ""
-        },
-        "commands": {
-            "enterText": "",
-            "header": "",
-            "notFound": ""
-        },
-        "editCommand": {
-            "editAliases": "",
-            "editText": "",
-            "header": ""
-        },
-        "editCommandAlias": {
-            "header": ""
-        },
-        "editReason": {
-            "cancel": ""
-        },
-        "editTrigger": {
-            "header": ""
-        },
-        "general": {
-            "placeholders": ""
-        }
+    "id": {
+      "description": "",
+      "send": ""
+    },
+    "modtop": {
+      "bans": "",
+      "description": "",
+      "mutes": "",
+      "total": "",
+      "warns": ""
+    },
+    "msgtop": {
+      "description": "",
+      "header": ""
+    },
+    "mute": {
+      "description": "",
+      "onlyUsers": ""
+    },
+    "note": {
+      "description": "",
+      "onlyUsers": ""
+    },
+    "raidmode": {
+      "description": "",
+      "disabled": "",
+      "enabled": ""
+    },
+    "readonly": {
+      "description": "",
+      "disabled": "",
+      "enabled": ""
+    },
+    "report": {
+      "alreadySent": "",
+      "deleted": "",
+      "description": "",
+      "got": "",
+      "sent": "",
+      "sentForDelete": ""
+    },
+    "reptop": {
+      "description": "",
+      "header": ""
+    },
+    "settings": {
+      "anonymos": "",
+      "description": "",
+      "permission": "",
+      "sent": ""
+    },
+    "start": {
+      "activeRestrictions": "",
+      "description": "",
+      "footer": "",
+      "header": "",
+      "noActiveRestrictions": "",
+      "openUser": "",
+      "restriction": ""
+    },
+    "stats": {
+      "cache": {
+        "cas": "",
+        "chats": "",
+        "members": "",
+        "users": ""
+      },
+      "description": "",
+      "queue": {
+        "messages": "",
+        "updates": ""
+      },
+      "uptime": ""
+    },
+    "support": {
+      "header": ""
+    },
+    "sync": {
+      "complete": "",
+      "description": ""
+    },
+    "unban": {
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
+    },
+    "unmute": {
+      "description": "",
+      "notFoundRestrictions": "",
+      "ok": ""
+    },
+    "user": {
+      "activeban": "",
+      "activemute": "",
+      "description": "",
+      "header": {
+        "chat": "",
+        "user": ""
+      },
+      "messages": "",
+      "reputation": "",
+      "warns": ""
+    },
+    "userreport": {
+      "sent": ""
+    },
+    "warn": {
+      "description": "",
+      "onlyUsers": ""
     }
+  },
+  "extends": "ru",
+  "general": {
+    "Delete": "",
+    "Disable": "",
+    "Ignore": "",
+    "Warn": "",
+    "add": "",
+    "automoderation": "",
+    "back": "",
+    "ban": "",
+    "ban_few": "",
+    "ban_many": "",
+    "ban_zero": "",
+    "close": "",
+    "command": "",
+    "delete": "",
+    "disabled": "",
+    "edit": "",
+    "notify": "",
+    "restricted": "",
+    "settings": {
+      "audit": "",
+      "automod": {
+        "cas": "",
+        "contacts": "",
+        "contacts_selected": "",
+        "del_stickers": "",
+        "del_stickers_selected": "",
+        "delete_commands": "",
+        "flood": "",
+        "games": "",
+        "gas": "",
+        "header": "",
+        "location": "",
+        "mute_on_permission": "",
+        "mute_on_permission_selected": "",
+        "newbie_restrictions": "",
+        "reactions_until_ban": "",
+        "stickers": {
+          "animal_abuse": "",
+          "blood": "",
+          "crash": "",
+          "epileptics": "",
+          "nazi": "",
+          "politics": "",
+          "porn": "",
+          "swearing": ""
+        },
+        "stories": "",
+        "trigger": ""
+      },
+      "category": {
+        "automod": "",
+        "customs": "",
+        "reports": "",
+        "warns": ""
+      },
+      "header": ""
+    },
+    "warn": ""
+  },
+  "handlers": {
+    "adminsChange": "",
+    "captcha": {
+      "agree": "",
+      "agreed": "",
+      "emoji": ""
+    },
+    "hello": {
+      "full": "",
+      "restricted": ""
+    },
+    "migrate": "",
+    "nativeBan": "",
+    "reactions": {
+      "notify": "",
+      "reason": ""
+    }
+  },
+  "scenes": {
+    "addCommand": {
+      "enterCommand": ""
+    },
+    "addToken": {
+      "created": "",
+      "enterName": ""
+    },
+    "addTrigger": {
+      "badwordsRU": "",
+      "enterAction": "",
+      "enterName": "",
+      "enterRegex": ""
+    },
+    "commands": {
+      "enterText": "",
+      "header": "",
+      "notFound": ""
+    },
+    "editCommand": {
+      "editAliases": "",
+      "editText": "",
+      "header": ""
+    },
+    "editCommandAlias": {
+      "header": ""
+    },
+    "editReason": {
+      "cancel": ""
+    },
+    "editTrigger": {
+      "header": ""
+    },
+    "general": {
+      "placeholders": ""
+    }
+  }
 }
