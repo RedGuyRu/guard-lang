@@ -160,6 +160,8 @@
   "general": {
     "Delete": "",
     "Disable": "",
+    "Do_ban": "",
+    "Enable": "",
     "Ignore": "",
     "Warn": "",
     "add": "",
@@ -170,24 +172,33 @@
     "delete": "",
     "disabled": "",
     "edit": "",
+    "enabled": "",
+    "mute": "",
     "notify": "",
     "settings": {
       "audit": "",
       "automod": {
         "cas": "",
+        "cas_selected": "",
         "contacts": "",
         "contacts_selected": "",
         "del_stickers": "",
         "del_stickers_selected": "",
         "delete_commands": "",
+        "delete_commands_selected": "",
         "flood": "",
+        "flood_selected": "",
         "games": "",
+        "games_selected": "",
         "gas": "",
+        "gas_selected": "",
         "header": "",
         "location": "",
+        "location_selected": "",
         "mute_on_permission": "",
         "mute_on_permission_selected": "",
         "newbie_restrictions": "",
+        "newbie_restrictions_selected": "",
         "reactions_until_ban": "",
         "stickers": {
           "animal_abuse": "",
@@ -200,6 +211,7 @@
           "swearing": ""
         },
         "stories": "",
+        "stories_selected": "",
         "trigger": ""
       },
       "category": {
@@ -208,7 +220,8 @@
         "reports": "",
         "warns": ""
       },
-      "header": ""
+      "header": "",
+      "incorrect_interval": ""
     },
     "warn": ""
   },
