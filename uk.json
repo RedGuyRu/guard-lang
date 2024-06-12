@@ -1,283 +1,289 @@
 {
-  "commands": {
-    "admins": {
-      "description": "",
-      "header": ""
-    },
-    "ban": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "dban": {
-      "description": ""
-    },
-    "dmute": {
-      "description": ""
-    },
-    "dwarn": {
-      "description": ""
-    },
-    "fulluser": {
-      "description": ""
-    },
-    "general": {
-      "approve": "",
-      "canceledRestriction": "",
-      "canceledRestriction_few": "",
-      "canceledRestriction_many": "",
-      "canceledRestriction_zero": "",
-      "cooldown": "",
-      "disabled": "",
-      "no": "",
-      "notFoundUser": "",
-      "onlyPM": "",
-      "open": "",
-      "openWebApp": "",
-      "reject": "",
-      "report": "",
-      "report_few": "",
-      "report_many": "",
-      "report_zero": "",
-      "selectChannel": "",
-      "selectChat": "",
-      "selectUser": "",
-      "userNotFound": "",
-      "yes": ""
-    },
-    "help": {
-      "commandList": "",
-      "docs": "",
-      "duration": "",
-      "durationHint": "",
-      "idUserReply": "",
-      "reason": "",
-      "reply": ""
-    },
-    "id": {
-      "description": "",
-      "send": ""
-    },
-    "modtop": {
-      "description": ""
-    },
-    "msgtop": {
-      "description": ""
-    },
-    "mute": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "note": {
-      "description": ""
-    },
-    "raidmode": {
-      "description": ""
-    },
-    "readonly": {
-      "description": "",
-      "disabled": "",
-      "enabled": ""
-    },
-    "report": {
-      "alreadySent": "",
-      "deleted": "",
-      "description": "",
-      "got": "",
-      "sent": "",
-      "sentForDelete": ""
-    },
-    "reptop": {
-      "description": "",
-      "header": ""
-    },
-    "settings": {
-      "anonymos": "",
-      "description": "",
-      "permission": "",
-      "sent": ""
-    },
-    "start": {
-      "activeRestrictions": "",
-      "description": "",
-      "footer": "",
-      "header": "",
-      "noActiveRestrictions": "",
-      "openUser": "",
-      "restriction": ""
-    },
-    "stats": {
-      "cache": {
-        "cas": "",
-        "chats": "",
-        "members": "",
-        "users": ""
-      },
-      "description": "",
-      "queue": {
-        "messages": "",
-        "updates": ""
-      },
-      "uptime": ""
-    },
-    "support": {
-      "header": ""
-    },
-    "sync": {
-      "complete": "",
-      "description": ""
-    },
-    "unban": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "unmute": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "user": {
-      "activeban": "",
-      "activemute": "",
-      "description": "",
-      "header": {
-        "chat": "",
-        "user": ""
-      },
-      "messages": "",
-      "reputation": "",
-      "warns": ""
-    },
-    "userreport": {
-      "sent": ""
-    },
-    "warn": {
-      "description": "",
-      "onlyUsers": ""
-    }
-  },
-  "extends": "ru",
-  "general": {
-    "Delete": "",
-    "Disable": "",
-    "Do_ban": "",
-    "Enable": "",
-    "Ignore": "",
-    "Warn": "",
-    "add": "",
-    "automoderation": "",
-    "back": "",
-    "close": "",
-    "command": "",
-    "delete": "",
-    "disabled": "",
-    "edit": "",
-    "enabled": "",
-    "mute": "",
-    "notify": "",
-    "settings": {
-      "audit": "",
-      "automod": {
-        "cas": "",
-        "cas_selected": "",
-        "contacts": "",
-        "contacts_selected": "",
-        "del_stickers": "",
-        "del_stickers_selected": "",
-        "delete_commands": "",
-        "delete_commands_selected": "",
-        "flood": "",
-        "flood_selected": "",
-        "games": "",
-        "games_selected": "",
-        "gas": "",
-        "gas_selected": "",
-        "header": "",
-        "location": "",
-        "location_selected": "",
-        "mute_on_permission": "",
-        "mute_on_permission_selected": "",
-        "newbie_restrictions": "",
-        "newbie_restrictions_selected": "",
-        "reactions_until_ban": "",
-        "stickers": {
-          "animal_abuse": "",
-          "blood": "",
-          "crash": "",
-          "epileptics": "",
-          "nazi": "",
-          "politics": "",
-          "porn": "",
-          "swearing": ""
-        },
-        "stories": "",
-        "stories_selected": "",
-        "trigger": ""
-      },
-      "category": {
-        "automod": "",
-        "customs": "",
-        "reports": "",
-        "warns": ""
-      },
-      "header": "",
-      "incorrect_interval": ""
-    },
-    "warn": ""
-  },
-  "handlers": {
-    "adminsChange": "",
-    "captcha": {
-      "agree": "",
-      "agreed": "",
-      "emoji": ""
-    },
-    "hello": {
-      "full": "",
-      "restricted": ""
-    },
-    "migrate": "",
-    "nativeBan": "",
-    "reactions": {
-      "notify": "",
-      "reason": ""
-    }
-  },
-  "scenes": {
-    "addCommand": {
-      "enterCommand": ""
-    },
-    "addToken": {
-      "created": "",
-      "enterName": ""
-    },
-    "addTrigger": {
-      "badwordsRU": "",
-      "enterAction": "",
-      "enterName": "",
-      "enterRegex": ""
-    },
     "commands": {
-      "enterText": "",
-      "header": "",
-      "notFound": ""
+        "admins": {
+            "description": "",
+            "header": ""
+        },
+        "ban": {
+            "description": "",
+            "onlyUsers": ""
+        },
+        "dban": {
+            "description": ""
+        },
+        "dmute": {
+            "description": ""
+        },
+        "dwarn": {
+            "description": ""
+        },
+        "fulluser": {
+            "description": ""
+        },
+        "general": {
+            "approve": "",
+            "canceledRestriction": "",
+            "canceledRestriction_few": "",
+            "canceledRestriction_many": "",
+            "canceledRestriction_zero": "",
+            "cooldown": "",
+            "disabled": "",
+            "no": "",
+            "notFoundUser": "",
+            "onlyPM": "",
+            "open": "",
+            "openWebApp": "",
+            "reject": "",
+            "report": "",
+            "report_few": "",
+            "report_many": "",
+            "report_zero": "",
+            "selectChannel": "",
+            "selectChat": "",
+            "selectUser": "",
+            "userNotFound": "",
+            "yes": ""
+        },
+        "help": {
+            "commandList": "",
+            "docs": "",
+            "duration": "",
+            "durationHint": "",
+            "idUserReply": "",
+            "reason": "",
+            "reply": ""
+        },
+        "id": {
+            "description": "",
+            "send": ""
+        },
+        "modtop": {
+            "description": ""
+        },
+        "msgtop": {
+            "description": ""
+        },
+        "mute": {
+            "description": "",
+            "onlyUsers": ""
+        },
+        "note": {
+            "description": ""
+        },
+        "raidmode": {
+            "description": ""
+        },
+        "readonly": {
+            "description": "",
+            "disabled": "",
+            "enabled": ""
+        },
+        "report": {
+            "alreadySent": "",
+            "deleted": "",
+            "description": "",
+            "got": "",
+            "sent": "",
+            "sentForDelete": ""
+        },
+        "reptop": {
+            "description": "",
+            "header": ""
+        },
+        "settings": {
+            "anonymos": "",
+            "description": "",
+            "permission": "",
+            "sent": ""
+        },
+        "start": {
+            "activeRestrictions": "",
+            "description": "",
+            "footer": "",
+            "header": "",
+            "noActiveRestrictions": "",
+            "openUser": "",
+            "restriction": ""
+        },
+        "stats": {
+            "cache": {
+                "cas": "",
+                "chats": "",
+                "members": "",
+                "users": ""
+            },
+            "description": "",
+            "queue": {
+                "messages": "",
+                "updates": ""
+            },
+            "uptime": ""
+        },
+        "support": {
+            "header": ""
+        },
+        "sync": {
+            "complete": "",
+            "description": ""
+        },
+        "unban": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "unmute": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "user": {
+            "activeban": "",
+            "activemute": "",
+            "description": "",
+            "header": {
+                "chat": "",
+                "user": ""
+            },
+            "messages": "",
+            "reputation": "",
+            "warns": ""
+        },
+        "userreport": {
+            "sent": ""
+        },
+        "warn": {
+            "description": "",
+            "onlyUsers": ""
+        }
     },
-    "editCommand": {
-      "editAliases": "",
-      "editText": "",
-      "header": ""
-    },
-    "editCommandAlias": {
-      "header": ""
-    },
-    "editReason": {
-      "cancel": ""
-    },
-    "editTrigger": {
-      "header": ""
-    },
+    "extends": "ru",
     "general": {
-      "placeholders": ""
+        "Delete": "",
+        "Disable": "",
+        "Do_ban": "",
+        "Enable": "",
+        "Ignore": "",
+        "Warn": "",
+        "add": "",
+        "automoderation": "",
+        "back": "",
+        "close": "",
+        "command": "",
+        "delete": "",
+        "disabled": "",
+        "edit": "",
+        "enabled": "",
+        "mute": "",
+        "not_set": "",
+        "notify": "",
+        "set": "",
+        "settings": {
+            "audit": "",
+            "automod": {
+                "cas": "",
+                "cas_selected": "",
+                "contacts": "",
+                "contacts_selected": "",
+                "del_stickers": "",
+                "del_stickers_selected": "",
+                "delete_commands": "",
+                "delete_commands_selected": "",
+                "flood": "",
+                "flood_selected": "",
+                "games": "",
+                "games_selected": "",
+                "gas": "",
+                "gas_selected": "",
+                "header": "",
+                "location": "",
+                "location_selected": "",
+                "mute_on_permission": "",
+                "mute_on_permission_selected": "",
+                "newbie_restrictions": "",
+                "newbie_restrictions_selected": "",
+                "reactions_until_ban": "",
+                "stickers": {
+                    "animal_abuse": "",
+                    "blood": "",
+                    "crash": "",
+                    "epileptics": "",
+                    "nazi": "",
+                    "politics": "",
+                    "porn": "",
+                    "swearing": ""
+                },
+                "stories": "",
+                "stories_selected": "",
+                "trigger": ""
+            },
+            "category": {
+                "automod": "",
+                "customs": "",
+                "reports": "",
+                "warns": ""
+            },
+            "customs": {
+                "header": "",
+                "welcome": ""
+            },
+            "header": "",
+            "incorrect_interval": ""
+        },
+        "warn": ""
+    },
+    "handlers": {
+        "adminsChange": "",
+        "captcha": {
+            "agree": "",
+            "agreed": "",
+            "emoji": ""
+        },
+        "hello": {
+            "full": "",
+            "restricted": ""
+        },
+        "migrate": "",
+        "nativeBan": "",
+        "reactions": {
+            "notify": "",
+            "reason": ""
+        }
+    },
+    "scenes": {
+        "addCommand": {
+            "enterCommand": ""
+        },
+        "addToken": {
+            "created": "",
+            "enterName": ""
+        },
+        "addTrigger": {
+            "badwordsRU": "",
+            "enterAction": "",
+            "enterName": "",
+            "enterRegex": ""
+        },
+        "commands": {
+            "enterText": "",
+            "header": "",
+            "notFound": ""
+        },
+        "editCommand": {
+            "editAliases": "",
+            "editText": "",
+            "header": ""
+        },
+        "editCommandAlias": {
+            "header": ""
+        },
+        "editReason": {
+            "cancel": ""
+        },
+        "editTrigger": {
+            "header": ""
+        },
+        "general": {
+            "placeholders": ""
+        }
     }
-  }
 }
