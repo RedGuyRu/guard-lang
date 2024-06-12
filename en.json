@@ -70,14 +70,14 @@
             "reply": "<reply>"
         },
         "id": {
-            "description": "",
-            "send": ""
+            "description": "Get the id of a user, channel or chat",
+            "send": "Send a user, channel or chat using the buttons below!"
         },
         "modtop": {
-            "bans": "",
-            "description": "",
-            "mutes": "",
-            "total": "",
+            "bans": "Top moderators by bans:",
+            "description": "Get top of moderators",
+            "mutes": "Top moderators by mutes:",
+            "total": "Moderators top:",
             "warns": ""
         },
         "msgtop": {
