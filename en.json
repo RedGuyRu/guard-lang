@@ -249,6 +249,37 @@
                 "reports": "",
                 "warns": ""
             },
+            "customs": {
+                "admins": "",
+                "anon_perm": "",
+                "captcha": {
+                    "agree": ""
+                },
+                "captcha_selected": "",
+                "channel_post": "",
+                "channels": "",
+                "commands": "",
+                "commands_mode": {
+                    "moderation": "",
+                    "others": "",
+                    "raid": ""
+                },
+                "extended_modtop": "",
+                "extended_modtop_selected": "",
+                "greeting": "",
+                "greeting_selected": "",
+                "modtop": "",
+                "modtop_access": {
+                    "admins": "",
+                    "owner": "",
+                    "users": ""
+                },
+                "modtop_selected": "",
+                "reactions": "",
+                "reputation": "",
+                "reputation_selected": "",
+                "tokens": ""
+            },
             "header": "",
             "incorrect_interval": ""
         },
