@@ -176,6 +176,11 @@
         "mute": "",
         "not_set": "",
         "notify": "",
+        "selector": {
+            "admins": "",
+            "owner": "",
+            "users": ""
+        },
         "set": "",
         "settings": {
             "audit": "",
@@ -225,29 +230,29 @@
             "customs": {
                 "admins": "",
                 "anon_perm": "",
+                "anon_perm_selected": "",
                 "captcha": {
-                    "agree": ""
+                    "agree": "",
+                    "title": ""
                 },
                 "captcha_selected": "",
                 "channel_post": "",
                 "channels": "",
+                "channels_selected": "",
                 "commands": "",
                 "commands_mode": {
                     "moderation": "",
+                    "moderation_selected": "",
                     "others": "",
-                    "raid": ""
+                    "others_selected": "",
+                    "raid": "",
+                    "raid_selected": ""
                 },
                 "extended_modtop": "",
-                "extended_modtop_selected": "",
                 "greeting": "",
                 "greeting_selected": "",
                 "header": "",
                 "modtop": "",
-                "modtop_access": {
-                    "admins": "",
-                    "owner": "",
-                    "users": ""
-                },
                 "modtop_selected": "",
                 "reactions": "",
                 "reputation": "",
