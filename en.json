@@ -78,14 +78,14 @@
             "description": "Get top of moderators",
             "mutes": "Top moderators by mutes:",
             "total": "Moderators top:",
-            "warns": ""
+            "warns": "Top moderators by warns:"
         },
         "msgtop": {
-            "description": "",
-            "header": ""
+            "description": "Get top by messages in chat",
+            "header": "Top by messages count:"
         },
         "mute": {
-            "description": "",
+            "description": "Mute user",
             "onlyUsers": ""
         },
         "note": {
