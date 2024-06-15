@@ -176,6 +176,7 @@
         "mute": "",
         "not_set": "",
         "notify": "",
+        "notlinked": "",
         "selector": {
             "admins": "",
             "owner": "",
@@ -226,6 +227,14 @@
                 "customs": "",
                 "reports": "",
                 "warns": ""
+            },
+            "channels": {
+                "admins": "",
+                "admins_selected": "",
+                "logs": "",
+                "logs_selected": "",
+                "triggers": "",
+                "triggers_selected": ""
             },
             "customs": {
                 "admins": "",

@@ -203,6 +203,7 @@
         "enabled": "",
         "mute": "",
         "notify": "",
+        "notlinked": "",
         "restricted": "",
         "selector": {
             "admins": "",
@@ -253,6 +254,14 @@
                 "customs": "",
                 "reports": "",
                 "warns": ""
+            },
+            "channels": {
+                "admins": "",
+                "admins_selected": "",
+                "logs": "",
+                "logs_selected": "",
+                "triggers": "",
+                "triggers_selected": ""
             },
             "customs": {
                 "admins": "",
