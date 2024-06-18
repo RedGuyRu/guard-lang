@@ -238,14 +238,19 @@
             },
             "customs": {
                 "admins": "",
+                "admins_selected": "",
                 "anon_perm": "",
                 "anon_perm_selected": "",
+                "anon_perms": {
+                    "restrict": ""
+                },
                 "captcha": {
                     "agree": "",
                     "title": ""
                 },
                 "captcha_selected": "",
                 "channel_post": "",
+                "channel_post_selected": "",
                 "channels": "",
                 "channels_selected": "",
                 "commands": "",
