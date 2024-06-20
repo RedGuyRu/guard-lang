@@ -301,7 +301,15 @@
                 "tokens": ""
             },
             "header": "",
-            "incorrect_interval": ""
+            "incorrect_interval": "",
+            "reports": {
+                "delete_reports": "",
+                "delete_reports_count": "",
+                "delete_reports_count_selected": "",
+                "delete_reports_rate": "",
+                "header": "",
+                "reports_system": ""
+            }
         },
         "warn": ""
     },
