@@ -86,10 +86,10 @@
         },
         "mute": {
             "description": "Mute user",
-            "onlyUsers": ""
+            "onlyUsers": "You can't give a mute to another administrator!"
         },
         "note": {
-            "description": "",
+            "description": "Create note about user",
             "onlyUsers": ""
         },
         "raidmode": {
