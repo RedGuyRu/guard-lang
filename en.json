@@ -90,7 +90,7 @@
         },
         "note": {
             "description": "Create note about user",
-            "onlyUsers": ""
+            "onlyUsers": "You cannot leave a note about other administrator!"
         },
         "raidmode": {
             "description": "",
