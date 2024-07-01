@@ -173,6 +173,8 @@
         "disabled": "",
         "edit": "",
         "enabled": "",
+        "infinity": "",
+        "kick": "",
         "mute": "",
         "not_set": "",
         "notify": "",
@@ -286,6 +288,19 @@
                 "delete_reports_selected": "",
                 "header": "",
                 "reports_system": ""
+            },
+            "warns": {
+                "cooldown": "",
+                "cooldown_selected": "",
+                "header": "",
+                "max_warns": "",
+                "max_warns_selected": "",
+                "warn_length": "",
+                "warn_length_selected": "",
+                "warns_result": "",
+                "warns_result_length": "",
+                "warns_result_length_selected": "",
+                "warns_result_selected": ""
             }
         },
         "warn": ""
