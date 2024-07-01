@@ -93,9 +93,9 @@
             "onlyUsers": "You cannot leave a note about other administrator!"
         },
         "raidmode": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
+            "description": "Enable/Disable raid mode",
+            "disabled": "Raid mode disabled!",
+            "enabled": "Enabled raid mode, all joined users will be automatically kicked!"
         },
         "readonly": {
             "description": "",
