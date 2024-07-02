@@ -98,9 +98,9 @@
             "enabled": "Enabled raid mode, all joined users will be automatically kicked!"
         },
         "readonly": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
+            "description": "Enable/Disable read only mode",
+            "disabled": "Read only mode is diabled!",
+            "enabled": "Read only mode enabled!"
         },
         "report": {
             "alreadySent": "",
