@@ -205,6 +205,13 @@
         "edit": "",
         "enabled": "",
         "infinity": "",
+        "intervals": {
+            "day": "",
+            "hour": "",
+            "minutes": "",
+            "month": "",
+            "year": ""
+        },
         "kick": "",
         "mute": "",
         "notify": "",
