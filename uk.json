@@ -158,11 +158,14 @@
     },
     "extends": "ru",
     "general": {
+        "Create": "",
         "Delete": "",
         "Disable": "",
         "Do_ban": "",
+        "Edit": "",
         "Enable": "",
         "Ignore": "",
+        "Trigger": "",
         "Warn": "",
         "add": "",
         "automoderation": "",
@@ -303,6 +306,7 @@
                 "warns_result_selected": ""
             }
         },
+        "token": "",
         "warn": ""
     },
     "handlers": {
@@ -358,6 +362,16 @@
         },
         "general": {
             "placeholders": ""
+        },
+        "tokens": {
+            "header": "",
+            "notFound": ""
+        },
+        "trigger": {
+            "notFound": ""
+        },
+        "triggers": {
+            "header": ""
         }
     }
 }
