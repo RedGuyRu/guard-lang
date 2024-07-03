@@ -14,6 +14,10 @@
         "dmute": {
             "description": "Mutes user and deletes their message"
         },
+        "dossier": {
+            "noReason": "",
+            "wait": ""
+        },
         "dwarn": {
             "description": "Warns user and deletes their message"
         },
