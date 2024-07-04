@@ -194,6 +194,13 @@
         "not_set": "",
         "notify": "",
         "notlinked": "",
+        "restrictions": {
+            "automod": "",
+            "kick": "",
+            "mute": "",
+            "warn": "",
+            "warns_limit": ""
+        },
         "selector": {
             "admins": "",
             "owner": "",

@@ -222,6 +222,13 @@
         "notify": "",
         "notlinked": "",
         "restricted": "",
+        "restrictions": {
+            "automod": "",
+            "kick": "",
+            "mute": "",
+            "warn": "",
+            "warns_limit": ""
+        },
         "selector": {
             "admins": "",
             "owner": "",
