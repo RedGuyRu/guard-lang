@@ -107,8 +107,8 @@
             "enabled": "Read only mode enabled!"
         },
         "report": {
-            "alreadySent": "",
-            "deleted": "",
+            "alreadySent": "You already reported this message!",
+            "deleted": "The message is deleted by a lot of reports!",
             "description": "",
             "got": "",
             "sent": "",
