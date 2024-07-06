@@ -15,8 +15,8 @@
             "description": "Mutes user and deletes their message"
         },
         "dossier": {
-            "noReason": "",
-            "wait": ""
+            "noReason": "Not specified",
+            "wait": "I've started preparing the data, which may take some time."
         },
         "dwarn": {
             "description": "Warns user and deletes their message"
