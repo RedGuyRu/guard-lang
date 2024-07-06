@@ -196,6 +196,7 @@
         "notlinked": "",
         "restrictions": {
             "automod": "",
+            "ban": "",
             "kick": "",
             "mute": "",
             "warn": "",
