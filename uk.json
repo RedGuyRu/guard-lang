@@ -175,6 +175,7 @@
         "add": "",
         "automoderation": "",
         "back": "",
+        "canceled": "",
         "close": "",
         "command": "",
         "delete": "",
@@ -195,10 +196,13 @@
         "notify": "",
         "notlinked": "",
         "restrictions": {
+            "adminCommand": "",
             "automod": "",
             "ban": "",
+            "banChannel": "",
             "kick": "",
             "mute": "",
+            "note": "",
             "warn": "",
             "warns_limit": ""
         },
@@ -327,6 +331,11 @@
             }
         },
         "token": "",
+        "unknown": {
+            "channel": "",
+            "user": ""
+        },
+        "until": "",
         "warn": ""
     },
     "handlers": {

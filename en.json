@@ -203,6 +203,7 @@
         "ban_few": "",
         "ban_many": "",
         "ban_zero": "",
+        "canceled": "",
         "close": "",
         "command": "",
         "delete": "",
@@ -223,10 +224,13 @@
         "notlinked": "",
         "restricted": "",
         "restrictions": {
+            "adminCommand": "",
             "automod": "",
             "ban": "",
+            "banChannel": "",
             "kick": "",
             "mute": "",
+            "note": "",
             "warn": "",
             "warns_limit": ""
         },
@@ -353,6 +357,11 @@
             }
         },
         "token": "",
+        "unknown": {
+            "channel": "",
+            "user": ""
+        },
+        "until": "",
         "warn": ""
     },
     "handlers": {
