@@ -167,13 +167,20 @@
         "user": {
             "activeban": "",
             "activemute": "",
+            "cancel": "",
             "description": "",
+            "edit_reason": "",
             "header": {
                 "chat": "",
                 "user": ""
             },
             "messages": "",
+            "moder": "",
+            "noRestrictions": "",
             "reputation": "",
+            "restriction": "",
+            "show_message": "",
+            "uncancel": "",
             "warns": ""
         },
         "userreport": {

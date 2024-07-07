@@ -167,13 +167,20 @@
         "user": {
             "activeban": "Активный бан: ",
             "activemute": "Активный мут: ",
+            "cancel": "Отменить",
             "description": "Получить информацию о пользователе",
+            "edit_reason": "Редактировать причину",
             "header": {
                 "chat": "Информация о канале {{title}}:",
                 "user": "Информация о пользователе <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Сообщений: {{messages}}",
+            "moder": "Информация о пользователе {{user}}:\nАктивных предупреждений: {{warns}} Всего предупреждений: {{total_warns}}\nАктивный бан: {{bans}} Банов всего {{total_bans}}\nАктивный мут: {{mutes}} Мутов всего: {{total_mutes}}",
+            "noRestrictions": "Нет ограничений",
             "reputation": "Репутация: ",
+            "restriction": "{{type}} до {{until}} Пользователь: {{restricted}} Причина: {{reason}} Выдан: {{issue_date}} Модератор: {{moder}} {{canceled}}",
+            "show_message": "Посмотреть сообщение",
+            "uncancel": "Восстановить",
             "warns": "Предупреждений: "
         },
         "userreport": {
