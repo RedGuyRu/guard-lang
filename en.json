@@ -109,8 +109,8 @@
         "report": {
             "alreadySent": "You already reported this message!",
             "deleted": "The message is deleted by a lot of reports!",
-            "description": "",
-            "got": "",
+            "description": "Report a message",
+            "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
             "sent": "",
             "sentForDelete": ""
         },
