@@ -202,6 +202,12 @@
         "not_set": "",
         "notify": "",
         "notlinked": "",
+        "restrictionType": {
+            "ban": "",
+            "mute": "",
+            "note": "",
+            "warn": ""
+        },
         "restrictions": {
             "adminCommand": "",
             "automod": "",

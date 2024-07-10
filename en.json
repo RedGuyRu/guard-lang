@@ -230,6 +230,12 @@
         "notify": "",
         "notlinked": "",
         "restricted": "",
+        "restrictionType": {
+            "ban": "",
+            "mute": "",
+            "note": "",
+            "warn": ""
+        },
         "restrictions": {
             "adminCommand": "",
             "automod": "",
