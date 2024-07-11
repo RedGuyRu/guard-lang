@@ -196,13 +196,10 @@
         "Create": "",
         "Delete": "",
         "Disable": "",
-        "Do_ban": "",
         "Edit": "",
         "Enable": "",
         "Forever": "",
-        "Ignore": "",
         "Trigger": "",
-        "Warn": "",
         "add": "",
         "automoderation": "",
         "back": "",
@@ -225,9 +222,15 @@
             "month": "",
             "year": ""
         },
-        "kick": "",
-        "mute": "",
-        "notify": "",
+        "modRule": {
+            "ban": "",
+            "delete": "",
+            "ignore": "",
+            "kick": "",
+            "mute": "",
+            "notify": "",
+            "warn": ""
+        },
         "notlinked": "",
         "restricted": "",
         "restrictionType": {
@@ -250,6 +253,7 @@
         },
         "selector": {
             "admins": "",
+            "disabled": "",
             "owner": "",
             "users": ""
         },
@@ -375,8 +379,7 @@
             "channel": "",
             "user": ""
         },
-        "until": "",
-        "warn": ""
+        "until": ""
     },
     "handlers": {
         "adminsChange": "",
