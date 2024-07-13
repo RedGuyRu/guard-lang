@@ -225,9 +225,9 @@
         },
         "selector": {
             "admins": "",
+            "all": "",
             "disabled": "",
-            "owner": "",
-            "users": ""
+            "owner": ""
         },
         "set": "",
         "settings": {
