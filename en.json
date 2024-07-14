@@ -115,8 +115,8 @@
             "sentForDelete": "Report sent! ({{now}}/{{need}})"
         },
         "reptop": {
-            "description": "",
-            "header": ""
+            "description": "Gets top of reporters",
+            "header": "Top of reporters:"
         },
         "settings": {
             "anonymos": "",
