@@ -112,7 +112,7 @@
             "description": "Report a message",
             "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
             "sent": "Report sent!",
-            "sentForDelete": ""
+            "sentForDelete": "Report sent! ({{now}}/{{need}})"
         },
         "reptop": {
             "description": "",
