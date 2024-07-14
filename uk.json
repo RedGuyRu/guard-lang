@@ -180,6 +180,11 @@
         "automoderation": "",
         "back": "",
         "canceled": "",
+        "captcha": {
+            "agree": "",
+            "emoji": "",
+            "null": ""
+        },
         "close": "",
         "command": "",
         "delete": "",

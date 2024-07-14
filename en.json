@@ -208,6 +208,11 @@
         "ban_many": "",
         "ban_zero": "",
         "canceled": "",
+        "captcha": {
+            "agree": "",
+            "emoji": "",
+            "null": ""
+        },
         "close": "",
         "command": "",
         "delete": "",
