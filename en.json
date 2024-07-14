@@ -213,6 +213,14 @@
             "emoji": "",
             "null": ""
         },
+        "chatMemberStatus": {
+            "administrator": "",
+            "creator": "",
+            "kicked": "",
+            "left": "",
+            "member": "",
+            "restricted": ""
+        },
         "close": "",
         "command": "",
         "delete": "",
