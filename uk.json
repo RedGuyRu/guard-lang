@@ -83,10 +83,13 @@
             "enabled": ""
         },
         "report": {
+            "accepted": "",
             "alreadySent": "",
             "deleted": "",
             "description": "",
             "got": "",
+            "rated": "",
+            "rejerected": "",
             "sent": "",
             "sentForDelete": ""
         },
@@ -97,6 +100,7 @@
         "settings": {
             "anonymos": "",
             "description": "",
+            "notFound": "",
             "permission": "",
             "sent": ""
         },
@@ -144,6 +148,8 @@
             "activeban": "",
             "activemute": "",
             "cancel": "",
+            "cancelled": "",
+            "deleted": "",
             "description": "",
             "edit_reason": "",
             "header": {
@@ -155,8 +161,11 @@
             "noRestrictions": "",
             "reputation": "",
             "restriction": "",
+            "restrictionNotFound": "",
             "show_message": "",
             "uncancel": "",
+            "uncanceled": "",
+            "updateReason": "",
             "warns": ""
         },
         "userreport": {
@@ -372,9 +381,12 @@
     "handlers": {
         "adminsChange": "",
         "captcha": {
+            "again": "",
             "agree": "",
             "agreed": "",
-            "emoji": ""
+            "correct": "",
+            "emoji": "",
+            "wrongUser": ""
         },
         "hello": {
             "full": "",

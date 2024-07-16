@@ -107,10 +107,13 @@
             "enabled": "Read only mode enabled!"
         },
         "report": {
+            "accepted": "",
             "alreadySent": "You already reported this message!",
             "deleted": "The message is deleted by a lot of reports!",
             "description": "Report a message",
             "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
+            "rated": "",
+            "rejerected": "",
             "sent": "Report sent!",
             "sentForDelete": "Report sent! ({{now}}/{{need}})"
         },
@@ -121,6 +124,7 @@
         "settings": {
             "anonymos": "Anonymous admin detected, settings sent in chat owner PM!",
             "description": "",
+            "notFound": "",
             "permission": "",
             "sent": ""
         },
@@ -168,6 +172,8 @@
             "activeban": "",
             "activemute": "",
             "cancel": "",
+            "cancelled": "",
+            "deleted": "",
             "description": "",
             "edit_reason": "",
             "header": {
@@ -179,8 +185,11 @@
             "noRestrictions": "",
             "reputation": "",
             "restriction": "",
+            "restrictionNotFound": "",
             "show_message": "",
             "uncancel": "",
+            "uncanceled": "",
+            "updateReason": "",
             "warns": ""
         },
         "userreport": {
@@ -398,9 +407,12 @@
     "handlers": {
         "adminsChange": "",
         "captcha": {
+            "again": "",
             "agree": "",
             "agreed": "",
-            "emoji": ""
+            "correct": "",
+            "emoji": "",
+            "wrongUser": ""
         },
         "hello": {
             "full": "",
