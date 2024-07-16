@@ -411,6 +411,13 @@
         "reactions": {
             "notify": "",
             "reason": ""
+        },
+        "reputation": {
+            "down": "",
+            "up": ""
+        },
+        "trigger": {
+            "got": ""
         }
     },
     "scenes": {
