@@ -202,7 +202,7 @@
     },
     "extends": "ru",
     "general": {
-        "Create": "",
+        "Create": "Create",
         "Delete": "",
         "Disable": "",
         "Edit": "",
@@ -231,9 +231,9 @@
             "null": "",
             "restricted": ""
         },
-        "close": "",
+        "close": "Close",
         "command": "",
-        "delete": "",
+        "delete": "Delete",
         "disabled": "",
         "edit": "",
         "enabled": "",
@@ -258,9 +258,9 @@
         "restricted": "",
         "restrictionType": {
             "ban": "",
-            "mute": "",
+            "mute": "mute",
             "note": "",
-            "warn": ""
+            "warn": "warn"
         },
         "restrictions": {
             "adminCommand": "",
