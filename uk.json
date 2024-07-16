@@ -178,7 +178,7 @@
     },
     "extends": "ru",
     "general": {
-        "Create": "",
+        "Create": "Створити",
         "Delete": "",
         "Disable": "",
         "Edit": "",
@@ -187,7 +187,7 @@
         "Trigger": "",
         "add": "",
         "automoderation": "",
-        "back": "",
+        "back": "Назад",
         "canceled": "",
         "captcha": {
             "agree": "",
@@ -203,9 +203,9 @@
             "null": "",
             "restricted": ""
         },
-        "close": "",
+        "close": "Закрити",
         "command": "",
-        "delete": "",
+        "delete": "Видалити",
         "disabled": "",
         "edit": "",
         "enabled": "",
