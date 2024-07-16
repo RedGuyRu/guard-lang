@@ -346,139 +346,140 @@
                     "title": "Captcha"
                 },
                 "captcha_selected": "Select the type of captcha in chat {{title}}, current value:",
-                "channel_post": "",
-                "channel_post_selected": "",
-                "channels": "",
-                "channels_selected": "",
-                "commands": "",
+                "channel_post": "First comment text",
+                "channel_post_selected": "Send first comment text in chat {{title}}, current:",
+                "channels": "Channel linking",
+                "channels_selected": "Channel linking settings in chat {{title}}",
+                "commands": "Custom commands",
                 "commands_mode": {
-                    "moderation": "",
-                    "moderation_selected": "",
-                    "others": "",
-                    "others_selected": "",
-                    "raid": "",
-                    "raid_selected": ""
+                    "moderation": "Moderation commands reaction",
+                    "moderation_selected": "Select who will be responded to by moderation commands in chat {{title}}, current value:",
+                    "others": "Other commands reaction",
+                    "others_selected": "Select who will be responded to by other commands in chat {{title}}, current value:",
+                    "raid": "Raid command reaction",
+                    "raid_selected": "Select who will be responded to by raid commands in {{title}} chat, current value:"
                 },
-                "extended_modtop": "",
-                "extended_modtop_selected": "",
-                "greeting": "",
-                "greeting_selected": "",
-                "modtop": "",
-                "modtop_selected": "",
-                "reactions": "",
-                "reputation": "",
-                "reputation_selected": "",
-                "tokens": ""
+                "extended_modtop": "Extended modtop",
+                "extended_modtop_selected": "Select extended modtop mode in chat {{title}}, current:",
+                "greeting": "Greeting",
+                "greeting_selected": "Greeting in chat {{title}}, to set new one, send their text:",
+                "modtop": "Modtop access",
+                "modtop_selected": "Select modtop access in chat {{title}}, current value:",
+                "reactions": "Reactions callback",
+                "reputation": "Reputation system",
+                "reputation_selected": "Select the presence of a reputation system in chat {{title}}, current value:",
+                "tokens": "Tokens",
+                "header": "Customization settings in chat {{title}}}"
             },
-            "header": "",
-            "incorrect_interval": "",
-            "incorrect_number": "",
+            "header": "Settings of {{title}} chat",
+            "incorrect_interval": "Incorrect value, send interval",
+            "incorrect_number": "Incorrect value, send a number",
             "reports": {
-                "delete_reports": "",
-                "delete_reports_count": "",
-                "delete_reports_count_selected": "",
-                "delete_reports_rate": "",
-                "delete_reports_rate_selected": "",
-                "delete_reports_selected": "",
-                "header": "",
-                "reports_system": ""
+                "delete_reports": "Minimum number of reports from users deleting messages",
+                "delete_reports_count": "Minimum number of reports for a user to delete a message",
+                "delete_reports_count_selected": "Enter the minimum number of reports a user has for deleting a chat message {{title}}, current value:",
+                "delete_reports_rate": "Minimum rating of a person to delete a message",
+                "delete_reports_rate_selected": "Enter the person's minimum rating for deleting a chat message {{title}}, current value:",
+                "delete_reports_selected": "Enter the minimum number of reports from users deleting messages in chat {{title}}, current value:",
+                "header": "Reposts settings in chat {{title}}",
+                "reports_system": "Reports system"
             },
             "warns": {
-                "cooldown": "",
-                "cooldown_selected": "",
-                "header": "",
-                "max_warns": "",
-                "max_warns_selected": "",
-                "warn_length": "",
-                "warn_length_selected": "",
-                "warns_result": "",
-                "warns_result_length": "",
-                "warns_result_length_selected": "",
-                "warns_result_selected": ""
+                "cooldown": "Cooldown beetwen warns to one person",
+                "cooldown_selected": "Enter the cooldown in seconds for chat {{title}}, current value:",
+                "header": "Warn settings in chat {{title}}",
+                "max_warns": "Number of warns before punishment is given",
+                "max_warns_selected": "Enter the number of warns before the punishment is issued in chat {{title}}, the current value:",
+                "warn_length": "Warn duration",
+                "warn_length_selected": "Send warn duration in chat {{title}}, current:",
+                "warns_result": "Punishment for the maximum number of warns",
+                "warns_result_length": "Duration of punishment for the maximum number of warns",
+                "warns_result_length_selected": "Enter the duration of punishment for the maximum number of warps in chat {{title}}, current value:",
+                "warns_result_selected": "Select the punishment for the maximum number of warps in chat {{title}}, the current value:"
             }
         },
-        "token": "",
+        "token": "Token",
         "unknown": {
-            "channel": "",
-            "user": ""
+            "channel": "Unknown channel",
+            "user": "Unknown user"
         },
-        "until": "",
+        "until": "until",
         "not_set": "not set",
         "set": "set"
     },
     "handlers": {
-        "adminsChange": "",
+        "adminsChange": "Admin change detected, the admin list has been updated!",
         "captcha": {
-            "again": "",
-            "agree": "",
-            "agreed": "",
-            "correct": "",
-            "emoji": "",
-            "wrongUser": ""
+            "again": "You already passed captcha!",
+            "agree": "Click the button below to enter the chat room!",
+            "agreed": "✅ I agree",
+            "correct": "Correct!",
+            "emoji": "To confirm that you are not a bot, click on: {{correct}}",
+            "wrongUser": "It's not your captcha!"
         },
         "hello": {
-            "full": "",
-            "restricted": ""
+            "full": "Thank you for adding me as an admin! I am now ready to go to work!",
+            "restricted": "Thanks for adding me to the chat! To get started, add me as an admin and give me permissions to delete posts and restrict users. After that I will be ready to work!"
         },
-        "migrate": "",
-        "nativeBan": "",
+        "migrate": "The group has been migrated to a supergroup!",
+        "nativeBan": "Native ban",
         "reactions": {
-            "notify": "",
-            "reason": ""
+            "notify": "{{user}} you can be banned for sending reactions during mute!",
+            "reason": "reactions while mute is active"
         },
         "reputation": {
-            "down": "",
-            "up": ""
+            "down": "Reputation decreased!",
+            "up": "Reputation increased!"
         },
         "trigger": {
-            "got": ""
+            "got": "The {{name}} triggered in the {{title}} chat: {{text}}"
         }
     },
     "scenes": {
         "addCommand": {
-            "enterCommand": ""
+            "enterCommand": "Enter command:"
         },
         "addToken": {
-            "created": "",
-            "enterName": ""
+            "created": "Token {{name}} created!",
+            "enterName": "Enter token name:"
         },
         "addTrigger": {
-            "badwordsRU": "",
-            "enterAction": "",
-            "enterName": "",
-            "enterRegex": ""
+            "badwordsRU": "Sweating (russian)",
+            "enterAction": "Select trigger action:",
+            "enterName": "Enter trigger name:",
+            "enterRegex": "Enter regex for trigger (you can try it on regex101.com):"
         },
         "commands": {
-            "enterText": "",
-            "header": "",
-            "notFound": ""
+            "enterText": "Enter respond text:",
+            "header": "Commands in chat {{title}}:",
+            "notFound": "Command not found!"
         },
         "editCommand": {
-            "editAliases": "",
-            "editText": "",
-            "header": ""
+            "editAliases": "Edit aliases",
+            "editText": "Edit text",
+            "header": "Editing command - {{id}}\nAliases: {{aliases}}\n\n{{text}}"
         },
         "editCommandAlias": {
-            "header": ""
+            "header": "Editing command - {{id}}\nTo add new alias, send it."
         },
         "editReason": {
-            "cancel": ""
+            "cancel": "Reason editing canceled!"
         },
         "editTrigger": {
-            "header": ""
+            "header": "Enter new regex for a trigger:"
         },
         "general": {
-            "placeholders": ""
+            "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
         },
         "tokens": {
-            "header": "",
-            "notFound": ""
+            "header": "Tokens in chat {{title}}",
+            "notFound": "Token not found!"
         },
         "trigger": {
-            "notFound": ""
+            "notFound": "Trigger not found!"
         },
         "triggers": {
-            "header": ""
+            "header": "Triggers in chat {{title}}"
         }
     }
 }
