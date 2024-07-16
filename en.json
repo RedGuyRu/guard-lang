@@ -119,7 +119,7 @@
             "header": "Top of reporters:"
         },
         "settings": {
-            "anonymos": "",
+            "anonymos": "Anonymous admin detected, settings sent in chat owner PM!",
             "description": "",
             "permission": "",
             "sent": ""
