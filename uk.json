@@ -46,7 +46,8 @@
             "selectChat": "",
             "selectUser": "",
             "userNotFound": "",
-            "yes": ""
+            "yes": "",
+            "message": "Повідомлення"
         },
         "help": {
             "commandList": "",
