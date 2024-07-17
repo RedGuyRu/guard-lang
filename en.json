@@ -254,6 +254,7 @@
             "notify": "Notify",
             "warn": "Delete with warn"
         },
+        "not_set": "not set",
         "notlinked": "not linked",
         "restricted": "Insufficient rights to execute this command!",
         "restrictionType": {
@@ -280,6 +281,7 @@
             "disabled": "Disabled",
             "owner": "Creator"
         },
+        "set": "set",
         "settings": {
             "audit": "Audit",
             "automod": {
@@ -363,17 +365,21 @@
                 "extended_modtop_selected": "Select extended modtop mode in chat {{title}}, current:",
                 "greeting": "Greeting",
                 "greeting_selected": "Greeting in chat {{title}}, to set new one, send their text:",
+                "header": "Customization settings in chat {{title}}}",
                 "modtop": "Modtop access",
                 "modtop_selected": "Select modtop access in chat {{title}}, current value:",
                 "reactions": "Reactions callback",
                 "reputation": "Reputation system",
                 "reputation_selected": "Select the presence of a reputation system in chat {{title}}, current value:",
-                "tokens": "Tokens",
-                "header": "Customization settings in chat {{title}}}"
+                "tokens": "Tokens"
             },
             "header": "Settings of {{title}} chat",
             "incorrect_interval": "Incorrect value, send interval",
             "incorrect_number": "Incorrect value, send a number",
+            "language": {
+                "button": "Language",
+                "header": "Select language for the chat"
+            },
             "reports": {
                 "delete_reports": "Minimum number of reports from users deleting messages",
                 "delete_reports_count": "Minimum number of reports for a user to delete a message",
@@ -403,9 +409,7 @@
             "channel": "Unknown channel",
             "user": "Unknown user"
         },
-        "until": "until",
-        "not_set": "not set",
-        "set": "set"
+        "until": "until"
     },
     "handlers": {
         "adminsChange": "Admin change detected, the admin list has been updated!",
