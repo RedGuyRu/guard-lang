@@ -216,6 +216,9 @@
         "ban_few": "",
         "ban_many": "",
         "ban_zero": "",
+        "bot": {
+            "description": ""
+        },
         "canceled": "",
         "captcha": {
             "agree": "",
