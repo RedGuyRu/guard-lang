@@ -216,6 +216,10 @@
         "ban_few": "бана",
         "ban_many": "банов",
         "ban_zero": "банов",
+        "bot": {
+            "description": "Имперский бот для модерации.\nРазработка и поддержка: @sleeplesscode\nКанал: @imperium_guard",
+            "name": "Имперский стражник"
+        },
         "canceled": "отменён",
         "captcha": {
             "agree": "Согласие",

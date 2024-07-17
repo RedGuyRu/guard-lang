@@ -216,6 +216,10 @@
         "ban_few": "bans",
         "ban_many": "bans",
         "ban_zero": "bans",
+        "bot": {
+            "description": "Imperium bot for moderation.\nDevelopment and support: @sleeplesscode/pNews channel: @imperium_guard",
+            "name": "Imperium Guard"
+        },
         "canceled": "canceled",
         "captcha": {
             "agree": "Agreed",
