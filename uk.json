@@ -181,7 +181,7 @@
                 "user": "Інформація про користувачів <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Повідомлення: {{messages}}",
-            "moder": "Інформація про користувачів {{user}}:\nАктивні попередження: {{warns}} Загальне попередження: {{total_warns}}\nEnglish, Українська, Français...\nАктивний мут: {{mutes}} Мутс все: {{total_mutes}}",
+            "moder": "Інформація про користувачів {{user}}:\nАктивні попередження: {{warns}} Загальне попередження: {{total_warns}}\nАктивна заборона: {{bans}} Заборона все: {{total_mutes}}\nАктивний мут: {{mutes}} Мутс все: {{total_mutes}}",
             "noRestrictions": "Немає обмежень",
             "reputation": "Репутація: ",
             "restriction": "{{type}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\n{{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
