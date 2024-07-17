@@ -381,7 +381,7 @@
             "incorrect_interval": "Некоректне значення, введіть інтервал",
             "incorrect_number": "Некоректне значення, введіть номер",
             "language": {
-                "button": "",
+                "button": "Мова",
                 "header": ""
             },
             "reports": {
