@@ -1,32 +1,32 @@
 {
     "commands": {
         "admins": {
-            "description": "",
-            "header": ""
+            "description": "Erwähnt alle Chat-Administratoren",
+            "header": "Anruf der Administratoren von{{peerId}} #id{{peerName}}"
         },
         "ban": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Einen Benutzer sperren",
+            "onlyUsers": "Sie können keinen anderen Administrator sperren!"
         },
         "dban": {
-            "description": ""
+            "description": "Einen Benutzer sperren und eine Nachricht löschen"
         },
         "dmute": {
-            "description": ""
+            "description": "Aufrühren Sie den Benutzer und löschen Sie die Nachricht"
         },
         "dossier": {
-            "noReason": "",
-            "wait": ""
+            "noReason": "Nicht angegeben",
+            "wait": "Ich habe mit der Aufbereitung der Daten begonnen, das kann eine Weile dauern."
         },
         "dwarn": {
-            "description": ""
+            "description": "Eine Warnung an den Benutzer ausgeben und die Nachricht löschen"
         },
         "fulluser": {
-            "description": ""
+            "description": "Vollständige Benutzerinformationen erhalten"
         },
         "general": {
-            "approve": "",
-            "canceledRestriction": "",
+            "approve": "Genehmigen",
+            "canceledRestriction": "Die Beschränkung wurde aufgehoben!",
             "canceledRestriction_few": "",
             "canceledRestriction_many": "",
             "canceledRestriction_zero": "",
