@@ -6,44 +6,44 @@
         },
         "ban": {
             "description": "Кулланучыны блокларга",
-            "onlyUsers": ""
+            "onlyUsers": "Башка администраторны блокларга ярамый!"
         },
         "dban": {
-            "description": ""
+            "description": "Кулланучыны блокларга һәм Хәбәрне бетерергә"
         },
         "dmute": {
-            "description": ""
+            "description": "Кулланучыны дәшмәскә мәҗбүр итәргә һәм Хәбәрне бетерергә"
         },
         "dossier": {
-            "noReason": "",
-            "wait": ""
+            "noReason": "Күрсәтелмәгән",
+            "wait": "Мин мәгълүматларны әзерли башладым, Бу күпмедер вакытны алырга мөмкин."
         },
         "dwarn": {
-            "description": ""
+            "description": "Кулланучыга кисәтү бирергә һәм Хәбәрне бетерергә"
         },
         "fulluser": {
-            "description": ""
+            "description": "Кулланучы турында тулы мәгълүмат алу"
         },
         "general": {
-            "approve": "",
-            "canceledRestriction": "",
-            "canceledRestriction_few": "",
-            "canceledRestriction_many": "",
-            "canceledRestriction_zero": "",
-            "cooldown": "",
-            "disabled": "",
-            "message": "",
-            "message_few": "",
-            "message_many": "",
-            "message_zero": "",
-            "mute": "",
-            "mute_few": "",
-            "mute_many": "",
-            "mute_zero": "",
-            "no": "",
-            "notFoundUser": "",
-            "onlyPM": "",
-            "open": "",
+            "approve": "Килештерү",
+            "canceledRestriction": "Чикләүләр алынды!",
+            "canceledRestriction_few": "{{count}} чикләүләр төшерелгән!",
+            "canceledRestriction_many": "{{count}} чикләүләр төшерелгән!",
+            "canceledRestriction_zero": "Чикләүләр юк!",
+            "cooldown": "Кулланучы КД яклавы астында тора!",
+            "disabled": "Команда чат көйләүләрендә сүндерелгән!",
+            "message": "хәбәр",
+            "message_few": "хәбәр",
+            "message_many": "хәбәр",
+            "message_zero": "хәбәр",
+            "mute": "тынлык",
+            "mute_few": "тынлык",
+            "mute_many": "тынлык",
+            "mute_zero": "тынлык",
+            "no": "Юк",
+            "notFoundUser": "Telegram кулланучыны таба алмаган, әгәр сез аны дөрес күрсәткәннәренә ышансагыз, бу кулланучыны ботның шәхси хәбәрләренә язуын сорагыз.",
+            "onlyPM": "Бу команда шәхси хәбәрләрдә генә эшли!",
+            "open": "Ачу",
             "openWebApp": "",
             "reject": "",
             "report": "",
