@@ -200,7 +200,7 @@
             "onlyUsers": ""
         }
     },
-    "extends": "",
+    "extends": "en",
     "general": {
         "Create": "",
         "Delete": "",
