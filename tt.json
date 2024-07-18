@@ -111,7 +111,7 @@
             "alreadySent": "Сез бу хәбәргә репорт җибәргән идегез инде!",
             "deleted": "Хәбәр күп санлы репортлар аркасында юк ителгән!",
             "description": "Хәбәргә репорт җибәрергә",
-            "got": "",
+            "got": "алынган <a href=\"{{reportUrl}}\"> репорт</a> алдыннан<a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> белән<a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}}чатта <a href=\"{{messageUrl}}\">{{title}}</a>",
             "rated": "Рейтинг бирелгән!",
             "rejerected": "Репорт кире кагылды!",
             "sent": "Репорт җибәрелгән!",
@@ -134,8 +134,8 @@
             "footer": "Минем барлык мөмкинлекләрем турында /help командасын кулланып белергә мөмкин",
             "header": "Сәлам! Мин Империя сакчысы, чатларда тәртипне күзәтү өчен бот.",
             "noActiveRestrictions": "Сездә актив чикләүләр юк.",
-            "openUser": "",
-            "restriction": ""
+            "openUser": "кулланучы ачык <a href=\"tg://user?id={{id}}\">{{name}}</a>",
+            "restriction": "• {{type}}\" {{reason}} \"до {{end}}\"{{title}} \" чатында"
         },
         "stats": {
             "cache": {
@@ -178,7 +178,7 @@
             "edit_reason": "Сәбәбен үзгәртергә",
             "header": {
                 "chat": "{{title}} каналы турында мәгълүмат:",
-                "user": ""
+                "user": "кулланучылар турында мәгълүмат <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Хәбәрләр: {{messages}}",
             "moder": "Кулланучы турында мәгълүмат {{user}}:\n\nАктив кисәтүләр: {{warns}} барлык кисәтүләр: {{total_warns}}\n\nАктив бан: {bans}} барлык банов {{total_bans}} \n\nАктив мут: {{mutes}} барлык Мутлар: {{total_mutes}}",
@@ -269,225 +269,225 @@
         },
         "restrictions": {
             "adminCommand": "Административ команда",
-            "automod": "",
-            "ban": "",
-            "banChannel": "",
-            "kick": "",
-            "mute": "",
-            "note": "",
-            "parcipant_id": "",
-            "warn": "",
-            "warns_limit": ""
+            "automod": "автоматик модерация",
+            "ban": "Модератор {{user}} \"{{restricted}} кулланучыны\"{{reason}} \" аркасында кыерсыткан",
+            "banChannel": "Модератор {{user}} {{restricted}} каналы хуҗасына \"{{reason}}\"сәбәпле аноним рәвештә хәбәрләр җибәрүне тыйган",
+            "kick": "Модератор {{user}} \"{{restricted}} кулланучыны\"{{reason}} \" сәбәбе белән куып чыгарган",
+            "mute": "Модератор {{user}} кулланучыны {{restricted}} \"{{reason}}\"аркасында аптырашта калдырган",
+            "note": "{{restricted}} өчен \"{{reason}}\" тексты белән язма ясалган",
+            "parcipant_id": "Telegram API дәрәҗәсендә бан бирә алмадык, Блокировка турындагы мәгълүмат кулланучы карточкасында сакланган.",
+            "warn": "{{User}} модераторы {{restricted}} кулланучыга \"{{reason}}\" ({{warns}}/{{max_warns}})аркасында кисәтү биргән",
+            "warns_limit": "кисәтүләр лимиты"
         },
         "selector": {
-            "admins": "",
-            "all": "",
-            "disabled": "",
-            "owner": ""
+            "admins": "Администраторлар",
+            "all": "Барлык катнашучылар",
+            "disabled": "Сүндерелгән",
+            "owner": "Ия"
         },
-        "set": "",
+        "set": "билгеләнгән",
         "settings": {
-            "audit": "",
+            "audit": "Тикшерү",
             "automod": {
-                "cas": "",
-                "cas_selected": "",
-                "contacts": "",
-                "contacts_selected": "",
-                "del_stickers": "",
-                "del_stickers_selected": "",
-                "delete_commands": "",
-                "delete_commands_selected": "",
-                "flood": "",
-                "flood_selected": "",
-                "games": "",
-                "games_selected": "",
-                "gas": "",
-                "gas_selected": "",
-                "header": "",
-                "location": "",
-                "location_selected": "",
-                "mute_on_permission": "",
-                "mute_on_permission_selected": "",
-                "newbie_restrictions": "",
-                "newbie_restrictions_selected": "",
-                "reactions_until_ban": "",
+                "cas": "CAS-банга Реакция",
+                "cas_selected": "{{title}} чатында cas-банга реакция режимын сайлагыз, хәзерге кыйммәте:",
+                "contacts": "Элемтәләрне модерацияләү",
+                "contacts_selected": "{{title}} чатындагы контактларны модерацияләү режимын сайлагыз, хәзерге кыйммәте:",
+                "del_stickers": "Стикерларны бетерү",
+                "del_stickers_selected": "{{title} чатында бетерелә торган стикер категорияләрен сайлагыз",
+                "delete_commands": "Башка командаларны бетерү",
+                "delete_commands_selected": "{{title}} чатында башка командаларны бетерү режимын сайлагыз, хәзерге кыйммәте:",
+                "flood": "Флуд модерациясе",
+                "flood_selected": "{{title}} чатында флуд модерациясе режимын сайлагыз, хәзерге кыйммәте:",
+                "games": "Уеннар модерациясе",
+                "games_selected": "{{title}} чатында уеннарның модерация режимын сайлагыз, хәзерге кыйммәте:",
+                "gas": "GAS-банга Реакция",
+                "gas_selected": "{{title}} чатында GAS-банга реакция режимын сайлагыз, хәзерге кыйммәте:",
+                "header": "Чатта автоматик модерация көйләүләре {{title}}",
+                "location": "Локацияләр модерациясе",
+                "location_selected": "{{title}} чатында локацияләрне модерацияләү режимын, агымдагы кыйммәтен сайлагыз:",
+                "mute_on_permission": "Модерация командаларын кулланганда мут озынлыгы",
+                "mute_on_permission_selected": "Чатта модерация командаларын кулланганда мут озынлыгын кертегез {{title}}, Хәзерге кыйммәте:",
+                "newbie_restrictions": "Яңа уенчының чикләүләр дәвамлылыгы",
+                "newbie_restrictions_selected": "{{title}} чатта яңа кеше чикләүләренең дәвамлылыгын, агымдагы кыйммәтен кертегез:",
+                "reactions_until_ban": "Блокировкага кадәр реакцияләр",
                 "stickers": {
-                    "animal_abuse": "",
-                    "blood": "",
-                    "crash": "",
-                    "epileptics": "",
-                    "nazi": "",
-                    "politics": "",
-                    "porn": "",
-                    "swearing": ""
+                    "animal_abuse": "Хайваннарны газаплау",
+                    "blood": "Кан һәм көч куллану",
+                    "crash": "Краш-стикерлар",
+                    "epileptics": "күзләр начар",
+                    "nazi": "Нацистлар",
+                    "politics": "Сәясәт",
+                    "porn": "порнография",
+                    "swearing": "Цензурасыз лика"
                 },
-                "stories": "",
-                "stories_selected": "",
-                "trigger": ""
+                "stories": "Тарихлар модерациясе",
+                "stories_selected": "{{title}} чатында тарихларны модерацияләү режимын сайлагыз, хәзерге кыйммәте:",
+                "trigger": "Триггерлар"
             },
             "category": {
-                "automod": "",
-                "customs": "",
-                "reports": "",
-                "warns": ""
+                "automod": "Автомодерацияне көйләү",
+                "customs": "Кастомизацияләүне җайга салу",
+                "reports": "Репортларны көйләү",
+                "warns": "Варннарның көйләнмәләре"
             },
             "channels": {
-                "admins": "",
-                "admins_selected": "",
-                "logs": "",
-                "logs_selected": "",
-                "triggers": "",
-                "triggers_selected": ""
+                "admins": "Административ чат",
+                "admins_selected": "Административ чатны чатка бәйләү {{title}}",
+                "logs": "Логлар каналы",
+                "logs_selected": "Чатта логлар каналын бәйләү {{title}}",
+                "triggers": "Триггерлар каналы",
+                "triggers_selected": "Чатта триггерлар каналын бәйләү {{title}}"
             },
             "customs": {
-                "admins": "",
-                "admins_selected": "",
-                "anon_perm": "",
-                "anon_perm_selected": "",
+                "admins": "Командалар !admins",
+                "admins_selected": "Команданың эш режимын күрсәтегез !admins, агымдагы режим:",
+                "anon_perm": "Аноним администраторларның хокуклары",
+                "anon_perm_selected": "Telegram да аноним администраторларның эш үзенчәлекләре аркасында, бот теге яки бу хәбәрне кем җибәргәнен белми. Әлеге менюда сез аноним администраторларның хокукларын күрсәтә аласыз.",
                 "anon_perms": {
-                    "restrict": ""
+                    "restrict": "Чикләүләр бирү"
                 },
                 "captcha": {
-                    "agree": "",
-                    "title": ""
+                    "agree": "Татулык",
+                    "title": "кешегә тикшерү"
                 },
-                "captcha_selected": "",
-                "channel_post": "",
-                "channel_post_selected": "",
-                "channels": "",
-                "channels_selected": "",
-                "commands": "",
+                "captcha_selected": "{{title}} чатындагы капчи төрен сайлагыз, хәзерге кыйммәте:",
+                "channel_post": "Текст пост астында",
+                "channel_post_selected": "{{title}} чатындагы пост астында беренче хәбәрнең тестын кертегез, хәзерге кыйммәте:",
+                "channels": "Каналларны бәйләү",
+                "channels_selected": "Чатта каналларны бәйләүне көйләү {{title}}",
+                "commands": "Кастом командалары",
                 "commands_mode": {
-                    "moderation": "",
-                    "moderation_selected": "",
-                    "others": "",
-                    "others_selected": "",
-                    "raid": "",
-                    "raid_selected": ""
+                    "moderation": "Модерация командаларының реакциясе",
+                    "moderation_selected": "{{title}} чатында модерация командалары кемгә җавап бирәчәген сайлагыз, хәзерге кыйммәте:",
+                    "others": "Башка командаларның реакциясе",
+                    "others_selected": "{{title}} чатындагы башка командалар кемгә җавап бирәчәген сайлагыз, хәзерге кыйммәте:",
+                    "raid": "Рейд командаларының реакциясе",
+                    "raid_selected": "{{title}} чатында рейд командалары кемгә җавап бирәчәген сайлагыз, хәзерге кыйммәте:"
                 },
-                "extended_modtop": "",
-                "extended_modtop_selected": "",
-                "greeting": "",
-                "greeting_selected": "",
-                "header": "",
-                "modtop": "",
-                "modtop_selected": "",
-                "reactions": "",
-                "reputation": "",
-                "reputation_selected": "",
-                "tokens": ""
+                "extended_modtop": "Киңәйтелгән модтоп",
+                "extended_modtop_selected": "{{title}} чатында киңәйтелгән модтоп режимын сайлагыз, хәзерге кыйммәте:",
+                "greeting": "Сәлам",
+                "greeting_selected": "Сәламләү чатта {{title}}, яңасын урнаштыру өчен аның текстын җибәрегез:",
+                "header": "Чатта көйләүләр {{title}}",
+                "modtop": "Модтопка керү мөмкинлеге",
+                "modtop_selected": "{{title}} чатында модтопка керүне сайлагыз, хәзерге кыйммәте:",
+                "reactions": "Җавапка реакцияләр",
+                "reputation": "Репутация системасы",
+                "reputation_selected": "{{title}} чатында Репутация системасы булуын сайлагыз, хәзерге кыйммәте:",
+                "tokens": "Токеннар"
             },
-            "header": "",
-            "incorrect_interval": "",
-            "incorrect_number": "",
+            "header": "Чат көйләүләре {{title}}",
+            "incorrect_interval": "Дөрес булмаган кыйммәт, интервал кертегез",
+            "incorrect_number": "Дөрес булмаган кыйммәт, сан кертегез",
             "language": {
-                "button": "",
-                "header": ""
+                "button": "Тел",
+                "header": "Чатта кулланылачак телне сайлагыз"
             },
             "reports": {
-                "delete_reports": "",
-                "delete_reports_count": "",
-                "delete_reports_count_selected": "",
-                "delete_reports_rate": "",
-                "delete_reports_rate_selected": "",
-                "delete_reports_selected": "",
-                "header": "",
-                "reports_system": ""
+                "delete_reports": "Бетерүче хәбәрләрне кулланучылардан репортларның минималь саны",
+                "delete_reports_count": "Хәбәрне бетерү өчен кулланучыда репортларның минималь саны",
+                "delete_reports_count_selected": "{{title}} чатында хәбәрне бетерү өчен кулланучыда репортларның минималь санын кертегез, хәзерге кыйммәте:",
+                "delete_reports_rate": "Хәбәрне бетерү өчен кешенең минималь рейтингы",
+                "delete_reports_rate_selected": "{{title}} чатында хәбәрне бетерү өчен кешенең минималь рейтингын кертегез, хәзерге кыйммәте:",
+                "delete_reports_selected": "{{title}} чатында хәбәрләрне бетерүче кулланучылардан репортларның минималь санын кертегез, хәзерге кыйммәте:",
+                "header": "Чаттагы репортларны көйләү {{title}}",
+                "reports_system": "Репортлар системасы"
             },
             "warns": {
-                "cooldown": "",
-                "cooldown_selected": "",
-                "header": "",
-                "max_warns": "",
-                "max_warns_selected": "",
-                "warn_length": "",
-                "warn_length_selected": "",
-                "warns_result": "",
-                "warns_result_length": "",
-                "warns_result_length_selected": "",
-                "warns_result_selected": ""
+                "cooldown": "Барналар арасындагы Кулдаун бер кешегә",
+                "cooldown_selected": "{{title}} чаты өчен секундларда кулдаун кертегез, хәзерге кыйммәте:",
+                "header": "Чатта варнов көйләүләре {{title}}",
+                "max_warns": "Җәза бирелгәнче варннар саны",
+                "max_warns_selected": "Чатта җәза бирелгәнче варннар санын кертегез {{title}}, Хәзерге кыйммәте:",
+                "warn_length": "Варнаның озынлыгы",
+                "warn_length_selected": "Чат өчен варн озынлыгын кертегез {{title}}, Хәзерге кыйммәте:",
+                "warns_result": "Максималь санда варналар өчен җәза",
+                "warns_result_length": "Максималь сандагы варналар өчен җәза вакыты",
+                "warns_result_length_selected": "Чаттагы варннарның максималь саны өчен җәза озынлыгын кертегез {{title}}, Хәзерге кыйммәте:",
+                "warns_result_selected": "{{title}} чатында варннарның максималь саны өчен җәзаны сайлагыз, хәзерге кыйммәте:"
             }
         },
-        "token": "",
+        "token": "Токеннар",
         "unknown": {
-            "channel": "",
-            "user": ""
+            "channel": "Билгесез канал",
+            "user": "Билгесез кулланучы"
         },
-        "until": ""
+        "until": "кадәр"
     },
     "handlers": {
-        "adminsChange": "",
+        "adminsChange": "Администраторларның үзгәрүе ачыкланды, администраторлар исемлеге яңартылды!",
         "captcha": {
-            "again": "",
-            "agree": "",
-            "agreed": "",
-            "correct": "",
-            "emoji": "",
-            "wrongUser": ""
+            "again": "Сез инде тикшерү үттегез!",
+            "agree": "Чатка керү өчен астагы төймәгә басыгыз!",
+            "agreed": "✅ Риза",
+            "correct": "Дөрес!",
+            "emoji": "Сезнең бот булмавыгызны раслау өчен, түбәндәге басыгыз: {{correct}}",
+            "wrongUser": "Бу сезнең капчагыз түгел!"
         },
         "hello": {
-            "full": "",
-            "restricted": ""
+            "full": "Мине администраторлыкка өстәгәнегез өчен рәхмәт! Хәзер мин эшкә әзер!",
+            "restricted": "Мине чатка өстәгәнегез өчен рәхмәт! Эшне башлау өчен мине администраторларга өстәгез һәм хәбәрләрне бетерү һәм кулланучыларны чикләү хокукын бирегез. Шуннан соң мин эшкә әзер булачакмын!"
         },
-        "migrate": "",
-        "nativeBan": "",
+        "migrate": "Төркем супертөркемне үзгәртте!",
+        "nativeBan": "Туган бан",
         "reactions": {
-            "notify": "",
-            "reason": ""
+            "notify": "{{user}} мут вакытында реакцияләр җибәргән өчен сезне тыеп калырга мөмкин!",
+            "reason": "муттагы реакцияләр"
         },
         "reputation": {
-            "down": "",
-            "up": ""
+            "down": "Репутация кимегән!",
+            "up": "Абруе арткан!"
         },
         "trigger": {
-            "got": ""
+            "got": "Чатта {{name}} триггеры эшләде {{title}}: {{text}}"
         }
     },
     "scenes": {
         "addCommand": {
-            "enterCommand": ""
+            "enterCommand": "Команда кертегез:"
         },
         "addToken": {
-            "created": "",
-            "enterName": ""
+            "created": "токен {{name}} булдырылган!",
+            "enterName": "Токен исемен кертегез:"
         },
         "addTrigger": {
-            "badwordsRU": "",
-            "enterAction": "",
-            "enterName": "",
-            "enterRegex": ""
+            "badwordsRU": "Цензурасыз лика (русча)",
+            "enterAction": "Триггерга тәэсирне сайлагыз:",
+            "enterName": "Триггер исемен кертегез:",
+            "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):"
         },
         "commands": {
-            "enterText": "",
-            "header": "",
-            "notFound": ""
+            "enterText": "Җавап текстын кертегез:",
+            "header": "Чаттагы командалар {{title}}:",
+            "notFound": "Команда табылмады!"
         },
         "editCommand": {
-            "editAliases": "",
-            "editText": "",
-            "header": ""
+            "editAliases": "Алиасларны редакцияләргә",
+            "editText": "Текстны төзәтергә",
+            "header": "Команданы төзәтү - {{id}}\n\nАлиаслар: {{aliases}}\n\n{{text}}"
         },
         "editCommandAlias": {
-            "header": ""
+            "header": "Команданы төзәтү - {{id}} \nАлисасны өстәр өчен, аны чатка җибәрегез."
         },
         "editReason": {
-            "cancel": ""
+            "cancel": "Сәбәбен редакцияләү бетерелде!"
         },
         "editTrigger": {
-            "header": ""
+            "header": "Триггер өчен яңа регуляр аңлатмалар кертегез:"
         },
         "general": {
-            "placeholders": ""
+            "placeholders": "{mention} - команданы чакырган кулланучыны искә алу\n{title} - Чат исеме\n{random_mention} очраклы кулланучыны искә алу\n{replied_mention} - команда чакырганда хәбәренә җавап биргән кулланучыны искә алу"
         },
         "tokens": {
-            "header": "",
-            "notFound": ""
+            "header": "Чаттагы токеннар {{title}}",
+            "notFound": "Токен табылмады!"
         },
         "trigger": {
-            "notFound": ""
+            "notFound": "Триггер табылмады!"
         },
         "triggers": {
-            "header": ""
+            "header": "Чаттагы триггерлар {{title}}"
         }
     }
 }
