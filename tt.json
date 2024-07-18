@@ -2,7 +2,7 @@
     "commands": {
         "admins": {
             "description": "Чатның барлык администраторларын искә ала",
-            "header": "Администраторларны чакыру {{peername}} #id{{peerid}}"
+            "header": "Администраторларны чакыру {{peerName}} #id{{peerId}}"
         },
         "ban": {
             "description": "Кулланучыны блокларга",
