@@ -44,231 +44,231 @@
             "notFoundUser": "Telegram кулланучыны таба алмаган, әгәр сез аны дөрес күрсәткәннәренә ышансагыз, бу кулланучыны ботның шәхси хәбәрләренә язуын сорагыз.",
             "onlyPM": "Бу команда шәхси хәбәрләрдә генә эшли!",
             "open": "Ачу",
-            "openWebApp": "",
-            "reject": "",
-            "report": "",
-            "report_few": "",
-            "report_many": "",
-            "report_zero": "",
-            "restriction": "",
-            "restriction_few": "",
-            "restriction_many": "",
-            "restriction_zero": "",
-            "selectChannel": "",
-            "selectChat": "",
-            "selectUser": "",
-            "userNotFound": "",
-            "warn": "",
-            "warn_few": "",
-            "warn_many": "",
-            "warn_zero": "",
-            "yes": ""
+            "openWebApp": "Webappта ачарга",
+            "reject": "Ялган",
+            "report": "шикаять",
+            "report_few": "шикаять",
+            "report_many": "шикаять",
+            "report_zero": "шикаять",
+            "restriction": "исем",
+            "restriction_few": "җәза",
+            "restriction_many": "җәза",
+            "restriction_zero": "җәза",
+            "selectChannel": "Канал сайларга",
+            "selectChat": "Чат сайларга",
+            "selectUser": "Кулланучыны сайларга",
+            "userNotFound": "Сез кулланучыны күрсәтмәдегез яки мин аның белән таныш түгел!",
+            "warn": "кисәтмә",
+            "warn_few": "кисәтмә",
+            "warn_many": "кисәтмә",
+            "warn_zero": "кисәтмә",
+            "yes": "һәм"
         },
         "help": {
-            "commandList": "",
-            "docs": "",
-            "duration": "",
-            "durationHint": "",
-            "idUserReply": "",
-            "reason": "",
-            "reply": ""
+            "commandList": "Командалар исемлеге:",
+            "docs": "Документациядә төгәлрәк: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "duration": "< дәвамлылыгы>",
+            "durationHint": "Озынлыгы Сан+интервал: 1M 2H 3D 4w 5M 6y форматында күрсәтелә",
+            "idUserReply": "< id/username/җавап>",
+            "reason": "<сәбәп>",
+            "reply": "<җавап>"
         },
         "id": {
-            "description": "",
-            "send": ""
+            "description": "Кулланучының, каналның яки чатның id алу",
+            "send": "Түбәндәге төймәләрне кулланып, кулланучыны, канал яки чатны җибәрегез!"
         },
         "modtop": {
-            "bans": "",
-            "description": "",
-            "mutes": "",
-            "total": "",
-            "warns": ""
+            "bans": "Мунча буенча Топ модераторлар:",
+            "description": "Топ модераторлар алырга",
+            "mutes": "Мутлар буенча ТОП модераторлар:",
+            "total": "Топ модераторлар:",
+            "warns": "Кисәтүләр буенча ТОП модераторлар:"
         },
         "msgtop": {
-            "description": "",
-            "header": ""
+            "description": "Чаттагы хәбәрләр буенча топ алырга",
+            "header": "Хәбәрләр саны буенча Топ:"
         },
         "mute": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Кулланучыны дәшмәскә мәҗбүр итү",
+            "onlyUsers": "Башка администраторны дәшми калдырырга ярамый!"
         },
         "note": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Кулланучы турында хәбәр язарга",
+            "onlyUsers": "Башка Администратор турында хәбәр калдырырга ярамый!"
         },
         "raidmode": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
+            "description": "Рейд режимын кабызырга/сүндерергә",
+            "disabled": "Рейд режимы сүндерелгән!",
+            "enabled": "Рейд режимы кертелгән, барлык керүче кулланучылар автомат рәвештә чыгарылачак!"
         },
         "readonly": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
+            "description": "Уку режимын гына кабызырга/сүндерергә",
+            "disabled": "Уку режимы гына сүндерелгән!",
+            "enabled": "Уку режимы гына кертелгән!"
         },
         "report": {
-            "accepted": "",
-            "alreadySent": "",
-            "deleted": "",
-            "description": "",
+            "accepted": "Репорт хупланды!",
+            "alreadySent": "Сез бу хәбәргә репорт җибәргән идегез инде!",
+            "deleted": "Хәбәр күп санлы репортлар аркасында юк ителгән!",
+            "description": "Хәбәргә репорт җибәрергә",
             "got": "",
-            "rated": "",
-            "rejerected": "",
-            "sent": "",
-            "sentForDelete": ""
+            "rated": "Рейтинг бирелгән!",
+            "rejerected": "Репорт кире кагылды!",
+            "sent": "Репорт җибәрелгән!",
+            "sentForDelete": "Хәбәр җибәрелде ({{now}}/{{need}})"
         },
         "reptop": {
-            "description": "",
-            "header": ""
+            "description": "Топ репортерлар алу",
+            "header": "Топ репортерлар:"
         },
         "settings": {
-            "anonymos": "",
-            "description": "",
-            "notFound": "",
-            "permission": "",
-            "sent": ""
+            "anonymos": "Аноним администратор табылган, көйләүләр Чат хуҗасына Шәхси хәбәрләргә җибәрелгән!",
+            "description": "Чат көйләүләрен ачарга",
+            "notFound": "Чат табылмады!",
+            "permission": "Бу команданы үтәү өчен хокуклар җитәрлек түгел, чатны төзәтү хокукы таләп ителә!",
+            "sent": "Көйләүләр Шәхси хәбәрләргә җибәрелгән!"
         },
         "start": {
-            "activeRestrictions": "",
-            "description": "",
-            "footer": "",
-            "header": "",
-            "noActiveRestrictions": "",
+            "activeRestrictions": "Сездә актив чикләүләр бар:",
+            "description": "Барлык чатларда актив хокук бозулар исемлеген чыгара",
+            "footer": "Минем барлык мөмкинлекләрем турында /help командасын кулланып белергә мөмкин",
+            "header": "Сәлам! Мин Империя сакчысы, чатларда тәртипне күзәтү өчен бот.",
+            "noActiveRestrictions": "Сездә актив чикләүләр юк.",
             "openUser": "",
             "restriction": ""
         },
         "stats": {
             "cache": {
-                "cas": "",
-                "chats": "",
-                "members": "",
-                "users": ""
+                "cas": "CAS кешесе",
+                "chats": "Кеше чатов",
+                "members": "Катнашучылар кешесе",
+                "users": "Кулланучылар кешесе"
             },
-            "description": "",
+            "description": "Техник статистика алырга",
             "queue": {
-                "messages": "",
-                "updates": ""
+                "messages": "Хәбәрләр җибәрү чираты",
+                "updates": "Вакыйгалар чираты"
             },
-            "uptime": ""
+            "uptime": "эш вакыты"
         },
         "support": {
-            "header": ""
+            "header": "Мәгълүмат ярдәмгә җибәрелгән!"
         },
         "sync": {
-            "complete": "",
-            "description": ""
+            "complete": "Синхронлаштыру тәмамланды!",
+            "description": "Чат модераторларын синхронлаштырырга"
         },
         "unban": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "description": "Кулланучыны блокировкадан төшерергә",
+            "notFoundRestrictions": "Кулланучы блокланмаган!",
+            "ok": "Кулланучы блоктан төшерелгән!"
         },
         "unmute": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "description": "кулланучыга сөйләргә рөхсәт итәргә",
+            "notFoundRestrictions": "Кулланучы дәшми!",
+            "ok": "Кулланучы җәфаланган!"
         },
         "user": {
-            "activeban": "",
-            "activemute": "",
-            "cancel": "",
-            "cancelled": "",
-            "deleted": "",
-            "description": "",
-            "edit_reason": "",
+            "activeban": "Актив бан: ",
+            "activemute": "Актив болганчык: ",
+            "cancel": "Бетерү",
+            "cancelled": "Чикләү бетерелде!",
+            "deleted": "Чикләүләр бетерелгән!",
+            "description": "Кулланучы турында мәгълүмат алырга",
+            "edit_reason": "Сәбәбен үзгәртергә",
             "header": {
-                "chat": "",
+                "chat": "{{title}} каналы турында мәгълүмат:",
                 "user": ""
             },
-            "messages": "",
-            "moder": "",
-            "noRestrictions": "",
-            "reputation": "",
-            "restriction": "",
-            "restrictionNotFound": "",
-            "show_message": "",
-            "uncancel": "",
-            "uncanceled": "",
-            "updateReason": "",
-            "warns": ""
+            "messages": "Хәбәрләр: {{messages}}",
+            "moder": "Кулланучы турында мәгълүмат {{user}}:\n\nАктив кисәтүләр: {{warns}} барлык кисәтүләр: {{total_warns}}\n\nАктив бан: {bans}} барлык банов {{total_bans}} \n\nАктив мут: {{mutes}} барлык Мутлар: {{total_mutes}}",
+            "noRestrictions": "Чикләүләр юк",
+            "reputation": "Абруй: ",
+            "restriction": "{{type}} до {{until}}\n\nКулланучы: {{restricted}}\n\nСәбәбе: {{reason}}\n\nБирелгән: {{issue_date}}\n\nМодератор: {{moder}}\n\n{{canceled}}",
+            "restrictionNotFound": "Чикләү табылмады!",
+            "show_message": "Хәбәрне карарга",
+            "uncancel": "Торгызу",
+            "uncanceled": "Чикләүләр торгызылды!",
+            "updateReason": "Чикләү өчен яңа сәбәп кертегез, агымдагы: ",
+            "warns": "Кисәтмә: "
         },
         "userreport": {
-            "sent": ""
+            "sent": "Мин Мәгълүматны Шәхси хәбәрләргә җибәрдем!"
         },
         "warn": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Кулланучыга кисәтү бирергә",
+            "onlyUsers": "Башка администраторга кисәтү бирергә ярамый!"
         }
     },
     "extends": "",
     "general": {
-        "Create": "",
-        "Delete": "",
-        "Disable": "",
-        "Edit": "",
-        "Enable": "",
-        "Forever": "",
-        "Trigger": "",
-        "add": "",
-        "automoderation": "",
-        "back": "",
-        "ban": "",
-        "ban_few": "",
-        "ban_many": "",
-        "ban_zero": "",
+        "Create": "Булдыру",
+        "Delete": "Бетерү",
+        "Disable": "Сүндерү",
+        "Edit": "Редакцияләү",
+        "Enable": "Кертү",
+        "Forever": "Мәңгегә",
+        "Trigger": "вакыйга",
+        "add": "Кушу",
+        "automoderation": "автоматик модерация",
+        "back": "Элек",
+        "ban": "блокировка",
+        "ban_few": "блокировкалар",
+        "ban_many": "блокировкалар",
+        "ban_zero": "блокировкалар",
         "bot": {
-            "description": "",
-            "name": ""
+            "description": "Модерация өчен империя боты.\n\nЭшләү һәм ярдәм итү: @sleeplesscode\n\nКанал: @imperium_guard",
+            "name": "Империя сакчысы"
         },
-        "canceled": "",
+        "canceled": "бетерү",
         "captcha": {
-            "agree": "",
-            "emoji": "",
-            "null": ""
+            "agree": "Татулык",
+            "emoji": "Эмозди-төймәләр",
+            "null": "Сүндерелгән"
         },
         "chatMemberStatus": {
-            "administrator": "",
-            "creator": "",
-            "kicked": "",
-            "left": "",
-            "member": "",
-            "null": "",
-            "restricted": ""
+            "administrator": "баш администратор",
+            "creator": "чат хуҗасы",
+            "kicked": "чаттан чыгарылган",
+            "left": "чатта түгел",
+            "member": "Чат катнашучысы",
+            "null": "билгесез",
+            "restricted": "чикле"
         },
-        "close": "",
-        "command": "",
-        "delete": "",
-        "disabled": "",
-        "edit": "",
-        "enabled": "",
-        "infinity": "",
+        "close": "Каплау",
+        "command": "командующийлар хәбәр",
+        "delete": "Бетерү",
+        "disabled": "сүндерелгән",
+        "edit": "Редакцияләү",
+        "enabled": "кушылган",
+        "infinity": "мәңге",
         "intervals": {
-            "day": "",
-            "hour": "",
-            "minutes": "",
-            "month": "",
-            "year": ""
+            "day": "көн",
+            "hour": "сәгать",
+            "minutes": "бер минут",
+            "month": "ай",
+            "year": "ел"
         },
         "modRule": {
-            "ban": "",
-            "delete": "",
-            "ignore": "",
-            "kick": "",
-            "mute": "",
-            "notify": "",
-            "warn": ""
+            "ban": "Блокировкалау",
+            "delete": "Хәбәрне бетерергә",
+            "ignore": "Игътибарсыз калдыру",
+            "kick": "Төшереп калдыру",
+            "mute": "Болгату",
+            "notify": "Белдерү",
+            "warn": "Кисәтеп бетерергә"
         },
-        "not_set": "",
-        "notlinked": "",
-        "restricted": "",
+        "not_set": "билгеләнмәгән",
+        "notlinked": "бәйләнмәгән",
+        "restricted": "Бу команданы үтәү өчен хокуклар җитәрлек түгел!",
         "restrictionType": {
-            "ban": "",
-            "mute": "",
-            "note": "",
-            "warn": ""
+            "ban": "блокировка",
+            "mute": "тынлык",
+            "note": "хәбәр",
+            "warn": "кисәтмә"
         },
         "restrictions": {
-            "adminCommand": "",
+            "adminCommand": "Административ команда",
             "automod": "",
             "ban": "",
             "banChannel": "",
