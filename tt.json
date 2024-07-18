@@ -1,11 +1,11 @@
 {
     "commands": {
         "admins": {
-            "description": "",
-            "header": ""
+            "description": "Чатның барлык администраторларын искә ала",
+            "header": "Администраторларны чакыру {{peername}} #id{{peerid}}"
         },
         "ban": {
-            "description": "",
+            "description": "Кулланучыны блокларга",
             "onlyUsers": ""
         },
         "dban": {
