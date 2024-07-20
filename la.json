@@ -1,8 +1,8 @@
 {
     "commands": {
         "admins": {
-            "description": "",
-            "header": ""
+            "description": "Nom du chat administrateurs",
+            "header": "vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
         "ban": {
             "description": "",
