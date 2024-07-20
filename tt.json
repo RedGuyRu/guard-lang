@@ -181,10 +181,10 @@
                 "user": "кулланучылар турында мәгълүмат <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Хәбәрләр: {{messages}}",
-            "moder": "Кулланучы турында мәгълүмат {{user}}:\n\nАктив кисәтүләр: {{warns}} барлык кисәтүләр: {{total_warns}}\n\nАктив бан: {bans}} барлык банов {{total_bans}} \n\nАктив мут: {{mutes}} барлык Мутлар: {{total_mutes}}",
+            "moder": "Кулланучы турында мәгълүмат {{user}}:\nАктив кисәтүләр: {{warns}} барлык кисәтүләр: {{total_warns}}\nАктив бан: {{bans}} барлык банов {{total_bans}}\nАктив мут: {{mutes}} барлык Мутлар: {{total_mutes}}",
             "noRestrictions": "Чикләүләр юк",
             "reputation": "Абруй: ",
-            "restriction": "{{type}} до {{until}}\n\nКулланучы: {{restricted}}\n\nСәбәбе: {{reason}}\n\nБирелгән: {{issue_date}}\n\nМодератор: {{moder}}\n\n{{canceled}}",
+            "restriction": "{{type}} до {{until}}\nКулланучы: {{restricted}}\nСәбәбе: {{reason}}\nБирелгән: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Чикләү табылмады!",
             "show_message": "Хәбәрне карарга",
             "uncancel": "Торгызу",
@@ -217,7 +217,7 @@
         "ban_many": "блокировкалар",
         "ban_zero": "блокировкалар",
         "bot": {
-            "description": "Модерация өчен империя боты.\n\nЭшләү һәм ярдәм итү: @sleeplesscode\n\nКанал: @imperium_guard",
+            "description": "Модерация өчен империя боты.\nЭшләү һәм ярдәм итү: @sleeplesscode\nКанал: @imperium_guard",
             "name": "Империя сакчысы"
         },
         "canceled": "бетерү",
@@ -276,7 +276,7 @@
             "mute": "Модератор {{user}} кулланучыны {{restricted}} \"{{reason}}\"аркасында аптырашта калдырган",
             "note": "{{restricted}} өчен \"{{reason}}\" тексты белән язма ясалган",
             "parcipant_id": "Telegram API дәрәҗәсендә бан бирә алмадык, Блокировка турындагы мәгълүмат кулланучы карточкасында сакланган.",
-            "warn": "{{User}} модераторы {{restricted}} кулланучыга \"{{reason}}\" ({{warns}}/{{max_warns}})аркасында кисәтү биргән",
+            "warn": "{{user}} модераторы {{restricted}} кулланучыга \"{{reason}}\" ({{warns}}/{{max_warns}})аркасында кисәтү биргән",
             "warns_limit": "кисәтүләр лимиты"
         },
         "selector": {
@@ -294,7 +294,7 @@
                 "contacts": "Элемтәләрне модерацияләү",
                 "contacts_selected": "{{title}} чатындагы контактларны модерацияләү режимын сайлагыз, хәзерге кыйммәте:",
                 "del_stickers": "Стикерларны бетерү",
-                "del_stickers_selected": "{{title} чатында бетерелә торган стикер категорияләрен сайлагыз",
+                "del_stickers_selected": "{{title}} чатында бетерелә торган стикер категорияләрен сайлагыз",
                 "delete_commands": "Башка командаларны бетерү",
                 "delete_commands_selected": "{{title}} чатында башка командаларны бетерү режимын сайлагыз, хәзерге кыйммәте:",
                 "flood": "Флуд модерациясе",
@@ -465,7 +465,7 @@
         "editCommand": {
             "editAliases": "Алиасларны редакцияләргә",
             "editText": "Текстны төзәтергә",
-            "header": "Команданы төзәтү - {{id}}\n\nАлиаслар: {{aliases}}\n\n{{text}}"
+            "header": "Команданы төзәтү - {{id}}\nАлиаслар: {{aliases}}\n\n{{text}}"
         },
         "editCommandAlias": {
             "header": "Команданы төзәтү - {{id}} \nАлисасны өстәр өчен, аны чатка җибәрегез."
