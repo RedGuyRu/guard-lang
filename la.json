@@ -5,18 +5,18 @@
             "header": "vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
         "ban": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "A user movebo",
+            "onlyUsers": "Bannum alteri administratori ferre non potes!"
         },
         "dban": {
-            "description": ""
+            "description": "Obstrue utentem et nuntium delere"
         },
         "dmute": {
-            "description": ""
+            "description": "Confundat user ac delere nuntium"
         },
         "dossier": {
-            "noReason": "",
-            "wait": ""
+            "noReason": "Non specificatur",
+            "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
         },
         "dwarn": {
             "description": ""
@@ -27,8 +27,8 @@
         "general": {
             "approve": "",
             "canceledRestriction": "",
-            "canceledRestriction_few": "",
-            "canceledRestriction_many": "",
+            "canceledRestriction_few": "{{count}} restrictiones levavi!",
+            "canceledRestriction_many": "{{count}} restrictiones levavi!",
             "canceledRestriction_zero": "",
             "cooldown": "",
             "disabled": "",
