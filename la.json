@@ -75,22 +75,22 @@
         },
         "id": {
             "description": "Get id utentis, canalis, vel chat",
-            "send": ""
+            "send": "Usorem, canalem vel chat utens globulis infra mitte!"
         },
         "modtop": {
-            "bans": "",
-            "description": "",
-            "mutes": "",
-            "total": "",
-            "warns": ""
+            "bans": "Top moderatores bans:",
+            "description": "Accipere summo moderatores",
+            "mutes": "Top per mutos moderatores:",
+            "total": "Top moderatoris:",
+            "warns": "Top moderatores per admonitiones:"
         },
         "msgtop": {
-            "description": "",
-            "header": ""
+            "description": "Получайте топ, отправляя сообщения в чат",
+            "header": "Top per numerum epistulae:"
         },
         "mute": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Confundat user",
+            "onlyUsers": "Mutationem alteri administratori dare non potes!"
         },
         "note": {
             "description": "",
