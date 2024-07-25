@@ -99,38 +99,38 @@
         "raidmode": {
             "description": "Admitte/disable dixisse modus",
             "disabled": "Incursio modus debilitatus est!",
-            "enabled": ""
+            "enabled": "Incursio modus est enabled, omnes advenientis users erit statim excluduntur!"
         },
         "readonly": {
-            "description": "",
-            "disabled": "",
-            "enabled": ""
+            "description": "Admitte/inactivare legere solum modum",
+            "disabled": "Lege-solus modus debilitatus est!",
+            "enabled": "Lege-modo modo possit!"
         },
         "report": {
-            "accepted": "",
-            "alreadySent": "",
-            "deleted": "",
-            "description": "",
-            "got": "",
-            "rated": "",
-            "rejerected": "",
-            "sent": "",
-            "sentForDelete": ""
+            "accepted": "Querela probatus est!",
+            "alreadySent": "Iam relationem de hoc nuntio misisti!",
+            "deleted": "Nuntium deletum est propter magnum numerum relationum!",
+            "description": "Mitte querelam ad nuntium",
+            "got": "Accepit<a href=\"{{reportUrl}}\">querimonia</a>a<a href=\"tg://user?id={{fromId}}\">{{fromName}}</a>ad<a href=\"tg://user?id={{toId}}\">#id{{toId}}nom du chat<a href=\"{{messageUrl}}\">{{title}}</a>",
+            "rated": "Acta est fabula!",
+            "rejerected": "Reclamatio repudiata est!",
+            "sent": "Reclamatum est!",
+            "sentForDelete": "Reclamatum est{{now}}/{{need}}"
         },
         "reptop": {
-            "description": "",
-            "header": ""
+            "description": "Get summo reporters",
+            "header": "Top Reporters:"
         },
         "settings": {
-            "anonymos": "",
-            "description": "",
-            "notFound": "",
-            "permission": "",
-            "sent": ""
+            "anonymos": "Administrator anonymus detectus est, occasus in privatis nuntiis ad dominum chat missi sunt!",
+            "description": "Aperi occasus chat",
+            "notFound": "Curabitur non inventus est!",
+            "permission": "Non satis iura ad hoc mandatum exequendum, debes chat emendandi!",
+            "sent": "Uncinis privatis nuntiis missi sunt!"
         },
         "start": {
-            "activeRestrictions": "",
-            "description": "",
+            "activeRestrictions": "Habes restrictiones activae:",
+            "description": "Indicem violationum activarum in omnibus confabulationibus ostendit",
             "footer": "",
             "header": "",
             "noActiveRestrictions": "",
