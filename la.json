@@ -111,7 +111,7 @@
             "alreadySent": "Iam relationem de hoc nuntio misisti!",
             "deleted": "Nuntium deletum est propter magnum numerum relationum!",
             "description": "Mitte querelam ad nuntium",
-            "got": "Accepit<a href=\"{{reportUrl}}\">querimonia</a>a<a href=\"tg://user?id={{fromId}}\">{{fromName}}</a>ad<a href=\"tg://user?id={{toId}}\">#id{{toId}}nom du chat<a href=\"{{messageUrl}}\">{{title}}</a>",
+            "got": "Accepit <a href=\"{{reportUrl}}\">querimonia</a> a <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> ad <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} nom du cha t<a href=\"{{messageUrl}}\">{{title}}</a>",
             "rated": "Acta est fabula!",
             "rejerected": "Reclamatio repudiata est!",
             "sent": "Reclamatum est!",
