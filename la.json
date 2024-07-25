@@ -131,11 +131,11 @@
         "start": {
             "activeRestrictions": "Habes restrictiones activae:",
             "description": "Indicem violationum activarum in omnibus confabulationibus ostendit",
-            "footer": "",
-            "header": "",
-            "noActiveRestrictions": "",
-            "openUser": "",
-            "restriction": ""
+            "footer": "Invenire potes de omnibus meis notis utens imperio /help",
+            "header": "Salve! Custos Imperialis sum, autor ad ordinem in chats servandum.",
+            "noActiveRestrictions": "Non habes restrictiones activae.",
+            "openUser": "User aperuit<a href=\"tg://user?id={{id}}\">{{name}}</a>",
+            "restriction": "• {{type}} \"{{reason}}\"ante{{end}}in chat\"{{title}}\""
         },
         "stats": {
             "cache": {
