@@ -93,12 +93,12 @@
             "onlyUsers": "Mutationem alteri administratori dare non potes!"
         },
         "note": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "Creare annotare de usuario",
+            "onlyUsers": "Nota de alio administratore relinquere non potes!"
         },
         "raidmode": {
-            "description": "",
-            "disabled": "",
+            "description": "Admitte/disable dixisse modus",
+            "disabled": "Incursio modus debilitatus est!",
             "enabled": ""
         },
         "readonly": {
