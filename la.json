@@ -139,27 +139,27 @@
         },
         "stats": {
             "cache": {
-                "cas": "",
-                "chats": "",
-                "members": "",
-                "users": ""
+                "cas": "cache CAS",
+                "chats": "chat cache",
+                "members": "particeps cache",
+                "users": "cashe utilisateur"
             },
-            "description": "",
+            "description": "Ut technica mutant",
             "queue": {
-                "messages": "",
-                "updates": ""
+                "messages": "Mittens Nuntium Queue",
+                "updates": "Eventu Queue"
             },
-            "uptime": ""
+            "uptime": "uptime"
         },
         "support": {
-            "header": ""
+            "header": "Informationes missi subsidii!"
         },
         "sync": {
-            "complete": "",
-            "description": ""
+            "complete": "Synchronisatio completa est!",
+            "description": "Synchronize chat moderatores"
         },
         "unban": {
-            "description": "",
+            "description": "Unblock utentis",
             "notFoundRestrictions": "",
             "ok": ""
         },
