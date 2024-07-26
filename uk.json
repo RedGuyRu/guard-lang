@@ -329,6 +329,7 @@
                 "automod": "Налаштування автомодерації",
                 "customs": "Налаштування кастомізації",
                 "reports": "Налаштування репортів",
+                "special": "",
                 "warns": "Налаштування варнів"
             },
             "channels": {
@@ -393,6 +394,20 @@
                 "delete_reports_selected": "Введіть мінімальну кількість репортів від користувачів для видалення повідомлень у чаті {{title}}, поточне значення:",
                 "header": "Налаштування репортів у чаті {{title}}",
                 "reports_system": "Система репортів"
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "",
+                    "description": "",
+                    "finished": "",
+                    "progress": "",
+                    "started": ""
+                },
+                "header": "",
+                "not_enough_balance": "",
+                "price": "",
+                "start": "",
+                "started": ""
             },
             "warns": {
                 "cooldown": "Кулдаун між варнами одному користувачу",

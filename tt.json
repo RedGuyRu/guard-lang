@@ -329,6 +329,7 @@
                 "automod": "Автомодерацияне көйләү",
                 "customs": "Кастомизацияләүне җайга салу",
                 "reports": "Репортларны көйләү",
+                "special": "",
                 "warns": "Варннарның көйләнмәләре"
             },
             "channels": {
@@ -393,6 +394,20 @@
                 "delete_reports_selected": "{{title}} чатында хәбәрләрне бетерүче кулланучылардан репортларның минималь санын кертегез, хәзерге кыйммәте:",
                 "header": "Чаттагы репортларны көйләү {{title}}",
                 "reports_system": "Репортлар системасы"
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "",
+                    "description": "",
+                    "finished": "",
+                    "progress": "",
+                    "started": ""
+                },
+                "header": "",
+                "not_enough_balance": "",
+                "price": "",
+                "start": "",
+                "started": ""
             },
             "warns": {
                 "cooldown": "Барналар арасындагы Кулдаун бер кешегә",

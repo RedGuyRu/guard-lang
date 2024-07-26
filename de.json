@@ -328,6 +328,7 @@
                 "automod": "",
                 "customs": "",
                 "reports": "",
+                "special": "",
                 "warns": ""
             },
             "channels": {
@@ -392,6 +393,20 @@
                 "delete_reports_selected": "",
                 "header": "",
                 "reports_system": ""
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "",
+                    "description": "",
+                    "finished": "",
+                    "progress": "",
+                    "started": ""
+                },
+                "header": "",
+                "not_enough_balance": "",
+                "price": "",
+                "start": "",
+                "started": ""
             },
             "warns": {
                 "cooldown": "",

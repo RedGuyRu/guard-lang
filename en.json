@@ -329,6 +329,7 @@
                 "automod": "Automoderation settings",
                 "customs": "Customization settings",
                 "reports": "Reporting settings",
+                "special": "Special",
                 "warns": "Warns settings"
             },
             "channels": {
@@ -393,6 +394,20 @@
                 "delete_reports_selected": "Enter the minimum number of reports from users deleting messages in chat {{title}}, current value:",
                 "header": "Reposts settings in chat {{title}}",
                 "reports_system": "Reports system"
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "Remove deleted accounts",
+                    "description": "Allows you to remove deleted accounts from the list of participants and removed users.",
+                    "finished": "The purge of deleted accounts is complete!\nUndeleted admins: {{admins}}\nDeletion errors from Telegram: {{errors}}",
+                    "progress": "The process of cleaning up deleted accounts: {{progress}}%",
+                    "started": "The task of cleaning up deleted accounts has begun!"
+                },
+                "header": "Special actions for chat {{title}}\nBalance: {{balance}}",
+                "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
+                "price": "Price: ",
+                "start": "Start!",
+                "started": "The task is queued, you will be notified when it starts and ends!"
             },
             "warns": {
                 "cooldown": "Cooldown beetwen warns to one person",
