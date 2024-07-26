@@ -407,7 +407,15 @@
                 "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
                 "price": "Price: ",
                 "start": "Start!",
-                "started": "The task is queued, you will be notified when it starts and ends!"
+                "started": "The task is queued, you will be notified when it starts and ends!",
+                "topup": {
+                    "button": "Top up balance",
+                    "how_many": "How many stars do you want to transfer to your chat balance?",
+                    "pay": "Transfer",
+                    "positive": "Enter positive number!",
+                    "successful": "Transfer successful!",
+                    "title": "Transfer stars to chat {{title}}"
+                }
             },
             "warns": {
                 "cooldown": "Cooldown beetwen warns to one person",

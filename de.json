@@ -406,7 +406,15 @@
                 "not_enough_balance": "",
                 "price": "",
                 "start": "",
-                "started": ""
+                "started": "",
+                "topup": {
+                    "button": "",
+                    "how_many": "",
+                    "pay": "",
+                    "positive": "",
+                    "successful": "",
+                    "title": ""
+                }
             },
             "warns": {
                 "cooldown": "",
