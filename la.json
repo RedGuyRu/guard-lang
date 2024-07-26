@@ -181,23 +181,23 @@
                 "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Epistulae: {{messages}}",
-            "moder": "",
-            "noRestrictions": "",
-            "reputation": "",
-            "restriction": "",
-            "restrictionNotFound": "",
-            "show_message": "",
-            "uncancel": "",
-            "uncanceled": "",
-            "updateReason": "",
+            "moder": "User informationes{{user}}\nActiva monita:{{warns}} Общие предупреждения:{{total_warns}}\nBannum activum:{{bans}}Summa bans{{total_bans}}\nActive mutus:{{mutes}}Mutov totalis:{{total_mutes}}",
+            "noRestrictions": "Non restrictiones",
+            "reputation": "Reputatio: ",
+            "restriction": "{{type}}ante{{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
+            "restrictionNotFound": "Restrictio non inventa!",
+            "show_message": "Videre nuntium",
+            "uncancel": "Restituere",
+            "uncanceled": "Restrictio restituta est!",
+            "updateReason": "Intra novam causam restrictionis, hodiernam: ",
             "warns": "monitum "
         },
         "userreport": {
-            "sent": ""
+            "sent": "Ego misit notitia in privatis epistulae!"
         },
         "warn": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "User admonitio ad normam",
+            "onlyUsers": "Monitum alteri administratori ferre non potes!"
         }
     },
     "extends": "",
