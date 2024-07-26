@@ -263,9 +263,9 @@
         "restricted": "",
         "restrictionType": {
             "ban": "",
-            "mute": "",
+            "mute": "mutus",
             "note": "",
-            "warn": ""
+            "warn": "monitum"
         },
         "restrictions": {
             "adminCommand": "",
