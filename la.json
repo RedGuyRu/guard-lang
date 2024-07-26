@@ -2,7 +2,7 @@
     "commands": {
         "admins": {
             "description": "Nom du chat administrateurs",
-            "header": "vocatis ab administratoribus {{peerName}} #id{{peerId}}"
+            "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
         "ban": {
             "description": "A user movebo",
@@ -19,7 +19,7 @@
             "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
         },
         "dwarn": {
-            "description": "Предупредите пользователя и удалите сообщение"
+            "description": "Monitum usoris et nuntium delere"
         },
         "fulluser": {
             "description": "Adepto plenam informationem sobre utente"
@@ -160,27 +160,27 @@
         },
         "unban": {
             "description": "Unblock utentis",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "notFoundRestrictions": "Usoris non impeditur!",
+            "ok": "A user unblocked!"
         },
         "unmute": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "description": "Confusa del usuario",
+            "notFoundRestrictions": "A user non torquetur!",
+            "ok": "A user defatigatus est!"
         },
         "user": {
-            "activeban": "",
-            "activemute": "",
-            "cancel": "",
-            "cancelled": "",
-            "deleted": "",
-            "description": "",
-            "edit_reason": "",
+            "activeban": "Bannum activum: ",
+            "activemute": "Active mutationem: ",
+            "cancel": "Cancel",
+            "cancelled": "Restrictio elevata est!",
+            "deleted": "Restrictio remota!",
+            "description": "Adepto user notitia",
+            "edit_reason": "Edit causa",
             "header": {
-                "chat": "",
-                "user": ""
+                "chat": "Informazioni sul canale{{title}}:",
+                "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
-            "messages": "",
+            "messages": "Epistulae: {{messages}}",
             "moder": "",
             "noRestrictions": "",
             "reputation": "",
