@@ -403,6 +403,11 @@
                     "started": ""
                 },
                 "header": "",
+                "index_old": {
+                    "button": "",
+                    "description": "",
+                    "started": ""
+                },
                 "not_enough_balance": "",
                 "price": "",
                 "start": "",

@@ -404,6 +404,11 @@
                     "started": "The task of cleaning up deleted accounts has begun!"
                 },
                 "header": "Special actions for chat {{title}}\nBalance: {{balance}}",
+                "index_old": {
+                    "button": "Index old messages",
+                    "description": "Allows the guard to explore all messages before they are added to the chat.",
+                    "started": "The task of exploring the history of the chat has begun!"
+                },
                 "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
                 "price": "Price: ",
                 "start": "Start!",
