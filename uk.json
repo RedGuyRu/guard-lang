@@ -237,6 +237,7 @@
         },
         "close": "Закрити",
         "command": "Команда",
+        "confirm": "",
         "delete": "Видалити",
         "disabled": "вимкнено",
         "edit": "Редагувати",
@@ -408,6 +409,14 @@
                     "button": "",
                     "description": "",
                     "started": ""
+                },
+                "kick_inactive": {
+                    "button": "",
+                    "description": "",
+                    "progress": "",
+                    "request": "",
+                    "request_confirm": "",
+                    "success": ""
                 },
                 "not_enough_balance": "",
                 "price": "",

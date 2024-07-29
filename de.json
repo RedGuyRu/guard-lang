@@ -236,6 +236,7 @@
         },
         "close": "",
         "command": "",
+        "confirm": "",
         "delete": "",
         "disabled": "",
         "edit": "",
@@ -407,6 +408,14 @@
                     "button": "",
                     "description": "",
                     "started": ""
+                },
+                "kick_inactive": {
+                    "button": "",
+                    "description": "",
+                    "progress": "",
+                    "request": "",
+                    "request_confirm": "",
+                    "success": ""
                 },
                 "not_enough_balance": "",
                 "price": "",

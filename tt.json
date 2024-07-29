@@ -237,6 +237,7 @@
         },
         "close": "Каплау",
         "command": "командующийлар хәбәр",
+        "confirm": "",
         "delete": "Бетерү",
         "disabled": "сүндерелгән",
         "edit": "Редакцияләү",
@@ -408,6 +409,14 @@
                     "button": "",
                     "description": "",
                     "started": ""
+                },
+                "kick_inactive": {
+                    "button": "",
+                    "description": "",
+                    "progress": "",
+                    "request": "",
+                    "request_confirm": "",
+                    "success": ""
                 },
                 "not_enough_balance": "",
                 "price": "",

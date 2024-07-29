@@ -237,6 +237,7 @@
         },
         "close": "Close",
         "command": "Team",
+        "confirm": "",
         "delete": "Remove",
         "disabled": "turned off",
         "edit": "Edit",
@@ -408,6 +409,14 @@
                     "button": "",
                     "description": "",
                     "started": ""
+                },
+                "kick_inactive": {
+                    "button": "",
+                    "description": "",
+                    "progress": "",
+                    "request": "",
+                    "request_confirm": "",
+                    "success": ""
                 },
                 "not_enough_balance": "",
                 "price": "",

@@ -237,6 +237,7 @@
         },
         "close": "Close",
         "command": "Command",
+        "confirm": "Confirm",
         "delete": "Delete",
         "disabled": "disabled",
         "edit": "Edit",
@@ -408,6 +409,14 @@
                     "button": "Index old messages",
                     "description": "Allows the guard to explore all messages before they are added to the chat.",
                     "started": "The task of exploring the history of the chat has begun!"
+                },
+                "kick_inactive": {
+                    "button": "Remove inactive users",
+                    "description": "Removes all inactive participants from the chat for the selected period",
+                    "progress": "Removed {{progress}} from {{users}}!",
+                    "request": "Specify a minimum activity interval, all users with a larger one will be removed.",
+                    "request_confirm": "The interval {{interval}} is selected, {{users}} users will be removed!",
+                    "success": "Removal completed, removed {{users}}!"
                 },
                 "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
                 "price": "Price: ",
