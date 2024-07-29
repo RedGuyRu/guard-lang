@@ -2,7 +2,7 @@
     "commands": {
         "admins": {
             "description": "Nom du chat administrateurs",
-            "header": "vocatis ab administratoribus {{peerName}} #id{{peerId}}"
+            "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
         "ban": {
             "description": "A user movebo",
@@ -19,7 +19,7 @@
             "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
         },
         "dwarn": {
-            "description": "Предупредите пользователя и удалите сообщение"
+            "description": "Monitum usoris et nuntium delere"
         },
         "fulluser": {
             "description": "Adepto plenam informationem sobre utente"
@@ -139,158 +139,158 @@
         },
         "stats": {
             "cache": {
-                "cas": "",
-                "chats": "",
-                "members": "",
-                "users": ""
+                "cas": "cache CAS",
+                "chats": "chat cache",
+                "members": "particeps cache",
+                "users": "cashe utilisateur"
             },
-            "description": "",
+            "description": "Ut technica mutant",
             "queue": {
-                "messages": "",
-                "updates": ""
+                "messages": "Mittens Nuntium Queue",
+                "updates": "Eventu Queue"
             },
-            "uptime": ""
+            "uptime": "uptime"
         },
         "support": {
-            "header": ""
+            "header": "Informationes missi subsidii!"
         },
         "sync": {
-            "complete": "",
-            "description": ""
+            "complete": "Synchronisatio completa est!",
+            "description": "Synchronize chat moderatores"
         },
         "unban": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "description": "Unblock utentis",
+            "notFoundRestrictions": "Usoris non impeditur!",
+            "ok": "A user unblocked!"
         },
         "unmute": {
-            "description": "",
-            "notFoundRestrictions": "",
-            "ok": ""
+            "description": "Confusa del usuario",
+            "notFoundRestrictions": "A user non torquetur!",
+            "ok": "A user defatigatus est!"
         },
         "user": {
-            "activeban": "",
-            "activemute": "",
-            "cancel": "",
-            "cancelled": "",
-            "deleted": "",
-            "description": "",
-            "edit_reason": "",
+            "activeban": "Bannum activum: ",
+            "activemute": "Active mutationem: ",
+            "cancel": "Cancel",
+            "cancelled": "Restrictio elevata est!",
+            "deleted": "Restrictio remota!",
+            "description": "Adepto user notitia",
+            "edit_reason": "Edit causa",
             "header": {
-                "chat": "",
-                "user": ""
+                "chat": "Informazioni sul canale{{title}}:",
+                "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
-            "messages": "",
-            "moder": "",
-            "noRestrictions": "",
-            "reputation": "",
-            "restriction": "",
-            "restrictionNotFound": "",
-            "show_message": "",
-            "uncancel": "",
-            "uncanceled": "",
-            "updateReason": "",
-            "warns": "monitum "
+            "messages": "Epistulae: {{messages}}",
+            "moder": "User informationes{{user}}\nActiva monita:{{warns}} Общие предупреждения:{{total_warns}}\nBannum activum:{{bans}}Summa bans{{total_bans}}\nActive mutus:{{mutes}}Mutov totalis:{{total_mutes}}",
+            "noRestrictions": "Non restrictiones",
+            "reputation": "Reputatio: ",
+            "restriction": "{{type}}ante{{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
+            "restrictionNotFound": "Restrictio non inventa!",
+            "show_message": "Videre nuntium",
+            "uncancel": "Restituere",
+            "uncanceled": "Restrictio restituta est!",
+            "updateReason": "Intra novam causam restrictionis, hodiernam: ",
+            "warns": "Monitum "
         },
         "userreport": {
-            "sent": ""
+            "sent": "Ego misit notitia in privatis epistulae!"
         },
         "warn": {
-            "description": "",
-            "onlyUsers": ""
+            "description": "User admonitio ad normam",
+            "onlyUsers": "Monitum alteri administratori ferre non potes!"
         }
     },
-    "extends": "",
+    "extends": "null",
     "general": {
-        "Create": "",
-        "Delete": "",
-        "Disable": "",
-        "Edit": "",
-        "Enable": "",
-        "Forever": "",
-        "Trigger": "",
-        "add": "",
-        "automoderation": "",
-        "back": "",
-        "ban": "",
-        "ban_few": "",
-        "ban_many": "",
-        "ban_zero": "",
+        "Create": "Сreo",
+        "Delete": "Delere",
+        "Disable": "Unplug",
+        "Edit": "Edit",
+        "Enable": "Turn in",
+        "Forever": "Perpetuum",
+        "Trigger": "Trigger",
+        "add": "Addere",
+        "automoderation": "Auto-modum",
+        "back": "Retrorsum",
+        "ban": "bannum",
+        "ban_few": "bannum",
+        "ban_many": "bans",
+        "ban_zero": "bans",
         "bot": {
-            "description": "",
-            "name": ""
+            "description": "Imperial bot pro moderatione.\nProgressus et firmamentum: @sleeplesscode\nChannel: @imperium_guard",
+            "name": "Custodia Imperialis"
         },
-        "canceled": "",
+        "canceled": "annuler",
         "captcha": {
-            "agree": "",
-            "emoji": "",
-            "null": ""
+            "agree": "Concordia",
+            "emoji": "Emoji-bullae",
+            "null": "Disabled"
         },
         "chatMemberStatus": {
-            "administrator": "",
-            "creator": "",
-            "kicked": "",
-            "left": "",
-            "member": "",
-            "null": "",
-            "restricted": ""
+            "administrator": "administrator",
+            "creator": "curabitur dominus",
+            "kicked": "excluduntur in chat",
+            "left": "not in the chat",
+            "member": "они участвуют в чате",
+            "null": "unknown",
+            "restricted": "limited"
         },
-        "close": "",
-        "command": "",
-        "delete": "",
-        "disabled": "",
-        "edit": "",
-        "enabled": "",
-        "infinity": "",
+        "close": "Close",
+        "command": "Team",
+        "delete": "Remove",
+        "disabled": "turned off",
+        "edit": "Edit",
+        "enabled": "enabled",
+        "infinity": "forever",
         "intervals": {
-            "day": "",
-            "hour": "",
-            "minutes": "",
-            "month": "",
-            "year": ""
+            "day": "days",
+            "hour": "hora",
+            "minutes": "minuta",
+            "month": "mensis",
+            "year": "annus"
         },
         "modRule": {
-            "ban": "",
-            "delete": "",
-            "ignore": "",
-            "kick": "",
-            "mute": "",
-            "notify": "",
-            "warn": ""
+            "ban": "Obstructionum",
+            "delete": "Delere nuntium",
+            "ignore": "Ignorare",
+            "kick": "Excludere",
+            "mute": "Muta",
+            "notify": "Certiorem",
+            "warn": "Delere per monitionem"
         },
-        "not_set": "",
-        "notlinked": "",
-        "restricted": "",
+        "not_set": "non installatur",
+        "notlinked": "non coniunctum",
+        "restricted": "Non satis sunt permissiones ad hoc mandatum faciendum!",
         "restrictionType": {
-            "ban": "",
+            "ban": "ban",
             "mute": "mutus",
-            "note": "",
+            "note": "nota",
             "warn": "monitum"
         },
         "restrictions": {
-            "adminCommand": "",
-            "automod": "",
-            "ban": "",
-            "banChannel": "",
-            "kick": "",
-            "mute": "",
-            "note": "",
-            "parcipant_id": "",
-            "warn": "",
-            "warns_limit": ""
+            "adminCommand": "Administrativus quadrigis",
+            "automod": "Automoderation",
+            "ban": "Moderator{{user}} interdictum a user {{restricted}} ratione \"{{reason}}\"",
+            "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",
+            "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
+            "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
+            "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
+            "parcipant_id": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
+            "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
+            "warns_limit": "monitum terminum"
         },
         "selector": {
-            "admins": "",
-            "all": "",
-            "disabled": "",
-            "owner": ""
+            "admins": "Administratores",
+            "all": "Omnes participes",
+            "disabled": "Disabled",
+            "owner": "Dominus"
         },
-        "set": "",
+        "set": "installed",
         "settings": {
-            "audit": "",
+            "audit": "Audit",
             "automod": {
-                "cas": "",
-                "cas_selected": "",
+                "cas": "Reactionem ad CAS-ban",
+                "cas_selected": "Lego responsionis modus CAS-ban in chat{{title}}, current significatio:",
                 "contacts": "",
                 "contacts_selected": "",
                 "del_stickers": "",
