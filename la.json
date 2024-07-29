@@ -283,14 +283,14 @@
             "admins": "Administratores",
             "all": "Omnes participes",
             "disabled": "Disabled",
-            "owner": ""
+            "owner": "Dominus"
         },
-        "set": "",
+        "set": "installed",
         "settings": {
-            "audit": "",
+            "audit": "Audit",
             "automod": {
-                "cas": "",
-                "cas_selected": "",
+                "cas": "Reactionem ad CAS-ban",
+                "cas_selected": "Lego responsionis modus CAS-ban in chat{{title}}, current significatio:",
                 "contacts": "",
                 "contacts_selected": "",
                 "del_stickers": "",
