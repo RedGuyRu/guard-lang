@@ -262,7 +262,7 @@
         "notlinked": "non coniunctum",
         "restricted": "Non satis sunt permissiones ad hoc mandatum faciendum!",
         "restrictionType": {
-            "ban": "bannum",
+            "ban": "ban",
             "mute": "mutus",
             "note": "nota",
             "warn": "monitum"
@@ -274,15 +274,15 @@
             "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",
             "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
             "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
-            "note": "",
-            "parcipant_id": "",
-            "warn": "",
-            "warns_limit": ""
+            "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
+            "parcipant_id": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
+            "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
+            "warns_limit": "monitum terminum"
         },
         "selector": {
-            "admins": "",
-            "all": "",
-            "disabled": "",
+            "admins": "Administratores",
+            "all": "Omnes participes",
+            "disabled": "Disabled",
             "owner": ""
         },
         "set": "",
