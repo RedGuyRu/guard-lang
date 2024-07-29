@@ -190,7 +190,7 @@
             "uncancel": "Restituere",
             "uncanceled": "Restrictio restituta est!",
             "updateReason": "Intra novam causam restrictionis, hodiernam: ",
-            "warns": "monitum "
+            "warns": "Monitum "
         },
         "userreport": {
             "sent": "Ego misit notitia in privatis epistulae!"
@@ -202,29 +202,29 @@
     },
     "extends": "null",
     "general": {
-        "Create": "",
-        "Delete": "",
-        "Disable": "",
-        "Edit": "",
-        "Enable": "",
-        "Forever": "",
-        "Trigger": "",
-        "add": "",
-        "automoderation": "",
-        "back": "",
-        "ban": "",
-        "ban_few": "",
-        "ban_many": "",
-        "ban_zero": "",
+        "Create": "Сreo",
+        "Delete": "Delere",
+        "Disable": "Unplug",
+        "Edit": "Edit",
+        "Enable": "Turn in",
+        "Forever": "Perpetuum",
+        "Trigger": "Trigger",
+        "add": "Addere",
+        "automoderation": "Auto-modum",
+        "back": "Retrorsum",
+        "ban": "bannum",
+        "ban_few": "bannum",
+        "ban_many": "bans",
+        "ban_zero": "bans",
         "bot": {
-            "description": "",
-            "name": ""
+            "description": "Imperial bot pro moderatione.\nProgressus et firmamentum: @sleeplesscode\nChannel: @imperium_guard",
+            "name": "Custodia Imperialis"
         },
-        "canceled": "",
+        "canceled": "annuler",
         "captcha": {
-            "agree": "",
-            "emoji": "",
-            "null": ""
+            "agree": "Concordia",
+            "emoji": "Emoji-bullae",
+            "null": "Disabled"
         },
         "chatMemberStatus": {
             "administrator": "",
