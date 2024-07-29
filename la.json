@@ -349,7 +349,7 @@
                     "restrict": ""
                 },
                 "captcha": {
-                    "agree": "",
+                    "agree": "Concordia",
                     "title": ""
                 },
                 "captcha_selected": "",
