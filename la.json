@@ -292,8 +292,8 @@
             "automod": {
                 "cas": "Reactionem ad CAS-ban",
                 "cas_selected": "Lego responsionis modus CAS-ban in chat{{title}}, current significatio:",
-                "contacts": "",
-                "contacts_selected": "",
+                "contacts": "Contactus moderatio",
+                "contacts_selected": "Lego modum moderationis contactus in chat {{title}}, current significatione:",
                 "del_stickers": "",
                 "del_stickers_selected": "",
                 "delete_commands": "",
