@@ -328,40 +328,40 @@
             },
             "category": {
                 "automod": "Auto-modus occasus",
-                "customs": "",
-                "reports": "",
-                "special": "",
-                "warns": ""
+                "customs": "Aliquam occasus",
+                "reports": "Querimonia occasus",
+                "special": "Specialis",
+                "warns": "Mone occasus"
             },
             "channels": {
-                "admins": "",
-                "admins_selected": "",
-                "logs": "",
-                "logs_selected": "",
-                "triggers": "",
-                "triggers_selected": ""
+                "admins": "Administratores chat",
+                "admins_selected": "Vinculum admin chat ad chat {{title}}",
+                "logs": "Fama channel",
+                "logs_selected": "Channel binding nom du chat {{title}}",
+                "triggers": "Trigger channel",
+                "triggers_selected": "Channel binding triggers in chat {{title}}"
             },
             "customs": {
-                "admins": "",
-                "admins_selected": "",
-                "anon_perm": "",
-                "anon_perm_selected": "",
+                "admins": "Сommand !admins",
+                "admins_selected": "Specificare modum operandi mandatum !admins, current modus:",
+                "anon_perm": "Iura anonymous administratores",
+                "anon_perm_selected": "Ob viam anonymi administratores in Telegram operantur, chat nescit qui hunc vel illum nuntium misit. In hoc menu, vos potest specificare iura anonymous administratores.",
                 "anon_perms": {
-                    "restrict": ""
+                    "restrict": "Issuance limitations"
                 },
                 "captcha": {
                     "agree": "Concordia",
-                    "title": ""
+                    "title": "Captcha"
                 },
-                "captcha_selected": "",
-                "channel_post": "",
-                "channel_post_selected": "",
-                "channels": "",
-                "channels_selected": "",
-                "commands": "",
+                "captcha_selected": "Lego captcha genus in chat {{title}}, current significatio:",
+                "channel_post": "Textus sub poste",
+                "channel_post_selected": "Intrant textum primi nuntii sub cursore chat {{title}}, current significatio:",
+                "channels": "Channel binding",
+                "channels_selected": "Curabitur channel binding occasus {{title}}",
+                "commands": "Consuetudo mandata",
                 "commands_mode": {
-                    "moderation": "",
-                    "moderation_selected": "",
+                    "moderation": "Reactionem command moderatio",
+                    "moderation_selected": "Elige quis moderatiocommands respondeat in chat {{title}}, current significatio:",
                     "others": "",
                     "others_selected": "",
                     "raid": "",
