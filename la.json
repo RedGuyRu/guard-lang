@@ -376,10 +376,10 @@
                 "modtop_selected": "Aditus ad eligere modtop in chat {{title}}, current significatio:",
                 "reactions": "Reactiones in responsione",
                 "reputation": "Systema fama",
-                "reputation_selected": "",
-                "tokens": ""
+                "reputation_selected": "Praesentiam famae systematis in chat eligere {{title}}, current significatio:",
+                "tokens": "Signa"
             },
-            "header": "",
+            "header": "Chat occasus {{title}}",
             "incorrect_interval": "",
             "incorrect_number": "",
             "language": {
