@@ -121,6 +121,10 @@
             "description": "Get summo reporters",
             "header": "Top Reporters:"
         },
+        "resttop": {
+            "description": "",
+            "header": ""
+        },
         "settings": {
             "anonymos": "Administrator anonymus detectus est, occasus in privatis nuntiis ad dominum chat missi sunt!",
             "description": "Aperi occasus chat",

@@ -121,6 +121,10 @@
             "description": "Gets top of reporters",
             "header": "Top of reporters:"
         },
+        "resttop": {
+            "description": "Displays the top offenders in chat.",
+            "header": "Top offenders:"
+        },
         "settings": {
             "anonymos": "Anonymous admin detected, settings sent in chat owner PM!",
             "description": "Opens chat settings",
