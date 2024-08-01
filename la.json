@@ -393,11 +393,11 @@
             "reports": {
                 "delete_reports": "Minimum numerus querelis per utentes deletis epistulae",
                 "delete_reports_count": "Minimum numerum tradit a user habet nuntium delere",
-                "delete_reports_count_selected": "",
-                "delete_reports_rate": "",
-                "delete_reports_rate_selected": "",
-                "delete_reports_selected": "",
-                "header": "",
+                "delete_reports_count_selected": "Intra minimum numerum refert user habet ad delere chat nuntium {{title}}, current significatio:",
+                "delete_reports_rate": "Minimum persona rating for delere nuntium",
+                "delete_reports_rate_selected": "Intrant minimum homo rating delere chat nuntius {{title}}, current significatio:",
+                "delete_reports_selected": "Intrant minimum numerum relationum ab users delendo chat nuntiis {{title}}, currrent significatio:",
+                "header": "Chat fama occasus {{title}}",
                 "reports_system": ""
             },
             "special": {
