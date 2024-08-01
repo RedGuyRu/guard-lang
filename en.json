@@ -275,13 +275,15 @@
         "restrictions": {
             "adminCommand": "Administration command",
             "automod": "Automoderation",
-            "ban": "Moderator {{user}} banned user {{restricted}} with reason \"{{reason}}\"",
-            "banChannel": "Moderator {{user}} has banned channel owner {{restricted}} from posting anonymously because of “{{reason}}”",
-            "kick": "Moderator {{user}} kicked user {{restricted}} with reason \"{{reason}}\"",
-            "mute": "Moderator {{user}} muted user {{restricted}} with reason \"{{reason}}\"",
+            "ban": "Moderator {{user}} banned user {{restricted}}",
+            "banChannel": "Moderator {{user}} has banned channel owner {{restricted}} from posting anonymously",
+            "duration": "for {{duration}}",
+            "kick": "Moderator {{user}} kicked user {{restricted}}",
+            "mute": "Moderator {{user}} muted user {{restricted}}",
             "note": "Note for {{restricted}} with text \"{{reason}}\" created",
             "parcipant_id": "Failed to issue a ban at the Telegram API level, the blocking information is saved in the user card.",
-            "warn": "Moderator {{user}} warned user {{restricted}} with reason \"{{reason}}\" ({{warns}}/{{max_warns}})",
+            "reason": "with reason \"{{reason}}\"",
+            "warn": "Moderator {{user}} warned user {{restricted}}",
             "warns_limit": "warns limit"
         },
         "selector": {

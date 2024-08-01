@@ -276,10 +276,12 @@
             "automod": "",
             "ban": "",
             "banChannel": "",
+            "duration": "",
             "kick": "",
             "mute": "",
             "note": "",
             "parcipant_id": "",
+            "reason": "",
             "warn": "",
             "warns_limit": ""
         },

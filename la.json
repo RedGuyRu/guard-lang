@@ -277,10 +277,12 @@
             "automod": "Automoderation",
             "ban": "Moderator{{user}} interdictum a user {{restricted}} ratione \"{{reason}}\"",
             "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",
+            "duration": "",
             "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
             "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
             "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
             "parcipant_id": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
+            "reason": "",
             "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
             "warns_limit": "monitum terminum"
         },
