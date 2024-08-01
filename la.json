@@ -398,11 +398,11 @@
                 "delete_reports_rate_selected": "Intrant minimum homo rating delere chat nuntius {{title}}, current significatio:",
                 "delete_reports_selected": "Intrant minimum numerum relationum ab users delendo chat nuntiis {{title}}, currrent significatio:",
                 "header": "Chat fama occasus {{title}}",
-                "reports_system": ""
+                "reports_system": "Reporting system"
             },
             "special": {
                 "clear_deleted": {
-                    "button": "",
+                    "button": "Patet delevit rationes",
                     "description": "",
                     "finished": "",
                     "progress": "",
