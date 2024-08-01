@@ -403,41 +403,41 @@
             "special": {
                 "clear_deleted": {
                     "button": "Patet delevit rationes",
-                    "description": "",
-                    "finished": "",
-                    "progress": "",
-                    "started": ""
+                    "description": "Permittit tibi rationes delere e indice participantium et usorum obstructorum.",
+                    "finished": "Purgatio rationum deleta completa est!\nAdmin delevit:{{admins}}\nErrores deletionis ex Parte Telegram:{{errors}}",
+                    "progress": "Purgato processus delevit rationum: {{progress}}%",
+                    "started": "Negotium purgatio rationum deleta incepit!"
                 },
-                "header": "",
+                "header": "Additional chat optiones {{title}}\nChat statera:{{balance}}",
                 "index_old": {
-                    "button": "",
-                    "description": "",
-                    "started": ""
+                    "button": "Index vetus nuntia",
+                    "description": "Custodi permittit ut omnes nuntios examinare antequam eas ad chat addendo.",
+                    "started": "Munus discendi historiam chat incepit!"
                 },
                 "kick_inactive": {
-                    "button": "",
-                    "description": "",
-                    "progress": "",
-                    "request": "",
-                    "request_confirm": "",
-                    "success": ""
+                    "button": "Excludere iners users",
+                    "description": "Omnes participes iners excludit a chat ad tempus electum",
+                    "progress": "Deletum {{progress}} in {{users}}!",
+                    "request": "Specificare minimam actionem intervallum, omnes utentes cum magno excludentur.",
+                    "request_confirm": "Intervallum electus est {{interval}}, exclusa est {{users}} users!",
+                    "success": "Deletionem perficitur, exclusa {{users}}!"
                 },
-                "not_enough_balance": "",
-                "price": "",
-                "start": "",
-                "started": "",
+                "not_enough_balance": "Non sufficit ⭐️ il tuo account chat!",
+                "price": "Pretium: ",
+                "start": "Incipias!",
+                "started": "Negotium queued, notitiam de principio et fine accipietis!",
                 "topup": {
-                    "button": "",
-                    "how_many": "",
-                    "pay": "",
-                    "positive": "",
-                    "successful": "",
-                    "title": ""
+                    "button": "Summo sursum vestri statera",
+                    "how_many": "Quot stellae vis ad stateram chat transferre?",
+                    "pay": "Transferre",
+                    "positive": "Intra numerum positivum!",
+                    "successful": "Transferre feliciter perficitur!",
+                    "title": "Transferre of chat stars {{title}}"
                 }
             },
             "warns": {
-                "cooldown": "",
-                "cooldown_selected": "",
+                "cooldown": "Cooldown varna ad unum hominem",
+                "cooldown_selected": "Intrant cooldown in secundis ad chat {{title}}, current significatio:",
                 "header": "",
                 "max_warns": "",
                 "max_warns_selected": "",
