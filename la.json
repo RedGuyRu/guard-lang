@@ -441,12 +441,12 @@
                 "cooldown": "Cooldown varna ad unum hominem",
                 "cooldown_selected": "Intrant cooldown in secundis ad chat {{title}}, current significatio:",
                 "header": "Occasus varna in chat {{title}}",
-                "max_warns": "Numerus varna antequam poena editur",
-                "max_warns_selected": "Intra numerum varna antequam poena editur in chat {{title}}, current significatio:",
+                "max_warns": "Numerus varns antequam poena editur",
+                "max_warns_selected": "Intra numerum varns antequam poena editur in chat {{title}}, current significatio:",
                 "warn_length": "Durationem varna",
                 "warn_length_selected": "Durationem intrant varna ad chat {{title}}, current significatio:",
-                "warns_result": "",
-                "warns_result_length": "",
+                "warns_result": "Poenam ad maximum amount varns",
+                "warns_result_length": "Duratio poenae ad maximum numerum varns",
                 "warns_result_length_selected": "",
                 "warns_result_selected": ""
             }
