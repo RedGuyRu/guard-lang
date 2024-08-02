@@ -447,24 +447,24 @@
                 "warn_length_selected": "Durationem intrant varna ad chat {{title}}, current significatio:",
                 "warns_result": "Poenam ad maximum amount varns",
                 "warns_result_length": "Duratio poenae ad maximum numerum varns",
-                "warns_result_length_selected": "",
-                "warns_result_selected": ""
+                "warns_result_length_selected": "Intrant durationem poenae ad maximum numerum varns in chat {{title}}, current significatio:",
+                "warns_result_selected": "Poenam elige maximum numerum varns in chat {{title}}, current significatio:"
             }
         },
-        "token": "",
+        "token": "Token",
         "unknown": {
-            "channel": "",
-            "user": ""
+            "channel": "Canale ignotum",
+            "user": "Ignota user"
         },
-        "until": ""
+        "until": "ante"
     },
     "handlers": {
-        "adminsChange": "",
+        "adminsChange": "Mutatio administratorum detecta est, index administratorum renovatus est!",
         "captcha": {
-            "again": "",
-            "agree": "",
-            "agreed": "",
-            "correct": "",
+            "again": "Iam expertus es!",
+            "agree": "Click a button inferius intrare curabitur in chat!",
+            "agreed": "✅ Consentire",
+            "correct": "Ius!",
             "emoji": "",
             "wrongUser": ""
         },
