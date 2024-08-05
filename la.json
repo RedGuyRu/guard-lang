@@ -242,7 +242,7 @@
         },
         "close": "Close",
         "command": "Team",
-        "confirm": "",
+        "confirm": "✅ Consentire",
         "delete": "Remove",
         "disabled": "turned off",
         "edit": "Edit",
