@@ -200,6 +200,7 @@
             "sent": ""
         },
         "warn": {
+            "cancel": "",
             "description": "",
             "onlyUsers": ""
         }

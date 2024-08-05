@@ -200,6 +200,7 @@
             "sent": "Ego misit notitia in privatis epistulae!"
         },
         "warn": {
+            "cancel": "",
             "description": "User admonitio ad normam",
             "onlyUsers": "Monitum alteri administratori ferre non potes!"
         }
