@@ -465,9 +465,9 @@
             "again": "Iam expertus es!",
             "agree": "Click a button inferius intrare curabitur in chat!",
             "agreed": "✅ Consentire",
-            "correct": "Ius!",
-            "emoji": "",
-            "wrongUser": ""
+            "correct": "Vernaux!",
+            "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
+            "wrongUser": "Non est tuum captcha!"
         },
         "hello": {
             "full": "",
