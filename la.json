@@ -484,19 +484,19 @@
             "up": "Fama auctus!"
         },
         "trigger": {
-            "got": ""
+            "got": "Triggering {{name}} in chat {{title}}: {{text}}"
         }
     },
     "scenes": {
         "addCommand": {
-            "enterCommand": ""
+            "enterCommand": "Intrant mandatum:"
         },
         "addToken": {
-            "created": "",
-            "enterName": ""
+            "created": "Token {{name}} generatae!",
+            "enterName": "Intrant token signum:"
         },
         "addTrigger": {
-            "badwordsRU": "",
+            "badwordsRU": "Lingua obscena(Russica)",
             "enterAction": "",
             "enterName": "",
             "enterRegex": ""
