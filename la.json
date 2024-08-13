@@ -476,12 +476,12 @@
         "migrate": "Cohors migravit ad supergroup!",
         "nativeBan": "Native bannum",
         "reactions": {
-            "notify": "",
-            "reason": ""
+            "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
+            "reason": "motus in muta"
         },
         "reputation": {
-            "down": "",
-            "up": ""
+            "down": "Fama reducta!",
+            "up": "Fama auctus!"
         },
         "trigger": {
             "got": ""
