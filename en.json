@@ -200,7 +200,7 @@
             "sent": "I've sent the info in private messages!"
         },
         "warn": {
-            "cancel": "{{moder}} removed {{user}}'s warn with the reason \"{{reason}}\".",
+            "cancel": "{{moder}} removed {{user}}'s warn with the reason \"{{reason}}\"",
             "description": "Warns user",
             "onlyUsers": "You cannot give warn to other admin!"
         }
