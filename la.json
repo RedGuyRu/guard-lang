@@ -497,8 +497,8 @@
         },
         "addTrigger": {
             "badwordsRU": "Lingua obscena(Russica)",
-            "enterAction": "",
-            "enterName": "",
+            "enterAction": "Actionem felis eligere:",
+            "enterName": "Intra nomen felis:",
             "enterRegex": ""
         },
         "commands": {
