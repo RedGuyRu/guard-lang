@@ -465,49 +465,49 @@
             "again": "Iam expertus es!",
             "agree": "Click a button inferius intrare curabitur in chat!",
             "agreed": "✅ Consentire",
-            "correct": "Ius!",
-            "emoji": "",
-            "wrongUser": ""
+            "correct": "Vernaux!",
+            "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
+            "wrongUser": "Non est tuum captcha!"
         },
         "hello": {
-            "full": "",
-            "restricted": ""
+            "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",
+            "restricted": "Gratias addit ad chat! Ut incipias, me administratoribus adde et iura mihi da epistulas delere et utentes restringere. Posteaquam paratus ero ire!"
         },
-        "migrate": "",
-        "nativeBan": "",
+        "migrate": "Cohors migravit ad supergroup!",
+        "nativeBan": "Native bannum",
         "reactions": {
-            "notify": "",
-            "reason": ""
+            "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
+            "reason": "motus in muta"
         },
         "reputation": {
-            "down": "",
-            "up": ""
+            "down": "Fama reducta!",
+            "up": "Fama auctus!"
         },
         "trigger": {
-            "got": ""
+            "got": "Triggering {{name}} in chat {{title}}: {{text}}"
         }
     },
     "scenes": {
         "addCommand": {
-            "enterCommand": ""
+            "enterCommand": "Intrant mandatum:"
         },
         "addToken": {
-            "created": "",
-            "enterName": ""
+            "created": "Token {{name}} generatae!",
+            "enterName": "Intrant token signum:"
         },
         "addTrigger": {
-            "badwordsRU": "",
-            "enterAction": "",
-            "enterName": "",
-            "enterRegex": ""
+            "badwordsRU": "Lingua obscena(Russica)",
+            "enterAction": "Actionem felis eligere:",
+            "enterName": "Intra nomen felis:",
+            "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):"
         },
         "commands": {
-            "enterText": "",
-            "header": "",
-            "notFound": ""
+            "enterText": "Intra responsum textum:",
+            "header": "Commands is chat {{title}}:",
+            "notFound": "Commands non inventum est!"
         },
         "editCommand": {
-            "editAliases": "",
+            "editAliases": "Edit aliases",
             "editText": "",
             "header": ""
         },
