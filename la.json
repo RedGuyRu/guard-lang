@@ -503,11 +503,11 @@
         },
         "commands": {
             "enterText": "Intra responsum textum:",
-            "header": "",
-            "notFound": ""
+            "header": "Commands is chat {{title}}:",
+            "notFound": "Commands non inventum est!"
         },
         "editCommand": {
-            "editAliases": "",
+            "editAliases": "Edit aliases",
             "editText": "",
             "header": ""
         },
