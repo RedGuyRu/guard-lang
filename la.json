@@ -499,10 +499,10 @@
             "badwordsRU": "Lingua obscena(Russica)",
             "enterAction": "Actionem felis eligere:",
             "enterName": "Intra nomen felis:",
-            "enterRegex": ""
+            "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):"
         },
         "commands": {
-            "enterText": "",
+            "enterText": "Intra responsum textum:",
             "header": "",
             "notFound": ""
         },
