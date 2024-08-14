@@ -113,7 +113,7 @@
             "description": "Хәбәргә репорт җибәрергә",
             "got": "алынган <a href=\"{{reportUrl}}\"> репорт</a> алдыннан<a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> белән<a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}}чатта <a href=\"{{messageUrl}}\">{{title}}</a>",
             "rated": "Рейтинг бирелгән!",
-            "rejerected": "Репорт кире кагылды!",
+            "rejected": "Репорт кире кагылды!",
             "sent": "Репорт җибәрелгән!",
             "sentForDelete": "Хәбәр җибәрелде ({{now}}/{{need}})"
         },

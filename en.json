@@ -113,7 +113,7 @@
             "description": "Report a message",
             "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
             "rated": "Raiting given!",
-            "rejerected": "Report rejerected!",
+            "rejected": "Report rejected!",
             "sent": "Report sent!",
             "sentForDelete": "Report sent! ({{now}}/{{need}})"
         },

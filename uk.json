@@ -113,7 +113,7 @@
             "description": "Відправити репорт на повідомлення",
             "got": "Отримано <a href=\"{{reportUrl}}\">репорт</a> від <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> на <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} в чаті <a href=\"{{messageUrl}}\">{{title}}</a>",
             "rated": "Рейтинг видано!",
-            "rejerected": "Репорт відхилено!",
+            "rejected": "Репорт відхилено!",
             "sent": "Репорт надіслано!",
             "sentForDelete": "Репорт надіслано ({{now}}/{{need}})"
         },
