@@ -508,11 +508,11 @@
         },
         "editCommand": {
             "editAliases": "Edit aliases",
-            "editText": "",
-            "header": ""
+            "editText": "Edere textum",
+            "header": "Commands edere - {{id}}\nAlias:{{aliases}}\n\n{{text}}"
         },
         "editCommandAlias": {
-            "header": ""
+            "header": "Commands edere - {{id}}\nAddere alias, mitte ad chat."
         },
         "editReason": {
             "cancel": ""
