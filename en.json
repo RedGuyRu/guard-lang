@@ -126,7 +126,7 @@
             "header": "Top offenders:"
         },
         "settings": {
-            "anonymos": "Anonymous admin detected, settings sent in chat owner PM!",
+            "anonymous": "Anonymous admin detected, settings sent in chat owner PM!",
             "description": "Opens chat settings",
             "notFound": "Chat not found!",
             "permission": "Not enough permissions to execute this command, you need permission to edit chat!",

@@ -126,7 +126,7 @@
             "header": ""
         },
         "settings": {
-            "anonymos": "Administrator anonymus detectus est, occasus in privatis nuntiis ad dominum chat missi sunt!",
+            "anonymous": "Administrator anonymous detectus est, occasus in privatis nuntiis ad dominum chat missi sunt!",
             "description": "Aperi occasus chat",
             "notFound": "Curabitur non inventus est!",
             "permission": "Non satis iura ad hoc mandatum exequendum, debes chat emendandi!",
