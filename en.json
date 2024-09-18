@@ -282,7 +282,7 @@
             "kick": "Moderator {{user}} kicked user {{restricted}}",
             "mute": "Moderator {{user}} muted user {{restricted}}",
             "note": "Note for {{restricted}} with text \"{{reason}}\" created",
-            "parcipant_id": "Failed to issue a ban at the Telegram API level, the blocking information is saved in the user card.",
+            "participant_id": "Failed to issue a ban at the Telegram API level, the blocking information is saved in the user card.",
             "reason": "with reason \"{{reason}}\"",
             "warn": "Moderator {{user}} warned user {{restricted}}",
             "warns_limit": "warns limit"
@@ -351,6 +351,9 @@
             "customs": {
                 "admins": "/admins commands",
                 "admins_selected": "Specify the mode of operation of the /admins command, the current mode:",
+                "advanced_moders": {
+                    "button": ""
+                },
                 "anon_perm": "Anonymous admins rights",
                 "anon_perm_selected": "Because of how anonymous administrators work in Telegram, the bot doesn't know who sent the message. In this menu you can specify the rights of anonymous administrators.",
                 "anon_perms": {

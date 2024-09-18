@@ -282,7 +282,7 @@
             "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
             "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
             "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
-            "parcipant_id": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
+            "participant_id": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
             "reason": "",
             "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
             "warns_limit": "monitum terminum"
@@ -351,6 +351,9 @@
             "customs": {
                 "admins": "Сommand !admins",
                 "admins_selected": "Specificare modum operandi mandatum !admins, current modus:",
+                "advanced_moders": {
+                    "button": ""
+                },
                 "anon_perm": "Iura anonymous administratores",
                 "anon_perm_selected": "Ob viam anonymi administratores in Telegram operantur, chat nescit qui hunc vel illum nuntium misit. In hoc menu, vos potest specificare iura anonymous administratores.",
                 "anon_perms": {

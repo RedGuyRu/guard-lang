@@ -281,7 +281,7 @@
             "kick": "",
             "mute": "",
             "note": "",
-            "parcipant_id": "",
+            "participant_id": "",
             "reason": "",
             "warn": "",
             "warns_limit": ""
@@ -350,6 +350,9 @@
             "customs": {
                 "admins": "",
                 "admins_selected": "",
+                "advanced_moders": {
+                    "button": ""
+                },
                 "anon_perm": "",
                 "anon_perm_selected": "",
                 "anon_perms": {
