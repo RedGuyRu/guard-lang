@@ -336,6 +336,7 @@
             "category": {
                 "automod": "Auto-modus occasus",
                 "customs": "Aliquam occasus",
+                "permissions": "",
                 "reports": "Querimonia occasus",
                 "special": "Specialis",
                 "warns": "Mone occasus"
@@ -351,9 +352,6 @@
             "customs": {
                 "admins": "Сommand !admins",
                 "admins_selected": "Specificare modum operandi mandatum !admins, current modus:",
-                "advanced_moders": {
-                    "button": ""
-                },
                 "anon_perm": "Iura anonymous administratores",
                 "anon_perm_selected": "Ob viam anonymi administratores in Telegram operantur, chat nescit qui hunc vel illum nuntium misit. In hoc menu, vos potest specificare iura anonymous administratores.",
                 "anon_perms": {
@@ -395,6 +393,13 @@
             "language": {
                 "button": "Lingua",
                 "header": "Linguam eligere ut in chat adhiberi"
+            },
+            "permissions": {
+                "advanced_moders": {
+                    "button": ""
+                },
+                "aware": "",
+                "header": ""
             },
             "reports": {
                 "delete_reports": "Minimum numerus querelis per utentes deletis epistulae",

@@ -335,6 +335,7 @@
             "category": {
                 "automod": "",
                 "customs": "",
+                "permissions": "",
                 "reports": "",
                 "special": "",
                 "warns": ""
@@ -350,9 +351,6 @@
             "customs": {
                 "admins": "",
                 "admins_selected": "",
-                "advanced_moders": {
-                    "button": ""
-                },
                 "anon_perm": "",
                 "anon_perm_selected": "",
                 "anon_perms": {
@@ -393,6 +391,13 @@
             "incorrect_number": "",
             "language": {
                 "button": "",
+                "header": ""
+            },
+            "permissions": {
+                "advanced_moders": {
+                    "button": ""
+                },
+                "aware": "",
                 "header": ""
             },
             "reports": {

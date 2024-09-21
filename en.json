@@ -336,6 +336,7 @@
             "category": {
                 "automod": "Automoderation settings",
                 "customs": "Customization settings",
+                "permissions": "",
                 "reports": "Reporting settings",
                 "special": "Special",
                 "warns": "Warns settings"
@@ -351,9 +352,6 @@
             "customs": {
                 "admins": "/admins commands",
                 "admins_selected": "Specify the mode of operation of the /admins command, the current mode:",
-                "advanced_moders": {
-                    "button": ""
-                },
                 "anon_perm": "Anonymous admins rights",
                 "anon_perm_selected": "Because of how anonymous administrators work in Telegram, the bot doesn't know who sent the message. In this menu you can specify the rights of anonymous administrators.",
                 "anon_perms": {
@@ -395,6 +393,13 @@
             "language": {
                 "button": "Language",
                 "header": "Select language for the chat"
+            },
+            "permissions": {
+                "advanced_moders": {
+                    "button": ""
+                },
+                "aware": "",
+                "header": ""
             },
             "reports": {
                 "delete_reports": "Minimum number of reports from users deleting messages",
