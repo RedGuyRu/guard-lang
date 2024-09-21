@@ -336,7 +336,7 @@
             "category": {
                 "automod": "Automoderation settings",
                 "customs": "Customization settings",
-                "permissions": "",
+                "permissions": "Permissions",
                 "reports": "Reporting settings",
                 "special": "Special",
                 "warns": "Warns settings"
