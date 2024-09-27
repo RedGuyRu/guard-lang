@@ -265,6 +265,11 @@
         },
         "not_set": "",
         "notlinked": "",
+        "permissions": {
+            "reports": "",
+            "restrict": "",
+            "settings": ""
+        },
         "restricted": "",
         "restrictionType": {
             "ban": "",
@@ -286,6 +291,7 @@
             "warn": "",
             "warns_limit": ""
         },
+        "save": "",
         "selector": {
             "admins": "",
             "all": "",
@@ -394,10 +400,37 @@
                 "header": ""
             },
             "permissions": {
+                "admins": {
+                    "button": ""
+                },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "groups": {
+                    "button": "",
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "permissions": ""
+                },
                 "header": ""
             },
             "reports": {

@@ -266,6 +266,11 @@
         },
         "not_set": "not set",
         "notlinked": "not linked",
+        "permissions": {
+            "reports": "",
+            "restrict": "",
+            "settings": ""
+        },
         "restricted": "Insufficient rights to execute this command!",
         "restrictionType": {
             "ban": "ban",
@@ -287,6 +292,7 @@
             "warn": "Moderator {{user}} warned user {{restricted}}",
             "warns_limit": "warns limit"
         },
+        "save": "",
         "selector": {
             "admins": "Administrators",
             "all": "All users",
@@ -395,10 +401,37 @@
                 "header": "Select language for the chat"
             },
             "permissions": {
+                "admins": {
+                    "button": ""
+                },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "groups": {
+                    "button": "",
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "permissions": ""
+                },
                 "header": ""
             },
             "reports": {

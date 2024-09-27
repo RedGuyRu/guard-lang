@@ -266,6 +266,11 @@
         },
         "not_set": "non installatur",
         "notlinked": "non coniunctum",
+        "permissions": {
+            "reports": "",
+            "restrict": "",
+            "settings": ""
+        },
         "restricted": "Non satis sunt permissiones ad hoc mandatum faciendum!",
         "restrictionType": {
             "ban": "ban",
@@ -287,6 +292,7 @@
             "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
             "warns_limit": "monitum terminum"
         },
+        "save": "",
         "selector": {
             "admins": "Administratores",
             "all": "Omnes participes",
@@ -395,10 +401,37 @@
                 "header": "Linguam eligere ut in chat adhiberi"
             },
             "permissions": {
+                "admins": {
+                    "button": ""
+                },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "groups": {
+                    "button": "",
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "permissions": ""
+                },
                 "header": ""
             },
             "reports": {

@@ -266,6 +266,11 @@
         },
         "not_set": "не встановлено",
         "notlinked": "не прив'язано",
+        "permissions": {
+            "reports": "",
+            "restrict": "",
+            "settings": ""
+        },
         "restricted": "Недостатньо прав для виконання цієї команди!",
         "restrictionType": {
             "ban": "бан",
@@ -287,6 +292,7 @@
             "warn": "Модератор {{user}} видав попередження користувачу {{restricted}} з причини \"{{reason}}\" ({{warns}}/{{max_warns}})",
             "warns_limit": "ліміт попереджень"
         },
+        "save": "",
         "selector": {
             "admins": "Адміністратори",
             "all": "Всі учасники",
@@ -395,10 +401,37 @@
                 "header": "Виберіть мову, яка буде використовуватися в чаті"
             },
             "permissions": {
+                "admins": {
+                    "button": ""
+                },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "groups": {
+                    "button": "",
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "permissions": ""
+                },
                 "header": ""
             },
             "reports": {

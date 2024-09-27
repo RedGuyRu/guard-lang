@@ -266,6 +266,11 @@
         },
         "not_set": "билгеләнмәгән",
         "notlinked": "бәйләнмәгән",
+        "permissions": {
+            "reports": "",
+            "restrict": "",
+            "settings": ""
+        },
         "restricted": "Бу команданы үтәү өчен хокуклар җитәрлек түгел!",
         "restrictionType": {
             "ban": "блокировка",
@@ -287,6 +292,7 @@
             "warn": "Модератор {{user}} Кулланучыга кисәтү биргән {{restricted}}",
             "warns_limit": "кисәтүләр лимиты"
         },
+        "save": "",
         "selector": {
             "admins": "Администраторлар",
             "all": "Барлык катнашучылар",
@@ -395,10 +401,37 @@
                 "header": "Чатта кулланылачак телне сайлагыз"
             },
             "permissions": {
+                "admins": {
+                    "button": ""
+                },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "groups": {
+                    "button": "",
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "permissions": ""
+                },
                 "header": ""
             },
             "reports": {
