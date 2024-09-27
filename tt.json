@@ -402,12 +402,22 @@
             },
             "permissions": {
                 "admins": {
-                    "button": ""
+                    "add": "",
+                    "adding": "",
+                    "button": "",
+                    "edit": {
+                        "change_group": "",
+                        "changing_group": "",
+                        "header": ""
+                    },
+                    "group": "",
+                    "header": ""
                 },
                 "advanced_moders": {
                     "button": ""
                 },
                 "aware": "",
+                "fake_group": "",
                 "groups": {
                     "button": "",
                     "create": {
