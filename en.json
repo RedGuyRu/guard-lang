@@ -267,9 +267,9 @@
         "not_set": "not set",
         "notlinked": "not linked",
         "permissions": {
-            "reports": "",
-            "restrict": "",
-            "settings": ""
+            "reports": "Manage reports",
+            "restrict": "Manage restrictions",
+            "settings": "Manage chat settings"
         },
         "restricted": "Insufficient rights to execute this command!",
         "restrictionType": {
@@ -292,7 +292,7 @@
             "warn": "Moderator {{user}} warned user {{restricted}}",
             "warns_limit": "warns limit"
         },
-        "save": "",
+        "save": "save",
         "selector": {
             "admins": "Administrators",
             "all": "All users",
@@ -402,47 +402,47 @@
             },
             "permissions": {
                 "admins": {
-                    "add": "",
-                    "adding": "",
-                    "button": "",
+                    "add": "Add admin",
+                    "adding": "Select user(s)",
+                    "button": "Chat moders",
                     "edit": {
-                        "change_group": "",
-                        "changing_group": "",
-                        "header": ""
+                        "change_group": "Chage group",
+                        "changing_group": "Select group for this admin",
+                        "header": "Editing admin {{name}}"
                     },
-                    "group": "",
-                    "header": ""
+                    "group": "Select group for new admins",
+                    "header": "Permissions settings in chat {{title}}"
                 },
                 "advanced_moders": {
-                    "button": ""
+                    "button": "Advanced admins system"
                 },
-                "aware": "",
-                "fake_group": "",
+                "aware": "WARNING, changing settings in this section may suspend your privileges, it is recommended to make changes from the account of the chat owner.",
+                "fake_group": "No group",
                 "groups": {
-                    "button": "",
+                    "button": "Permission groups",
                     "create": {
-                        "button": "",
-                        "header": "",
-                        "priority": ""
+                        "button": "Create group",
+                        "header": "Send group name:",
+                        "priority": "Specify the priority of the group, 0 - the highest one"
                     },
                     "edit": {
-                        "header": "",
+                        "header": "Editing group {{name}}",
                         "name": {
-                            "button": "",
-                            "header": ""
+                            "button": "Change name",
+                            "header": "Send new group name:"
                         },
                         "permissions": {
-                            "button": ""
+                            "button": "Change permissions"
                         },
                         "priority": {
-                            "button": "",
-                            "header": ""
+                            "button": "Change priority",
+                            "header": "Send new group priority:"
                         }
                     },
-                    "header": "",
-                    "permissions": ""
+                    "header": "Group permissions settings in chat {{title}}",
+                    "permissions": "Permissions of group {{name}}:"
                 },
-                "header": ""
+                "header": "Permissions settings in chat {{title}}"
             },
             "reports": {
                 "delete_reports": "Minimum number of reports from users deleting messages",
