@@ -412,7 +412,7 @@
                         "header": "Editing admin {{name}}"
                     },
                     "group": "Select group for new admins",
-                    "header": "Permissions settings in chat {{title}}"
+                    "header": "Admins permissions settings in chat {{title}}"
                 },
                 "advanced_moders": {
                     "button": "Advanced admins system"
