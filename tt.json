@@ -247,6 +247,9 @@
         "disabled": "сүндерелгән",
         "edit": "Редакцияләү",
         "enabled": "кушылган",
+        "errors": {
+            "cooldown": ""
+        },
         "infinity": "мәңге",
         "intervals": {
             "day": "көн",

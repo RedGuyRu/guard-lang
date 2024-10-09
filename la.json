@@ -247,6 +247,9 @@
         "disabled": "turned off",
         "edit": "Edit",
         "enabled": "enabled",
+        "errors": {
+            "cooldown": ""
+        },
         "infinity": "forever",
         "intervals": {
             "day": "days",

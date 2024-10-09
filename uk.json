@@ -247,6 +247,9 @@
         "disabled": "вимкнено",
         "edit": "Редагувати",
         "enabled": "увімкнено",
+        "errors": {
+            "cooldown": ""
+        },
         "infinity": "вічно",
         "intervals": {
             "day": "дн",

@@ -246,6 +246,9 @@
         "disabled": "",
         "edit": "",
         "enabled": "",
+        "errors": {
+            "cooldown": ""
+        },
         "infinity": "",
         "intervals": {
             "day": "",
