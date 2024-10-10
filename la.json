@@ -129,6 +129,7 @@
             "anonymous": "Administrator anonymous detectus est, occasus in privatis nuntiis ad dominum chat missi sunt!",
             "description": "Aperi occasus chat",
             "notFound": "Curabitur non inventus est!",
+            "notSent": "",
             "permission": "Non satis iura ad hoc mandatum exequendum, debes chat emendandi!",
             "sent": "Uncinis privatis nuntiis missi sunt!"
         },

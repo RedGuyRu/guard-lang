@@ -129,6 +129,7 @@
             "anonymous": "Anonymous admin detected, settings sent in chat owner PM!",
             "description": "Opens chat settings",
             "notFound": "Chat not found!",
+            "notSent": "I couldn't send the settings, send /start in private messages and try again.",
             "permission": "Not enough permissions to execute this command, you need permission to edit chat!",
             "sent": "Settings sent in PM!"
         },
