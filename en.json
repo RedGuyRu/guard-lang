@@ -126,7 +126,7 @@
             "header": "Top offenders:"
         },
         "settings": {
-            "anonymous": "Anonymous admin detected, settings sent in chat owner PM!",
+            "anonymous": "Click on button to open settings!",
             "description": "Opens chat settings",
             "notFound": "Chat not found!",
             "notSent": "I couldn't send the settings, send /start in private messages and try again.",
