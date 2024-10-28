@@ -395,6 +395,10 @@
                 "reactions": "",
                 "reputation": "",
                 "reputation_selected": "",
+                "statisticsRange": {
+                    "button": "",
+                    "selected": ""
+                },
                 "tokens": ""
             },
             "header": "",

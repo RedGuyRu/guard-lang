@@ -396,6 +396,10 @@
                 "reactions": "Reactiones in responsione",
                 "reputation": "Systema fama",
                 "reputation_selected": "Praesentiam famae systematis in chat eligere {{title}}, current significatio:",
+                "statisticsRange": {
+                    "button": "",
+                    "selected": ""
+                },
                 "tokens": "Signa"
             },
             "header": "Chat occasus {{title}}",

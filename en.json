@@ -396,6 +396,10 @@
                 "reactions": "Reactions callback",
                 "reputation": "Reputation system",
                 "reputation_selected": "Select the presence of a reputation system in chat {{title}}, current value:",
+                "statisticsRange": {
+                    "button": "Statistics range",
+                    "selected": "Enter interval for statistics showing in top commands, current value:"
+                },
                 "tokens": "Tokens"
             },
             "header": "Settings of {{title}} chat",

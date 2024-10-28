@@ -396,6 +396,10 @@
                 "reactions": "Җавапка реакцияләр",
                 "reputation": "Репутация системасы",
                 "reputation_selected": "{{title}} чатында Репутация системасы булуын сайлагыз, хәзерге кыйммәте:",
+                "statisticsRange": {
+                    "button": "",
+                    "selected": ""
+                },
                 "tokens": "Токеннар"
             },
             "header": "Чат көйләүләре {{title}}",

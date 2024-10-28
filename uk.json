@@ -396,6 +396,10 @@
                 "reactions": "Реакції у відповідь",
                 "reputation": "Система репутації",
                 "reputation_selected": "Виберіть наявність системи репутації в чаті {{title}}, поточне значення:",
+                "statisticsRange": {
+                    "button": "",
+                    "selected": ""
+                },
                 "tokens": "Токени"
             },
             "header": "Налаштування чату {{title}}",
