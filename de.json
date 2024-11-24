@@ -310,44 +310,34 @@
                 "cas": {
                     "name": ""
                 },
-                "casSelected": "",
                 "contacts": {
                     "name": ""
                 },
-                "contactsSelected": "",
                 "delStickers": {
                     "name": ""
                 },
-                "delStickersSelected": "",
                 "deleteCommands": {
                     "name": ""
                 },
-                "deleteCommandsSelected": "",
                 "flood": {
                     "name": ""
                 },
-                "floodSelected": "",
                 "games": {
                     "name": ""
                 },
-                "gamesSelected": "",
                 "gas": {
                     "name": ""
                 },
-                "gasSelected": "",
                 "header": "",
                 "location": {
                     "name": ""
                 },
-                "locationSelected": "",
                 "muteOnPermission": {
                     "name": ""
                 },
-                "muteOnPermissionSelected": "",
                 "newbieRestrictions": {
                     "name": ""
                 },
-                "newbie_restrictions_selected": "",
                 "reactionsUntilBan": {
                     "name": ""
                 },
@@ -364,7 +354,6 @@
                 "stories": {
                     "name": ""
                 },
-                "stories_selected": "",
                 "trigger": {
                     "name": ""
                 }

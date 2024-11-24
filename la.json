@@ -311,44 +311,34 @@
                 "cas": {
                     "name": "Reactionem ad CAS-ban"
                 },
-                "casSelected": "Lego responsionis modus CAS-ban in chat{{title}}, current significatio:",
                 "contacts": {
                     "name": "Contactus moderatio"
                 },
-                "contactsSelected": "Lego modum moderationis contactus in chat {{title}}, current significatione:",
                 "delStickers": {
                     "name": "Removere stickers"
                 },
-                "delStickersSelected": "Выберите типы стикеров, которые нужно удалить в чате {{title}}",
                 "deleteCommands": {
                     "name": "Alia mandata delere"
                 },
-                "deleteCommandsSelected": "Lego modus delendo aliud chat imperium {{title}}, current significatio:",
                 "flood": {
                     "name": "Spam moderatione"
                 },
-                "floodSelected": "Modus eligere moderatio nom du chat {{title}}, current significatio:",
                 "games": {
                     "name": "Ludus moderatio"
                 },
-                "gamesSelected": "Lego ludum modum moderationis in chat {{title}}, current significatio:",
                 "gas": {
                     "name": "Reactionem ad GAS-bannum"
                 },
-                "gasSelected": "Lego responsionis modus GAS-bannum in chat {{title}}, current significatio:",
                 "header": "Lorem chat moderatio occasus {{title}}",
                 "location": {
                     "name": "Moderatio locorum"
                 },
-                "locationSelected": "Lego locum modum moderationis in chat {{title}}, current significatio:",
                 "muteOnPermission": {
                     "name": "Duratio restrictiones cum moderatione utens mandata"
                 },
-                "muteOnPermissionSelected": "Intrant durationem restrictionis cum utens moderatione mandatorum in chat {{title}}, current significatio:",
                 "newbieRestrictions": {
                     "name": "Durationem inceptor restrictiones"
                 },
-                "newbie_restrictions_selected": "Intrant durationem restrictiones newbie in chat {{title}}, current significatio:",
                 "reactionsUntilBan": {
                     "name": "Reactiones ante banum"
                 },
@@ -365,7 +355,6 @@
                 "stories": {
                     "name": "Moderatio fabulis"
                 },
-                "stories_selected": "Lego modus moderatio fabulis in chat {{title}}, current significatio:",
                 "trigger": {
                     "name": "Triggers"
                 }

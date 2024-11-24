@@ -311,44 +311,34 @@
                 "cas": {
                     "name": "Reaction on CAS-ban"
                 },
-                "casSelected": "Select the mode of reaction to a CAS ban in chat {{title}}, current value:",
                 "contacts": {
                     "name": "Contacts moderation"
                 },
-                "contactsSelected": "Select the mode of reaction to a contacts in chat {{title}}, current value:",
                 "delStickers": {
                     "name": "Sticker deletion"
                 },
-                "delStickersSelected": "Select the sticker categories to be deleted in the chat {{title}}",
                 "deleteCommands": {
                     "name": "Delete others commands"
                 },
-                "deleteCommandsSelected": "Select the mode to remove other commands in chat {{title}}, current value:",
                 "flood": {
                     "name": "Flood moderation"
                 },
-                "floodSelected": "Select the chat flood moderation mode {{title}}, current value:",
                 "games": {
                     "name": "Games moderation"
                 },
-                "gamesSelected": "Select the games moderation mode in chat {{title}}, current value:",
                 "gas": {
                     "name": "Reaction on GAS-ban"
                 },
-                "gasSelected": "Select the mode of reaction to a GAS ban in chat {{title}}, current value:",
                 "header": "Automatic moderation settings in chat {{title}}",
                 "location": {
                     "name": "Location moderation"
                 },
-                "locationSelected": "Select the location moderation mode in chat {{title}}, current value:",
                 "muteOnPermission": {
                     "name": "Mute duration when trying to use moderation commands"
                 },
-                "muteOnPermissionSelected": "Enter the mut duration when using moderation commands in chat {{title}}, current value:",
                 "newbieRestrictions": {
                     "name": "Duration of beginner's restrictions"
                 },
-                "newbie_restrictions_selected": "Enter the duration of beginner's restrictions in chat {{title}}, current value:",
                 "reactionsUntilBan": {
                     "name": "Reactions until ban"
                 },
@@ -365,7 +355,6 @@
                 "stories": {
                     "name": "Moderation of stories"
                 },
-                "stories_selected": "Select the moderation mode of stories in chat {{title}}, current value:",
                 "trigger": {
                     "name": "Triggers"
                 }
