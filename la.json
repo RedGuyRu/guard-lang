@@ -253,11 +253,11 @@
         },
         "infinity": "forever",
         "intervals": {
-            "day": "days",
-            "hour": "hora",
-            "minutes": "minuta",
-            "month": "mensis",
-            "year": "annus"
+            "M": "mensis",
+            "d": "days",
+            "h": "hora",
+            "m": "minuta",
+            "y": "annus"
         },
         "modRule": {
             "ban": "Obstructionum",
@@ -308,28 +308,50 @@
         "settings": {
             "audit": "Audit",
             "automod": {
-                "cas": "Reactionem ad CAS-ban",
+                "cas": {
+                    "name": "Reactionem ad CAS-ban"
+                },
                 "casSelected": "Lego responsionis modus CAS-ban in chat{{title}}, current significatio:",
-                "contacts": "Contactus moderatio",
+                "contacts": {
+                    "name": "Contactus moderatio"
+                },
                 "contactsSelected": "Lego modum moderationis contactus in chat {{title}}, current significatione:",
-                "delStickers": "Removere stickers",
+                "delStickers": {
+                    "name": "Removere stickers"
+                },
                 "delStickersSelected": "Выберите типы стикеров, которые нужно удалить в чате {{title}}",
-                "deleteCommands": "Alia mandata delere",
+                "deleteCommands": {
+                    "name": "Alia mandata delere"
+                },
                 "deleteCommandsSelected": "Lego modus delendo aliud chat imperium {{title}}, current significatio:",
-                "flood": "Spam moderatione",
+                "flood": {
+                    "name": "Spam moderatione"
+                },
                 "floodSelected": "Modus eligere moderatio nom du chat {{title}}, current significatio:",
-                "games": "Ludus moderatio",
+                "games": {
+                    "name": "Ludus moderatio"
+                },
                 "gamesSelected": "Lego ludum modum moderationis in chat {{title}}, current significatio:",
-                "gas": "Reactionem ad GAS-bannum",
+                "gas": {
+                    "name": "Reactionem ad GAS-bannum"
+                },
                 "gasSelected": "Lego responsionis modus GAS-bannum in chat {{title}}, current significatio:",
                 "header": "Lorem chat moderatio occasus {{title}}",
-                "location": "Moderatio locorum",
+                "location": {
+                    "name": "Moderatio locorum"
+                },
                 "locationSelected": "Lego locum modum moderationis in chat {{title}}, current significatio:",
-                "muteOnPermission": "Duratio restrictiones cum moderatione utens mandata",
+                "muteOnPermission": {
+                    "name": "Duratio restrictiones cum moderatione utens mandata"
+                },
                 "muteOnPermissionSelected": "Intrant durationem restrictionis cum utens moderatione mandatorum in chat {{title}}, current significatio:",
-                "newbie_restrictions": "Durationem inceptor restrictiones",
+                "newbieRestrictions": {
+                    "name": "Durationem inceptor restrictiones"
+                },
                 "newbie_restrictions_selected": "Intrant durationem restrictiones newbie in chat {{title}}, current significatio:",
-                "reactions_until_ban": "Reactiones ante banum",
+                "reactionsUntilBan": {
+                    "name": "Reactiones ante banum"
+                },
                 "stickers": {
                     "animal_abuse": "Tortura animalis",
                     "blood": "Sanguis et violentia",
@@ -340,9 +362,13 @@
                     "porn": "Pornographia",
                     "swearing": "Lingua obscena"
                 },
-                "stories": "Moderatio fabulis",
+                "stories": {
+                    "name": "Moderatio fabulis"
+                },
                 "stories_selected": "Lego modus moderatio fabulis in chat {{title}}, current significatio:",
-                "trigger": "Triggers"
+                "trigger": {
+                    "name": "Triggers"
+                }
             },
             "category": {
                 "automod": "Auto-modus occasus",
@@ -352,6 +378,7 @@
                 "special": "Specialis",
                 "warns": "Mone occasus"
             },
+            "changing": "",
             "channels": {
                 "admins": "Administratores chat",
                 "admins_selected": "Vinculum admin chat ad chat {{title}}",

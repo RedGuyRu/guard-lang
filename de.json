@@ -252,11 +252,11 @@
         },
         "infinity": "",
         "intervals": {
-            "day": "",
-            "hour": "",
-            "minutes": "",
-            "month": "",
-            "year": ""
+            "M": "",
+            "d": "",
+            "h": "",
+            "m": "",
+            "y": ""
         },
         "modRule": {
             "ban": "",
@@ -307,28 +307,50 @@
         "settings": {
             "audit": "",
             "automod": {
-                "cas": "",
+                "cas": {
+                    "name": ""
+                },
                 "casSelected": "",
-                "contacts": "",
+                "contacts": {
+                    "name": ""
+                },
                 "contactsSelected": "",
-                "delStickers": "",
+                "delStickers": {
+                    "name": ""
+                },
                 "delStickersSelected": "",
-                "deleteCommands": "",
+                "deleteCommands": {
+                    "name": ""
+                },
                 "deleteCommandsSelected": "",
-                "flood": "",
+                "flood": {
+                    "name": ""
+                },
                 "floodSelected": "",
-                "games": "",
+                "games": {
+                    "name": ""
+                },
                 "gamesSelected": "",
-                "gas": "",
+                "gas": {
+                    "name": ""
+                },
                 "gasSelected": "",
                 "header": "",
-                "location": "",
+                "location": {
+                    "name": ""
+                },
                 "locationSelected": "",
-                "muteOnPermission": "",
+                "muteOnPermission": {
+                    "name": ""
+                },
                 "muteOnPermissionSelected": "",
-                "newbie_restrictions": "",
+                "newbieRestrictions": {
+                    "name": ""
+                },
                 "newbie_restrictions_selected": "",
-                "reactions_until_ban": "",
+                "reactionsUntilBan": {
+                    "name": ""
+                },
                 "stickers": {
                     "animal_abuse": "",
                     "blood": "",
@@ -339,9 +361,13 @@
                     "porn": "",
                     "swearing": ""
                 },
-                "stories": "",
+                "stories": {
+                    "name": ""
+                },
                 "stories_selected": "",
-                "trigger": ""
+                "trigger": {
+                    "name": ""
+                }
             },
             "category": {
                 "automod": "",
@@ -351,6 +377,7 @@
                 "special": "",
                 "warns": ""
             },
+            "changing": "",
             "channels": {
                 "admins": "",
                 "admins_selected": "",

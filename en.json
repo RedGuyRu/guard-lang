@@ -253,11 +253,11 @@
         },
         "infinity": "infinity",
         "intervals": {
-            "day": "day",
-            "hour": "hr",
-            "minutes": "min",
-            "month": "mon",
-            "year": "year"
+            "M": "mon",
+            "d": "day",
+            "h": "hr",
+            "m": "min",
+            "y": "year"
         },
         "modRule": {
             "ban": "Ban",
@@ -308,28 +308,50 @@
         "settings": {
             "audit": "Audit",
             "automod": {
-                "cas": "Reaction on CAS-ban",
+                "cas": {
+                    "name": "Reaction on CAS-ban"
+                },
                 "casSelected": "Select the mode of reaction to a CAS ban in chat {{title}}, current value:",
-                "contacts": "Contacts moderation",
+                "contacts": {
+                    "name": "Contacts moderation"
+                },
                 "contactsSelected": "Select the mode of reaction to a contacts in chat {{title}}, current value:",
-                "delStickers": "Sticker deletion",
+                "delStickers": {
+                    "name": "Sticker deletion"
+                },
                 "delStickersSelected": "Select the sticker categories to be deleted in the chat {{title}}",
-                "deleteCommands": "Delete others commands",
+                "deleteCommands": {
+                    "name": "Delete others commands"
+                },
                 "deleteCommandsSelected": "Select the mode to remove other commands in chat {{title}}, current value:",
-                "flood": "Flood moderation",
+                "flood": {
+                    "name": "Flood moderation"
+                },
                 "floodSelected": "Select the chat flood moderation mode {{title}}, current value:",
-                "games": "Games moderation",
+                "games": {
+                    "name": "Games moderation"
+                },
                 "gamesSelected": "Select the games moderation mode in chat {{title}}, current value:",
-                "gas": "Reaction on GAS-ban",
+                "gas": {
+                    "name": "Reaction on GAS-ban"
+                },
                 "gasSelected": "Select the mode of reaction to a GAS ban in chat {{title}}, current value:",
                 "header": "Automatic moderation settings in chat {{title}}",
-                "location": "Location moderation",
+                "location": {
+                    "name": "Location moderation"
+                },
                 "locationSelected": "Select the location moderation mode in chat {{title}}, current value:",
-                "muteOnPermission": "Mute duration when trying to use moderation commands",
+                "muteOnPermission": {
+                    "name": "Mute duration when trying to use moderation commands"
+                },
                 "muteOnPermissionSelected": "Enter the mut duration when using moderation commands in chat {{title}}, current value:",
-                "newbie_restrictions": "Duration of beginner's restrictions",
+                "newbieRestrictions": {
+                    "name": "Duration of beginner's restrictions"
+                },
                 "newbie_restrictions_selected": "Enter the duration of beginner's restrictions in chat {{title}}, current value:",
-                "reactions_until_ban": "Reactions until ban",
+                "reactionsUntilBan": {
+                    "name": "Reactions until ban"
+                },
                 "stickers": {
                     "animal_abuse": "Animal abuse",
                     "blood": "Blood and abuse",
@@ -340,9 +362,13 @@
                     "porn": "Porn and Child porn",
                     "swearing": "Swearing"
                 },
-                "stories": "Moderation of stories",
+                "stories": {
+                    "name": "Moderation of stories"
+                },
                 "stories_selected": "Select the moderation mode of stories in chat {{title}}, current value:",
-                "trigger": "Triggers"
+                "trigger": {
+                    "name": "Triggers"
+                }
             },
             "category": {
                 "automod": "Automoderation settings",
@@ -352,6 +378,7 @@
                 "special": "Special",
                 "warns": "Warns settings"
             },
+            "changing": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
             "channels": {
                 "admins": "Admins chat",
                 "admins_selected": "Linking admins chat in chat {{title}}",
