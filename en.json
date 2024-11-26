@@ -447,22 +447,21 @@
                 "admins": {
                     "add": "Add admin",
                     "adding": "Select user(s)",
-                    "button": "Chat moders",
                     "edit": {
                         "change_group": "Chage group",
                         "changing_group": "Select group for this admin",
                         "header": "Editing admin {{name}}"
                     },
                     "group": "Select group for new admins",
-                    "header": "Admins permissions settings in chat {{title}}"
+                    "header": "Admins permissions settings in chat {{title}}",
+                    "name": "Chat moders"
                 },
-                "advanced_moders": {
-                    "button": "Advanced admins system"
+                "advancedModers": {
+                    "name": "Advanced admins system"
                 },
-                "aware": "WARNING, changing settings in this section may suspend your privileges, it is recommended to make changes from the account of the chat owner.",
+                "description": "WARNING, changing settings in this section may suspend your privileges, it is recommended to make changes from the account of the chat owner.",
                 "fake_group": "No group",
                 "groups": {
-                    "button": "Permission groups",
                     "create": {
                         "button": "Create group",
                         "header": "Send group name:",
@@ -483,6 +482,7 @@
                         }
                     },
                     "header": "Group permissions settings in chat {{title}}",
+                    "name": "Permission groups",
                     "permissions": "Permissions of group {{name}}:"
                 },
                 "header": "Permissions settings in chat {{title}}"

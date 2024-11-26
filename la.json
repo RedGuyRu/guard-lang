@@ -447,22 +447,21 @@
                 "admins": {
                     "add": "",
                     "adding": "",
-                    "button": "",
                     "edit": {
                         "change_group": "",
                         "changing_group": "",
                         "header": ""
                     },
                     "group": "",
-                    "header": ""
+                    "header": "",
+                    "name": ""
                 },
-                "advanced_moders": {
-                    "button": ""
+                "advancedModers": {
+                    "name": ""
                 },
-                "aware": "",
+                "description": "",
                 "fake_group": "",
                 "groups": {
-                    "button": "",
                     "create": {
                         "button": "",
                         "header": "",
@@ -483,6 +482,7 @@
                         }
                     },
                     "header": "",
+                    "name": "",
                     "permissions": ""
                 },
                 "header": ""
