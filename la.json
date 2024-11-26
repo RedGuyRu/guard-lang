@@ -377,46 +377,64 @@
                 "triggers_selected": "Channel binding triggers in chat {{title}}"
             },
             "customs": {
-                "admins": "Сommand !admins",
-                "admins_selected": "Specificare modum operandi mandatum !admins, current modus:",
-                "anon_perm": "Iura anonymous administratores",
-                "anon_perm_selected": "Ob viam anonymi administratores in Telegram operantur, chat nescit qui hunc vel illum nuntium misit. In hoc menu, vos potest specificare iura anonymous administratores.",
+                "admins": {
+                    "name": "Сommand !admins"
+                },
+                "anonPerm": {
+                    "menu": "",
+                    "name": "Iura anonymous administratores"
+                },
                 "anon_perms": {
                     "restrict": "Issuance limitations"
                 },
                 "captcha": {
                     "agree": "Concordia",
-                    "title": "Captcha"
+                    "name": "Captcha"
                 },
-                "captcha_selected": "Lego captcha genus in chat {{title}}, current significatio:",
-                "channel_post": "Textus sub poste",
-                "channel_post_selected": "Intrant textum primi nuntii sub cursore chat {{title}}, current significatio:",
-                "channels": "Channel binding",
-                "channels_selected": "Curabitur channel binding occasus {{title}}",
-                "commands": "Consuetudo commands",
+                "channelPost": {
+                    "name": "Textus sub poste"
+                },
+                "channels": {
+                    "menu": "",
+                    "name": "Channel binding"
+                },
+                "commands": {
+                    "name": "Consuetudo commands"
+                },
                 "commands_mode": {
-                    "moderation": "Reactionem command moderatio",
-                    "moderation_selected": "Elige quis moderatiocommands respondeat in chat {{title}}, current significatio:",
-                    "others": "Reactionem aliorum commands",
-                    "others_selected": "Elige quis alius chat mandata respondebit {{title}}, current significatio:",
-                    "raid": "Reactionem ad incursio commands",
-                    "raid_selected": "Elige qui escensio commands respondebit in chat {{title}}, current significatio:"
+                    "moderation": {
+                        "name": "Reactionem command moderatio"
+                    },
+                    "others": {
+                        "name": "Reactionem aliorum commands"
+                    },
+                    "raid": {
+                        "name": "Reactionem ad incursio commands"
+                    }
                 },
-                "extended_modtop": "Provectus modtop",
-                "extended_modtop_selected": "Provectus modtop modum eligere in chat {{title}}, current significatio:",
-                "greeting": "Salvete",
-                "greeting_selected": "Привет в чате {{title}}, ad novum instituendum, textum suum mitte:",
+                "extendedModtop": {
+                    "name": "Provectus modtop"
+                },
+                "greeting": {
+                    "name": "Salvete"
+                },
                 "header": "Customization occasus in chat {{title}}",
-                "modtop": "Aditus ad modtop",
-                "modtop_selected": "Aditus ad eligere modtop in chat {{title}}, current significatio:",
-                "reactions": "Reactiones in responsione",
-                "reputation": "Systema fama",
-                "reputation_selected": "Praesentiam famae systematis in chat eligere {{title}}, current significatio:",
+                "modtop": {
+                    "name": "Aditus ad modtop"
+                },
+                "reactions": {
+                    "name": "Reactiones in responsione"
+                },
+                "reputation": {
+                    "name": "Systema fama"
+                },
                 "statisticsRange": {
-                    "button": "",
+                    "name": "",
                     "selected": ""
                 },
-                "tokens": "Signa"
+                "tokens": {
+                    "name": "Signa"
+                }
             },
             "header": "Chat occasus {{title}}",
             "incorrect_interval": "Valor invalidus, intrant intervallum",

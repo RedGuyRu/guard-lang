@@ -376,46 +376,64 @@
                 "triggers_selected": ""
             },
             "customs": {
-                "admins": "",
-                "admins_selected": "",
-                "anon_perm": "",
-                "anon_perm_selected": "",
+                "admins": {
+                    "name": ""
+                },
+                "anonPerm": {
+                    "menu": "",
+                    "name": ""
+                },
                 "anon_perms": {
                     "restrict": ""
                 },
                 "captcha": {
                     "agree": "",
-                    "title": ""
+                    "name": ""
                 },
-                "captcha_selected": "",
-                "channel_post": "",
-                "channel_post_selected": "",
-                "channels": "",
-                "channels_selected": "",
-                "commands": "",
+                "channelPost": {
+                    "name": ""
+                },
+                "channels": {
+                    "menu": "",
+                    "name": ""
+                },
+                "commands": {
+                    "name": ""
+                },
                 "commands_mode": {
-                    "moderation": "",
-                    "moderation_selected": "",
-                    "others": "",
-                    "others_selected": "",
-                    "raid": "",
-                    "raid_selected": ""
+                    "moderation": {
+                        "name": ""
+                    },
+                    "others": {
+                        "name": ""
+                    },
+                    "raid": {
+                        "name": ""
+                    }
                 },
-                "extended_modtop": "",
-                "extended_modtop_selected": "",
-                "greeting": "",
-                "greeting_selected": "",
+                "extendedModtop": {
+                    "name": ""
+                },
+                "greeting": {
+                    "name": ""
+                },
                 "header": "",
-                "modtop": "",
-                "modtop_selected": "",
-                "reactions": "",
-                "reputation": "",
-                "reputation_selected": "",
+                "modtop": {
+                    "name": ""
+                },
+                "reactions": {
+                    "name": ""
+                },
+                "reputation": {
+                    "name": ""
+                },
                 "statisticsRange": {
-                    "button": "",
+                    "name": "",
                     "selected": ""
                 },
-                "tokens": ""
+                "tokens": {
+                    "name": ""
+                }
             },
             "header": "",
             "incorrect_interval": "",

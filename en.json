@@ -377,46 +377,64 @@
                 "triggers_selected": "Linking triggers channel in chat {{title}}"
             },
             "customs": {
-                "admins": "/admins commands",
-                "admins_selected": "Specify the mode of operation of the /admins command, the current mode:",
-                "anon_perm": "Anonymous admins rights",
-                "anon_perm_selected": "Because of how anonymous administrators work in Telegram, the bot doesn't know who sent the message. In this menu you can specify the rights of anonymous administrators.",
+                "admins": {
+                    "name": "/admins commands"
+                },
+                "anonPerm": {
+                    "menu": "",
+                    "name": "Anonymous admins rights"
+                },
                 "anon_perms": {
                     "restrict": "Users restriction"
                 },
                 "captcha": {
                     "agree": "Agree",
-                    "title": "Captcha"
+                    "name": "Captcha"
                 },
-                "captcha_selected": "Select the type of captcha in chat {{title}}, current value:",
-                "channel_post": "First comment text",
-                "channel_post_selected": "Send first comment text in chat {{title}}, current:",
-                "channels": "Channel linking",
-                "channels_selected": "Channel linking settings in chat {{title}}",
-                "commands": "Custom commands",
+                "channelPost": {
+                    "name": "First comment text"
+                },
+                "channels": {
+                    "menu": "",
+                    "name": "Channel linking"
+                },
+                "commands": {
+                    "name": "Custom commands"
+                },
                 "commands_mode": {
-                    "moderation": "Moderation commands reaction",
-                    "moderation_selected": "Select who will be responded to by moderation commands in chat {{title}}, current value:",
-                    "others": "Other commands reaction",
-                    "others_selected": "Select who will be responded to by other commands in chat {{title}}, current value:",
-                    "raid": "Raid command reaction",
-                    "raid_selected": "Select who will be responded to by raid commands in {{title}} chat, current value:"
+                    "moderation": {
+                        "name": "Moderation commands reaction"
+                    },
+                    "others": {
+                        "name": "Other commands reaction"
+                    },
+                    "raid": {
+                        "name": "Raid command reaction"
+                    }
                 },
-                "extended_modtop": "Extended modtop",
-                "extended_modtop_selected": "Select extended modtop mode in chat {{title}}, current:",
-                "greeting": "Greeting",
-                "greeting_selected": "Greeting in chat {{title}}, to set new one, send their text:",
+                "extendedModtop": {
+                    "name": "Extended modtop"
+                },
+                "greeting": {
+                    "name": "Greeting"
+                },
                 "header": "Customization settings in chat {{title}}}",
-                "modtop": "Modtop access",
-                "modtop_selected": "Select modtop access in chat {{title}}, current value:",
-                "reactions": "Reactions callback",
-                "reputation": "Reputation system",
-                "reputation_selected": "Select the presence of a reputation system in chat {{title}}, current value:",
+                "modtop": {
+                    "name": "Modtop access"
+                },
+                "reactions": {
+                    "name": "Reactions callback"
+                },
+                "reputation": {
+                    "name": "Reputation system"
+                },
                 "statisticsRange": {
-                    "button": "Statistics range",
+                    "name": "Statistics range",
                     "selected": "Enter interval for statistics showing in top commands, current value:"
                 },
-                "tokens": "Tokens"
+                "tokens": {
+                    "name": "Tokens"
+                }
             },
             "header": "Settings of {{title}} chat",
             "incorrect_interval": "Incorrect value, send interval",
