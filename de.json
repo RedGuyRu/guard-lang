@@ -532,17 +532,22 @@
                 }
             },
             "warns": {
-                "cooldown": "",
-                "cooldown_selected": "",
+                "cooldown": {
+                    "name": ""
+                },
                 "header": "",
-                "max_warns": "",
-                "max_warns_selected": "",
-                "warn_length": "",
-                "warn_length_selected": "",
-                "warns_result": "",
-                "warns_result_length": "",
-                "warns_result_length_selected": "",
-                "warns_result_selected": ""
+                "maxWarns": {
+                    "name": ""
+                },
+                "warnLength": {
+                    "name": ""
+                },
+                "warnsResult": {
+                    "name": ""
+                },
+                "warnsResultLength": {
+                    "name": ""
+                }
             }
         },
         "token": "",

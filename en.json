@@ -533,17 +533,22 @@
                 }
             },
             "warns": {
-                "cooldown": "Cooldown beetwen warns to one person",
-                "cooldown_selected": "Enter the cooldown in seconds for chat {{title}}, current value:",
+                "cooldown": {
+                    "name": "Cooldown beetwen warns to one person"
+                },
                 "header": "Warn settings in chat {{title}}",
-                "max_warns": "Number of warns before punishment is given",
-                "max_warns_selected": "Enter the number of warns before the punishment is issued in chat {{title}}, the current value:",
-                "warn_length": "Warn duration",
-                "warn_length_selected": "Send warn duration in chat {{title}}, current:",
-                "warns_result": "Punishment for the maximum number of warns",
-                "warns_result_length": "Duration of punishment for the maximum number of warns",
-                "warns_result_length_selected": "Enter the duration of punishment for the maximum number of warps in chat {{title}}, current value:",
-                "warns_result_selected": "Select the punishment for the maximum number of warps in chat {{title}}, the current value:"
+                "maxWarns": {
+                    "name": "Number of warns before punishment is given"
+                },
+                "warnLength": {
+                    "name": "Warn duration"
+                },
+                "warnsResult": {
+                    "name": "Punishment for the maximum number of warns"
+                },
+                "warnsResultLength": {
+                    "name": "Duration of punishment for the maximum number of warns"
+                }
             }
         },
         "token": "Token",

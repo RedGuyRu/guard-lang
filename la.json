@@ -533,17 +533,22 @@
                 }
             },
             "warns": {
-                "cooldown": "Cooldown varna ad unum hominem",
-                "cooldown_selected": "Intrant cooldown in secundis ad chat {{title}}, current significatio:",
+                "cooldown": {
+                    "name": "Cooldown varna ad unum hominem"
+                },
                 "header": "Occasus varna in chat {{title}}",
-                "max_warns": "Numerus varns antequam poena editur",
-                "max_warns_selected": "Intra numerum varns antequam poena editur in chat {{title}}, current significatio:",
-                "warn_length": "Durationem varna",
-                "warn_length_selected": "Durationem intrant varna ad chat {{title}}, current significatio:",
-                "warns_result": "Poenam ad maximum amount varns",
-                "warns_result_length": "Duratio poenae ad maximum numerum varns",
-                "warns_result_length_selected": "Intrant durationem poenae ad maximum numerum varns in chat {{title}}, current significatio:",
-                "warns_result_selected": "Poenam elige maximum numerum varns in chat {{title}}, current significatio:"
+                "maxWarns": {
+                    "name": "Numerus varns antequam poena editur"
+                },
+                "warnLength": {
+                    "name": "Durationem varna"
+                },
+                "warnsResult": {
+                    "name": "Poenam ad maximum amount varns"
+                },
+                "warnsResultLength": {
+                    "name": "Duratio poenae ad maximum numerum varns"
+                }
             }
         },
         "token": "Token",
