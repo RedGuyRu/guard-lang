@@ -487,14 +487,19 @@
                 "header": ""
             },
             "reports": {
-                "delete_reports": "",
-                "delete_reports_count": "",
-                "delete_reports_count_selected": "",
-                "delete_reports_rate": "",
-                "delete_reports_rate_selected": "",
-                "delete_reports_selected": "",
+                "deleteReports": {
+                    "name": ""
+                },
+                "deleteReportsCount": {
+                    "name": ""
+                },
+                "deleteReportsRate": {
+                    "name": ""
+                },
                 "header": "",
-                "reports_system": ""
+                "reportsSystem": {
+                    "name": ""
+                }
             },
             "special": {
                 "clear_deleted": {
