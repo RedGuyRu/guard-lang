@@ -439,6 +439,7 @@
             "header": "Settings of {{title}} chat",
             "incorrect_interval": "Incorrect value, send interval",
             "incorrect_number": "Incorrect value, send a number",
+            "inputChanging": "",
             "language": {
                 "button": "Language",
                 "header": "Select language for the chat"
