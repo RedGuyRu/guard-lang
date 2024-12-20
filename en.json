@@ -344,13 +344,23 @@
                 },
                 "stickers": {
                     "animal_abuse": "Animal abuse",
-                    "blood": "Blood and abuse",
+                    "blood": "",
+                    "blood-blood": "Blood and abuse",
+                    "blood-killing": "",
                     "crash": "Crash packs",
+                    "epileptic-scare": "Unsettling imagery",
+                    "epileptic-seizure": "",
                     "epileptics": "Epileptics",
-                    "nazi": "Nazi",
                     "politics": "Politics",
+                    "politics-flags": "",
+                    "politics-nazi": "Nazi",
+                    "politics-presidents": "",
                     "porn": "Porn and Child porn",
-                    "swearing": "Swearing"
+                    "porn-child": "",
+                    "porn-nudity": "",
+                    "porn-sex": "",
+                    "porn-sexualize": "",
+                    "swearing": ""
                 },
                 "stories": {
                     "name": "Moderation of stories"
@@ -573,6 +583,9 @@
             "correct": "Correct!",
             "emoji": "To confirm that you are not a bot, click on: {{correct}}",
             "wrongUser": "It's not your captcha!"
+        },
+        "file": {
+            "got": ""
         },
         "hello": {
             "full": "Thank you for adding me as an admin! I am now ready to go to work!",

@@ -344,13 +344,23 @@
                 },
                 "stickers": {
                     "animal_abuse": "Tortura animalis",
-                    "blood": "Sanguis et violentia",
+                    "blood": "",
+                    "blood-blood": "Sanguis et violentia",
+                    "blood-killing": "",
                     "crash": "Crash-stickers",
+                    "epileptic-scare": "",
+                    "epileptic-seizure": "",
                     "epileptics": "Epilepticos",
-                    "nazi": "Nazismus",
                     "politics": "Policy",
+                    "politics-flags": "",
+                    "politics-nazi": "Nazismus",
+                    "politics-presidents": "",
                     "porn": "Pornographia",
-                    "swearing": "Lingua obscena"
+                    "porn-child": "",
+                    "porn-nudity": "",
+                    "porn-sex": "",
+                    "porn-sexualize": "",
+                    "swearing": ""
                 },
                 "stories": {
                     "name": "Moderatio fabulis"
@@ -573,6 +583,9 @@
             "correct": "Vernaux!",
             "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
             "wrongUser": "Non est tuum captcha!"
+        },
+        "file": {
+            "got": ""
         },
         "hello": {
             "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",

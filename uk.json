@@ -344,13 +344,23 @@
                 },
                 "stickers": {
                     "animal_abuse": "Катування тварин",
-                    "blood": "Кров і насильство",
+                    "blood": "",
+                    "blood-blood": "Кров і насильство",
+                    "blood-killing": "",
                     "crash": "Краш-стікери",
+                    "epileptic-scare": "",
+                    "epileptic-seizure": "",
                     "epileptics": "Епілептика",
-                    "nazi": "Нацизм",
                     "politics": "Політика",
+                    "politics-flags": "",
+                    "politics-nazi": "Нацизм",
+                    "politics-presidents": "",
                     "porn": "Порнографія",
-                    "swearing": "Нецензурна лексика"
+                    "porn-child": "",
+                    "porn-nudity": "",
+                    "porn-sex": "",
+                    "porn-sexualize": "",
+                    "swearing": ""
                 },
                 "stories": {
                     "name": "Модерація історій"
@@ -573,6 +583,9 @@
             "correct": "Вірно!",
             "emoji": "Для підтвердження, що ви не бот, натисніть на: {{correct}}",
             "wrongUser": "Це не ваша капча!"
+        },
+        "file": {
+            "got": ""
         },
         "hello": {
             "full": "Дякую, що зробили мене адміністратором! Тепер я готовий до роботи!",

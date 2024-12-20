@@ -344,11 +344,21 @@
                 "stickers": {
                     "animal_abuse": "",
                     "blood": "",
+                    "blood-blood": "",
+                    "blood-killing": "",
                     "crash": "",
+                    "epileptic-scare": "",
+                    "epileptic-seizure": "",
                     "epileptics": "",
-                    "nazi": "",
                     "politics": "",
+                    "politics-flags": "",
+                    "politics-nazi": "",
+                    "politics-presidents": "",
                     "porn": "",
+                    "porn-child": "",
+                    "porn-nudity": "",
+                    "porn-sex": "",
+                    "porn-sexualize": "",
                     "swearing": ""
                 },
                 "stories": {
@@ -572,6 +582,9 @@
             "correct": "",
             "emoji": "",
             "wrongUser": ""
+        },
+        "file": {
+            "got": ""
         },
         "hello": {
             "full": "",

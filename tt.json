@@ -344,13 +344,23 @@
                 },
                 "stickers": {
                     "animal_abuse": "Хайваннарны газаплау",
-                    "blood": "Кан һәм көч куллану",
+                    "blood": "",
+                    "blood-blood": "Кан һәм көч куллану",
+                    "blood-killing": "",
                     "crash": "Краш-стикерлар",
+                    "epileptic-scare": "",
+                    "epileptic-seizure": "",
                     "epileptics": "күзләр начар",
-                    "nazi": "Нацистлар",
                     "politics": "Сәясәт",
+                    "politics-flags": "",
+                    "politics-nazi": "Нацистлар",
+                    "politics-presidents": "",
                     "porn": "порнография",
-                    "swearing": "Цензурасыз лика"
+                    "porn-child": "",
+                    "porn-nudity": "",
+                    "porn-sex": "",
+                    "porn-sexualize": "",
+                    "swearing": ""
                 },
                 "stories": {
                     "name": "Тарихлар модерациясе"
@@ -573,6 +583,9 @@
             "correct": "Дөрес!",
             "emoji": "Сезнең бот булмавыгызны раслау өчен, түбәндәге басыгыз: {{correct}}",
             "wrongUser": "Бу сезнең капчагыз түгел!"
+        },
+        "file": {
+            "got": ""
         },
         "hello": {
             "full": "Мине администраторлыкка өстәгәнегез өчен рәхмәт! Хәзер мин эшкә әзер!",
