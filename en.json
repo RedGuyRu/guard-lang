@@ -195,7 +195,8 @@
             "uncancel": "Restore",
             "uncanceled": "Restriction restored!",
             "updateReason": "Send new reason for restriction, current: ",
-            "warns": "warns "
+            "warns": "warns ",
+            "workers": ""
         },
         "userreport": {
             "sent": "I've sent the info in private messages!"

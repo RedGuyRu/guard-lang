@@ -195,7 +195,8 @@
             "uncancel": "",
             "uncanceled": "",
             "updateReason": "",
-            "warns": "Warnungen "
+            "warns": "Warnungen ",
+            "workers": ""
         },
         "userreport": {
             "sent": ""

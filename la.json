@@ -195,7 +195,8 @@
             "uncancel": "Restituere",
             "uncanceled": "Restrictio restituta est!",
             "updateReason": "Intra novam causam restrictionis, hodiernam: ",
-            "warns": "Monitum "
+            "warns": "Monitum ",
+            "workers": ""
         },
         "userreport": {
             "sent": "Ego misit notitia in privatis epistulae!"
