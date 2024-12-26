@@ -361,6 +361,26 @@
                 },
                 "trigger": {
                     "name": "Триггерлар"
+                },
+                "stickers": {
+                    "epileptic": {
+                        "name": "күзләр начар"
+                    },
+                    "politics": {
+                        "name": "Сәясәт"
+                    },
+                    "politics-nazi": {
+                        "name": "Нацистлар"
+                    },
+                    "blood-blood": {
+                        "name": "Кан һәм көч куллану"
+                    },
+                    "crash": {
+                        "name": "Краш-стикерлар"
+                    },
+                    "porn": {
+                        "name": "порнография"
+                    }
                 }
             },
             "category": {

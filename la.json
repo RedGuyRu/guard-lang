@@ -361,6 +361,26 @@
                 },
                 "trigger": {
                     "name": "Triggers"
+                },
+                "stickers": {
+                    "blood-blood": {
+                        "name": "Sanguis et violentia"
+                    },
+                    "crash": {
+                        "name": "Crash-stickers"
+                    },
+                    "epileptic": {
+                        "name": "Epilepticos"
+                    },
+                    "politics": {
+                        "name": "Policy"
+                    },
+                    "politics-nazi": {
+                        "name": "Nazismus"
+                    },
+                    "porn": {
+                        "name": "Pornographia"
+                    }
                 }
             },
             "category": {

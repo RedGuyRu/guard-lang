@@ -361,6 +361,14 @@
                 },
                 "trigger": {
                     "name": "Тригери"
+                },
+                "stickers": {
+                    "blood-blood": {
+                        "name": "Кров і насильство"
+                    },
+                    "politics-nazi": {
+                        "name": "Нацизм"
+                    }
                 }
             },
             "category": {
