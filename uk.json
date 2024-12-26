@@ -351,6 +351,11 @@
                 "reactionsUntilBan": {
                     "name": "Реакцій до бана"
                 },
+                "stickers": {
+                    "animal_abuse": {
+                        "description": ""
+                    }
+                },
                 "stories": {
                     "name": "Модерація історій"
                 },

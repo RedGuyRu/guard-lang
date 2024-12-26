@@ -351,6 +351,11 @@
                 "reactionsUntilBan": {
                     "name": "Reactiones ante banum"
                 },
+                "stickers": {
+                    "animal_abuse": {
+                        "description": ""
+                    }
+                },
                 "stories": {
                     "name": "Moderatio fabulis"
                 },

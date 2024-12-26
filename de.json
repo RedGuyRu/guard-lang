@@ -350,6 +350,11 @@
                 "reactionsUntilBan": {
                     "name": ""
                 },
+                "stickers": {
+                    "animal_abuse": {
+                        "description": ""
+                    }
+                },
                 "stories": {
                     "name": ""
                 },

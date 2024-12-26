@@ -351,6 +351,11 @@
                 "reactionsUntilBan": {
                     "name": "Блокировкага кадәр реакцияләр"
                 },
+                "stickers": {
+                    "animal_abuse": {
+                        "description": ""
+                    }
+                },
                 "stories": {
                     "name": "Тарихлар модерациясе"
                 },
