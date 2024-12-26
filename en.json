@@ -217,6 +217,7 @@
         "Forever": "Forever",
         "Trigger": "Trigger",
         "add": "Add",
+        "all": "All",
         "automoderation": "Automoderation",
         "back": "Back",
         "ban": "ban",
@@ -334,6 +335,13 @@
                 "location": {
                     "name": "Location moderation"
                 },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
                 "muteOnPermission": {
                     "name": "Mute duration when trying to use moderation commands"
                 },
@@ -344,24 +352,78 @@
                     "name": "Reactions until ban"
                 },
                 "stickers": {
-                    "animal_abuse": "Animal abuse",
-                    "blood": "",
-                    "blood-blood": "Blood and abuse",
-                    "blood-killing": "",
-                    "crash": "Crash packs",
-                    "epileptic-scare": "Unsettling imagery",
-                    "epileptic-seizure": "",
-                    "epileptics": "Epileptics",
-                    "politics": "Politics",
-                    "politics-flags": "",
-                    "politics-nazi": "Nazi",
-                    "politics-presidents": "",
-                    "porn": "Porn and Child porn",
-                    "porn-child": "",
-                    "porn-nudity": "",
-                    "porn-sex": "",
-                    "porn-sexualize": "",
-                    "swearing": ""
+                    "animal_abuse": {
+                        "description": "Images or materials depicting cruelty to animals, including scenes of violence or suffering.",
+                        "name": "Animal Abuse"
+                    },
+                    "blood": {
+                        "description": "Content containing scenes of violence or blood, including depictions of battle scenes or injuries.",
+                        "name": "Blood and Violence (All)"
+                    },
+                    "blood-blood": {
+                        "description": "Images focused specifically on blood, including streams, stains, and other manifestations.",
+                        "name": "Blood and Violence"
+                    },
+                    "blood-killing": {
+                        "description": "Content showing murder scenes, including attacks with weapons or other forms of violence.",
+                        "name": "Killing Scenes"
+                    },
+                    "crash": {
+                        "description": "Stickers that may cause a crash or other issues on the device.",
+                        "name": "Crash Stickers"
+                    },
+                    "epileptic": {
+                        "description": "Content potentially dangerous for people with epilepsy, including flashing or bright effects.",
+                        "name": "Epileptic"
+                    },
+                    "epileptic-scare": {
+                        "description": "Images that may cause feelings of anxiety or fear due to their sudden nature or content.",
+                        "name": "Disturbing Images"
+                    },
+                    "epileptic-seizure": {
+                        "description": "Materials with intense flashing or rapidly changing light effects, posing risks to people with epilepsy.",
+                        "name": "Photosensitive Content"
+                    },
+                    "politics": {
+                        "description": "Content related to political topics, movements, or events that may be controversial.",
+                        "name": "Politics"
+                    },
+                    "politics-flags": {
+                        "description": "Symbols of various countries, including flags and emblems, which may carry political context.",
+                        "name": "Country Symbols"
+                    },
+                    "politics-nazi": {
+                        "description": "Content featuring symbols associated with Nazism or references to its ideology.",
+                        "name": "Nazism"
+                    },
+                    "politics-presidents": {
+                        "description": "Images related to presidents or other country leaders, their actions, or statements.",
+                        "name": "Country Leaders"
+                    },
+                    "porn": {
+                        "description": "Materials containing scenes of a sexual nature, including nude images or pornography.",
+                        "name": "Pornography"
+                    },
+                    "porn-child": {
+                        "description": "Abusive materials containing scenes of violence or sexual exploitation of children.",
+                        "name": "Child Abuse"
+                    },
+                    "porn-nudity": {
+                        "description": "Materials showing nudity, including intimate or suggestive images.",
+                        "name": "Nudity"
+                    },
+                    "porn-sex": {
+                        "description": "Images or scenes of sexual acts, containing explicit sexual context.",
+                        "name": "Sexual Acts"
+                    },
+                    "porn-sexualize": {
+                        "description": "Content focusing on the sexualization of characters, images, or objects.",
+                        "name": "Sexualization"
+                    },
+                    "swearing": {
+                        "description": "Materials containing profanity or offensive language.",
+                        "name": "Profanity"
+                    }
                 },
                 "stories": {
                     "name": "Moderation of stories"

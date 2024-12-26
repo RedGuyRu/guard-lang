@@ -217,6 +217,7 @@
         "Forever": "",
         "Trigger": "",
         "add": "",
+        "all": "",
         "automoderation": "",
         "back": "",
         "ban": "",
@@ -333,6 +334,13 @@
                 "location": {
                     "name": ""
                 },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
                 "muteOnPermission": {
                     "name": ""
                 },
@@ -341,26 +349,6 @@
                 },
                 "reactionsUntilBan": {
                     "name": ""
-                },
-                "stickers": {
-                    "animal_abuse": "",
-                    "blood": "",
-                    "blood-blood": "",
-                    "blood-killing": "",
-                    "crash": "",
-                    "epileptic-scare": "",
-                    "epileptic-seizure": "",
-                    "epileptics": "",
-                    "politics": "",
-                    "politics-flags": "",
-                    "politics-nazi": "",
-                    "politics-presidents": "",
-                    "porn": "",
-                    "porn-child": "",
-                    "porn-nudity": "",
-                    "porn-sex": "",
-                    "porn-sexualize": "",
-                    "swearing": ""
                 },
                 "stories": {
                     "name": ""

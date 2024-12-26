@@ -217,6 +217,7 @@
         "Forever": "Perpetuum",
         "Trigger": "Trigger",
         "add": "Addere",
+        "all": "",
         "automoderation": "Auto-modum",
         "back": "Retrorsum",
         "ban": "bannum",
@@ -334,6 +335,13 @@
                 "location": {
                     "name": "Moderatio locorum"
                 },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
                 "muteOnPermission": {
                     "name": "Duratio restrictiones cum moderatione utens mandata"
                 },
@@ -342,26 +350,6 @@
                 },
                 "reactionsUntilBan": {
                     "name": "Reactiones ante banum"
-                },
-                "stickers": {
-                    "animal_abuse": "Tortura animalis",
-                    "blood": "",
-                    "blood-blood": "Sanguis et violentia",
-                    "blood-killing": "",
-                    "crash": "Crash-stickers",
-                    "epileptic-scare": "",
-                    "epileptic-seizure": "",
-                    "epileptics": "Epilepticos",
-                    "politics": "Policy",
-                    "politics-flags": "",
-                    "politics-nazi": "Nazismus",
-                    "politics-presidents": "",
-                    "porn": "Pornographia",
-                    "porn-child": "",
-                    "porn-nudity": "",
-                    "porn-sex": "",
-                    "porn-sexualize": "",
-                    "swearing": ""
                 },
                 "stories": {
                     "name": "Moderatio fabulis"

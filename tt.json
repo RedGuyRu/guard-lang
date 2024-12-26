@@ -217,6 +217,7 @@
         "Forever": "Мәңгегә",
         "Trigger": "вакыйга",
         "add": "Кушу",
+        "all": "",
         "automoderation": "автоматик модерация",
         "back": "Элек",
         "ban": "блокировка",
@@ -334,6 +335,13 @@
                 "location": {
                     "name": "Локацияләр модерациясе"
                 },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
                 "muteOnPermission": {
                     "name": "Модерация командаларын кулланганда мут озынлыгы"
                 },
@@ -342,26 +350,6 @@
                 },
                 "reactionsUntilBan": {
                     "name": "Блокировкага кадәр реакцияләр"
-                },
-                "stickers": {
-                    "animal_abuse": "Хайваннарны газаплау",
-                    "blood": "",
-                    "blood-blood": "Кан һәм көч куллану",
-                    "blood-killing": "",
-                    "crash": "Краш-стикерлар",
-                    "epileptic-scare": "",
-                    "epileptic-seizure": "",
-                    "epileptics": "күзләр начар",
-                    "politics": "Сәясәт",
-                    "politics-flags": "",
-                    "politics-nazi": "Нацистлар",
-                    "politics-presidents": "",
-                    "porn": "порнография",
-                    "porn-child": "",
-                    "porn-nudity": "",
-                    "porn-sex": "",
-                    "porn-sexualize": "",
-                    "swearing": ""
                 },
                 "stories": {
                     "name": "Тарихлар модерациясе"

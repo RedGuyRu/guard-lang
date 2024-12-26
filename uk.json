@@ -217,6 +217,7 @@
         "Forever": "Назавжди",
         "Trigger": "Тригер",
         "add": "Додати",
+        "all": "",
         "automoderation": "Автомодерація",
         "back": "Назад",
         "ban": "бан",
@@ -334,6 +335,13 @@
                 "location": {
                     "name": "Модерація локацій"
                 },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
                 "muteOnPermission": {
                     "name": "Тривалість мута при використанні команд модерації"
                 },
@@ -342,26 +350,6 @@
                 },
                 "reactionsUntilBan": {
                     "name": "Реакцій до бана"
-                },
-                "stickers": {
-                    "animal_abuse": "Катування тварин",
-                    "blood": "",
-                    "blood-blood": "Кров і насильство",
-                    "blood-killing": "",
-                    "crash": "Краш-стікери",
-                    "epileptic-scare": "",
-                    "epileptic-seizure": "",
-                    "epileptics": "Епілептика",
-                    "politics": "Політика",
-                    "politics-flags": "",
-                    "politics-nazi": "Нацизм",
-                    "politics-presidents": "",
-                    "porn": "Порнографія",
-                    "porn-child": "",
-                    "porn-nudity": "",
-                    "porn-sex": "",
-                    "porn-sexualize": "",
-                    "swearing": ""
                 },
                 "stories": {
                     "name": "Модерація історій"
