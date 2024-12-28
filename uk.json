@@ -352,8 +352,11 @@
                     "name": "Реакцій до бана"
                 },
                 "stickers": {
-                    "animal_abuse": {
-                        "description": ""
+                    "blood-blood": {
+                        "name": "Кров і насильство"
+                    },
+                    "politics-nazi": {
+                        "name": "Нацизм"
                     }
                 },
                 "stories": {
@@ -361,14 +364,6 @@
                 },
                 "trigger": {
                     "name": "Тригери"
-                },
-                "stickers": {
-                    "blood-blood": {
-                        "name": "Кров і насильство"
-                    },
-                    "politics-nazi": {
-                        "name": "Нацизм"
-                    }
                 }
             },
             "category": {
@@ -423,6 +418,9 @@
                     "raid": {
                         "name": "Реакція команд рейду"
                     }
+                },
+                "disableNotifications": {
+                    "name": ""
                 },
                 "extendedModtop": {
                     "name": "Розширений модтоп"

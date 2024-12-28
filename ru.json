@@ -485,6 +485,9 @@
                         "name": "Реакция команд рейда"
                     }
                 },
+                "disableNotifications": {
+                    "name": "Системные уведомления"
+                },
                 "extendedModtop": {
                     "name": "Расширенный модтоп"
                 },

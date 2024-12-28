@@ -485,6 +485,9 @@
                         "name": "Raid command reaction"
                     }
                 },
+                "disableNotifications": {
+                    "name": ""
+                },
                 "extendedModtop": {
                     "name": "Extended modtop"
                 },

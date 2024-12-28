@@ -352,17 +352,12 @@
                     "name": "Блокировкага кадәр реакцияләр"
                 },
                 "stickers": {
-                    "animal_abuse": {
-                        "description": ""
-                    }
-                },
-                "stories": {
-                    "name": "Тарихлар модерациясе"
-                },
-                "trigger": {
-                    "name": "Триггерлар"
-                },
-                "stickers": {
+                    "blood-blood": {
+                        "name": "Кан һәм көч куллану"
+                    },
+                    "crash": {
+                        "name": "Краш-стикерлар"
+                    },
                     "epileptic": {
                         "name": "күзләр начар"
                     },
@@ -372,15 +367,15 @@
                     "politics-nazi": {
                         "name": "Нацистлар"
                     },
-                    "blood-blood": {
-                        "name": "Кан һәм көч куллану"
-                    },
-                    "crash": {
-                        "name": "Краш-стикерлар"
-                    },
                     "porn": {
                         "name": "порнография"
                     }
+                },
+                "stories": {
+                    "name": "Тарихлар модерациясе"
+                },
+                "trigger": {
+                    "name": "Триггерлар"
                 }
             },
             "category": {
@@ -435,6 +430,9 @@
                     "raid": {
                         "name": "Рейд командаларының реакциясе"
                     }
+                },
+                "disableNotifications": {
+                    "name": ""
                 },
                 "extendedModtop": {
                     "name": "Киңәйтелгән модтоп"

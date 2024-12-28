@@ -352,17 +352,6 @@
                     "name": "Reactiones ante banum"
                 },
                 "stickers": {
-                    "animal_abuse": {
-                        "description": ""
-                    }
-                },
-                "stories": {
-                    "name": "Moderatio fabulis"
-                },
-                "trigger": {
-                    "name": "Triggers"
-                },
-                "stickers": {
                     "blood-blood": {
                         "name": "Sanguis et violentia"
                     },
@@ -381,6 +370,12 @@
                     "porn": {
                         "name": "Pornographia"
                     }
+                },
+                "stories": {
+                    "name": "Moderatio fabulis"
+                },
+                "trigger": {
+                    "name": "Triggers"
                 }
             },
             "category": {
@@ -435,6 +430,9 @@
                     "raid": {
                         "name": "Reactionem ad incursio commands"
                     }
+                },
+                "disableNotifications": {
+                    "name": ""
                 },
                 "extendedModtop": {
                     "name": "Provectus modtop"
