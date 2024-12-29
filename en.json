@@ -707,6 +707,17 @@
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
         },
+        "mass": {
+            "done": "",
+            "intro": {
+                "action": "",
+                "footer": "",
+                "header": "",
+                "interval": "",
+                "reason": ""
+            },
+            "invalidAction": ""
+        },
         "tokens": {
             "header": "Tokens in chat {{title}}",
             "notFound": "Token not found!"

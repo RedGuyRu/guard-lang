@@ -641,6 +641,17 @@
         "general": {
             "placeholders": "{mention} - згадка користувача, що викликав команду\n{title} - назва чату\n{random_mention} - згадка випадкового користувача\n{replied_mention} - згадка користувача, на чиє повідомлення відповіли при виклику команди"
         },
+        "mass": {
+            "done": "",
+            "intro": {
+                "action": "",
+                "footer": "",
+                "header": "",
+                "interval": "",
+                "reason": ""
+            },
+            "invalidAction": ""
+        },
         "tokens": {
             "header": "Токени у чаті {{title}}",
             "notFound": "Токен не знайдено!"

@@ -653,6 +653,17 @@
         "general": {
             "placeholders": ""
         },
+        "mass": {
+            "done": "",
+            "intro": {
+                "action": "",
+                "footer": "",
+                "header": "",
+                "interval": "",
+                "reason": ""
+            },
+            "invalidAction": ""
+        },
         "tokens": {
             "header": "",
             "notFound": ""
