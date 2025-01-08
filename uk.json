@@ -384,6 +384,9 @@
                 "triggers_selected": "Прив'язка каналу тригерів в чаті {{title}}"
             },
             "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
                 "admins": {
                     "name": "Команда !admins"
                 },

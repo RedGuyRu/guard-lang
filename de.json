@@ -380,6 +380,9 @@
                 "triggers_selected": ""
             },
             "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
                 "admins": {
                     "name": ""
                 },

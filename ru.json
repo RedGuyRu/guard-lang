@@ -450,6 +450,9 @@
                 "triggers_selected": "Привязка канала триггеров в чате {{title}}"
             },
             "customs": {
+                "acceptJoins": {
+                    "name": "Приём заявок"
+                },
                 "admins": {
                     "name": "Команда !admins"
                 },

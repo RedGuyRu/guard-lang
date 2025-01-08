@@ -396,6 +396,9 @@
                 "triggers_selected": "Чатта триггерлар каналын бәйләү {{title}}"
             },
             "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
                 "admins": {
                     "name": "Командалар !admins"
                 },

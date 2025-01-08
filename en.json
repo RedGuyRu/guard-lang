@@ -450,6 +450,9 @@
                 "triggers_selected": "Linking triggers channel in chat {{title}}"
             },
             "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
                 "admins": {
                     "name": "/admins commands"
                 },

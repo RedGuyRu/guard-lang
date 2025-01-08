@@ -396,6 +396,9 @@
                 "triggers_selected": "Channel binding triggers in chat {{title}}"
             },
             "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
                 "admins": {
                     "name": "Сommand !admins"
                 },
