@@ -196,7 +196,7 @@
             "uncanceled": "Restriction restored!",
             "updateReason": "Send new reason for restriction, current: ",
             "warns": "warns ",
-            "workers": ""
+            "workers": "AI-Workers:"
         },
         "userreport": {
             "sent": "I've sent the info in private messages!"
@@ -336,11 +336,11 @@
                     "name": "Location moderation"
                 },
                 "mediaCheck": {
-                    "detection": "",
-                    "duration": "",
-                    "name": "",
-                    "punishment": "",
-                    "sent": ""
+                    "detection": "Sent percent of unacceptable stickers in stickerpack or click on button to restrict when unacceptable sticker is sent.",
+                    "duration": "Sent duration of restriction in interval format",
+                    "name": "Media checking",
+                    "punishment": "Select user restriction",
+                    "sent": "Unacceptable media sent"
                 },
                 "muteOnPermission": {
                     "name": "Mute duration when trying to use moderation commands"
@@ -451,13 +451,13 @@
             },
             "customs": {
                 "acceptJoins": {
-                    "name": ""
+                    "name": "Chat join accepting"
                 },
                 "admins": {
                     "name": "/admins commands"
                 },
                 "anonPerm": {
-                    "menu": "",
+                    "menu": "Editing rights of anonymous admins!",
                     "name": "Anonymous admins rights"
                 },
                 "anon_perms": {
@@ -471,7 +471,7 @@
                     "name": "First comment text"
                 },
                 "channels": {
-                    "menu": "",
+                    "menu": "Channels linking in chat {{menu}}.",
                     "name": "Channel linking"
                 },
                 "commands": {
@@ -489,7 +489,7 @@
                     }
                 },
                 "disableNotifications": {
-                    "name": ""
+                    "name": "System messages"
                 },
                 "extendedModtop": {
                     "name": "Extended modtop"
@@ -518,7 +518,7 @@
             "header": "Settings of {{title}} chat",
             "incorrect_interval": "Incorrect value, send interval",
             "incorrect_number": "Incorrect value, send a number",
-            "inputChanging": "",
+            "inputChanging": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
             "language": {
                 "button": "Language",
                 "header": "Select language for the chat"
@@ -654,7 +654,7 @@
             "wrongUser": "It's not your captcha!"
         },
         "file": {
-            "got": ""
+            "got": "Found unacceptable content \"{{type}}\" in chat {{title}}"
         },
         "hello": {
             "full": "Thank you for adding me as an admin! I am now ready to go to work!",
@@ -711,15 +711,15 @@
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
         },
         "mass": {
-            "done": "",
+            "done": "Mass action mode finished!",
             "intro": {
-                "action": "",
-                "footer": "",
-                "header": "",
-                "interval": "",
-                "reason": ""
+                "action": "Action: ",
+                "footer": "To stop, use command /stop",
+                "header": "Mass action mode enabled, this action will be used at all sent users:",
+                "interval": "Duration: ",
+                "reason": "Reason: "
             },
-            "invalidAction": ""
+            "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!"
         },
         "tokens": {
             "header": "Tokens in chat {{title}}",
