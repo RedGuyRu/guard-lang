@@ -370,11 +370,13 @@
                 "automod": "Налаштування автомодерації",
                 "customs": "Налаштування кастомізації",
                 "permissions": "Права",
+                "privates": "",
                 "reports": "Налаштування репортів",
                 "special": "",
                 "warns": "Налаштування варнів"
             },
-            "changing": "",
+            "changingChat": "",
+            "changingPM": "",
             "channels": {
                 "admins": "Адмінський чат",
                 "admins_selected": "Прив'язка адмінського чату в чаті {{title}}",
@@ -449,10 +451,12 @@
                     "name": "Токени"
                 }
             },
-            "header": "Налаштування чату {{title}}",
+            "headerChat": "Налаштування чату {{title}}",
+            "headerPM": "",
             "incorrect_interval": "Невірне значення, введіть інтервал",
             "incorrect_number": "Невірне значення, введіть число",
-            "inputChanging": "",
+            "inputChangingChat": "",
+            "inputChangingPM": "",
             "language": {
                 "button": "Мова",
                 "header": "Виберіть мову, яка буде використовуватися в чаті"
@@ -500,6 +504,12 @@
                     "permissions": ""
                 },
                 "header": ""
+            },
+            "privates": {
+                "header": "",
+                "timezone": {
+                    "name": ""
+                }
             },
             "reports": {
                 "deleteReports": {
@@ -551,6 +561,7 @@
                     "title": ""
                 }
             },
+            "timeZoneInfo": "",
             "warns": {
                 "cooldown": {
                     "name": "Кулдаун між варнами одному користувачу"

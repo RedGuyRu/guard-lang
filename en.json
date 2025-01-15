@@ -436,11 +436,13 @@
                 "automod": "Automoderation settings",
                 "customs": "Customization settings",
                 "permissions": "Permissions",
+                "privates": "General",
                 "reports": "Reporting settings",
                 "special": "Special",
                 "warns": "Warns settings"
             },
-            "changing": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
+            "changingChat": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
+            "changingPM": "Changing the parameter “{{param}}”, current value: <code>{{current}}</code>",
             "channels": {
                 "admins": "Admins chat",
                 "admins_selected": "Linking admins chat in chat {{title}}",
@@ -515,10 +517,12 @@
                     "name": "Tokens"
                 }
             },
-            "header": "Settings of {{title}} chat",
+            "headerChat": "Settings of {{title}} chat",
+            "headerPM": "User settings",
             "incorrect_interval": "Incorrect value, send interval",
             "incorrect_number": "Incorrect value, send a number",
-            "inputChanging": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
+            "inputChangingChat": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
+            "inputChangingPM": "Changing the “{{param}}” parameter, send the new value to the chat. Current value: <code>{{current}}</code>",
             "language": {
                 "button": "Language",
                 "header": "Select language for the chat"
@@ -566,6 +570,12 @@
                     "permissions": "Permissions of group {{name}}:"
                 },
                 "header": "Permissions settings in chat {{title}}"
+            },
+            "privates": {
+                "header": "General user settings",
+                "timezone": {
+                    "name": "Time zone"
+                }
             },
             "reports": {
                 "deleteReports": {
@@ -617,6 +627,7 @@
                     "title": "Transfer stars to chat {{title}}"
                 }
             },
+            "timeZoneInfo": "To specify the time period, specify the required time shift in the format “UTC+N” or “GMT+N”. You can also use IANA format “Europe/Paris”, in this case the bot will automatically take into account summer and winter time, please note that the selected city will not be displayed publicly and will be automatically converted to GMT+N format.",
             "warns": {
                 "cooldown": {
                     "name": "Cooldown beetwen warns to one person"

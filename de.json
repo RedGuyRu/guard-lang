@@ -366,11 +366,13 @@
                 "automod": "",
                 "customs": "",
                 "permissions": "",
+                "privates": "",
                 "reports": "",
                 "special": "",
                 "warns": ""
             },
-            "changing": "",
+            "changingChat": "",
+            "changingPM": "",
             "channels": {
                 "admins": "",
                 "admins_selected": "",
@@ -445,10 +447,12 @@
                     "name": ""
                 }
             },
-            "header": "",
+            "headerChat": "",
+            "headerPM": "",
             "incorrect_interval": "",
             "incorrect_number": "",
-            "inputChanging": "",
+            "inputChangingChat": "",
+            "inputChangingPM": "",
             "language": {
                 "button": "",
                 "header": ""
@@ -496,6 +500,12 @@
                     "permissions": ""
                 },
                 "header": ""
+            },
+            "privates": {
+                "header": "",
+                "timezone": {
+                    "name": ""
+                }
             },
             "reports": {
                 "deleteReports": {
@@ -547,6 +557,7 @@
                     "title": ""
                 }
             },
+            "timeZoneInfo": "",
             "warns": {
                 "cooldown": {
                     "name": ""

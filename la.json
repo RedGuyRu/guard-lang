@@ -382,11 +382,13 @@
                 "automod": "Auto-modus occasus",
                 "customs": "Aliquam occasus",
                 "permissions": "",
+                "privates": "",
                 "reports": "Querimonia occasus",
                 "special": "Specialis",
                 "warns": "Mone occasus"
             },
-            "changing": "",
+            "changingChat": "",
+            "changingPM": "",
             "channels": {
                 "admins": "Administratores chat",
                 "admins_selected": "Vinculum admin chat ad chat {{title}}",
@@ -461,10 +463,12 @@
                     "name": "Signa"
                 }
             },
-            "header": "Chat occasus {{title}}",
+            "headerChat": "Chat occasus {{title}}",
+            "headerPM": "",
             "incorrect_interval": "Valor invalidus, intrant intervallum",
             "incorrect_number": "Valor invalidus, intra numerum",
-            "inputChanging": "",
+            "inputChangingChat": "",
+            "inputChangingPM": "",
             "language": {
                 "button": "Lingua",
                 "header": "Linguam eligere ut in chat adhiberi"
@@ -512,6 +516,12 @@
                     "permissions": ""
                 },
                 "header": ""
+            },
+            "privates": {
+                "header": "",
+                "timezone": {
+                    "name": ""
+                }
             },
             "reports": {
                 "deleteReports": {
@@ -563,6 +573,7 @@
                     "title": "Transferre of chat stars {{title}}"
                 }
             },
+            "timeZoneInfo": "",
             "warns": {
                 "cooldown": {
                     "name": "Cooldown varna ad unum hominem"
