@@ -642,6 +642,9 @@
             "emoji": "",
             "wrongUser": ""
         },
+        "chatJoin": {
+            "raid": ""
+        },
         "file": {
             "got": ""
         },

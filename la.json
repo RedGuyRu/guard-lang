@@ -658,6 +658,9 @@
             "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
             "wrongUser": "Non est tuum captcha!"
         },
+        "chatJoin": {
+            "raid": ""
+        },
         "file": {
             "got": ""
         },

@@ -712,6 +712,9 @@
             "emoji": "To confirm that you are not a bot, click on: {{correct}}",
             "wrongUser": "It's not your captcha!"
         },
+        "chatJoin": {
+            "raid": "Raid detected! {{joins}} users have entered for {{interval}}. Raid mode is activated, use /raidmode to disable."
+        },
         "file": {
             "got": "Found unacceptable content \"{{type}}\" in chat {{title}}"
         },
