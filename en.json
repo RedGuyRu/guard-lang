@@ -156,7 +156,7 @@
             "description": "Resets the passed key in all caches"
         },
         "resetpack": {
-            "description": "Resets the threat of the entire sticker pack."
+            "description": "Resets the threat of the entire sticker pack"
         },
         "resttop": {
             "description": "Displays the top offenders in chat.",
