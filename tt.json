@@ -4,9 +4,15 @@
             "description": "Чатның барлык администраторларын искә ала",
             "header": "Администраторларны чакыру {{peerName}} #id{{peerId}}"
         },
+        "aicheck": {
+            "description": ""
+        },
         "ban": {
             "description": "Кулланучыны блокларга",
             "onlyUsers": "Башка администраторны блокларга ярамый!"
+        },
+        "check": {
+            "description": ""
         },
         "dban": {
             "description": "Кулланучыны блокларга һәм Хәбәрне бетерергә"
@@ -15,6 +21,7 @@
             "description": "Кулланучыны дәшмәскә мәҗбүр итәргә һәм Хәбәрне бетерергә"
         },
         "dossier": {
+            "description": "",
             "noReason": "Күрсәтелмәгән",
             "wait": "Мин мәгълүматларны әзерли башладым, Бу күпмедер вакытны алырга мөмкин."
         },
@@ -23,6 +30,9 @@
         },
         "fulluser": {
             "description": "Кулланучы турында тулы мәгълүмат алу"
+        },
+        "gas": {
+            "description": ""
         },
         "general": {
             "approve": "Килештерү",
@@ -66,9 +76,18 @@
         },
         "help": {
             "commandList": "Командалар исемлеге:",
+            "description": "",
             "docs": "Документациядә төгәлрәк: https://docs.redguy.ru/igb/imperiumguardbot.html",
             "duration": "< дәвамлылыгы>",
             "durationHint": "Озынлыгы Сан+интервал: 1M 2H 3D 4w 5M 6y форматында күрсәтелә",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "",
+                "user": ""
+            },
+            "header": "",
             "idUserReply": "< id/username/җавап>",
             "reason": "<сәбәп>",
             "reply": "<җавап>"
@@ -76,6 +95,12 @@
         "id": {
             "description": "Кулланучының, каналның яки чатның id алу",
             "send": "Түбәндәге төймәләрне кулланып, кулланучыны, канал яки чатны җибәрегез!"
+        },
+        "json": {
+            "description": ""
+        },
+        "mass": {
+            "description": ""
         },
         "modtop": {
             "bans": "Мунча буенча Топ модераторлар:",
@@ -95,6 +120,12 @@
         "note": {
             "description": "Кулланучы турында хәбәр язарга",
             "onlyUsers": "Башка Администратор турында хәбәр калдырырга ярамый!"
+        },
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
         },
         "raidmode": {
             "description": "Рейд режимын кабызырга/сүндерергә",
@@ -120,6 +151,12 @@
         "reptop": {
             "description": "Топ репортерлар алу",
             "header": "Топ репортерлар:"
+        },
+        "reset": {
+            "description": ""
+        },
+        "resetpack": {
+            "description": ""
         },
         "resttop": {
             "description": "Топ хокук бозучыларны чатта күрсәтә.",
@@ -157,11 +194,21 @@
             "uptime": "эш вакыты"
         },
         "support": {
+            "description": "",
             "header": "Мәгълүмат ярдәмгә җибәрелгән!"
+        },
+        "support_chat": {
+            "description": ""
+        },
+        "support_user": {
+            "description": ""
         },
         "sync": {
             "complete": "Синхронлаштыру тәмамланды!",
             "description": "Чат модераторларын синхронлаштырырга"
+        },
+        "terms": {
+            "description": ""
         },
         "unban": {
             "description": "Кулланучыны блокировкадан төшерергә",
@@ -199,6 +246,7 @@
             "workers": "AI-Воркерлар:"
         },
         "userreport": {
+            "description": "",
             "sent": "Мин Мәгълүматны Шәхси хәбәрләргә җибәрдем!"
         },
         "warn": {

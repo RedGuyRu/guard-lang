@@ -4,9 +4,15 @@
             "description": "Erwähnt alle Chat-Administratoren",
             "header": "Anruf der Administratoren von{{peerId}} #id{{peerName}}"
         },
+        "aicheck": {
+            "description": ""
+        },
         "ban": {
             "description": "Einen Benutzer sperren",
             "onlyUsers": "Sie können keinen anderen Administrator sperren!"
+        },
+        "check": {
+            "description": ""
         },
         "dban": {
             "description": "Einen Benutzer sperren und eine Nachricht löschen"
@@ -15,6 +21,7 @@
             "description": "Aufrühren Sie den Benutzer und löschen Sie die Nachricht"
         },
         "dossier": {
+            "description": "",
             "noReason": "Nicht angegeben",
             "wait": "Ich habe mit der Aufbereitung der Daten begonnen, das kann eine Weile dauern."
         },
@@ -23,6 +30,9 @@
         },
         "fulluser": {
             "description": "Vollständige Benutzerinformationen erhalten"
+        },
+        "gas": {
+            "description": ""
         },
         "general": {
             "approve": "Genehmigen",
@@ -66,9 +76,18 @@
         },
         "help": {
             "commandList": "Liste der Befehle:",
+            "description": "",
             "docs": "Weitere Informationen finden Sie in der Dokumentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
             "duration": "<Dauer>",
             "durationHint": "Die Dauer wird im Format Zahl+Intervall angegeben: 1m 2h 3d 4w 5M 6y",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "",
+                "user": ""
+            },
+            "header": "",
             "idUserReply": "<id/username/antwort>",
             "reason": "<Grund>",
             "reply": "<antwort>"
@@ -76,6 +95,12 @@
         "id": {
             "description": "Bekommen Sie sich Benutzer-, Kanal- oder Chat-ID",
             "send": ""
+        },
+        "json": {
+            "description": ""
+        },
+        "mass": {
+            "description": ""
         },
         "modtop": {
             "bans": "Top-Moderatoren in Bezug auf Banns:",
@@ -95,6 +120,12 @@
         "note": {
             "description": "Eine Notiz über einen Benutzer erstellen",
             "onlyUsers": "Sie können keine Notiz über einen anderen Administrator hinterlassen!"
+        },
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
         },
         "raidmode": {
             "description": "Aktivieren/Deaktivieren des Raid-Modus",
@@ -120,6 +151,12 @@
         "reptop": {
             "description": "",
             "header": ""
+        },
+        "reset": {
+            "description": ""
+        },
+        "resetpack": {
+            "description": ""
         },
         "resttop": {
             "description": "",
@@ -157,10 +194,20 @@
             "uptime": ""
         },
         "support": {
+            "description": "",
             "header": ""
+        },
+        "support_chat": {
+            "description": ""
+        },
+        "support_user": {
+            "description": ""
         },
         "sync": {
             "complete": "",
+            "description": ""
+        },
+        "terms": {
             "description": ""
         },
         "unban": {
@@ -199,6 +246,7 @@
             "workers": ""
         },
         "userreport": {
+            "description": "",
             "sent": ""
         },
         "warn": {

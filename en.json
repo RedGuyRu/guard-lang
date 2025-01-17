@@ -4,9 +4,15 @@
             "description": "Tags all admins in chat",
             "header": "Tag of all admins from {{peerName}} #id{{peerId}}"
         },
+        "aicheck": {
+            "description": "Gives information about the status of neural network"
+        },
         "ban": {
             "description": "Bans user",
             "onlyUsers": "You can't give a ban to another admin!"
+        },
+        "check": {
+            "description": "Starts a file check"
         },
         "dban": {
             "description": "Bans user and deletes their message"
@@ -15,6 +21,7 @@
             "description": "Mutes user and deletes their message"
         },
         "dossier": {
+            "description": "Generate a dossier file for a user",
             "noReason": "Not specified",
             "wait": "I've started preparing the data, which may take some time."
         },
@@ -23,6 +30,9 @@
         },
         "fulluser": {
             "description": "Get full info about user"
+        },
+        "gas": {
+            "description": "Adds a GAS ban to a user"
         },
         "general": {
             "approve": "Approve",
@@ -66,9 +76,18 @@
         },
         "help": {
             "commandList": "Commands:",
+            "description": "Bot Help",
             "docs": "More in documentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
             "duration": "<duration>",
             "durationHint": "Duration is specified in number+interval format: 1m 2h 3d 4w 5M 6y",
+            "group": {
+                "admin": "Moderation",
+                "ai-moder": "Content moderation",
+                "misc": "Misc",
+                "owner": "Owner",
+                "user": "User's"
+            },
+            "header": "Welcome to the Imperium Guard! Use the buttons below to navigate through the sections.",
             "idUserReply": "<id/username/reply>",
             "reason": "<reason>",
             "reply": "<reply>"
@@ -76,6 +95,12 @@
         "id": {
             "description": "Get the id of a user, channel or chat",
             "send": "Send a user, channel or chat using the buttons below!"
+        },
+        "json": {
+            "description": "Outputs a json schema of the message"
+        },
+        "mass": {
+            "description": "Starting a mass action on users"
         },
         "modtop": {
             "bans": "Top moderators by bans:",
@@ -95,6 +120,12 @@
         "note": {
             "description": "Create note about user",
             "onlyUsers": "You cannot leave a note about other administrator!"
+        },
+        "paysupport": {
+            "description": "Payment support"
+        },
+        "privacy": {
+            "description": "Privacy Policy"
         },
         "raidmode": {
             "description": "Enable/Disable raid mode",
@@ -120,6 +151,12 @@
         "reptop": {
             "description": "Gets top of reporters",
             "header": "Top of reporters:"
+        },
+        "reset": {
+            "description": "Resets the passed key in all caches"
+        },
+        "resetpack": {
+            "description": "Resets the threat of the entire sticker pack."
         },
         "resttop": {
             "description": "Displays the top offenders in chat.",
@@ -157,11 +194,21 @@
             "uptime": "Uptime"
         },
         "support": {
+            "description": "Bot support",
             "header": "Info sent to support!"
+        },
+        "support_chat": {
+            "description": "Sending information about the current chat to technical support"
+        },
+        "support_user": {
+            "description": "Sends user information to technical support"
         },
         "sync": {
             "complete": "Sync complete!",
             "description": "Sync moders of chat"
+        },
+        "terms": {
+            "description": "Terms of Use"
         },
         "unban": {
             "description": "Unban user",
@@ -199,6 +246,7 @@
             "workers": "AI-Workers:"
         },
         "userreport": {
+            "description": "Creating a text report for the user",
             "sent": "I've sent the info in private messages!"
         },
         "warn": {

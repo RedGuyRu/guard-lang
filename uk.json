@@ -4,9 +4,15 @@
             "description": "Згадати всіх адміністраторів чату",
             "header": "Виклик адміністраторів від {{peerName}} #id{{peerId}}"
         },
+        "aicheck": {
+            "description": ""
+        },
         "ban": {
             "description": "Забанити користувача",
             "onlyUsers": "Не можна видати бан іншому адміністратору!"
+        },
+        "check": {
+            "description": ""
         },
         "dban": {
             "description": "Забанити користувача та видалити повідомлення"
@@ -15,6 +21,7 @@
             "description": "Замутити користувача та видалити повідомлення"
         },
         "dossier": {
+            "description": "",
             "noReason": "Не вказано",
             "wait": "Я почав готувати дані, це може зайняти деякий час."
         },
@@ -23,6 +30,9 @@
         },
         "fulluser": {
             "description": "Отримати повну інформацію про користувача"
+        },
+        "gas": {
+            "description": ""
         },
         "general": {
             "approve": "Схвалити",
@@ -66,9 +76,18 @@
         },
         "help": {
             "commandList": "Список команд:",
+            "description": "",
             "docs": "Детальніше в документації: https://docs.redguy.ru/igb/imperiumguardbot.html",
             "duration": "<тривалість>",
             "durationHint": "Тривалість вказується в форматі число+інтервал: 1m 2h 3d 4w 5M 6y",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "",
+                "user": ""
+            },
+            "header": "",
             "idUserReply": "<id/username/відповідь>",
             "reason": "<причина>",
             "reply": "<відповідь>"
@@ -76,6 +95,12 @@
         "id": {
             "description": "Отримати id користувача, каналу або чату",
             "send": "Надішліть користувача, канал або чат використовуючи кнопки нижче!"
+        },
+        "json": {
+            "description": ""
+        },
+        "mass": {
+            "description": ""
         },
         "modtop": {
             "bans": "Топ модераторів за банами:",
@@ -95,6 +120,12 @@
         "note": {
             "description": "Створити примітку про користувача",
             "onlyUsers": "Не можна залишити примітку про іншого адміністратора!"
+        },
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
         },
         "raidmode": {
             "description": "Увімкнути/вимкнути режим рейду",
@@ -120,6 +151,12 @@
         "reptop": {
             "description": "Отримати топ репортерів",
             "header": "Топ репортерів:"
+        },
+        "reset": {
+            "description": ""
+        },
+        "resetpack": {
+            "description": ""
         },
         "resttop": {
             "description": "",
@@ -157,11 +194,21 @@
             "uptime": "Аптайм"
         },
         "support": {
+            "description": "",
             "header": "Інформацію надіслано у підтримку!"
+        },
+        "support_chat": {
+            "description": ""
+        },
+        "support_user": {
+            "description": ""
         },
         "sync": {
             "complete": "Синхронізацію завершено!",
             "description": "Синхронізувати модераторів чату"
+        },
+        "terms": {
+            "description": ""
         },
         "unban": {
             "description": "Розблокувати користувача",
@@ -199,6 +246,7 @@
             "workers": ""
         },
         "userreport": {
+            "description": "",
             "sent": "Я відправив інформацію в особисті повідомлення!"
         },
         "warn": {

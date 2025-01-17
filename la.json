@@ -4,9 +4,15 @@
             "description": "Nom du chat administrateurs",
             "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
+        "aicheck": {
+            "description": ""
+        },
         "ban": {
             "description": "A user movebo",
             "onlyUsers": "Bannum alteri administratori ferre non potes!"
+        },
+        "check": {
+            "description": ""
         },
         "dban": {
             "description": "Obstrue utentem et nuntium delere"
@@ -15,6 +21,7 @@
             "description": "Confundat user ac delere nuntium"
         },
         "dossier": {
+            "description": "",
             "noReason": "Non specificatur",
             "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
         },
@@ -23,6 +30,9 @@
         },
         "fulluser": {
             "description": "Adepto plenam informationem sobre utente"
+        },
+        "gas": {
+            "description": ""
         },
         "general": {
             "approve": "Probo",
@@ -66,9 +76,18 @@
         },
         "help": {
             "commandList": "Index mandatorum:",
+            "description": "",
             "docs": "Plura in documentis: https://docs.redguy.ru/igb/imperiumguardbot.html",
             "duration": "<durationem>",
             "durationHint": "Duratio indicatur in forma numeri + intervallum: 1m 2h 3d 4w 5M 6y",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "",
+                "user": ""
+            },
+            "header": "",
             "idUserReply": "<id/username/respondere>",
             "reason": "<causa>",
             "reply": "<responder>"
@@ -76,6 +95,12 @@
         "id": {
             "description": "Get id utentis, canalis, vel chat",
             "send": "Usorem, canalem vel chat utens globulis infra mitte!"
+        },
+        "json": {
+            "description": ""
+        },
+        "mass": {
+            "description": ""
         },
         "modtop": {
             "bans": "Top moderatores bans:",
@@ -95,6 +120,12 @@
         "note": {
             "description": "Creare annotare de usuario",
             "onlyUsers": "Nota de alio administratore relinquere non potes!"
+        },
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
         },
         "raidmode": {
             "description": "Admitte/disable dixisse modus",
@@ -120,6 +151,12 @@
         "reptop": {
             "description": "Get summo reporters",
             "header": "Top Reporters:"
+        },
+        "reset": {
+            "description": ""
+        },
+        "resetpack": {
+            "description": ""
         },
         "resttop": {
             "description": "",
@@ -157,11 +194,21 @@
             "uptime": "uptime"
         },
         "support": {
+            "description": "",
             "header": "Informationes missi subsidii!"
+        },
+        "support_chat": {
+            "description": ""
+        },
+        "support_user": {
+            "description": ""
         },
         "sync": {
             "complete": "Synchronisatio completa est!",
             "description": "Synchronize chat moderatores"
+        },
+        "terms": {
+            "description": ""
         },
         "unban": {
             "description": "Unblock utentis",
@@ -199,6 +246,7 @@
             "workers": ""
         },
         "userreport": {
+            "description": "",
             "sent": "Ego misit notitia in privatis epistulae!"
         },
         "warn": {
