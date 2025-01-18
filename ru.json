@@ -396,6 +396,14 @@
                 "newbieRestrictions": {
                     "name": "Длительность ограничений новичка"
                 },
+                "raid": {
+                    "interval": {
+                        "name": "Интервал проверки на рейд"
+                    },
+                    "threshold": {
+                        "name": "Порог сработки рейд системы"
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": "Реакций до бана"
                 },

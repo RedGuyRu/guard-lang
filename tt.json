@@ -396,6 +396,14 @@
                 "newbieRestrictions": {
                     "name": "Яңа уенчының чикләүләр дәвамлылыгы"
                 },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": "Блокировкага кадәр реакцияләр"
                 },

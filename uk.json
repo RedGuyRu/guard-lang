@@ -396,6 +396,14 @@
                 "newbieRestrictions": {
                     "name": "Тривалість обмежень новачка"
                 },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": "Реакцій до бана"
                 },

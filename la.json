@@ -396,6 +396,14 @@
                 "newbieRestrictions": {
                     "name": "Durationem inceptor restrictiones"
                 },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": "Reactiones ante banum"
                 },

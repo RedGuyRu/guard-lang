@@ -395,6 +395,14 @@
                 "newbieRestrictions": {
                     "name": ""
                 },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": ""
                 },

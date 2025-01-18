@@ -396,6 +396,14 @@
                 "newbieRestrictions": {
                     "name": "Duration of beginner's restrictions"
                 },
+                "raid": {
+                    "interval": {
+                        "name": "Raid check interval"
+                    },
+                    "threshold": {
+                        "name": "Raid system threshold"
+                    }
+                },
                 "reactionsUntilBan": {
                     "name": "Reactions until ban"
                 },
