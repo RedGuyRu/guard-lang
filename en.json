@@ -753,8 +753,16 @@
             "enterName": "Enter token name:"
         },
         "addTrigger": {
-            "badwordsRU": "Sweating (russian)",
+            "condition": {
+                "badwordsRU": "Sweating (russian)",
+                "contains": "Contains text",
+                "match": "Exact match",
+                "regex": "Regular Expression"
+            },
             "enterAction": "Select trigger action:",
+            "enterConditionType": "Select condition type for trigger:",
+            "enterContains": "Enter the text that the triggering message should contain:",
+            "enterMatch": "Enter the text of the message to be triggered:",
             "enterName": "Enter trigger name:",
             "enterRegex": "Enter regex for trigger (you can try it on regex101.com):"
         },

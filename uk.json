@@ -687,8 +687,16 @@
             "enterName": "Введіть назву токена:"
         },
         "addTrigger": {
-            "badwordsRU": "Нецензурна лексика (російська)",
+            "condition": {
+                "badwordsRU": "Нецензурна лексика (російська)",
+                "contains": "",
+                "match": "",
+                "regex": ""
+            },
             "enterAction": "Виберіть дію на тригер:",
+            "enterConditionType": "",
+            "enterContains": "",
+            "enterMatch": "",
             "enterName": "Введіть назву тригера:",
             "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):"
         },

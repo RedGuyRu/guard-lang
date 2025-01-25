@@ -753,8 +753,16 @@
             "enterName": "Токен исемен кертегез:"
         },
         "addTrigger": {
-            "badwordsRU": "Цензурасыз лика (русча)",
+            "condition": {
+                "badwordsRU": "Цензурасыз лика (русча)",
+                "contains": "",
+                "match": "",
+                "regex": ""
+            },
             "enterAction": "Триггерга тәэсирне сайлагыз:",
+            "enterConditionType": "",
+            "enterContains": "",
+            "enterMatch": "",
             "enterName": "Триггер исемен кертегез:",
             "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):"
         },

@@ -683,8 +683,16 @@
             "enterName": ""
         },
         "addTrigger": {
-            "badwordsRU": "",
+            "condition": {
+                "badwordsRU": "",
+                "contains": "",
+                "match": "",
+                "regex": ""
+            },
             "enterAction": "",
+            "enterConditionType": "",
+            "enterContains": "",
+            "enterMatch": "",
             "enterName": "",
             "enterRegex": ""
         },
