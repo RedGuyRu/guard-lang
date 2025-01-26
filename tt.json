@@ -756,7 +756,7 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Цензурасыз лика (русча)",
-                "command": "",
+                "command": "командующийлар хәбәр",
                 "contains": "",
                 "match": "",
                 "regex": ""
