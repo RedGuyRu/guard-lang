@@ -314,6 +314,7 @@
             "delete": "Хәбәрне бетерергә",
             "ignore": "Игътибарсыз калдыру",
             "kick": "Төшереп калдыру",
+            "message": "",
             "mute": "Болгату",
             "notify": "Белдерү",
             "warn": "Кисәтеп бетерергә"
@@ -755,14 +756,18 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Цензурасыз лика (русча)",
+                "command": "",
                 "contains": "",
                 "match": "",
                 "regex": ""
             },
             "enterAction": "Триггерга тәэсирне сайлагыз:",
+            "enterCommand": "",
             "enterConditionType": "",
             "enterContains": "",
+            "enterDuration": "",
             "enterMatch": "",
+            "enterMessage": "",
             "enterName": "Триггер исемен кертегез:",
             "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):"
         },
@@ -807,6 +812,8 @@
             "notFound": "Триггер табылмады!"
         },
         "triggers": {
+            "editAction": "",
+            "editCondition": "",
             "header": "Чаттагы триггерлар {{title}}"
         }
     }

@@ -314,6 +314,7 @@
             "delete": "Delete message",
             "ignore": "Ignore",
             "kick": "Kick",
+            "message": "Send message",
             "mute": "Mute",
             "notify": "Notify",
             "warn": "Delete with warn"
@@ -755,14 +756,18 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Sweating (russian)",
+                "command": "Command",
                 "contains": "Contains text",
                 "match": "Exact match",
                 "regex": "Regular Expression"
             },
             "enterAction": "Select trigger action:",
+            "enterCommand": "Enter the command to be triggered by the trigger:",
             "enterConditionType": "Select condition type for trigger:",
             "enterContains": "Enter the text that the triggering message should contain:",
+            "enterDuration": "Enter restriction duration:",
             "enterMatch": "Enter the text of the message to be triggered:",
+            "enterMessage": "Enter respond message:",
             "enterName": "Enter trigger name:",
             "enterRegex": "Enter regex for trigger (you can try it on regex101.com):"
         },
@@ -807,6 +812,8 @@
             "notFound": "Trigger not found!"
         },
         "triggers": {
+            "editAction": "Edit action",
+            "editCondition": "Edit trigger condition",
             "header": "Triggers in chat {{title}}"
         }
     }

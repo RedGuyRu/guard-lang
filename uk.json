@@ -314,6 +314,7 @@
             "delete": "Видалити повідомлення",
             "ignore": "Ігнорувати",
             "kick": "Виключити",
+            "message": "",
             "mute": "Замутити",
             "notify": "Повідомити",
             "warn": "Видаляти з попередженням"
@@ -689,14 +690,18 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Нецензурна лексика (російська)",
+                "command": "",
                 "contains": "",
                 "match": "",
                 "regex": ""
             },
             "enterAction": "Виберіть дію на тригер:",
+            "enterCommand": "",
             "enterConditionType": "",
             "enterContains": "",
+            "enterDuration": "",
             "enterMatch": "",
+            "enterMessage": "",
             "enterName": "Введіть назву тригера:",
             "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):"
         },
@@ -741,6 +746,8 @@
             "notFound": "Тригер не знайдено!"
         },
         "triggers": {
+            "editAction": "",
+            "editCondition": "",
             "header": "Тригери у чаті {{title}}"
         }
     }

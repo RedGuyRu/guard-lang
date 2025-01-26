@@ -313,6 +313,7 @@
             "delete": "",
             "ignore": "",
             "kick": "",
+            "message": "",
             "mute": "",
             "notify": "",
             "warn": ""
@@ -685,14 +686,18 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "",
+                "command": "",
                 "contains": "",
                 "match": "",
                 "regex": ""
             },
             "enterAction": "",
+            "enterCommand": "",
             "enterConditionType": "",
             "enterContains": "",
+            "enterDuration": "",
             "enterMatch": "",
+            "enterMessage": "",
             "enterName": "",
             "enterRegex": ""
         },
@@ -737,6 +742,8 @@
             "notFound": ""
         },
         "triggers": {
+            "editAction": "",
+            "editCondition": "",
             "header": ""
         }
     }
