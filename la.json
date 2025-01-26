@@ -702,7 +702,7 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Lingua obscena(Russica)",
-                "command": "",
+                "command": "Team",
                 "contains": "",
                 "match": "",
                 "regex": ""
