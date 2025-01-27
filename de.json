@@ -316,6 +316,7 @@
             "message": "",
             "mute": "",
             "notify": "",
+            "reputation": "",
             "warn": ""
         },
         "notSet": "",
@@ -699,7 +700,8 @@
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "",
-            "enterRegex": ""
+            "enterRegex": "",
+            "enterReputation": ""
         },
         "commands": {
             "enterText": "",

@@ -317,6 +317,7 @@
             "message": "",
             "mute": "Болгату",
             "notify": "Белдерү",
+            "reputation": "",
             "warn": "Кисәтеп бетерергә"
         },
         "notSet": "билгеләнмәгән",
@@ -769,7 +770,8 @@
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "Триггер исемен кертегез:",
-            "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):"
+            "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):",
+            "enterReputation": ""
         },
         "commands": {
             "enterText": "Җавап текстын кертегез:",

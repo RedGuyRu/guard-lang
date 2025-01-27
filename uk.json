@@ -317,6 +317,7 @@
             "message": "",
             "mute": "Замутити",
             "notify": "Повідомити",
+            "reputation": "",
             "warn": "Видаляти з попередженням"
         },
         "notSet": "не встановлено",
@@ -703,7 +704,8 @@
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "Введіть назву тригера:",
-            "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):"
+            "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):",
+            "enterReputation": ""
         },
         "commands": {
             "enterText": "Введіть текст відповіді:",

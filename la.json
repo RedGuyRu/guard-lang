@@ -317,6 +317,7 @@
             "message": "",
             "mute": "Muta",
             "notify": "Certiorem",
+            "reputation": "",
             "warn": "Delere per monitionem"
         },
         "notSet": "non installatur",
@@ -715,7 +716,8 @@
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "Intra nomen felis:",
-            "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):"
+            "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):",
+            "enterReputation": ""
         },
         "commands": {
             "enterText": "Intra responsum textum:",

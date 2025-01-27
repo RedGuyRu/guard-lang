@@ -317,6 +317,7 @@
             "message": "Send message",
             "mute": "Mute",
             "notify": "Notify",
+            "reputation": "Change reputation",
             "warn": "Delete with warn"
         },
         "notSet": "not set",
@@ -769,7 +770,8 @@
             "enterMatch": "Enter the text of the message to be triggered:",
             "enterMessage": "Enter respond message:",
             "enterName": "Enter trigger name:",
-            "enterRegex": "Enter regex for trigger (you can try it on regex101.com):"
+            "enterRegex": "Enter regex for trigger (you can try it on regex101.com):",
+            "enterReputation": "Enter the amount of reputation to be added:"
         },
         "commands": {
             "enterText": "Enter respond text:",
