@@ -701,7 +701,12 @@
             "enterMessage": "",
             "enterName": "",
             "enterRegex": "",
-            "enterReputation": ""
+            "enterReputation": "",
+            "enterReputationGetter": "",
+            "reputation": {
+                "replier": "",
+                "sender": ""
+            }
         },
         "commands": {
             "enterText": "",

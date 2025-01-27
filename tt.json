@@ -771,7 +771,12 @@
             "enterMessage": "",
             "enterName": "Триггер исемен кертегез:",
             "enterRegex": "Триггер өчен регуляр аңлатма кертегез (regex101.com):",
-            "enterReputation": ""
+            "enterReputation": "",
+            "enterReputationGetter": "",
+            "reputation": {
+                "replier": "",
+                "sender": ""
+            }
         },
         "commands": {
             "enterText": "Җавап текстын кертегез:",

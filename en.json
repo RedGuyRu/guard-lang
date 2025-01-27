@@ -771,7 +771,12 @@
             "enterMessage": "Enter respond message:",
             "enterName": "Enter trigger name:",
             "enterRegex": "Enter regex for trigger (you can try it on regex101.com):",
-            "enterReputation": "Enter the amount of reputation to be added:"
+            "enterReputation": "Enter the amount of reputation to be added:",
+            "enterReputationGetter": "Select the recipient of the reputation:",
+            "reputation": {
+                "replier": "User receiving a reply",
+                "sender": "Message sender"
+            }
         },
         "commands": {
             "enterText": "Enter respond text:",

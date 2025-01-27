@@ -705,7 +705,12 @@
             "enterMessage": "",
             "enterName": "Введіть назву тригера:",
             "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):",
-            "enterReputation": ""
+            "enterReputation": "",
+            "enterReputationGetter": "",
+            "reputation": {
+                "replier": "",
+                "sender": ""
+            }
         },
         "commands": {
             "enterText": "Введіть текст відповіді:",
