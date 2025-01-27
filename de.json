@@ -150,7 +150,8 @@
         },
         "reptop": {
             "description": "",
-            "header": ""
+            "reports": "",
+            "reputation": ""
         },
         "reset": {
             "description": ""

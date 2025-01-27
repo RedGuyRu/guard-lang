@@ -150,7 +150,8 @@
         },
         "reptop": {
             "description": "Get summo reporters",
-            "header": "Top Reporters:"
+            "reports": "Top Reporters:",
+            "reputation": ""
         },
         "reset": {
             "description": ""

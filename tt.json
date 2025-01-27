@@ -150,7 +150,8 @@
         },
         "reptop": {
             "description": "Топ репортерлар алу",
-            "header": "Топ репортерлар:"
+            "reports": "Топ репортерлар:",
+            "reputation": ""
         },
         "reset": {
             "description": ""

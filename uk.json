@@ -150,7 +150,8 @@
         },
         "reptop": {
             "description": "Отримати топ репортерів",
-            "header": "Топ репортерів:"
+            "reports": "Топ репортерів:",
+            "reputation": ""
         },
         "reset": {
             "description": ""

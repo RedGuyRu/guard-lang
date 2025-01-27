@@ -150,7 +150,8 @@
         },
         "reptop": {
             "description": "Gets top of reporters",
-            "header": "Top of reporters:"
+            "reports": "Top of reporters:",
+            "reputation": "Reputation top:"
         },
         "reset": {
             "description": "Resets the passed key in all caches"
