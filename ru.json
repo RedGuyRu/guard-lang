@@ -535,6 +535,9 @@
                     "menu": "Привязка каналов в чате {{menu}}.",
                     "name": "Привязка каналов"
                 },
+                "command_restrictions": {
+                    "name": "Ограничения команд"
+                },
                 "commands": {
                     "name": "Кастомные команды"
                 },
@@ -778,6 +781,26 @@
                 "replier": "Пользователь получивший ответ",
                 "sender": "Отправитель сообщения"
             }
+        },
+        "command_restrictions": {
+            "add_reports_reputation": "Добавить требование репутации репортов",
+            "add_reputation": "Добавить требование репутации чата",
+            "edit_reports_reputation": "Изменить требование репутации репортов",
+            "edit_reputation": "Изменить репутацию чата",
+            "enter_command": "Введите команду",
+            "enter_new_reports_reputation": "Введите количество требуемой репутации репортов",
+            "enter_new_reputation": "Введите количество требуемой репутации",
+            "enter_reports_reputation": "Введите количество требуемрой репутации репортов",
+            "enter_reputation": "Введите количество требуемрой репутации в чате",
+            "header": "Ограничения команд в чате {{title}}",
+            "info": "Ограничение использования команды:",
+            "notFound": "Ограничение не найдено",
+            "remove_reports_reputation": "Не требовать репутацию репортов",
+            "remove_reputation": "Не требовать репутацию",
+            "reports_reputation": "Репутация репортов:",
+            "reputation": "Репутация чата:",
+            "skip_reports_reputation": "Пропустить",
+            "skip_reputation": "Пропустить"
         },
         "commands": {
             "enterText": "Введите текст ответа:",

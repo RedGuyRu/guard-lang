@@ -535,6 +535,9 @@
                     "menu": "Channels linking in chat {{menu}}.",
                     "name": "Channel linking"
                 },
+                "command_restrictions": {
+                    "name": "Command restrictions"
+                },
                 "commands": {
                     "name": "Custom commands"
                 },
@@ -778,6 +781,26 @@
                 "replier": "User receiving a reply",
                 "sender": "Message sender"
             }
+        },
+        "command_restrictions": {
+            "add_reports_reputation": "Add a report reputation requirement",
+            "add_reputation": "Add a chat reputation requirement",
+            "edit_reports_reputation": "Change the report reputation requirement",
+            "edit_reputation": "Change chat reputation",
+            "enter_command": "Enter command",
+            "enter_new_reports_reputation": "Enter the amount of report reputation required",
+            "enter_new_reputation": "Enter the amount of reputation required",
+            "enter_reports_reputation": "Enter the number of reports reputation required",
+            "enter_reputation": "Enter the amount of chat reputation required",
+            "header": "Command restrictions in chat {{title}}",
+            "info": "Command usage restrictions:",
+            "notFound": "Command restriction not found",
+            "remove_reports_reputation": "Don't demand report reputation",
+            "remove_reputation": "Don't demand a reputation",
+            "reports_reputation": "Reports reputation:",
+            "reputation": "Chat reputation:",
+            "skip_reports_reputation": "Skip",
+            "skip_reputation": "Skip"
         },
         "commands": {
             "enterText": "Enter respond text:",

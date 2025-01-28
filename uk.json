@@ -469,6 +469,9 @@
                     "menu": "",
                     "name": "Прив'язка каналів"
                 },
+                "command_restrictions": {
+                    "name": ""
+                },
                 "commands": {
                     "name": "Кастомні команди"
                 },
@@ -712,6 +715,26 @@
                 "replier": "",
                 "sender": ""
             }
+        },
+        "command_restrictions": {
+            "add_reports_reputation": "",
+            "add_reputation": "",
+            "edit_reports_reputation": "",
+            "edit_reputation": "",
+            "enter_command": "",
+            "enter_new_reports_reputation": "",
+            "enter_new_reputation": "",
+            "enter_reports_reputation": "",
+            "enter_reputation": "",
+            "header": "",
+            "info": "",
+            "notFound": "",
+            "remove_reports_reputation": "",
+            "remove_reputation": "",
+            "reports_reputation": "",
+            "reputation": "",
+            "skip_reports_reputation": "",
+            "skip_reputation": ""
         },
         "commands": {
             "enterText": "Введіть текст відповіді:",
