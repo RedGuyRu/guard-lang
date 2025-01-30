@@ -1,7 +1,7 @@
 {
     "commands": {
         "admins": {
-            "description": "",
+            "description": "すべてのチャット管理者に連絡",
             "header": ""
         },
         "aicheck": {
