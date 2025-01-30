@@ -357,7 +357,7 @@
             "all": "Omnes participes",
             "disabled": "Disabled",
             "owner": "Dominus",
-            "undefined": ""
+            "undefined": "non installatur"
         },
         "set": "installed",
         "settings": {
