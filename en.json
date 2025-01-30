@@ -319,6 +319,7 @@
             "mute": "Mute",
             "notify": "Notify",
             "reputation": "Change reputation",
+            "undefined": "Not set",
             "warn": "Delete with warn"
         },
         "notSet": "not set",
@@ -355,7 +356,8 @@
             "admins": "Administrators",
             "all": "All users",
             "disabled": "Disabled",
-            "owner": "Creator"
+            "owner": "Creator",
+            "undefined": "Not set"
         },
         "set": "set",
         "settings": {
@@ -392,6 +394,17 @@
                     "name": "Media checking",
                     "punishment": "Select user restriction",
                     "sent": "Unacceptable media sent"
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": "Maximum number of media in row"
+                    },
+                    "duration": {
+                        "name": "Duration of punishment for media spam"
+                    },
+                    "punishment": {
+                        "name": "Punishment for media spam"
+                    }
                 },
                 "muteOnPermission": {
                     "name": "Mute duration when trying to use moderation commands"
@@ -709,6 +722,7 @@
                 }
             }
         },
+        "spam": "Spam",
         "token": "Token",
         "unknown": {
             "channel": "Unknown channel",

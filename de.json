@@ -318,6 +318,7 @@
             "mute": "",
             "notify": "",
             "reputation": "",
+            "undefined": "",
             "warn": ""
         },
         "notSet": "",
@@ -354,7 +355,8 @@
             "admins": "",
             "all": "",
             "disabled": "",
-            "owner": ""
+            "owner": "",
+            "undefined": ""
         },
         "set": "",
         "settings": {
@@ -391,6 +393,17 @@
                     "name": "",
                     "punishment": "",
                     "sent": ""
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
                 },
                 "muteOnPermission": {
                     "name": ""
@@ -639,6 +652,7 @@
                 }
             }
         },
+        "spam": "",
         "token": "",
         "unknown": {
             "channel": "",

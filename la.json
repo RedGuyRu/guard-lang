@@ -319,6 +319,7 @@
             "mute": "Muta",
             "notify": "Certiorem",
             "reputation": "",
+            "undefined": "",
             "warn": "Delere per monitionem"
         },
         "notSet": "non installatur",
@@ -355,7 +356,8 @@
             "admins": "Administratores",
             "all": "Omnes participes",
             "disabled": "Disabled",
-            "owner": "Dominus"
+            "owner": "Dominus",
+            "undefined": ""
         },
         "set": "installed",
         "settings": {
@@ -392,6 +394,17 @@
                     "name": "",
                     "punishment": "",
                     "sent": ""
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
                 },
                 "muteOnPermission": {
                     "name": "Duratio restrictiones cum moderatione utens mandata"
@@ -655,6 +668,7 @@
                 }
             }
         },
+        "spam": "",
         "token": "Token",
         "unknown": {
             "channel": "Canale ignotum",

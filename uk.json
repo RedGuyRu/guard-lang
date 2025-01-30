@@ -319,6 +319,7 @@
             "mute": "Замутити",
             "notify": "Повідомити",
             "reputation": "",
+            "undefined": "",
             "warn": "Видаляти з попередженням"
         },
         "notSet": "не встановлено",
@@ -355,7 +356,8 @@
             "admins": "Адміністратори",
             "all": "Всі учасники",
             "disabled": "Вимкнені",
-            "owner": "Власник"
+            "owner": "Власник",
+            "undefined": ""
         },
         "set": "встановлено",
         "settings": {
@@ -392,6 +394,17 @@
                     "name": "",
                     "punishment": "",
                     "sent": ""
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
                 },
                 "muteOnPermission": {
                     "name": "Тривалість мута при використанні команд модерації"
@@ -643,6 +656,7 @@
                 }
             }
         },
+        "spam": "",
         "token": "Токен",
         "unknown": {
             "channel": "Невідомий канал",
