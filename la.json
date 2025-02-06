@@ -687,10 +687,10 @@
             "wrongUser": "Non est tuum captcha!"
         },
         "chatJoin": {
-            "raid": ""
+            "raid": "Inventa est expeditio! {{joins}} users initium {{interval}}. Incursio modus reducitur, utere /raidmode ut disable eam."
         },
         "file": {
-            "got": ""
+            "got": "Irritum contentus\" {{type}} in chat {{title}}}"
         },
         "hello": {
             "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",
@@ -722,20 +722,20 @@
             "condition": {
                 "badwordsRU": "Lingua obscena(Russica)",
                 "command": "Command",
-                "contains": "",
-                "match": "",
-                "regex": ""
+                "contains": "Textum continet",
+                "match": "Prorsus compositus",
+                "regex": "Lusto expressio"
             },
             "enterAction": "Actionem felis eligere:",
-            "enterCommand": "",
-            "enterConditionType": "",
-            "enterContains": "",
-            "enterDuration": "",
-            "enterMatch": "",
-            "enterMessage": "",
+            "enterCommand": "Intra imperium quod felis erit:",
+            "enterConditionType": "Genus conditionis felis eligere:",
+            "enterContains": "Intrant textum ut nuntius ad expediendas contineat:",
+            "enterDuration": "Intrant durationem restrictionis:",
+            "enterMatch": "Intrant textum nuntii ad operandum cum:",
+            "enterMessage": "Intrant nuntium quem mittis:",
             "enterName": "Intra nomen felis:",
             "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):",
-            "enterReputation": "",
+            "enterReputation": "Intra quantitatem famae addere:",
             "enterReputationGetter": "",
             "reputation": {
                 "replier": "",
@@ -747,7 +747,7 @@
             "add_reputation": "",
             "edit_reports_reputation": "",
             "edit_reputation": "",
-            "enter_command": "Intrant mandatum:",
+            "enter_command": "Intrant command",
             "enter_new_reports_reputation": "",
             "enter_new_reputation": "",
             "enter_reports_reputation": "",
