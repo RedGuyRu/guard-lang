@@ -5,14 +5,14 @@
             "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
         "aicheck": {
-            "description": ""
+            "description": "Informationes praebet de statu neuronis"
         },
         "ban": {
             "description": "A user movebo",
             "onlyUsers": "Bannum alteri administratori ferre non potes!"
         },
         "check": {
-            "description": ""
+            "description": "Incipit reprehendo files"
         },
         "dban": {
             "description": "Obstrue utentem et nuntium delere"
@@ -21,7 +21,7 @@
             "description": "Confundat user ac delere nuntium"
         },
         "dossier": {
-            "description": "",
+            "description": "Generare instrumentum lima pro usuario",
             "noReason": "Non specificatur",
             "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
         },
@@ -32,7 +32,7 @@
             "description": "Adepto plenam informationem sobre utente"
         },
         "gas": {
-            "description": ""
+            "description": "Addit GAS cincinno utentis"
         },
         "general": {
             "approve": "Probo",
@@ -648,7 +648,7 @@
                     "title": "Transferre of chat stars {{title}}"
                 }
             },
-            "timeZoneInfo": "",
+            "timeZoneInfo": "Ad tempus temporis specificare, tempus debitum specificare in forma \"UTC+N \"vel\"GMT+N\". Forma IANA \"Europa/Moscuae\" etiam uti potes, in hoc casu autocinetum automatice rationem diei temporis salutaris habebit, nota quaeso quod civitatem quam vis publice ostendi non erit et sponte ad formam convertetur GMT+N.",
             "warns": {
                 "cooldown": {
                     "name": "Cooldown varna ad unum hominem"
@@ -668,7 +668,7 @@
                 }
             }
         },
-        "spam": "",
+        "spam": "Spam",
         "token": "Token",
         "unknown": {
             "channel": "Canale ignotum",
@@ -721,7 +721,7 @@
         "addTrigger": {
             "condition": {
                 "badwordsRU": "Lingua obscena(Russica)",
-                "command": "Team",
+                "command": "Command",
                 "contains": "",
                 "match": "",
                 "regex": ""
@@ -805,7 +805,7 @@
         "triggers": {
             "editAction": "",
             "editCondition": "",
-            "header": ""
+            "header": "Curabitur triggers {{title}}"
         }
     }
 }
