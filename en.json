@@ -500,6 +500,17 @@
                 "stories": {
                     "name": "Moderation of stories"
                 },
+                "textSpamCheck": {
+                    "count": {
+                        "name": "Maximum number of same messages in row"
+                    },
+                    "duration": {
+                        "name": "Duration of punishment for same messages spam"
+                    },
+                    "punishment": {
+                        "name": "Punishment for same messages spam"
+                    }
+                },
                 "trigger": {
                     "name": "Triggers"
                 }

@@ -434,6 +434,17 @@
                 "stories": {
                     "name": "Модерація історій"
                 },
+                "textSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
                 "trigger": {
                     "name": "Тригери"
                 }

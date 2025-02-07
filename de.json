@@ -430,6 +430,17 @@
                 "stories": {
                     "name": ""
                 },
+                "textSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
                 "trigger": {
                     "name": ""
                 }
