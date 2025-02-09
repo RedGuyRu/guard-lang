@@ -464,6 +464,7 @@
             "category": {
                 "automod": "Auto-modus occasus",
                 "customs": "Aliquam occasus",
+                "language": "Lingua",
                 "permissions": "",
                 "privates": "",
                 "reports": "Querimonia occasus",
@@ -556,7 +557,6 @@
             "inputChangingChat": "",
             "inputChangingPM": "",
             "language": {
-                "button": "Lingua",
                 "header": "Linguam eligere ut in chat adhiberi"
             },
             "permissions": {

@@ -518,6 +518,7 @@
             "category": {
                 "automod": "Automoderation settings",
                 "customs": "Customization settings",
+                "language": "Language",
                 "permissions": "Permissions",
                 "privates": "General",
                 "reports": "Reporting settings",
@@ -610,7 +611,6 @@
             "inputChangingChat": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
             "inputChangingPM": "Changing the “{{param}}” parameter, send the new value to the chat. Current value: <code>{{current}}</code>",
             "language": {
-                "button": "Language",
                 "header": "Select language for the chat"
             },
             "permissions": {

@@ -518,6 +518,7 @@
             "category": {
                 "automod": "Автомодерацияне көйләү",
                 "customs": "Кастомизацияләүне җайга салу",
+                "language": "Тел",
                 "permissions": "Хокук",
                 "privates": "",
                 "reports": "Репортларны көйләү",
@@ -610,7 +611,6 @@
             "inputChangingChat": "Чатта \"{{param}}\" параметрын үзгәртү {{title}}, чатка яңа кыйммәт җибәрегез. Хәзерге мәгънәсе: <code>{{current}}</code>",
             "inputChangingPM": "",
             "language": {
-                "button": "Тел",
                 "header": "Чатта кулланылачак телне сайлагыз"
             },
             "permissions": {

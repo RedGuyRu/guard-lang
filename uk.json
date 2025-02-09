@@ -452,6 +452,7 @@
             "category": {
                 "automod": "Налаштування автомодерації",
                 "customs": "Налаштування кастомізації",
+                "language": "Мова",
                 "permissions": "Права",
                 "privates": "",
                 "reports": "Налаштування репортів",
@@ -544,7 +545,6 @@
             "inputChangingChat": "",
             "inputChangingPM": "",
             "language": {
-                "button": "Мова",
                 "header": "Виберіть мову, яка буде використовуватися в чаті"
             },
             "permissions": {

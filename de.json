@@ -448,6 +448,7 @@
             "category": {
                 "automod": "",
                 "customs": "",
+                "language": "",
                 "permissions": "",
                 "privates": "",
                 "reports": "",
@@ -540,7 +541,6 @@
             "inputChangingChat": "",
             "inputChangingPM": "",
             "language": {
-                "button": "",
                 "header": ""
             },
             "permissions": {
