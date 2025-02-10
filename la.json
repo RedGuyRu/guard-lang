@@ -749,12 +749,12 @@
             "enterReputation": "Intra quantitatem famae addere:",
             "enterReputationGetter": "Eligite susceptorem famae:",
             "reputation": {
-                "replier": "",
-                "sender": ""
+                "replier": "User qui responsum accepit",
+                "sender": "Nuntius mittentis"
             }
         },
         "command_restrictions": {
-            "add_reports_reputation": "",
+            "add_reports_reputation": "Fama postulationem addere",
             "add_reputation": "",
             "edit_reports_reputation": "",
             "edit_reputation": "",
