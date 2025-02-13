@@ -587,6 +587,9 @@
                     "name": "Greeting"
                 },
                 "header": "Customization settings in chat {{title}}}",
+                "messagesAutoRemove": {
+                    "name": "Interval for deleting trigger messages"
+                },
                 "modtop": {
                     "name": "Modtop access"
                 },

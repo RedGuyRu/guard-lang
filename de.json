@@ -517,6 +517,9 @@
                     "name": ""
                 },
                 "header": "",
+                "messagesAutoRemove": {
+                    "name": ""
+                },
                 "modtop": {
                     "name": ""
                 },

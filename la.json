@@ -533,6 +533,9 @@
                     "name": "Salvete"
                 },
                 "header": "Customization occasus in chat {{title}}",
+                "messagesAutoRemove": {
+                    "name": ""
+                },
                 "modtop": {
                     "name": "Aditus ad modtop"
                 },

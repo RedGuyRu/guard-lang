@@ -587,6 +587,9 @@
                     "name": "Сәлам"
                 },
                 "header": "Чатта көйләүләр {{title}}",
+                "messagesAutoRemove": {
+                    "name": ""
+                },
                 "modtop": {
                     "name": "Модтопка керү мөмкинлеге"
                 },
