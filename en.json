@@ -109,6 +109,9 @@
             "total": "Moderators top:",
             "warns": "Top moderators by warns:"
         },
+        "modview": {
+            "description": "Opens WebApp with members profiles"
+        },
         "msgtop": {
             "description": "Get top by messages in chat",
             "header": "Top by messages count:"

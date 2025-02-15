@@ -109,6 +109,9 @@
             "total": "Top-Moderatoren:",
             "warns": "Top-Moderatoren in Bezug auf Warnungen:"
         },
+        "modview": {
+            "description": ""
+        },
         "msgtop": {
             "description": "Top nach Anzahl der Nachrichten im Chatraum",
             "header": "Top nach Anzahl der Nachrichten:"

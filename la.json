@@ -109,6 +109,9 @@
             "total": "Top moderatoris:",
             "warns": "Top moderatores per admonitiones:"
         },
+        "modview": {
+            "description": ""
+        },
         "msgtop": {
             "description": "Получайте топ, отправляя сообщения в чат",
             "header": "Top per numerum epistulae:"

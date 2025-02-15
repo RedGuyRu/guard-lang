@@ -109,6 +109,9 @@
             "total": "",
             "warns": ""
         },
+        "modview": {
+            "description": ""
+        },
         "msgtop": {
             "description": "",
             "header": ""
