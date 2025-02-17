@@ -762,7 +762,7 @@
         "command_restrictions": {
             "add_reports_reputation": "Fama postulationem addere",
             "add_reputation": "Curabitur addere postulationem famae",
-            "edit_reports_reputation": "",
+            "edit_reports_reputation": "Mutare renuntiationes famae postulationem",
             "edit_reputation": "",
             "enter_command": "Intrant command",
             "enter_new_reports_reputation": "",
