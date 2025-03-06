@@ -321,6 +321,7 @@
             "message": "Send message",
             "mute": "Mute",
             "notify": "Notify",
+            "null": "Not set",
             "reputation": "Change reputation",
             "undefined": "Not set",
             "warn": "Delete with warn"

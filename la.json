@@ -321,6 +321,7 @@
             "message": "",
             "mute": "Muta",
             "notify": "Certiorem",
+            "null": "",
             "reputation": "",
             "undefined": "",
             "warn": "Delere per monitionem"

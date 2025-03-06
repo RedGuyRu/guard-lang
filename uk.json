@@ -321,6 +321,7 @@
             "message": "",
             "mute": "Замутити",
             "notify": "Повідомити",
+            "null": "",
             "reputation": "",
             "undefined": "",
             "warn": "Видаляти з попередженням"
