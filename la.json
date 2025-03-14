@@ -342,6 +342,7 @@
         },
         "restrictions": {
             "adminCommand": "Administrativus quadrigis",
+            "aiReport": "",
             "automod": "Automoderation",
             "ban": "Moderator{{user}} interdictum a user {{restricted}} ratione \"{{reason}}\"",
             "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",

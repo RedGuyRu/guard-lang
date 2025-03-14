@@ -341,6 +341,7 @@
         },
         "restrictions": {
             "adminCommand": "",
+            "aiReport": "",
             "automod": "",
             "ban": "",
             "banChannel": "",

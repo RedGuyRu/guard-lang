@@ -342,6 +342,7 @@
         },
         "restrictions": {
             "adminCommand": "Administration command",
+            "aiReport": "Delete and report error",
             "automod": "Automoderation",
             "ban": "Moderator {{user}} banned user {{restricted}}",
             "banChannel": "Moderator {{user}} has banned channel owner {{restricted}} from posting anonymously",
