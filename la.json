@@ -321,7 +321,7 @@
             "message": "",
             "mute": "Muta",
             "notify": "Certiorem",
-            "null": "",
+            "null": "non installatur",
             "reputation": "",
             "undefined": "",
             "warn": "Delere per monitionem"
@@ -773,7 +773,7 @@
             "enter_reputation": "Intrant quantitatem famae requisitae in chat",
             "header": "Commands restrictiones in chat{{title}}",
             "info": "Limitandi usum comands:",
-            "notFound": "Restrictio non inventa",
+            "notFound": "Restrictio non inventa!",
             "remove_reports_reputation": "Noli postulare famam renuntiationis",
             "remove_reputation": "",
             "reports_reputation": "",
