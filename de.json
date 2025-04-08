@@ -302,7 +302,8 @@
         "edit": "",
         "enabled": "",
         "errors": {
-            "cooldown": ""
+            "cooldown": "",
+            "pmlock": ""
         },
         "infinity": "",
         "intervals": {

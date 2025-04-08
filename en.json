@@ -303,7 +303,8 @@
         "edit": "Edit",
         "enabled": "enabled",
         "errors": {
-            "cooldown": "You made too many requests, wait {{seconds}} seconds!"
+            "cooldown": "You made too many requests, wait {{seconds}} seconds!",
+            "pmlock": ""
         },
         "infinity": "infinity",
         "intervals": {
