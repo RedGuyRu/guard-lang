@@ -227,6 +227,11 @@
         "user": {
             "activeban": "",
             "activemute": "",
+            "body": {
+                "bans": "",
+                "mutes": "",
+                "warns": ""
+            },
             "cancel": "",
             "cancelled": "",
             "deleted": "",
@@ -237,7 +242,6 @@
                 "user": ""
             },
             "messages": "",
-            "moder": "",
             "noRestrictions": "",
             "reputation": "",
             "restriction": "",

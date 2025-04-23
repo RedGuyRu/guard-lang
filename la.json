@@ -227,6 +227,11 @@
         "user": {
             "activeban": "Bannum activum: ",
             "activemute": "Active mutationem: ",
+            "body": {
+                "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
+                "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",
+                "warns": "Activa monita:{{warns}} Общие предупреждения:{{total_warns}}"
+            },
             "cancel": "Cancel",
             "cancelled": "Restrictio elevata est!",
             "deleted": "Restrictio remota!",
@@ -237,7 +242,6 @@
                 "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Epistulae: {{messages}}",
-            "moder": "User informationes{{user}}\nActiva monita:{{warns}} Общие предупреждения:{{total_warns}}\nBannum activum:{{bans}}Summa bans{{total_bans}}\nActive mutus:{{mutes}}Mutov totalis:{{total_mutes}}",
             "noRestrictions": "Non restrictiones",
             "reputation": "Reputatio: ",
             "restriction": "{{type}}ante{{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",

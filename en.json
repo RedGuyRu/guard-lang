@@ -227,6 +227,11 @@
         "user": {
             "activeban": "Active ban: ",
             "activemute": "Active mute: ",
+            "body": {
+                "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
+                "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
+                "warns": "Active warns: {{warns}} Total warns: {{total_warns}}"
+            },
             "cancel": "Cancel",
             "cancelled": "Restriction cancelled!",
             "deleted": "Restiction deleted!",
@@ -237,7 +242,6 @@
                 "user": "Information about user <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Messages: {{messages}}",
-            "moder": "Infomation about user {{user}}:\nActive warns: {{warns}} Total warns: {{total_warns}}\nActive ban: {{bans}} Total bans: {{total_bans}}\nActive mute: {{mutes}} Total mutes: {{total_mutes}}",
             "noRestrictions": "No restrictions",
             "reputation": "Reputation: ",
             "restriction": "{{type}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\n{{canceled}}",

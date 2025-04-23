@@ -227,6 +227,11 @@
         "user": {
             "activeban": "Активний бан: ",
             "activemute": "Активний мут: ",
+            "body": {
+                "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
+                "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
+                "warns": "Активні попередження: {{warns}} Загальне попередження: {{total_warns}}"
+            },
             "cancel": "Скасувати",
             "cancelled": "Обмеження скасовано!",
             "deleted": "Обмеження видалено!",
@@ -237,7 +242,6 @@
                 "user": "Інформація про користувача <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Повідомлень: {{messages}}",
-            "moder": "Інформація про користувачів {{user}}:\nАктивні попередження: {{warns}} Загальне попередження: {{total_warns}}\nАктивна заборона: {{bans}} Заборона все: {{total_mutes}}\nАктивний мут: {{mutes}} Мутс все: {{total_mutes}}",
             "noRestrictions": "Немає обмежень",
             "reputation": "Репутація: ",
             "restriction": "{{type}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
