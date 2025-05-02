@@ -334,8 +334,12 @@
         "notSet": "не встановлено",
         "notlinked": "не прив'язано",
         "permissions": {
+            "manage_restrictions": "",
+            "remove_restrictions": "",
             "reports": "",
-            "restrict": "",
+            "restrict_ban": "",
+            "restrict_mute": "",
+            "restrict_warn": "",
             "settings": ""
         },
         "restricted": "Недостатньо прав для виконання цієї команди!",

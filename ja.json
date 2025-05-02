@@ -334,8 +334,12 @@
         "notSet": "",
         "notlinked": "",
         "permissions": {
+            "manage_restrictions": "",
+            "remove_restrictions": "",
             "reports": "",
-            "restrict": "",
+            "restrict_ban": "",
+            "restrict_mute": "",
+            "restrict_warn": "",
             "settings": ""
         },
         "restricted": "",

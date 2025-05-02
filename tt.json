@@ -334,8 +334,12 @@
         "notSet": "билгеләнмәгән",
         "notlinked": "бәйләнмәгән",
         "permissions": {
+            "manage_restrictions": "Җәзалар белән идарә итү",
+            "remove_restrictions": "",
             "reports": "Репортлар белән идарә итү",
-            "restrict": "Җәзалар белән идарә итү",
+            "restrict_ban": "",
+            "restrict_mute": "",
+            "restrict_warn": "",
             "settings": "Чат көйләүләрен үзгәртү"
         },
         "restricted": "Бу команданы үтәү өчен хокуклар җитәрлек түгел!",

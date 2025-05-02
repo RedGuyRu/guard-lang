@@ -334,8 +334,12 @@
         "notSet": "not set",
         "notlinked": "not linked",
         "permissions": {
+            "manage_restrictions": "Manage restrictions",
+            "remove_restrictions": "Removing restrictions",
             "reports": "Manage reports",
-            "restrict": "Manage restrictions",
+            "restrict_ban": "Issuing bans",
+            "restrict_mute": "Issuing mutes",
+            "restrict_warn": "Issuing warns",
             "settings": "Manage chat settings"
         },
         "restricted": "Insufficient rights to execute this command!",
