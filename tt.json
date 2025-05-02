@@ -17,6 +17,9 @@
         "dban": {
             "description": "Кулланучыны блокларга һәм Хәбәрне бетерергә"
         },
+        "delete": {
+            "description": ""
+        },
         "dmute": {
             "description": "Кулланучыны дәшмәскә мәҗбүр итәргә һәм Хәбәрне бетерергә"
         },
@@ -335,6 +338,7 @@
         "notSet": "билгеләнмәгән",
         "notlinked": "бәйләнмәгән",
         "permissions": {
+            "delete_messages": "",
             "manage_restrictions": "Җәзалар белән идарә итү",
             "remove_restrictions": "",
             "reports": "Репортлар белән идарә итү",

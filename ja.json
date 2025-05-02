@@ -17,6 +17,9 @@
         "dban": {
             "description": ""
         },
+        "delete": {
+            "description": ""
+        },
         "dmute": {
             "description": ""
         },
@@ -335,6 +338,7 @@
         "notSet": "",
         "notlinked": "",
         "permissions": {
+            "delete_messages": "",
             "manage_restrictions": "",
             "remove_restrictions": "",
             "reports": "",

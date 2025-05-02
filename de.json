@@ -17,6 +17,9 @@
         "dban": {
             "description": "Einen Benutzer sperren und eine Nachricht löschen"
         },
+        "delete": {
+            "description": ""
+        },
         "dmute": {
             "description": "Aufrühren Sie den Benutzer und löschen Sie die Nachricht"
         },
@@ -334,6 +337,7 @@
         "notSet": "",
         "notlinked": "",
         "permissions": {
+            "delete_messages": "",
             "manage_restrictions": "",
             "remove_restrictions": "",
             "reports": "",

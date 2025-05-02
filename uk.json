@@ -17,6 +17,9 @@
         "dban": {
             "description": "Забанити користувача та видалити повідомлення"
         },
+        "delete": {
+            "description": ""
+        },
         "dmute": {
             "description": "Замутити користувача та видалити повідомлення"
         },
@@ -335,6 +338,7 @@
         "notSet": "не встановлено",
         "notlinked": "не прив'язано",
         "permissions": {
+            "delete_messages": "",
             "manage_restrictions": "",
             "remove_restrictions": "",
             "reports": "",

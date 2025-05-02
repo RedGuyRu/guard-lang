@@ -17,6 +17,9 @@
         "dban": {
             "description": "Obstrue utentem et nuntium delere"
         },
+        "delete": {
+            "description": ""
+        },
         "dmute": {
             "description": "Confundat user ac delere nuntium"
         },
@@ -335,6 +338,7 @@
         "notSet": "non installatur",
         "notlinked": "non coniunctum",
         "permissions": {
+            "delete_messages": "",
             "manage_restrictions": "",
             "remove_restrictions": "",
             "reports": "",

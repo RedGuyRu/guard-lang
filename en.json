@@ -17,6 +17,9 @@
         "dban": {
             "description": "Bans user and deletes their message"
         },
+        "delete": {
+            "description": "Deletes a message that has been replied to"
+        },
         "dmute": {
             "description": "Mutes user and deletes their message"
         },
@@ -335,6 +338,7 @@
         "notSet": "not set",
         "notlinked": "not linked",
         "permissions": {
+            "delete_messages": "Delete messages",
             "manage_restrictions": "Manage restrictions",
             "remove_restrictions": "Removing restrictions",
             "reports": "Manage reports",
