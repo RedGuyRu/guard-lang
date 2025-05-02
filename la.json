@@ -52,6 +52,7 @@
             "mute_zero": "mutus",
             "no": "non",
             "notFoundUser": "Telegram usor inveniri non potuit, si certus es te recte ingressum esse, hunc usorem roga ut epistulas nuntiis privatis bot's.",
+            "notSuperGroup": "",
             "onlyPM": "Hoc mandatum solum in nuntiis privatis operatur!",
             "open": "Open",
             "openWebApp": "Apertum in WebApp",

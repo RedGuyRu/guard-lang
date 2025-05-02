@@ -52,6 +52,7 @@
             "mute_zero": "",
             "no": "Nein",
             "notFoundUser": "Telegram konnte den Benutzer nicht finden. Wenn Sie sicher sind, dass Sie ihn richtig angegeben haben, bitten Sie diesen Benutzer, in privaten Nachrichten an den Bot zu schreiben.",
+            "notSuperGroup": "",
             "onlyPM": "Dieser Befehl funktioniert nur in privaten Nachrichten!",
             "open": "Offen",
             "openWebApp": "In WebApp öfnnen",

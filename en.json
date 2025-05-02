@@ -52,6 +52,7 @@
             "mute_zero": "mutes",
             "no": "false",
             "notFoundUser": "Telegram was unable to find the user, if you are sure that you have specified the correct user, ask the user to write to the bot's private messages.",
+            "notSuperGroup": "This action is only available in supergroups, more information: https://tginfo.me/groups_vs_supergroups/",
             "onlyPM": "This command works only in private messages!",
             "open": "Open",
             "openWebApp": "Open in WebApp",
