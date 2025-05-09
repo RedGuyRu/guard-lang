@@ -612,6 +612,9 @@
                 "modtop": {
                     "name": "Modtop access"
                 },
+                "notificationsTopic": {
+                    "name": "Topic for notifications"
+                },
                 "reactions": {
                     "name": "Reactions callback"
                 },

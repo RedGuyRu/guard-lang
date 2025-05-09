@@ -612,6 +612,9 @@
                 "modtop": {
                     "name": ""
                 },
+                "notificationsTopic": {
+                    "name": ""
+                },
                 "reactions": {
                     "name": ""
                 },

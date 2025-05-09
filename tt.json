@@ -612,6 +612,9 @@
                 "modtop": {
                     "name": "Модтопка керү мөмкинлеге"
                 },
+                "notificationsTopic": {
+                    "name": ""
+                },
                 "reactions": {
                     "name": "Җавапка реакцияләр"
                 },

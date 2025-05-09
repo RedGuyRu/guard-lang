@@ -558,6 +558,9 @@
                 "modtop": {
                     "name": "Aditus ad modtop"
                 },
+                "notificationsTopic": {
+                    "name": ""
+                },
                 "reactions": {
                     "name": "Reactiones in responsione"
                 },

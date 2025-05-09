@@ -612,6 +612,9 @@
                 "modtop": {
                     "name": "Доступ к модтопу"
                 },
+                "notificationsTopic": {
+                    "name": "Топик для уведомлений"
+                },
                 "reactions": {
                     "name": "Реакции в ответ"
                 },
