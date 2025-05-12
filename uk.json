@@ -7,6 +7,9 @@
         "aicheck": {
             "description": ""
         },
+        "announce": {
+            "description": ""
+        },
         "ban": {
             "description": "Забанити користувача",
             "onlyUsers": "Не можна видати бан іншому адміністратору!"
@@ -765,6 +768,11 @@
                 "replier": "",
                 "sender": ""
             }
+        },
+        "announce": {
+            "done": "",
+            "enter": "",
+            "sendMessage": ""
         },
         "command_restrictions": {
             "add_reports_reputation": "",

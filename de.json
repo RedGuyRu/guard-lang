@@ -7,6 +7,9 @@
         "aicheck": {
             "description": ""
         },
+        "announce": {
+            "description": ""
+        },
         "ban": {
             "description": "Einen Benutzer sperren",
             "onlyUsers": "Sie können keinen anderen Administrator sperren!"
@@ -761,6 +764,11 @@
                 "replier": "",
                 "sender": ""
             }
+        },
+        "announce": {
+            "done": "",
+            "enter": "",
+            "sendMessage": ""
         },
         "command_restrictions": {
             "add_reports_reputation": "",

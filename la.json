@@ -7,6 +7,9 @@
         "aicheck": {
             "description": "Informationes praebet de statu neuronis"
         },
+        "announce": {
+            "description": ""
+        },
         "ban": {
             "description": "A user movebo",
             "onlyUsers": "Bannum alteri administratori ferre non potes!"
@@ -777,6 +780,11 @@
                 "replier": "User qui responsum accepit",
                 "sender": "Nuntius mittentis"
             }
+        },
+        "announce": {
+            "done": "",
+            "enter": "",
+            "sendMessage": ""
         },
         "command_restrictions": {
             "add_reports_reputation": "Fama postulationem addere",

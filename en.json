@@ -7,6 +7,9 @@
         "aicheck": {
             "description": "Gives information about the status of neural network"
         },
+        "announce": {
+            "description": "Sends message from bot's name!"
+        },
         "ban": {
             "description": "Bans user",
             "onlyUsers": "You can't give a ban to another admin!"
@@ -831,6 +834,11 @@
                 "replier": "User receiving a reply",
                 "sender": "Message sender"
             }
+        },
+        "announce": {
+            "done": "Done!",
+            "enter": "Select chat using button bellow",
+            "sendMessage": "Send message which will sent from bot's name! Use /stop to stop!"
         },
         "command_restrictions": {
             "add_reports_reputation": "Add a report reputation requirement",
