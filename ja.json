@@ -830,9 +830,16 @@
             "enterRegex": "",
             "enterReputation": "",
             "enterReputationGetter": "",
+            "enterSource": "",
             "reputation": {
                 "replier": "",
                 "sender": ""
+            },
+            "source": {
+                "bio_text": "",
+                "linked_channel_text": "",
+                "message_text": "",
+                "name_text": ""
             }
         },
         "announce": {
@@ -903,6 +910,7 @@
         "triggers": {
             "editAction": "",
             "editCondition": "",
+            "editSource": "",
             "header": ""
         }
     }

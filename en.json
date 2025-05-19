@@ -830,9 +830,16 @@
             "enterRegex": "Enter regex for trigger (you can try it on regex101.com):",
             "enterReputation": "Enter the amount of reputation to be added:",
             "enterReputationGetter": "Select the recipient of the reputation:",
+            "enterSource": "Select text to check",
             "reputation": {
                 "replier": "User receiving a reply",
                 "sender": "Message sender"
+            },
+            "source": {
+                "bio_text": "User's bio",
+                "linked_channel_text": "Title of linked channel",
+                "message_text": "Message text",
+                "name_text": "User's name"
             }
         },
         "announce": {
@@ -903,6 +910,7 @@
         "triggers": {
             "editAction": "Edit action",
             "editCondition": "Edit trigger condition",
+            "editSource": "Edit text source",
             "header": "Triggers in chat {{title}}"
         }
     }

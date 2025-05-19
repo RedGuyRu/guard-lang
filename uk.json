@@ -764,9 +764,16 @@
             "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):",
             "enterReputation": "",
             "enterReputationGetter": "",
+            "enterSource": "",
             "reputation": {
                 "replier": "",
                 "sender": ""
+            },
+            "source": {
+                "bio_text": "",
+                "linked_channel_text": "",
+                "message_text": "",
+                "name_text": ""
             }
         },
         "announce": {
@@ -837,6 +844,7 @@
         "triggers": {
             "editAction": "",
             "editCondition": "",
+            "editSource": "",
             "header": "Тригери у чаті {{title}}"
         }
     }

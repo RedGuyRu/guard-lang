@@ -776,9 +776,16 @@
             "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):",
             "enterReputation": "Intra quantitatem famae addere:",
             "enterReputationGetter": "Eligite susceptorem famae:",
+            "enterSource": "",
             "reputation": {
                 "replier": "User qui responsum accepit",
                 "sender": "Nuntius mittentis"
+            },
+            "source": {
+                "bio_text": "",
+                "linked_channel_text": "",
+                "message_text": "",
+                "name_text": ""
             }
         },
         "announce": {
@@ -849,6 +856,7 @@
         "triggers": {
             "editAction": "",
             "editCondition": "",
+            "editSource": "",
             "header": "Curabitur triggers {{title}}"
         }
     }
