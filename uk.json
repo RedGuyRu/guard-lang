@@ -424,6 +424,9 @@
                     "duration": {
                         "name": ""
                     },
+                    "interval": {
+                        "name": ""
+                    },
                     "punishment": {
                         "name": ""
                     }
@@ -461,6 +464,9 @@
                         "name": ""
                     },
                     "duration": {
+                        "name": ""
+                    },
+                    "interval": {
                         "name": ""
                     },
                     "punishment": {

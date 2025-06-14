@@ -424,6 +424,9 @@
                     "duration": {
                         "name": "Duration of punishment for media spam"
                     },
+                    "interval": {
+                        "name": "Media spam check interval"
+                    },
                     "punishment": {
                         "name": "Punishment for media spam"
                     }
@@ -528,6 +531,9 @@
                     },
                     "duration": {
                         "name": "Duration of punishment for same messages spam"
+                    },
+                    "interval": {
+                        "name": "Text spam check interval"
                     },
                     "punishment": {
                         "name": "Punishment for same messages spam"
