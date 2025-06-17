@@ -316,7 +316,8 @@
         "errors": {
             "cooldown": "You made too many requests, wait {{seconds}} seconds!",
             "notAvaliable": "This command only works in supergroups!",
-            "pmlock": ""
+            "pmlock": "",
+            "selfInteract": "You have specified me as a user; please verify that this is correct."
         },
         "infinity": "infinity",
         "intervals": {

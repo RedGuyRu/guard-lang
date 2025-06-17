@@ -316,7 +316,8 @@
         "errors": {
             "cooldown": "",
             "notAvaliable": "",
-            "pmlock": ""
+            "pmlock": "",
+            "selfInteract": ""
         },
         "infinity": "forever",
         "intervals": {
