@@ -315,6 +315,7 @@
         "enabled": "кушылган",
         "errors": {
             "cooldown": "Сез бик күп сораулар бирәсез, {{seconds}} секундлар көтегез!",
+            "notAvaliable": "",
             "pmlock": ""
         },
         "infinity": "мәңге",

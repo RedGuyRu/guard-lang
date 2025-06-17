@@ -315,6 +315,7 @@
         "enabled": "enabled",
         "errors": {
             "cooldown": "You made too many requests, wait {{seconds}} seconds!",
+            "notAvaliable": "This command only works in supergroups!",
             "pmlock": ""
         },
         "infinity": "infinity",

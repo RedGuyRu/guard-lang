@@ -315,6 +315,7 @@
         "enabled": "enabled",
         "errors": {
             "cooldown": "",
+            "notAvaliable": "",
             "pmlock": ""
         },
         "infinity": "forever",

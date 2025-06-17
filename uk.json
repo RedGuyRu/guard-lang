@@ -315,6 +315,7 @@
         "enabled": "увімкнено",
         "errors": {
             "cooldown": "",
+            "notAvaliable": "",
             "pmlock": ""
         },
         "infinity": "вічно",
