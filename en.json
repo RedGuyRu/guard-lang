@@ -237,6 +237,7 @@
             "body": {
                 "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
                 "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
+                "status": "Status in chat: {{status}}",
                 "warns": "Active warns: {{warns}} Total warns: {{total_warns}}"
             },
             "cancel": "Cancel",
