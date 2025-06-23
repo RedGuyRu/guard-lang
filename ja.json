@@ -237,6 +237,7 @@
             "body": {
                 "bans": "",
                 "mutes": "",
+                "status": "",
                 "warns": ""
             },
             "cancel": "",
