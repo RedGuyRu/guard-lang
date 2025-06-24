@@ -252,7 +252,7 @@
             "messages": "Сообщений: {{messages}}",
             "noRestrictions": "Нет ограничений",
             "reputation": "Репутация: ",
-            "restriction": "{{type}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",
             "showMessage": "Посмотреть сообщение",
             "uncancel": "Восстановить",
