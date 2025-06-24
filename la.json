@@ -252,7 +252,7 @@
             "messages": "Epistulae: {{messages}}",
             "noRestrictions": "Non restrictiones",
             "reputation": "Reputatio: ",
-            "restriction": "{{type}}ante{{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Restrictio non inventa!",
             "showMessage": "Videre nuntium",
             "uncancel": "Restituere",

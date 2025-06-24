@@ -252,7 +252,7 @@
             "messages": "Messages: {{messages}}",
             "noRestrictions": "No restrictions",
             "reputation": "Reputation: ",
-            "restriction": "{{type}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Restiction not found!",
             "showMessage": "Show message",
             "uncancel": "Restore",

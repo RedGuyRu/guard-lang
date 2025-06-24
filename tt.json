@@ -252,7 +252,7 @@
             "messages": "Хәбәрләр: {{messages}}",
             "noRestrictions": "Чикләүләр юк",
             "reputation": "Абруй: ",
-            "restriction": "{{type}} до {{until}}\nКулланучы: {{restricted}}\nСәбәбе: {{reason}}\nБирелгән: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} до {{until}}\nКулланучы: {{restricted}}\nСәбәбе: {{reason}}\nБирелгән: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Чикләү табылмады!",
             "showMessage": "Хәбәрне карарга",
             "uncancel": "Торгызу",

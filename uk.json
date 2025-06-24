@@ -252,7 +252,7 @@
             "messages": "Повідомлень: {{messages}}",
             "noRestrictions": "Немає обмежень",
             "reputation": "Репутація: ",
-            "restriction": "{{type}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Обмеження не знайдено!",
             "showMessage": "Переглянути повідомлення",
             "uncancel": "Відновити",
