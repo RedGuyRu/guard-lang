@@ -234,6 +234,7 @@
         "user": {
             "activeban": "Актив бан: ",
             "activemute": "Актив болганчык: ",
+            "attaches": "",
             "body": {
                 "bans": "Актив бан: {{bans}} Барлык банов: {{total_bans}}",
                 "mutes": "Актив мут: {{mutes}} Барлык Мутлар: {{total_mutes}}",

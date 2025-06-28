@@ -234,6 +234,7 @@
         "user": {
             "activeban": "Активний бан: ",
             "activemute": "Активний мут: ",
+            "attaches": "",
             "body": {
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
                 "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
