@@ -234,6 +234,7 @@
         "user": {
             "activeban": "Активная блокировка: ",
             "activemute": "Активный мут: ",
+            "attaches": "Приложения",
             "body": {
                 "bans": "Активная блокировка: {{bans}} Блокировок всего: {{total_bans}}",
                 "mutes": "Активный мут: {{mutes}} Мутов всего: {{total_mutes}}",
@@ -252,7 +253,7 @@
             "messages": "Сообщений: {{messages}}",
             "noRestrictions": "Нет ограничений",
             "reputation": "Репутация: ",
-            "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
+            "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\nПриложений: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",
             "showMessage": "Посмотреть сообщение",
             "uncancel": "Восстановить",
@@ -292,7 +293,7 @@
             "description": "Имперский бот для модерации.\nРазработка и поддержка: @sleeplesscode\nКанал: @imperium_guard",
             "name": "Имперский стражник"
         },
-        "canceled": "отменён",
+        "canceled": "Это ограничение было отменено!",
         "captcha": {
             "agree": "Согласие",
             "emoji": "Эмозди-кнопки",

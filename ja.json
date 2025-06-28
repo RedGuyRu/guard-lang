@@ -234,6 +234,7 @@
         "user": {
             "activeban": "",
             "activemute": "",
+            "attaches": "",
             "body": {
                 "bans": "",
                 "mutes": "",

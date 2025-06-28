@@ -234,6 +234,7 @@
         "user": {
             "activeban": "Bannum activum: ",
             "activemute": "Active mutationem: ",
+            "attaches": "",
             "body": {
                 "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
                 "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",
