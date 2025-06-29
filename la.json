@@ -411,6 +411,9 @@
                     "name": "Reactionem ad GAS-bannum"
                 },
                 "header": "Lorem chat moderatio occasus {{title}}",
+                "hideTriggerMessage": {
+                    "name": ""
+                },
                 "location": {
                     "name": "Moderatio locorum"
                 },

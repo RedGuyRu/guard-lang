@@ -411,6 +411,9 @@
                     "name": "Reaction on GAS-ban"
                 },
                 "header": "Automatic moderation settings in chat {{title}}",
+                "hideTriggerMessage": {
+                    "name": "Silent mode of triggers"
+                },
                 "location": {
                     "name": "Location moderation"
                 },

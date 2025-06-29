@@ -410,6 +410,9 @@
                     "name": ""
                 },
                 "header": "",
+                "hideTriggerMessage": {
+                    "name": ""
+                },
                 "location": {
                     "name": ""
                 },
