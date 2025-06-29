@@ -293,7 +293,7 @@
             "description": "Imperium bot for moderation.\nDevelopment and support: @sleeplesscode\nNews channel: @imperium_guard",
             "name": "Imperium Guard"
         },
-        "canceled": "This restriction has been canceled!",
+        "canceled": "cancelled",
         "captcha": {
             "agree": "Agreed",
             "emoji": "Emoji buttons",
