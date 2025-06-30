@@ -234,6 +234,8 @@
         "user": {
             "activeban": "Active ban: ",
             "activemute": "Active mute: ",
+            "attach": "Attachment {{uuid}} for restriction {{id}}\nAuthor: {{moder}}\n\n{{text}}",
+            "attachMedia": "Media from attachment {{uuid}}",
             "attaches": "Attaches",
             "body": {
                 "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
@@ -255,6 +257,7 @@
             "reputation": "Reputation: ",
             "restriction": "{{type}} №{{id}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\nAttaches: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Restiction not found!",
+            "showMedia": "Show media",
             "showMessage": "Show message",
             "uncancel": "Restore",
             "uncanceled": "Restriction restored!",

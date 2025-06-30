@@ -234,6 +234,8 @@
         "user": {
             "activeban": "Актив бан: ",
             "activemute": "Актив болганчык: ",
+            "attach": "",
+            "attachMedia": "",
             "attaches": "",
             "body": {
                 "bans": "Актив бан: {{bans}} Барлык банов: {{total_bans}}",
@@ -255,6 +257,7 @@
             "reputation": "Абруй: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nКулланучы: {{restricted}}\nСәбәбе: {{reason}}\nБирелгән: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Чикләү табылмады!",
+            "showMedia": "",
             "showMessage": "Хәбәрне карарга",
             "uncancel": "Торгызу",
             "uncanceled": "Чикләүләр торгызылды!",

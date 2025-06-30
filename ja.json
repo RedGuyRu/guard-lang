@@ -234,6 +234,8 @@
         "user": {
             "activeban": "",
             "activemute": "",
+            "attach": "",
+            "attachMedia": "",
             "attaches": "",
             "body": {
                 "bans": "",
@@ -255,6 +257,7 @@
             "reputation": "",
             "restriction": "",
             "restrictionNotFound": "",
+            "showMedia": "",
             "showMessage": "",
             "uncancel": "",
             "uncanceled": "",

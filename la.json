@@ -234,6 +234,8 @@
         "user": {
             "activeban": "Bannum activum: ",
             "activemute": "Active mutationem: ",
+            "attach": "",
+            "attachMedia": "",
             "attaches": "",
             "body": {
                 "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
@@ -255,6 +257,7 @@
             "reputation": "Reputatio: ",
             "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Restrictio non inventa!",
+            "showMedia": "",
             "showMessage": "Videre nuntium",
             "uncancel": "Restituere",
             "uncanceled": "Restrictio restituta est!",

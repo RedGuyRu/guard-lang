@@ -234,6 +234,8 @@
         "user": {
             "activeban": "Активная блокировка: ",
             "activemute": "Активный мут: ",
+            "attach": "Приложение {{uuid}} к ограничению {{id}}\nАвтор: {{moder}}\n\n{{text}}",
+            "attachMedia": "Медиа из приложения {{uuid}}",
             "attaches": "Приложения",
             "body": {
                 "bans": "Активная блокировка: {{bans}} Блокировок всего: {{total_bans}}",
@@ -255,6 +257,7 @@
             "reputation": "Репутация: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\nПриложений: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",
+            "showMedia": "Показать медиа",
             "showMessage": "Посмотреть сообщение",
             "uncancel": "Восстановить",
             "uncanceled": "Ограничение восстановлено!",
