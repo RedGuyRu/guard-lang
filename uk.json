@@ -754,6 +754,9 @@
         }
     },
     "scenes": {
+        "addAttach": {
+            "enter": ""
+        },
         "addCommand": {
             "enterCommand": "Введіть команду:"
         },

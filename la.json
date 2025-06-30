@@ -766,6 +766,9 @@
         }
     },
     "scenes": {
+        "addAttach": {
+            "enter": ""
+        },
         "addCommand": {
             "enterCommand": "Intrant mandatum:"
         },
