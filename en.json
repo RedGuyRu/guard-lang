@@ -820,6 +820,9 @@
         }
     },
     "scenes": {
+        "addAttach": {
+            "enter": "Send message which will attached to restriction!"
+        },
         "addCommand": {
             "enterCommand": "Enter command:"
         },

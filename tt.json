@@ -820,6 +820,9 @@
         }
     },
     "scenes": {
+        "addAttach": {
+            "enter": ""
+        },
         "addCommand": {
             "enterCommand": "Команда кертегез:"
         },
