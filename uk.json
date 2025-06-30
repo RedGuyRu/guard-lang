@@ -234,6 +234,8 @@
         "user": {
             "activeban": "Активний бан: ",
             "activemute": "Активний мут: ",
+            "attach": "",
+            "attachMedia": "",
             "attaches": "",
             "body": {
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
@@ -255,6 +257,7 @@
             "reputation": "Репутація: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Обмеження не знайдено!",
+            "showMedia": "",
             "showMessage": "Переглянути повідомлення",
             "uncancel": "Відновити",
             "uncanceled": "Обмеження відновлено!",
