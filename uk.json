@@ -1,870 +1,871 @@
 {
-    "commands": {
-        "admins": {
-            "description": "Згадати всіх адміністраторів чату",
-            "header": "Виклик адміністраторів від {{peerName}} #id{{peerId}}"
+  "commands": {
+    "admins": {
+      "description": "Згадати всіх адміністраторів чату",
+      "header": "Виклик адміністраторів від {{peerName}} #id{{peerId}}"
+    },
+    "aicheck": {
+      "description": ""
+    },
+    "announce": {
+      "description": ""
+    },
+    "ban": {
+      "description": "Забанити користувача",
+      "onlyUsers": "Не можна видати бан іншому адміністратору!"
+    },
+    "check": {
+      "description": ""
+    },
+    "dban": {
+      "description": "Забанити користувача та видалити повідомлення"
+    },
+    "delete": {
+      "description": ""
+    },
+    "dmute": {
+      "description": "Замутити користувача та видалити повідомлення"
+    },
+    "dossier": {
+      "description": "",
+      "noReason": "Не вказано",
+      "wait": "Я почав готувати дані, це може зайняти деякий час."
+    },
+    "dwarn": {
+      "description": "Видати попередження користувачу та видалити повідомлення"
+    },
+    "fulluser": {
+      "description": "Отримати повну інформацію про користувача"
+    },
+    "gas": {
+      "description": ""
+    },
+    "general": {
+      "approve": "Схвалити",
+      "canceledRestriction": "Обмеження знято!",
+      "canceledRestriction_few": "Знято {{count}} обмеження!",
+      "canceledRestriction_many": "Знято {{count}} обмежень!",
+      "canceledRestriction_zero": "Немає знятих обмежень!",
+      "cooldown": "Користувач знаходиться під захистом КД!",
+      "disabled": "Команда вимкнена в налаштуваннях чату!",
+      "message": "Повідомлення",
+      "message_few": "повідомлення",
+      "message_many": "повідомлень",
+      "message_zero": "повідомлень",
+      "mute": "мут",
+      "mute_few": "мута",
+      "mute_many": "мутів",
+      "mute_zero": "мутів",
+      "no": "ні",
+      "notFoundUser": "Телеграм не зміг знайти користувача, якщо ви впевнені, що вказали його правильно, попросіть цього користувача написати в особисті повідомлення бота.",
+      "notSuperGroup": "",
+      "onlyPM": "Ця команда працює тільки в особистих повідомленнях!",
+      "open": "Відкрити",
+      "openWebApp": "Відкрити у WebApp",
+      "reject": "Хибний",
+      "report": "репорт",
+      "report_few": "репорти",
+      "report_many": "репортів",
+      "report_zero": "репортів",
+      "restriction": "покарання",
+      "restriction_few": "покарання",
+      "restriction_many": "покарань",
+      "restriction_zero": "покарань",
+      "selectChannel": "Вибрати канал",
+      "selectChat": "Вибрати чат",
+      "selectUser": "Вибрати користувача",
+      "userNotFound": "Ви не вказали користувача або я не знайомий з ним!",
+      "warn": "попередження",
+      "warn_few": "попередження",
+      "warn_many": "попереджень",
+      "warn_zero": "попереджень",
+      "yes": "так"
+    },
+    "help": {
+      "commandList": "Список команд:",
+      "description": "",
+      "docs": "Детальніше в документації: https://docs.redguy.ru/igb/imperiumguardbot.html",
+      "duration": "<тривалість>",
+      "durationHint": "Тривалість вказується в форматі число+інтервал: 1m 2h 3d 4w 5M 6y",
+      "group": {
+        "admin": "",
+        "ai-moder": "",
+        "misc": "",
+        "owner": "",
+        "user": ""
+      },
+      "header": "",
+      "idUserReply": "<id/username/відповідь>",
+      "reason": "<причина>",
+      "reply": "<відповідь>"
+    },
+    "id": {
+      "description": "Отримати id користувача, каналу або чату",
+      "send": "Надішліть користувача, канал або чат використовуючи кнопки нижче!"
+    },
+    "json": {
+      "description": ""
+    },
+    "mass": {
+      "description": ""
+    },
+    "modtop": {
+      "bans": "Топ модераторів за банами:",
+      "description": "Отримати топ модераторів",
+      "mutes": "Топ модераторів за мутами:",
+      "total": "Топ модераторів:",
+      "warns": "Топ модераторів за попередженнями:"
+    },
+    "modview": {
+      "description": ""
+    },
+    "msgtop": {
+      "description": "Отримати топ за повідомленнями в чаті",
+      "header": "Топ за кількістю повідомлень:"
+    },
+    "mute": {
+      "description": "Замутити користувача",
+      "onlyUsers": "Не можна видати мут іншому адміністратору!"
+    },
+    "note": {
+      "description": "Створити примітку про користувача",
+      "onlyUsers": "Не можна залишити примітку про іншого адміністратора!"
+    },
+    "paysupport": {
+      "description": ""
+    },
+    "privacy": {
+      "description": ""
+    },
+    "raidmode": {
+      "description": "Увімкнути/вимкнути режим рейду",
+      "disabled": "Режим рейду вимкнений!",
+      "enabled": "Включений режим рейду, всі вхідні користувачі будуть автоматично виключені!"
+    },
+    "readonly": {
+      "description": "Увімкнути/вимкнути режим тільки для читання",
+      "disabled": "Режим тільки для читання вимкнений!",
+      "enabled": "Режим тільки для читання увімкнено!"
+    },
+    "report": {
+      "accepted": "Репорт схвалений!",
+      "alreadySent": "Ви вже надсилали репорт на це повідомлення!",
+      "deleted": "Повідомлення видалено через велику кількість репортів!",
+      "description": "Відправити репорт на повідомлення",
+      "got": "Отримано <a href=\"{{reportUrl}}\">репорт</a> від <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> на <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} в чаті <a href=\"{{messageUrl}}\">{{title}}</a>",
+      "rated": "Рейтинг видано!",
+      "rejected": "Репорт відхилено!",
+      "sent": "Репорт надіслано!",
+      "sentForDelete": "Репорт надіслано ({{now}}/{{need}})"
+    },
+    "reptop": {
+      "description": "Отримати топ репортерів",
+      "reports": "Топ репортерів:",
+      "reputation": ""
+    },
+    "reset": {
+      "description": ""
+    },
+    "resetpack": {
+      "description": ""
+    },
+    "resttop": {
+      "description": "",
+      "header": ""
+    },
+    "settings": {
+      "anonymous": "",
+      "description": "Відкрити налаштування чату",
+      "notFound": "Чат не знайдено!",
+      "notSent": "",
+      "permission": "Недостатньо прав для виконання цієї команди, потрібне право на редагування чату!",
+      "sent": "Налаштування надіслано в особисті повідомлення!"
+    },
+    "start": {
+      "activeRestrictions": "У вас є активні обмеження:",
+      "description": "Виводить список активних порушень в усіх чатах",
+      "footer": "Про всі мої можливості можна дізнатись використовуючи команду /help",
+      "header": "Привіт! Я Імперський стражник, бот для слідкування за порядком у чатах.",
+      "noActiveRestrictions": "У вас нема активних обмежень.",
+      "openUser": "Відкритий користувач <a href=\"tg://user?id={{id}}\">{{name}}</a>",
+      "restriction": "• {{type}} \"{{reason}}\" до {{end}} в чаті \"{{title}}\""
+    },
+    "stats": {
+      "cache": {
+        "cas": "Кеш CAS",
+        "chats": "Кеш чатів",
+        "members": "Кеш учасників",
+        "users": "Кеш користувачів"
+      },
+      "description": "Отримати технічну статистику",
+      "queue": {
+        "messages": "Черга відправки повідомлень",
+        "updates": "Черга подій"
+      },
+      "uptime": "Аптайм"
+    },
+    "support": {
+      "description": "",
+      "header": "Інформацію надіслано у підтримку!"
+    },
+    "support_chat": {
+      "description": ""
+    },
+    "support_user": {
+      "description": ""
+    },
+    "sync": {
+      "complete": "Синхронізацію завершено!",
+      "description": "Синхронізувати модераторів чату"
+    },
+    "terms": {
+      "description": ""
+    },
+    "unban": {
+      "description": "Розблокувати користувача",
+      "notFoundRestrictions": "Користувач не заблокований!",
+      "ok": "Користувач розблокований!"
+    },
+    "unmute": {
+      "description": "Розмутити користувача",
+      "notFoundRestrictions": "Користувач не замучений!",
+      "ok": "Користувач розмучений!"
+    },
+    "user": {
+      "activeban": "Активний бан: ",
+      "activemute": "Активний мут: ",
+      "attach": "",
+      "attachMedia": "",
+      "attaches": "",
+      "body": {
+        "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
+        "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
+        "status": "",
+        "warns": "Активні попередження: {{warns}} Загальне попередження: {{total_warns}}"
+      },
+      "cancel": "Скасувати",
+      "cancelled": "Обмеження скасовано!",
+      "deleted": "Обмеження видалено!",
+      "description": "Отримати інформацію про користувача",
+      "edit_reason": "Редагувати причину",
+      "header": {
+        "chat": "Інформація про канал {{title}}:",
+        "user": "Інформація про користувача <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
+      },
+      "messages": "Повідомлень: {{messages}}",
+      "noRestrictions": "Немає обмежень",
+      "reputation": "Репутація: ",
+      "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
+      "restrictionNotFound": "Обмеження не знайдено!",
+      "showMedia": "",
+      "showMessage": "Переглянути повідомлення",
+      "uncancel": "Відновити",
+      "uncanceled": "Обмеження відновлено!",
+      "updateReason": "Введіть нову причину для обмеження, поточна: ",
+      "warns": "Попереджень: ",
+      "workers": ""
+    },
+    "userreport": {
+      "description": "",
+      "sent": "Я відправив інформацію в особисті повідомлення!"
+    },
+    "warn": {
+      "cancel": "",
+      "description": "Видати попередження користувачу",
+      "onlyUsers": "Не можна видати попередження іншому адміністратору!"
+    }
+  },
+  "extends": "null",
+  "general": {
+    "Create": "Створити",
+    "Delete": "Видаляти",
+    "Disable": "Вимкнути",
+    "Edit": "Редагувати",
+    "Enable": "Увімкнути",
+    "Forever": "Назавжди",
+    "Trigger": "Тригер",
+    "add": "Додати",
+    "all": "",
+    "automoderation": "Автомодерація",
+    "back": "Назад",
+    "ban": "бан",
+    "ban_few": "бана",
+    "ban_many": "банів",
+    "ban_zero": "банів",
+    "bot": {
+      "description": "Імперський бот для модерації.\nРозробка та підтримка: @sleeplesscode\nКанал: @imperium_guard",
+      "name": "Імперський стражник"
+    },
+    "canceled": "скасовано",
+    "captcha": {
+      "agree": "Згода",
+      "emoji": "Емодзі-кнопки",
+      "null": "Вимкнено"
+    },
+    "chatMemberStatus": {
+      "administrator": "адміністратор",
+      "creator": "власник чату",
+      "kicked": "виключений з чату",
+      "left": "не в чаті",
+      "member": "учасник чату",
+      "null": "невідомо",
+      "restricted": "обмежений"
+    },
+    "close": "Закрити",
+    "command": "Команда",
+    "confirm": "",
+    "delete": "Видалити",
+    "disabled": "вимкнено",
+    "edit": "Редагувати",
+    "enabled": "увімкнено",
+    "errors": {
+      "cooldown": "",
+      "notAvaliable": "",
+      "pmlock": "",
+      "selfInteract": ""
+    },
+    "infinity": "вічно",
+    "intervals": {
+      "M": "міс",
+      "d": "дн",
+      "h": "год",
+      "m": "хв",
+      "y": "рік"
+    },
+    "modRule": {
+      "ban": "Заблокувати",
+      "delete": "Видалити повідомлення",
+      "ignore": "Ігнорувати",
+      "kick": "Виключити",
+      "message": "",
+      "mute": "Замутити",
+      "notify": "Повідомити",
+      "null": "не встановлено",
+      "reputation": "",
+      "undefined": "",
+      "warn": "Видаляти з попередженням"
+    },
+    "notSet": "не встановлено",
+    "notlinked": "не прив'язано",
+    "permissions": {
+      "delete_messages": "",
+      "manage_restrictions": "",
+      "remove_restrictions": "",
+      "reports": "",
+      "restrict_ban": "",
+      "restrict_mute": "",
+      "restrict_warn": "",
+      "settings": ""
+    },
+    "restricted": "Недостатньо прав для виконання цієї команди!",
+    "restrictionType": {
+      "ban": "бан",
+      "mute": "мут",
+      "note": "примітка",
+      "warn": "попередження"
+    },
+    "restrictions": {
+      "adminCommand": "Адміністративна команда",
+      "aiReport": "",
+      "automod": "Автомодерація",
+      "ban": "Модератор {{user}} забанив користувача {{restricted}} з причини \"{{reason}}\"",
+      "banChannel": "Модератор {{user}} заборонив власнику каналу {{restricted}} надсилати повідомлення анонімно з причини \"{{reason}}\"",
+      "chatAdminRequired": "",
+      "duration": "",
+      "kick": "Модератор {{user}} виключив користувача {{restricted}} з причини \"{{reason}}\"",
+      "mute": "Модератор {{user}} замутив користувача {{restricted}} з причини \"{{reason}}\"",
+      "note": "Примітка для {{restricted}} з текстом \"{{reason}}\" створена",
+      "participantId": "Не вдалося видати бан на рівні Telegram API, інформація про блокування збережена в картці користувача.",
+      "reason": "",
+      "warn": "Модератор {{user}} видав попередження користувачу {{restricted}} з причини \"{{reason}}\" ({{warns}}/{{max_warns}})",
+      "warnsLimit": "ліміт попереджень"
+    },
+    "save": "",
+    "selector": {
+      "admins": "Адміністратори",
+      "all": "Всі учасники",
+      "disabled": "Вимкнені",
+      "owner": "Власник",
+      "undefined": "не встановлено"
+    },
+    "set": "встановлено",
+    "settings": {
+      "audit": "Аудит",
+      "automod": {
+        "cas": {
+          "name": "Реакція на CAS-бан"
         },
-        "aicheck": {
-            "description": ""
+        "contacts": {
+          "name": "Модерація контактів"
         },
-        "announce": {
-            "description": ""
+        "delStickers": {
+          "name": "Видалення стікерів"
         },
-        "ban": {
-            "description": "Забанити користувача",
-            "onlyUsers": "Не можна видати бан іншому адміністратору!"
+        "deleteCommands": {
+          "name": "Видаляти інші команди"
         },
-        "check": {
-            "description": ""
+        "flood": {
+          "name": "Модерація флуду"
         },
-        "dban": {
-            "description": "Забанити користувача та видалити повідомлення"
-        },
-        "delete": {
-            "description": ""
-        },
-        "dmute": {
-            "description": "Замутити користувача та видалити повідомлення"
-        },
-        "dossier": {
-            "description": "",
-            "noReason": "Не вказано",
-            "wait": "Я почав готувати дані, це може зайняти деякий час."
-        },
-        "dwarn": {
-            "description": "Видати попередження користувачу та видалити повідомлення"
-        },
-        "fulluser": {
-            "description": "Отримати повну інформацію про користувача"
+        "games": {
+          "name": "Модерація ігор"
         },
         "gas": {
-            "description": ""
+          "name": "Реакція на GAS-бан"
         },
-        "general": {
-            "approve": "Схвалити",
-            "canceledRestriction": "Обмеження знято!",
-            "canceledRestriction_few": "Знято {{count}} обмеження!",
-            "canceledRestriction_many": "Знято {{count}} обмежень!",
-            "canceledRestriction_zero": "Немає знятих обмежень!",
-            "cooldown": "Користувач знаходиться під захистом КД!",
-            "disabled": "Команда вимкнена в налаштуваннях чату!",
-            "message": "Повідомлення",
-            "message_few": "повідомлення",
-            "message_many": "повідомлень",
-            "message_zero": "повідомлень",
-            "mute": "мут",
-            "mute_few": "мута",
-            "mute_many": "мутів",
-            "mute_zero": "мутів",
-            "no": "ні",
-            "notFoundUser": "Телеграм не зміг знайти користувача, якщо ви впевнені, що вказали його правильно, попросіть цього користувача написати в особисті повідомлення бота.",
-            "notSuperGroup": "",
-            "onlyPM": "Ця команда працює тільки в особистих повідомленнях!",
-            "open": "Відкрити",
-            "openWebApp": "Відкрити у WebApp",
-            "reject": "Хибний",
-            "report": "репорт",
-            "report_few": "репорти",
-            "report_many": "репортів",
-            "report_zero": "репортів",
-            "restriction": "покарання",
-            "restriction_few": "покарання",
-            "restriction_many": "покарань",
-            "restriction_zero": "покарань",
-            "selectChannel": "Вибрати канал",
-            "selectChat": "Вибрати чат",
-            "selectUser": "Вибрати користувача",
-            "userNotFound": "Ви не вказали користувача або я не знайомий з ним!",
-            "warn": "попередження",
-            "warn_few": "попередження",
-            "warn_many": "попереджень",
-            "warn_zero": "попереджень",
-            "yes": "так"
+        "header": "Налаштування автоматичної модерації в чаті {{title}}",
+        "hideTriggerMessage": {
+          "name": ""
         },
-        "help": {
-            "commandList": "Список команд:",
-            "description": "",
-            "docs": "Детальніше в документації: https://docs.redguy.ru/igb/imperiumguardbot.html",
-            "duration": "<тривалість>",
-            "durationHint": "Тривалість вказується в форматі число+інтервал: 1m 2h 3d 4w 5M 6y",
-            "group": {
-                "admin": "",
-                "ai-moder": "",
-                "misc": "",
-                "owner": "",
-                "user": ""
-            },
-            "header": "",
-            "idUserReply": "<id/username/відповідь>",
-            "reason": "<причина>",
-            "reply": "<відповідь>"
+        "location": {
+          "name": "Модерація локацій"
         },
-        "id": {
-            "description": "Отримати id користувача, каналу або чату",
-            "send": "Надішліть користувача, канал або чат використовуючи кнопки нижче!"
+        "mediaCheck": {
+          "detection": "",
+          "duration": "",
+          "name": "",
+          "punishment": "",
+          "sent": ""
         },
-        "json": {
-            "description": ""
+        "mediaSpamCheck": {
+          "count": {
+            "name": ""
+          },
+          "duration": {
+            "name": ""
+          },
+          "interval": {
+            "name": ""
+          },
+          "punishment": {
+            "name": ""
+          }
         },
-        "mass": {
-            "description": ""
+        "muteOnPermission": {
+          "name": "Тривалість мута при використанні команд модерації"
         },
-        "modtop": {
-            "bans": "Топ модераторів за банами:",
-            "description": "Отримати топ модераторів",
-            "mutes": "Топ модераторів за мутами:",
-            "total": "Топ модераторів:",
-            "warns": "Топ модераторів за попередженнями:"
+        "newbieRestrictions": {
+          "name": "Тривалість обмежень новачка"
         },
-        "modview": {
-            "description": ""
+        "raid": {
+          "interval": {
+            "name": ""
+          },
+          "threshold": {
+            "name": ""
+          }
         },
-        "msgtop": {
-            "description": "Отримати топ за повідомленнями в чаті",
-            "header": "Топ за кількістю повідомлень:"
+        "reactionsUntilBan": {
+          "name": "Реакцій до бана"
         },
-        "mute": {
-            "description": "Замутити користувача",
-            "onlyUsers": "Не можна видати мут іншому адміністратору!"
+        "stickers": {
+          "blood-blood": {
+            "name": "Кров і насильство"
+          },
+          "politics-nazi": {
+            "name": "Нацизм"
+          }
         },
-        "note": {
-            "description": "Створити примітку про користувача",
-            "onlyUsers": "Не можна залишити примітку про іншого адміністратора!"
+        "stories": {
+          "name": "Модерація історій"
         },
-        "paysupport": {
-            "description": ""
-        },
-        "privacy": {
-            "description": ""
-        },
-        "raidmode": {
-            "description": "Увімкнути/вимкнути режим рейду",
-            "disabled": "Режим рейду вимкнений!",
-            "enabled": "Включений режим рейду, всі вхідні користувачі будуть автоматично виключені!"
-        },
-        "readonly": {
-            "description": "Увімкнути/вимкнути режим тільки для читання",
-            "disabled": "Режим тільки для читання вимкнений!",
-            "enabled": "Режим тільки для читання увімкнено!"
-        },
-        "report": {
-            "accepted": "Репорт схвалений!",
-            "alreadySent": "Ви вже надсилали репорт на це повідомлення!",
-            "deleted": "Повідомлення видалено через велику кількість репортів!",
-            "description": "Відправити репорт на повідомлення",
-            "got": "Отримано <a href=\"{{reportUrl}}\">репорт</a> від <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> на <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} в чаті <a href=\"{{messageUrl}}\">{{title}}</a>",
-            "rated": "Рейтинг видано!",
-            "rejected": "Репорт відхилено!",
-            "sent": "Репорт надіслано!",
-            "sentForDelete": "Репорт надіслано ({{now}}/{{need}})"
-        },
-        "reptop": {
-            "description": "Отримати топ репортерів",
-            "reports": "Топ репортерів:",
-            "reputation": ""
-        },
-        "reset": {
-            "description": ""
-        },
-        "resetpack": {
-            "description": ""
-        },
-        "resttop": {
-            "description": "",
-            "header": ""
-        },
-        "settings": {
-            "anonymous": "",
-            "description": "Відкрити налаштування чату",
-            "notFound": "Чат не знайдено!",
-            "notSent": "",
-            "permission": "Недостатньо прав для виконання цієї команди, потрібне право на редагування чату!",
-            "sent": "Налаштування надіслано в особисті повідомлення!"
-        },
-        "start": {
-            "activeRestrictions": "У вас є активні обмеження:",
-            "description": "Виводить список активних порушень в усіх чатах",
-            "footer": "Про всі мої можливості можна дізнатись використовуючи команду /help",
-            "header": "Привіт! Я Імперський стражник, бот для слідкування за порядком у чатах.",
-            "noActiveRestrictions": "У вас нема активних обмежень.",
-            "openUser": "Відкритий користувач <a href=\"tg://user?id={{id}}\">{{name}}</a>",
-            "restriction": "• {{type}} \"{{reason}}\" до {{end}} в чаті \"{{title}}\""
-        },
-        "stats": {
-            "cache": {
-                "cas": "Кеш CAS",
-                "chats": "Кеш чатів",
-                "members": "Кеш учасників",
-                "users": "Кеш користувачів"
-            },
-            "description": "Отримати технічну статистику",
-            "queue": {
-                "messages": "Черга відправки повідомлень",
-                "updates": "Черга подій"
-            },
-            "uptime": "Аптайм"
-        },
-        "support": {
-            "description": "",
-            "header": "Інформацію надіслано у підтримку!"
-        },
-        "support_chat": {
-            "description": ""
-        },
-        "support_user": {
-            "description": ""
-        },
-        "sync": {
-            "complete": "Синхронізацію завершено!",
-            "description": "Синхронізувати модераторів чату"
-        },
-        "terms": {
-            "description": ""
-        },
-        "unban": {
-            "description": "Розблокувати користувача",
-            "notFoundRestrictions": "Користувач не заблокований!",
-            "ok": "Користувач розблокований!"
-        },
-        "unmute": {
-            "description": "Розмутити користувача",
-            "notFoundRestrictions": "Користувач не замучений!",
-            "ok": "Користувач розмучений!"
-        },
-        "user": {
-            "activeban": "Активний бан: ",
-            "activemute": "Активний мут: ",
-            "attach": "",
-            "attachMedia": "",
-            "attaches": "",
-            "body": {
-                "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
-                "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
-                "status": "",
-                "warns": "Активні попередження: {{warns}} Загальне попередження: {{total_warns}}"
-            },
-            "cancel": "Скасувати",
-            "cancelled": "Обмеження скасовано!",
-            "deleted": "Обмеження видалено!",
-            "description": "Отримати інформацію про користувача",
-            "edit_reason": "Редагувати причину",
-            "header": {
-                "chat": "Інформація про канал {{title}}:",
-                "user": "Інформація про користувача <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
-            },
-            "messages": "Повідомлень: {{messages}}",
-            "noRestrictions": "Немає обмежень",
-            "reputation": "Репутація: ",
-            "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
-            "restrictionNotFound": "Обмеження не знайдено!",
-            "showMedia": "",
-            "showMessage": "Переглянути повідомлення",
-            "uncancel": "Відновити",
-            "uncanceled": "Обмеження відновлено!",
-            "updateReason": "Введіть нову причину для обмеження, поточна: ",
-            "warns": "Попереджень: ",
-            "workers": ""
-        },
-        "userreport": {
-            "description": "",
-            "sent": "Я відправив інформацію в особисті повідомлення!"
-        },
-        "warn": {
-            "cancel": "",
-            "description": "Видати попередження користувачу",
-            "onlyUsers": "Не можна видати попередження іншому адміністратору!"
-        }
-    },
-    "extends": "null",
-    "general": {
-        "Create": "Створити",
-        "Delete": "Видаляти",
-        "Disable": "Вимкнути",
-        "Edit": "Редагувати",
-        "Enable": "Увімкнути",
-        "Forever": "Назавжди",
-        "Trigger": "Тригер",
-        "add": "Додати",
-        "all": "",
-        "automoderation": "Автомодерація",
-        "back": "Назад",
-        "ban": "бан",
-        "ban_few": "бана",
-        "ban_many": "банів",
-        "ban_zero": "банів",
-        "bot": {
-            "description": "Імперський бот для модерації.\nРозробка та підтримка: @sleeplesscode\nКанал: @imperium_guard",
-            "name": "Імперський стражник"
-        },
-        "canceled": "скасовано",
-        "captcha": {
-            "agree": "Згода",
-            "emoji": "Емодзі-кнопки",
-            "null": "Вимкнено"
-        },
-        "chatMemberStatus": {
-            "administrator": "адміністратор",
-            "creator": "власник чату",
-            "kicked": "виключений з чату",
-            "left": "не в чаті",
-            "member": "учасник чату",
-            "null": "невідомо",
-            "restricted": "обмежений"
-        },
-        "close": "Закрити",
-        "command": "Команда",
-        "confirm": "",
-        "delete": "Видалити",
-        "disabled": "вимкнено",
-        "edit": "Редагувати",
-        "enabled": "увімкнено",
-        "errors": {
-            "cooldown": "",
-            "notAvaliable": "",
-            "pmlock": "",
-            "selfInteract": ""
-        },
-        "infinity": "вічно",
-        "intervals": {
-            "M": "міс",
-            "d": "дн",
-            "h": "год",
-            "m": "хв",
-            "y": "рік"
-        },
-        "modRule": {
-            "ban": "Заблокувати",
-            "delete": "Видалити повідомлення",
-            "ignore": "Ігнорувати",
-            "kick": "Виключити",
-            "message": "",
-            "mute": "Замутити",
-            "notify": "Повідомити",
-            "null": "не встановлено",
-            "reputation": "",
-            "undefined": "",
-            "warn": "Видаляти з попередженням"
-        },
-        "notSet": "не встановлено",
-        "notlinked": "не прив'язано",
-        "permissions": {
-            "delete_messages": "",
-            "manage_restrictions": "",
-            "remove_restrictions": "",
-            "reports": "",
-            "restrict_ban": "",
-            "restrict_mute": "",
-            "restrict_warn": "",
-            "settings": ""
-        },
-        "restricted": "Недостатньо прав для виконання цієї команди!",
-        "restrictionType": {
-            "ban": "бан",
-            "mute": "мут",
-            "note": "примітка",
-            "warn": "попередження"
-        },
-        "restrictions": {
-            "adminCommand": "Адміністративна команда",
-            "aiReport": "",
-            "automod": "Автомодерація",
-            "ban": "Модератор {{user}} забанив користувача {{restricted}} з причини \"{{reason}}\"",
-            "banChannel": "Модератор {{user}} заборонив власнику каналу {{restricted}} надсилати повідомлення анонімно з причини \"{{reason}}\"",
-            "chatAdminRequired": "",
-            "duration": "",
-            "kick": "Модератор {{user}} виключив користувача {{restricted}} з причини \"{{reason}}\"",
-            "mute": "Модератор {{user}} замутив користувача {{restricted}} з причини \"{{reason}}\"",
-            "note": "Примітка для {{restricted}} з текстом \"{{reason}}\" створена",
-            "participantId": "Не вдалося видати бан на рівні Telegram API, інформація про блокування збережена в картці користувача.",
-            "reason": "",
-            "warn": "Модератор {{user}} видав попередження користувачу {{restricted}} з причини \"{{reason}}\" ({{warns}}/{{max_warns}})",
-            "warnsLimit": "ліміт попереджень"
-        },
-        "save": "",
-        "selector": {
-            "admins": "Адміністратори",
-            "all": "Всі учасники",
-            "disabled": "Вимкнені",
-            "owner": "Власник",
-            "undefined": "не встановлено"
-        },
-        "set": "встановлено",
-        "settings": {
-            "audit": "Аудит",
-            "automod": {
-                "cas": {
-                    "name": "Реакція на CAS-бан"
-                },
-                "contacts": {
-                    "name": "Модерація контактів"
-                },
-                "delStickers": {
-                    "name": "Видалення стікерів"
-                },
-                "deleteCommands": {
-                    "name": "Видаляти інші команди"
-                },
-                "flood": {
-                    "name": "Модерація флуду"
-                },
-                "games": {
-                    "name": "Модерація ігор"
-                },
-                "gas": {
-                    "name": "Реакція на GAS-бан"
-                },
-                "header": "Налаштування автоматичної модерації в чаті {{title}}",
-                "hideTriggerMessage": {
-                    "name": ""
-                },
-                "location": {
-                    "name": "Модерація локацій"
-                },
-                "mediaCheck": {
-                    "detection": "",
-                    "duration": "",
-                    "name": "",
-                    "punishment": "",
-                    "sent": ""
-                },
-                "mediaSpamCheck": {
-                    "count": {
-                        "name": ""
-                    },
-                    "duration": {
-                        "name": ""
-                    },
-                    "interval": {
-                        "name": ""
-                    },
-                    "punishment": {
-                        "name": ""
-                    }
-                },
-                "muteOnPermission": {
-                    "name": "Тривалість мута при використанні команд модерації"
-                },
-                "newbieRestrictions": {
-                    "name": "Тривалість обмежень новачка"
-                },
-                "raid": {
-                    "interval": {
-                        "name": ""
-                    },
-                    "threshold": {
-                        "name": ""
-                    }
-                },
-                "reactionsUntilBan": {
-                    "name": "Реакцій до бана"
-                },
-                "stickers": {
-                    "blood-blood": {
-                        "name": "Кров і насильство"
-                    },
-                    "politics-nazi": {
-                        "name": "Нацизм"
-                    }
-                },
-                "stories": {
-                    "name": "Модерація історій"
-                },
-                "textSpamCheck": {
-                    "count": {
-                        "name": ""
-                    },
-                    "duration": {
-                        "name": ""
-                    },
-                    "interval": {
-                        "name": ""
-                    },
-                    "punishment": {
-                        "name": ""
-                    }
-                },
-                "trigger": {
-                    "name": "Тригери"
-                }
-            },
-            "category": {
-                "automod": "Налаштування автомодерації",
-                "customs": "Налаштування кастомізації",
-                "language": "Мова",
-                "permissions": "Права",
-                "privates": "",
-                "reports": "Налаштування репортів",
-                "special": "",
-                "warns": "Налаштування варнів"
-            },
-            "changingChat": "",
-            "changingPM": "",
-            "channels": {
-                "admins": "Адмінський чат",
-                "admins_selected": "Прив'язка адмінського чату в чаті {{title}}",
-                "logs": "Канал логів",
-                "logs_selected": "Прив'язка каналу логів в чаті {{title}}",
-                "triggers": "Канал тригерів",
-                "triggers_selected": "Прив'язка каналу тригерів в чаті {{title}}"
-            },
-            "customs": {
-                "acceptJoins": {
-                    "name": ""
-                },
-                "admins": {
-                    "name": "Команда !admins"
-                },
-                "anonPerm": {
-                    "menu": "",
-                    "name": "Права анонімних адміністраторів"
-                },
-                "anon_perms": {
-                    "restrict": "Видача обмежень"
-                },
-                "captcha": {
-                    "agree": "Згода",
-                    "name": "Капча"
-                },
-                "channelPost": {
-                    "name": "Текст під постом"
-                },
-                "channels": {
-                    "menu": "",
-                    "name": "Прив'язка каналів"
-                },
-                "command_restrictions": {
-                    "name": ""
-                },
-                "commands": {
-                    "name": "Кастомні команди"
-                },
-                "commands_mode": {
-                    "moderation": {
-                        "name": "Реакція команд модерації"
-                    },
-                    "others": {
-                        "name": "Реакція інших команд"
-                    },
-                    "raid": {
-                        "name": "Реакція команд рейду"
-                    }
-                },
-                "disableNotifications": {
-                    "name": ""
-                },
-                "extendedModtop": {
-                    "name": "Розширений модтоп"
-                },
-                "greeting": {
-                    "name": "Привітання"
-                },
-                "header": "Налаштування кастомізації в чаті {{title}}",
-                "messagesAutoRemove": {
-                    "name": ""
-                },
-                "modtop": {
-                    "name": "Доступ до модтопу"
-                },
-                "notificationsTopic": {
-                    "name": ""
-                },
-                "reactions": {
-                    "name": "Реакції у відповідь"
-                },
-                "reputation": {
-                    "name": "Система репутації"
-                },
-                "statisticsRange": {
-                    "name": "",
-                    "selected": ""
-                },
-                "tokens": {
-                    "name": "Токени"
-                }
-            },
-            "headerChat": "Налаштування чату {{title}}",
-            "headerPM": "",
-            "incorrect_interval": "Невірне значення, введіть інтервал",
-            "incorrect_number": "Невірне значення, введіть число",
-            "inputChangingChat": "",
-            "inputChangingPM": "",
-            "language": {
-                "header": "Виберіть мову, яка буде використовуватися в чаті"
-            },
-            "permissions": {
-                "admins": {
-                    "add": "",
-                    "adding": "",
-                    "edit": {
-                        "change_group": "",
-                        "changing_group": "",
-                        "header": ""
-                    },
-                    "group": "",
-                    "header": "",
-                    "name": ""
-                },
-                "advancedModers": {
-                    "name": ""
-                },
-                "description": "",
-                "fake_group": "",
-                "groups": {
-                    "create": {
-                        "button": "",
-                        "header": "",
-                        "priority": ""
-                    },
-                    "edit": {
-                        "header": "",
-                        "name": {
-                            "button": "",
-                            "header": ""
-                        },
-                        "permissions": {
-                            "button": ""
-                        },
-                        "priority": {
-                            "button": "",
-                            "header": ""
-                        }
-                    },
-                    "header": "",
-                    "name": "",
-                    "permissions": ""
-                },
-                "header": ""
-            },
-            "privates": {
-                "header": "",
-                "timezone": {
-                    "name": ""
-                }
-            },
-            "reports": {
-                "deleteReports": {
-                    "name": "Мінімальна кількість репортів від користувачів для видалення повідомлень"
-                },
-                "deleteReportsCount": {
-                    "name": "Мінімальна кількість репортів у користувача для видалення повідомлення"
-                },
-                "deleteReportsRate": {
-                    "name": "Мінімальний рейтинг користувача для видалення повідомлення"
-                },
-                "header": "Налаштування репортів у чаті {{title}}",
-                "reportsSystem": {
-                    "name": "Система репортів"
-                }
-            },
-            "special": {
-                "clear_deleted": {
-                    "button": "",
-                    "description": "",
-                    "finished": "",
-                    "progress": "",
-                    "started": ""
-                },
-                "header": "",
-                "index_old": {
-                    "button": "",
-                    "description": "",
-                    "started": ""
-                },
-                "kick_inactive": {
-                    "button": "",
-                    "description": "",
-                    "progress": "",
-                    "request": "",
-                    "request_confirm": "",
-                    "success": ""
-                },
-                "not_enough_balance": "",
-                "price": "",
-                "start": "",
-                "started": "",
-                "topup": {
-                    "button": "",
-                    "how_many": "",
-                    "pay": "",
-                    "positive": "",
-                    "successful": "",
-                    "title": ""
-                }
-            },
-            "timeZoneInfo": "",
-            "warns": {
-                "cooldown": {
-                    "name": "Кулдаун між варнами одному користувачу"
-                },
-                "header": "Налаштування варнів у чаті {{title}}",
-                "maxWarns": {
-                    "name": "Кількість варнів до видачі покарання"
-                },
-                "warnLength": {
-                    "name": "Тривалість варна"
-                },
-                "warnsResult": {
-                    "name": "Покарання за максимальну кількість варнів"
-                },
-                "warnsResultLength": {
-                    "name": "Тривалість покарання за максимальну кількість варнів"
-                }
-            }
-        },
-        "spam": "",
-        "token": "Токен",
-        "unknown": {
-            "channel": "Невідомий канал",
-            "user": "Невідомий користувач"
-        },
-        "until": "до"
-    },
-    "handlers": {
-        "adminsChange": "Виявлено зміну адміністраторів, список адміністраторів оновлено!",
-        "captcha": {
-            "again": "Ви вже пройшли перевірку!",
-            "agree": "Натисніть на кнопку нижче для входу в чат!",
-            "agreed": "✅ Згоден",
-            "correct": "Вірно!",
-            "emoji": "Для підтвердження, що ви не бот, натисніть на: {{correct}}",
-            "wrongUser": "Це не ваша капча!"
-        },
-        "chatJoin": {
-            "raid": ""
-        },
-        "file": {
-            "got": ""
-        },
-        "hello": {
-            "full": "Дякую, що зробили мене адміністратором! Тепер я готовий до роботи!",
-            "restricted": "Дякую, що додали мене до чату! Для початку роботи додайте мене до адміністраторів і дайте права на видалення повідомлень та обмеження користувачів. Після цього я буду готовий до роботи!"
-        },
-        "migrate": "Групу мігрували у супергрупу!",
-        "nativeBan": "Нативний бан",
-        "reactions": {
-            "notify": "{{user}} за відправлення реакцій під час мута ви можете бути забанені!",
-            "reason": "реакції у муті"
-        },
-        "reputation": {
-            "down": "Репутація зменшена!",
-            "up": "Репутація збільшена!"
+        "textSpamCheck": {
+          "count": {
+            "name": ""
+          },
+          "duration": {
+            "name": ""
+          },
+          "interval": {
+            "name": ""
+          },
+          "punishment": {
+            "name": ""
+          }
         },
         "trigger": {
-            "got": "Спрацював тригер {{name}} у чаті {{title}}: {{text}}"
+          "name": "Тригери"
         }
-    },
-    "scenes": {
-        "addAttach": {
-            "enter": ""
+      },
+      "category": {
+        "automod": "Налаштування автомодерації",
+        "customs": "Налаштування кастомізації",
+        "language": "Мова",
+        "permissions": "Права",
+        "privates": "",
+        "reports": "Налаштування репортів",
+        "special": "",
+        "warns": "Налаштування варнів"
+      },
+      "changingChat": "",
+      "changingPM": "",
+      "channels": {
+        "admins": "Адмінський чат",
+        "admins_selected": "Прив'язка адмінського чату в чаті {{title}}",
+        "logs": "Канал логів",
+        "logs_selected": "Прив'язка каналу логів в чаті {{title}}",
+        "triggers": "Канал тригерів",
+        "triggers_selected": "Прив'язка каналу тригерів в чаті {{title}}"
+      },
+      "customs": {
+        "acceptJoins": {
+          "name": ""
         },
-        "addCommand": {
-            "enterCommand": "Введіть команду:"
+        "admins": {
+          "name": "Команда !admins"
         },
-        "addToken": {
-            "created": "Токен {{name}} створено!",
-            "enterName": "Введіть назву токена:"
+        "anonPerm": {
+          "menu": "",
+          "name": "Права анонімних адміністраторів"
         },
-        "addTrigger": {
-            "condition": {
-                "badwordsRU": "Нецензурна лексика (російська)",
-                "command": "",
-                "contains": "",
-                "match": "",
-                "regex": ""
-            },
-            "enterAction": "Виберіть дію на тригер:",
-            "enterCommand": "",
-            "enterConditionType": "",
-            "enterContains": "",
-            "enterDuration": "",
-            "enterMatch": "",
-            "enterMessage": "",
-            "enterName": "Введіть назву тригера:",
-            "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):",
-            "enterReputation": "",
-            "enterReputationGetter": "",
-            "enterSource": "",
-            "reputation": {
-                "replier": "",
-                "sender": ""
-            },
-            "source": {
-                "bio_text": "",
-                "linked_channel_text": "",
-                "message_text": "",
-                "name_text": ""
-            }
+        "anon_perms": {
+          "restrict": "Видача обмежень"
         },
-        "announce": {
-            "done": "",
-            "enter": "",
-            "sendMessage": ""
+        "captcha": {
+          "agree": "Згода",
+          "name": "Капча"
+        },
+        "channelPost": {
+          "name": "Текст під постом"
+        },
+        "channels": {
+          "menu": "",
+          "name": "Прив'язка каналів"
         },
         "command_restrictions": {
-            "add_reports_reputation": "",
-            "add_reputation": "",
-            "edit_reports_reputation": "",
-            "edit_reputation": "",
-            "enter_command": "",
-            "enter_new_reports_reputation": "",
-            "enter_new_reputation": "",
-            "enter_reports_reputation": "",
-            "enter_reputation": "",
-            "header": "",
-            "info": "",
-            "notFound": "",
-            "remove_reports_reputation": "",
-            "remove_reputation": "",
-            "reports_reputation": "",
-            "reputation": "",
-            "skip_reports_reputation": "",
-            "skip_reputation": ""
+          "name": ""
         },
         "commands": {
-            "enterText": "Введіть текст відповіді:",
-            "header": "Команди у чаті {{title}}:",
-            "notFound": "Команду не знайдено!"
+          "name": "Кастомні команди"
         },
-        "editCommand": {
-            "editAliases": "Редагувати аліаси",
-            "editText": "Редагувати текст",
-            "header": "Редагування команди - {{id}}\nАліаси: {{aliases}}\n\n{{text}}"
+        "commands_mode": {
+          "moderation": {
+            "name": "Реакція команд модерації"
+          },
+          "others": {
+            "name": "Реакція інших команд"
+          },
+          "raid": {
+            "name": "Реакція команд рейду"
+          }
         },
-        "editCommandAlias": {
-            "header": "Редагування команди - {{id}}\nДля додавання аліаса, надішліть його в чат."
+        "disableNotifications": {
+          "name": ""
         },
-        "editReason": {
-            "cancel": "Редагування причини скасовано!"
+        "extendedModtop": {
+          "name": "Розширений модтоп"
         },
-        "editTrigger": {
-            "header": "Введіть новий регулярний вираз для тригера:"
+        "greeting": {
+          "name": "Привітання"
         },
-        "general": {
-            "placeholders": "{mention} - згадка користувача, що викликав команду\n{title} - назва чату\n{random_mention} - згадка випадкового користувача\n{replied_mention} - згадка користувача, на чиє повідомлення відповіли при виклику команди"
+        "header": "Налаштування кастомізації в чаті {{title}}",
+        "messagesAutoRemove": {
+          "name": ""
         },
-        "mass": {
-            "done": "",
-            "intro": {
-                "action": "",
-                "footer": "",
-                "header": "",
-                "interval": "",
-                "reason": ""
-            },
-            "invalidAction": ""
+        "modtop": {
+          "name": "Доступ до модтопу"
+        },
+        "notificationsTopic": {
+          "name": ""
+        },
+        "reactions": {
+          "name": "Реакції у відповідь"
+        },
+        "reputation": {
+          "name": "Система репутації"
+        },
+        "statisticsRange": {
+          "name": "",
+          "selected": ""
         },
         "tokens": {
-            "header": "Токени у чаті {{title}}",
-            "notFound": "Токен не знайдено!"
-        },
-        "trigger": {
-            "notFound": "Тригер не знайдено!"
-        },
-        "triggers": {
-            "editAction": "",
-            "editCondition": "",
-            "editSource": "",
-            "header": "Тригери у чаті {{title}}"
+          "name": "Токени"
         }
+      },
+      "headerChat": "Налаштування чату {{title}}",
+      "headerPM": "",
+      "incorrect_interval": "Невірне значення, введіть інтервал",
+      "incorrect_number": "Невірне значення, введіть число",
+      "inputChangingChat": "",
+      "inputChangingPM": "",
+      "language": {
+        "header": "Виберіть мову, яка буде використовуватися в чаті"
+      },
+      "permissions": {
+        "admins": {
+          "add": "",
+          "adding": "",
+          "edit": {
+            "change_group": "",
+            "changing_group": "",
+            "header": ""
+          },
+          "group": "",
+          "header": "",
+          "name": ""
+        },
+        "advancedModers": {
+          "name": ""
+        },
+        "description": "",
+        "fake_group": "",
+        "groups": {
+          "create": {
+            "button": "",
+            "header": "",
+            "priority": ""
+          },
+          "edit": {
+            "header": "",
+            "name": {
+              "button": "",
+              "header": ""
+            },
+            "permissions": {
+              "button": ""
+            },
+            "priority": {
+              "button": "",
+              "header": ""
+            }
+          },
+          "header": "",
+          "name": "",
+          "permissions": ""
+        },
+        "header": ""
+      },
+      "privates": {
+        "header": "",
+        "timezone": {
+          "name": ""
+        }
+      },
+      "reports": {
+        "deleteReports": {
+          "name": "Мінімальна кількість репортів від користувачів для видалення повідомлень"
+        },
+        "deleteReportsCount": {
+          "name": "Мінімальна кількість репортів у користувача для видалення повідомлення"
+        },
+        "deleteReportsRate": {
+          "name": "Мінімальний рейтинг користувача для видалення повідомлення"
+        },
+        "header": "Налаштування репортів у чаті {{title}}",
+        "reportsSystem": {
+          "name": "Система репортів"
+        }
+      },
+      "special": {
+        "clear_deleted": {
+          "button": "",
+          "description": "",
+          "finished": "",
+          "progress": "",
+          "started": ""
+        },
+        "header": "",
+        "index_old": {
+          "button": "",
+          "description": "",
+          "started": ""
+        },
+        "kick_inactive": {
+          "button": "",
+          "description": "",
+          "progress": "",
+          "request": "",
+          "request_confirm": "",
+          "success": ""
+        },
+        "not_enough_balance": "",
+        "price": "",
+        "start": "",
+        "started": "",
+        "topup": {
+          "button": "",
+          "how_many": "",
+          "pay": "",
+          "positive": "",
+          "successful": "",
+          "title": ""
+        }
+      },
+      "timeZoneInfo": "",
+      "warns": {
+        "cooldown": {
+          "name": "Кулдаун між варнами одному користувачу"
+        },
+        "header": "Налаштування варнів у чаті {{title}}",
+        "maxWarns": {
+          "name": "Кількість варнів до видачі покарання"
+        },
+        "warnLength": {
+          "name": "Тривалість варна"
+        },
+        "warnsResult": {
+          "name": "Покарання за максимальну кількість варнів"
+        },
+        "warnsResultLength": {
+          "name": "Тривалість покарання за максимальну кількість варнів"
+        }
+      }
+    },
+    "spam": "",
+    "token": "Токен",
+    "unknown": {
+      "channel": "Невідомий канал",
+      "user": "Невідомий користувач"
+    },
+    "until": "до"
+  },
+  "handlers": {
+    "adminsChange": "Виявлено зміну адміністраторів, список адміністраторів оновлено!",
+    "captcha": {
+      "again": "Ви вже пройшли перевірку!",
+      "agree": "Натисніть на кнопку нижче для входу в чат!",
+      "agreed": "✅ Згоден",
+      "correct": "Вірно!",
+      "emoji": "Для підтвердження, що ви не бот, натисніть на: {{correct}}",
+      "wrongUser": "Це не ваша капча!"
+    },
+    "chatJoin": {
+      "raid": ""
+    },
+    "file": {
+      "got": ""
+    },
+    "hello": {
+      "full": "Дякую, що зробили мене адміністратором! Тепер я готовий до роботи!",
+      "restricted": "Дякую, що додали мене до чату! Для початку роботи додайте мене до адміністраторів і дайте права на видалення повідомлень та обмеження користувачів. Після цього я буду готовий до роботи!"
+    },
+    "migrate": "Групу мігрували у супергрупу!",
+    "nativeBan": "Нативний бан",
+    "reactions": {
+      "notify": "{{user}} за відправлення реакцій під час мута ви можете бути забанені!",
+      "reason": "реакції у муті"
+    },
+    "reputation": {
+      "down": "Репутація зменшена!",
+      "up": "Репутація збільшена!"
+    },
+    "trigger": {
+      "got": "Спрацював тригер {{name}} у чаті {{title}}: {{text}}"
     }
+  },
+  "scenes": {
+    "addAttach": {
+      "enter": ""
+    },
+    "addCommand": {
+      "enterCommand": "Введіть команду:"
+    },
+    "addToken": {
+      "created": "Токен {{name}} створено!",
+      "enterName": "Введіть назву токена:"
+    },
+    "addTrigger": {
+      "condition": {
+        "badwordsRU": "Нецензурна лексика (російська)",
+        "command": "",
+        "contains": "",
+        "match": "",
+        "regex": ""
+      },
+      "enterAction": "Виберіть дію на тригер:",
+      "enterCommand": "",
+      "enterConditionType": "",
+      "enterContains": "",
+      "enterDuration": "",
+      "enterMatch": "",
+      "enterMessage": "",
+      "enterName": "Введіть назву тригера:",
+      "enterRegex": "Введіть регулярний вираз для тригера (спробуйте на regex101.com):",
+      "enterReputation": "",
+      "enterReputationGetter": "",
+      "enterSource": "",
+      "enterTriggerAtEdit": "",
+      "reputation": {
+        "replier": "",
+        "sender": ""
+      },
+      "source": {
+        "bio_text": "",
+        "linked_channel_text": "",
+        "message_text": "",
+        "name_text": ""
+      }
+    },
+    "announce": {
+      "done": "",
+      "enter": "",
+      "sendMessage": ""
+    },
+    "command_restrictions": {
+      "add_reports_reputation": "",
+      "add_reputation": "",
+      "edit_reports_reputation": "",
+      "edit_reputation": "",
+      "enter_command": "",
+      "enter_new_reports_reputation": "",
+      "enter_new_reputation": "",
+      "enter_reports_reputation": "",
+      "enter_reputation": "",
+      "header": "",
+      "info": "",
+      "notFound": "",
+      "remove_reports_reputation": "",
+      "remove_reputation": "",
+      "reports_reputation": "",
+      "reputation": "",
+      "skip_reports_reputation": "",
+      "skip_reputation": ""
+    },
+    "commands": {
+      "enterText": "Введіть текст відповіді:",
+      "header": "Команди у чаті {{title}}:",
+      "notFound": "Команду не знайдено!"
+    },
+    "editCommand": {
+      "editAliases": "Редагувати аліаси",
+      "editText": "Редагувати текст",
+      "header": "Редагування команди - {{id}}\nАліаси: {{aliases}}\n\n{{text}}"
+    },
+    "editCommandAlias": {
+      "header": "Редагування команди - {{id}}\nДля додавання аліаса, надішліть його в чат."
+    },
+    "editReason": {
+      "cancel": "Редагування причини скасовано!"
+    },
+    "editTrigger": {
+      "header": "Введіть новий регулярний вираз для тригера:"
+    },
+    "general": {
+      "placeholders": "{mention} - згадка користувача, що викликав команду\n{title} - назва чату\n{random_mention} - згадка випадкового користувача\n{replied_mention} - згадка користувача, на чиє повідомлення відповіли при виклику команди"
+    },
+    "mass": {
+      "done": "",
+      "intro": {
+        "action": "",
+        "footer": "",
+        "header": "",
+        "interval": "",
+        "reason": ""
+      },
+      "invalidAction": ""
+    },
+    "tokens": {
+      "header": "Токени у чаті {{title}}",
+      "notFound": "Токен не знайдено!"
+    },
+    "trigger": {
+      "notFound": "Тригер не знайдено!"
+    },
+    "triggers": {
+      "editAction": "",
+      "editCondition": "",
+      "editSource": "",
+      "header": "Тригери у чаті {{title}}"
+    }
+  }
 }
