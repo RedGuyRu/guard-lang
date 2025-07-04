@@ -1,938 +1,940 @@
 {
-    "commands": {
-        "admins": {
-            "description": "Tags all admins in chat",
-            "header": "Tag of all admins from {{peerName}} #id{{peerId}}"
+  "commands": {
+    "admins": {
+      "description": "Tags all admins in chat",
+      "header": "Tag of all admins from {{peerName}} #id{{peerId}}"
+    },
+    "aicheck": {
+      "description": "Gives information about the status of neural network"
+    },
+    "announce": {
+      "description": "Sends message from bot's name!"
+    },
+    "ban": {
+      "description": "Bans user",
+      "onlyUsers": "You can't give a ban to another admin!"
+    },
+    "check": {
+      "description": "Starts a file check"
+    },
+    "dban": {
+      "description": "Bans user and deletes their message"
+    },
+    "delete": {
+      "description": "Deletes a message that has been replied to"
+    },
+    "dmute": {
+      "description": "Mutes user and deletes their message"
+    },
+    "dossier": {
+      "description": "Generate a dossier file for a user",
+      "noReason": "Not specified",
+      "wait": "I've started preparing the data, which may take some time."
+    },
+    "dwarn": {
+      "description": "Warns user and deletes their message"
+    },
+    "fulluser": {
+      "description": "Get full info about user"
+    },
+    "gas": {
+      "description": "Adds a GAS ban to a user"
+    },
+    "general": {
+      "approve": "Approve",
+      "canceledRestriction": "Restriction canceled!",
+      "canceledRestriction_few": "{{count}} restrictions canceled!",
+      "canceledRestriction_many": "{{count}} restrictions canceled!",
+      "canceledRestriction_zero": "There are no restrictions to be removed!",
+      "cooldown": "This user is protected by cooldown!",
+      "disabled": "This command disabled in chat settings!",
+      "message": "message",
+      "message_few": "messages",
+      "message_many": "messages",
+      "message_zero": "messages",
+      "mute": "mute",
+      "mute_few": "mutes",
+      "mute_many": "mutes",
+      "mute_zero": "mutes",
+      "no": "false",
+      "notFoundUser": "Telegram was unable to find the user, if you are sure that you have specified the correct user, ask the user to write to the bot's private messages.",
+      "notSuperGroup": "This action is only available in supergroups, more information: https://tginfo.me/groups_vs_supergroups/",
+      "onlyPM": "This command works only in private messages!",
+      "open": "Open",
+      "openWebApp": "Open in WebApp",
+      "reject": "Reject",
+      "report": "report",
+      "report_few": "reports",
+      "report_many": "reports",
+      "report_zero": "reports",
+      "restriction": "restriction",
+      "restriction_few": "restrictions",
+      "restriction_many": "restrictions",
+      "restriction_zero": "restrictions",
+      "selectChannel": "Select channel",
+      "selectChat": "Select chat",
+      "selectUser": "Select user",
+      "userNotFound": "You didn't specified a user or I'm not know him!",
+      "warn": "warn",
+      "warn_few": "warns",
+      "warn_many": "warns",
+      "warn_zero": "warns",
+      "yes": "true"
+    },
+    "help": {
+      "commandList": "Commands:",
+      "description": "Bot Help",
+      "docs": "More in documentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
+      "duration": "<duration>",
+      "durationHint": "Duration is specified in number+interval format: 1m 2h 3d 4w 5M 6y",
+      "group": {
+        "admin": "Moderation",
+        "ai-moder": "Content moderation",
+        "misc": "Misc",
+        "owner": "Owner",
+        "user": "User's"
+      },
+      "header": "Welcome to the Imperium Guard! Use the buttons below to navigate through the sections.",
+      "idUserReply": "<id/username/reply>",
+      "reason": "<reason>",
+      "reply": "<reply>"
+    },
+    "id": {
+      "description": "Get the id of a user, channel or chat",
+      "send": "Send a user, channel or chat using the buttons below!"
+    },
+    "json": {
+      "description": "Outputs a json schema of the message"
+    },
+    "mass": {
+      "description": "Starting a mass action on users"
+    },
+    "modtop": {
+      "bans": "Top moderators by bans:",
+      "description": "Get top of moderators",
+      "mutes": "Top moderators by mutes:",
+      "total": "Moderators top:",
+      "warns": "Top moderators by warns:"
+    },
+    "modview": {
+      "description": "Opens WebApp with members profiles"
+    },
+    "msgtop": {
+      "description": "Get top by messages in chat",
+      "header": "Top by messages count:"
+    },
+    "mute": {
+      "description": "Mute user",
+      "onlyUsers": "You can't give a mute to another administrator!"
+    },
+    "note": {
+      "description": "Create note about user",
+      "onlyUsers": "You cannot leave a note about other administrator!"
+    },
+    "paysupport": {
+      "description": "Payment support"
+    },
+    "privacy": {
+      "description": "Privacy Policy"
+    },
+    "raidmode": {
+      "description": "Enable/Disable raid mode",
+      "disabled": "Raid mode disabled!",
+      "enabled": "Enabled raid mode, all joined users will be automatically kicked!"
+    },
+    "readonly": {
+      "description": "Enable/Disable read only mode",
+      "disabled": "Read only mode is diabled!",
+      "enabled": "Read only mode enabled!"
+    },
+    "report": {
+      "accepted": "Report approved!",
+      "alreadySent": "You already reported this message!",
+      "deleted": "The message is deleted by a lot of reports!",
+      "description": "Report a message",
+      "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
+      "rated": "Raiting given!",
+      "rejected": "Report rejected!",
+      "sent": "Report sent!",
+      "sentForDelete": "Report sent! ({{now}}/{{need}})"
+    },
+    "reptop": {
+      "description": "Gets top of reporters",
+      "reports": "Top of reporters:",
+      "reputation": "Reputation top:"
+    },
+    "reset": {
+      "description": "Resets the passed key in all caches"
+    },
+    "resetpack": {
+      "description": "Resets the threat of the entire sticker pack"
+    },
+    "resttop": {
+      "description": "Displays the top offenders in chat.",
+      "header": "Top offenders:"
+    },
+    "settings": {
+      "anonymous": "Click on button to open settings!",
+      "description": "Opens chat settings",
+      "notFound": "Chat not found!",
+      "notSent": "I couldn't send the settings, send /start in private messages and try again.",
+      "permission": "Not enough permissions to execute this command, you need permission to edit chat!",
+      "sent": "Settings sent in PM!"
+    },
+    "start": {
+      "activeRestrictions": "You has active restrictions:",
+      "description": "Shows list of active restrictions in all chats",
+      "footer": "You can learn about all my capabilities using the /help command",
+      "header": "Hi! I'm Imperium Guard, moderation bot for chats.",
+      "media": "Hello! I am the Imperium Guard Assistant Bot, designed to check media files in chats where my main account is not present.",
+      "noActiveRestrictions": "You have no active restrictions.",
+      "openUser": "Opened user <a href=\"tg://user?id={{id}}\">{{name}}</a>",
+      "restriction": "• {{type}} \"{{reason}}\" until {{end}} in chat \"{{title}}\""
+    },
+    "stats": {
+      "cache": {
+        "cas": "CAS Cache",
+        "chats": "Chats cache",
+        "members": "Members cache",
+        "users": "Users cache"
+      },
+      "description": "Get technical statistics",
+      "queue": {
+        "messages": "Message sending queue",
+        "updates": "Update processing queue"
+      },
+      "uptime": "Uptime"
+    },
+    "support": {
+      "description": "Bot support",
+      "header": "Info sent to support!"
+    },
+    "support_chat": {
+      "description": "Sending information about the current chat to technical support",
+      "header": "Do you confirm the transfer of information about the current chat (settings and list of administrators) to the bot's technical support team?"
+    },
+    "support_user": {
+      "description": "Sends user information to technical support",
+      "header": "Do you confirm the transfer of user information to the bot's technical support team?"
+    },
+    "sync": {
+      "complete": "Sync complete!",
+      "description": "Sync moders of chat"
+    },
+    "terms": {
+      "description": "Terms of Use"
+    },
+    "unban": {
+      "description": "Unban user",
+      "notFoundRestrictions": "User not banned!",
+      "ok": "User unbanned!"
+    },
+    "unmute": {
+      "description": "Unmute user",
+      "notFoundRestrictions": "User not mutted!",
+      "ok": "User unmutted!"
+    },
+    "user": {
+      "activeban": "Active ban: ",
+      "activemute": "Active mute: ",
+      "attach": "Attachment {{uuid}} for restriction {{id}}\nAuthor: {{moder}}\n\n{{text}}",
+      "attachMedia": "Media from attachment {{uuid}}",
+      "attaches": "Attaches",
+      "body": {
+        "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
+        "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
+        "status": "Status in chat: {{status}}",
+        "warns": "Active warns: {{warns}} Total warns: {{total_warns}}"
+      },
+      "cancel": "Cancel",
+      "cancelled": "Restriction cancelled!",
+      "deleted": "Restiction deleted!",
+      "description": "Get information about user",
+      "edit_reason": "Edit reason",
+      "header": {
+        "chat": "Information about channel {{title}}:",
+        "user": "Information about user <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
+      },
+      "messages": "Messages: {{messages}}",
+      "noRestrictions": "No restrictions",
+      "reputation": "Reputation: ",
+      "restriction": "{{type}} №{{id}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\nAttaches: {{attaches}}\n{{canceled}}",
+      "restrictionNotFound": "Restiction not found!",
+      "showMedia": "Show media",
+      "showMessage": "Show message",
+      "uncancel": "Restore",
+      "uncanceled": "Restriction restored!",
+      "updateReason": "Send new reason for restriction, current: ",
+      "warns": "warns ",
+      "workers": "AI-Workers:"
+    },
+    "userreport": {
+      "description": "Creating a text report for the user",
+      "sent": "I've sent the info in private messages!"
+    },
+    "warn": {
+      "cancel": "{{moder}} removed {{user}}'s warn with the reason \"{{reason}}\"",
+      "description": "Warns user",
+      "onlyUsers": "You cannot give warn to other admin!"
+    }
+  },
+  "extends": "ru",
+  "general": {
+    "Create": "Create",
+    "Delete": "Delete",
+    "Disable": "Disable",
+    "Edit": "Edit",
+    "Enable": "Enable",
+    "Forever": "Forever",
+    "Trigger": "Trigger",
+    "add": "Add",
+    "all": "All",
+    "automoderation": "Automoderation",
+    "back": "Back",
+    "ban": "ban",
+    "ban_few": "bans",
+    "ban_many": "bans",
+    "ban_zero": "bans",
+    "bot": {
+      "description": "Imperium bot for moderation.\nDevelopment and support: @sleeplesscode\nNews channel: @imperium_guard",
+      "name": "Imperium Guard"
+    },
+    "canceled": "cancelled",
+    "captcha": {
+      "agree": "Agreed",
+      "emoji": "Emoji buttons",
+      "null": "Disabled"
+    },
+    "chatMemberStatus": {
+      "administrator": "administrator",
+      "creator": "creator",
+      "kicked": "kicked",
+      "left": "left",
+      "member": "member",
+      "null": "unknown",
+      "restricted": "restricted"
+    },
+    "close": "Close",
+    "command": "Command",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "disabled": "disabled",
+    "edit": "Edit",
+    "enabled": "enabled",
+    "errors": {
+      "cooldown": "You made too many requests, wait {{seconds}} seconds!",
+      "notAvaliable": "This command only works in supergroups!",
+      "pmlock": "",
+      "selfInteract": "You have specified me as a user; please verify that this is correct."
+    },
+    "infinity": "infinity",
+    "intervals": {
+      "M": "mon",
+      "d": "day",
+      "h": "hr",
+      "m": "min",
+      "y": "year"
+    },
+    "modRule": {
+      "ban": "Ban",
+      "delete": "Delete message",
+      "ignore": "Ignore",
+      "kick": "Kick",
+      "message": "Send message",
+      "mute": "Mute",
+      "notify": "Notify",
+      "null": "Not set",
+      "reputation": "Change reputation",
+      "undefined": "Not set",
+      "warn": "Delete with warn"
+    },
+    "notSet": "not set",
+    "notlinked": "not linked",
+    "permissions": {
+      "delete_messages": "Delete messages",
+      "manage_restrictions": "Manage restrictions",
+      "remove_restrictions": "Removing restrictions",
+      "reports": "Manage reports",
+      "restrict_ban": "Issuing bans",
+      "restrict_mute": "Issuing mutes",
+      "restrict_warn": "Issuing warns",
+      "settings": "Manage chat settings"
+    },
+    "restricted": "Insufficient rights to execute this command!",
+    "restrictionType": {
+      "ban": "ban",
+      "mute": "mute",
+      "note": "note",
+      "warn": "warn"
+    },
+    "restrictions": {
+      "adminCommand": "Administration command",
+      "aiReport": "Delete and report error",
+      "automod": "Automoderation",
+      "ban": "Moderator {{user}} banned user {{restricted}}",
+      "banChannel": "Moderator {{user}} has banned channel owner {{restricted}} from posting anonymously",
+      "chatAdminRequired": "I don't have enough permissions to perform this action, make sure you give me admin rights in chat.",
+      "duration": "for {{duration}}",
+      "kick": "Moderator {{user}} kicked user {{restricted}}",
+      "mute": "Moderator {{user}} muted user {{restricted}}",
+      "note": "Note for {{restricted}} with text \"{{reason}}\" created",
+      "participantId": "Failed to issue a ban at the Telegram API level, the blocking information is saved in the user card.",
+      "reason": "with reason \"{{reason}}\"",
+      "warn": "Moderator {{user}} warned user {{restricted}}",
+      "warnsLimit": "warns limit"
+    },
+    "save": "save",
+    "selector": {
+      "admins": "Administrators",
+      "all": "All users",
+      "disabled": "Disabled",
+      "owner": "Creator",
+      "undefined": "Not set"
+    },
+    "set": "set",
+    "settings": {
+      "audit": "Audit",
+      "automod": {
+        "cas": {
+          "name": "Reaction on CAS-ban"
         },
-        "aicheck": {
-            "description": "Gives information about the status of neural network"
+        "contacts": {
+          "name": "Contacts moderation"
         },
-        "announce": {
-            "description": "Sends message from bot's name!"
+        "delStickers": {
+          "name": "Sticker deletion"
         },
-        "ban": {
-            "description": "Bans user",
-            "onlyUsers": "You can't give a ban to another admin!"
+        "deleteCommands": {
+          "name": "Delete others commands"
         },
-        "check": {
-            "description": "Starts a file check"
+        "flood": {
+          "name": "Flood moderation"
         },
-        "dban": {
-            "description": "Bans user and deletes their message"
-        },
-        "delete": {
-            "description": "Deletes a message that has been replied to"
-        },
-        "dmute": {
-            "description": "Mutes user and deletes their message"
-        },
-        "dossier": {
-            "description": "Generate a dossier file for a user",
-            "noReason": "Not specified",
-            "wait": "I've started preparing the data, which may take some time."
-        },
-        "dwarn": {
-            "description": "Warns user and deletes their message"
-        },
-        "fulluser": {
-            "description": "Get full info about user"
+        "games": {
+          "name": "Games moderation"
         },
         "gas": {
-            "description": "Adds a GAS ban to a user"
+          "name": "Reaction on GAS-ban"
         },
-        "general": {
-            "approve": "Approve",
-            "canceledRestriction": "Restriction canceled!",
-            "canceledRestriction_few": "{{count}} restrictions canceled!",
-            "canceledRestriction_many": "{{count}} restrictions canceled!",
-            "canceledRestriction_zero": "There are no restrictions to be removed!",
-            "cooldown": "This user is protected by cooldown!",
-            "disabled": "This command disabled in chat settings!",
-            "message": "message",
-            "message_few": "messages",
-            "message_many": "messages",
-            "message_zero": "messages",
-            "mute": "mute",
-            "mute_few": "mutes",
-            "mute_many": "mutes",
-            "mute_zero": "mutes",
-            "no": "false",
-            "notFoundUser": "Telegram was unable to find the user, if you are sure that you have specified the correct user, ask the user to write to the bot's private messages.",
-            "notSuperGroup": "This action is only available in supergroups, more information: https://tginfo.me/groups_vs_supergroups/",
-            "onlyPM": "This command works only in private messages!",
-            "open": "Open",
-            "openWebApp": "Open in WebApp",
-            "reject": "Reject",
-            "report": "report",
-            "report_few": "reports",
-            "report_many": "reports",
-            "report_zero": "reports",
-            "restriction": "restriction",
-            "restriction_few": "restrictions",
-            "restriction_many": "restrictions",
-            "restriction_zero": "restrictions",
-            "selectChannel": "Select channel",
-            "selectChat": "Select chat",
-            "selectUser": "Select user",
-            "userNotFound": "You didn't specified a user or I'm not know him!",
-            "warn": "warn",
-            "warn_few": "warns",
-            "warn_many": "warns",
-            "warn_zero": "warns",
-            "yes": "true"
+        "header": "Automatic moderation settings in chat {{title}}",
+        "hideTriggerMessage": {
+          "name": "Silent mode of triggers"
         },
-        "help": {
-            "commandList": "Commands:",
-            "description": "Bot Help",
-            "docs": "More in documentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
-            "duration": "<duration>",
-            "durationHint": "Duration is specified in number+interval format: 1m 2h 3d 4w 5M 6y",
-            "group": {
-                "admin": "Moderation",
-                "ai-moder": "Content moderation",
-                "misc": "Misc",
-                "owner": "Owner",
-                "user": "User's"
-            },
-            "header": "Welcome to the Imperium Guard! Use the buttons below to navigate through the sections.",
-            "idUserReply": "<id/username/reply>",
-            "reason": "<reason>",
-            "reply": "<reply>"
+        "location": {
+          "name": "Location moderation"
         },
-        "id": {
-            "description": "Get the id of a user, channel or chat",
-            "send": "Send a user, channel or chat using the buttons below!"
+        "mediaCheck": {
+          "detection": "Sent percent of unacceptable stickers in stickerpack or click on button to restrict when unacceptable sticker is sent.",
+          "duration": "Sent duration of restriction in interval format",
+          "name": "Media checking",
+          "punishment": "Select user restriction",
+          "sent": "Unacceptable media sent"
         },
-        "json": {
-            "description": "Outputs a json schema of the message"
+        "mediaSpamCheck": {
+          "count": {
+            "name": "Maximum number of media in row"
+          },
+          "duration": {
+            "name": "Duration of punishment for media spam"
+          },
+          "interval": {
+            "name": "Media spam check interval"
+          },
+          "punishment": {
+            "name": "Punishment for media spam"
+          }
         },
-        "mass": {
-            "description": "Starting a mass action on users"
+        "muteOnPermission": {
+          "name": "Mute duration when trying to use moderation commands"
         },
-        "modtop": {
-            "bans": "Top moderators by bans:",
-            "description": "Get top of moderators",
-            "mutes": "Top moderators by mutes:",
-            "total": "Moderators top:",
-            "warns": "Top moderators by warns:"
+        "newbieRestrictions": {
+          "name": "Duration of beginner's restrictions"
         },
-        "modview": {
-            "description": "Opens WebApp with members profiles"
+        "raid": {
+          "interval": {
+            "name": "Raid check interval"
+          },
+          "threshold": {
+            "name": "Raid system threshold"
+          }
         },
-        "msgtop": {
-            "description": "Get top by messages in chat",
-            "header": "Top by messages count:"
+        "reactionsUntilBan": {
+          "name": "Reactions until ban"
         },
-        "mute": {
-            "description": "Mute user",
-            "onlyUsers": "You can't give a mute to another administrator!"
+        "stickers": {
+          "animal_abuse": {
+            "description": "Images or materials depicting cruelty to animals, including scenes of violence or suffering.",
+            "name": "Animal Abuse"
+          },
+          "blood": {
+            "description": "Content containing scenes of violence or blood, including depictions of battle scenes or injuries.",
+            "name": "Blood and Violence (All)"
+          },
+          "blood-blood": {
+            "description": "Images focused specifically on blood, including streams, stains, and other manifestations.",
+            "name": "Blood and Violence"
+          },
+          "blood-killing": {
+            "description": "Content showing murder scenes, including attacks with weapons or other forms of violence.",
+            "name": "Killing Scenes"
+          },
+          "crash": {
+            "description": "Stickers that may cause a crash or other issues on the device.",
+            "name": "Crash Stickers"
+          },
+          "epileptic": {
+            "description": "Content potentially dangerous for people with epilepsy, including flashing or bright effects.",
+            "name": "Epileptic"
+          },
+          "epileptic-scare": {
+            "description": "Images that may cause feelings of anxiety or fear due to their sudden nature or content.",
+            "name": "Disturbing Images"
+          },
+          "epileptic-seizure": {
+            "description": "Materials with intense flashing or rapidly changing light effects, posing risks to people with epilepsy.",
+            "name": "Photosensitive Content"
+          },
+          "politics": {
+            "description": "Content related to political topics, movements, or events that may be controversial.",
+            "name": "Politics"
+          },
+          "politics-flags": {
+            "description": "Symbols of various countries, including flags and emblems, which may carry political context.",
+            "name": "Country Symbols"
+          },
+          "politics-nazi": {
+            "description": "Content featuring symbols associated with Nazism or references to its ideology.",
+            "name": "Nazism"
+          },
+          "politics-presidents": {
+            "description": "Images related to presidents or other country leaders, their actions, or statements.",
+            "name": "Country Leaders"
+          },
+          "porn": {
+            "description": "Materials containing scenes of a sexual nature, including nude images or pornography.",
+            "name": "Pornography"
+          },
+          "porn-child": {
+            "description": "Abusive materials containing scenes of violence or sexual exploitation of children.",
+            "name": "Child Abuse"
+          },
+          "porn-nudity": {
+            "description": "Materials showing nudity, including intimate or suggestive images.",
+            "name": "Nudity"
+          },
+          "porn-sex": {
+            "description": "Images or scenes of sexual acts, containing explicit sexual context.",
+            "name": "Sexual Acts"
+          },
+          "porn-sexualize": {
+            "description": "Content focusing on the sexualization of characters, images, or objects.",
+            "name": "Sexualization"
+          },
+          "swearing": {
+            "description": "Materials containing profanity or offensive language.",
+            "name": "Profanity"
+          }
         },
-        "note": {
-            "description": "Create note about user",
-            "onlyUsers": "You cannot leave a note about other administrator!"
+        "stories": {
+          "name": "Moderation of stories"
         },
-        "paysupport": {
-            "description": "Payment support"
-        },
-        "privacy": {
-            "description": "Privacy Policy"
-        },
-        "raidmode": {
-            "description": "Enable/Disable raid mode",
-            "disabled": "Raid mode disabled!",
-            "enabled": "Enabled raid mode, all joined users will be automatically kicked!"
-        },
-        "readonly": {
-            "description": "Enable/Disable read only mode",
-            "disabled": "Read only mode is diabled!",
-            "enabled": "Read only mode enabled!"
-        },
-        "report": {
-            "accepted": "Report approved!",
-            "alreadySent": "You already reported this message!",
-            "deleted": "The message is deleted by a lot of reports!",
-            "description": "Report a message",
-            "got": "Got <a href=\"{{reportUrl}}\">report</a> from <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> to <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} in chat <a href=\"{{messageUrl}}\">{{title}}</a>",
-            "rated": "Raiting given!",
-            "rejected": "Report rejected!",
-            "sent": "Report sent!",
-            "sentForDelete": "Report sent! ({{now}}/{{need}})"
-        },
-        "reptop": {
-            "description": "Gets top of reporters",
-            "reports": "Top of reporters:",
-            "reputation": "Reputation top:"
-        },
-        "reset": {
-            "description": "Resets the passed key in all caches"
-        },
-        "resetpack": {
-            "description": "Resets the threat of the entire sticker pack"
-        },
-        "resttop": {
-            "description": "Displays the top offenders in chat.",
-            "header": "Top offenders:"
-        },
-        "settings": {
-            "anonymous": "Click on button to open settings!",
-            "description": "Opens chat settings",
-            "notFound": "Chat not found!",
-            "notSent": "I couldn't send the settings, send /start in private messages and try again.",
-            "permission": "Not enough permissions to execute this command, you need permission to edit chat!",
-            "sent": "Settings sent in PM!"
-        },
-        "start": {
-            "activeRestrictions": "You has active restrictions:",
-            "description": "Shows list of active restrictions in all chats",
-            "footer": "You can learn about all my capabilities using the /help command",
-            "header": "Hi! I'm Imperium Guard, moderation bot for chats.",
-            "media": "Hello! I am the Imperium Guard Assistant Bot, designed to check media files in chats where my main account is not present.",
-            "noActiveRestrictions": "You have no active restrictions.",
-            "openUser": "Opened user <a href=\"tg://user?id={{id}}\">{{name}}</a>",
-            "restriction": "• {{type}} \"{{reason}}\" until {{end}} in chat \"{{title}}\""
-        },
-        "stats": {
-            "cache": {
-                "cas": "CAS Cache",
-                "chats": "Chats cache",
-                "members": "Members cache",
-                "users": "Users cache"
-            },
-            "description": "Get technical statistics",
-            "queue": {
-                "messages": "Message sending queue",
-                "updates": "Update processing queue"
-            },
-            "uptime": "Uptime"
-        },
-        "support": {
-            "description": "Bot support",
-            "header": "Info sent to support!"
-        },
-        "support_chat": {
-            "description": "Sending information about the current chat to technical support"
-        },
-        "support_user": {
-            "description": "Sends user information to technical support"
-        },
-        "sync": {
-            "complete": "Sync complete!",
-            "description": "Sync moders of chat"
-        },
-        "terms": {
-            "description": "Terms of Use"
-        },
-        "unban": {
-            "description": "Unban user",
-            "notFoundRestrictions": "User not banned!",
-            "ok": "User unbanned!"
-        },
-        "unmute": {
-            "description": "Unmute user",
-            "notFoundRestrictions": "User not mutted!",
-            "ok": "User unmutted!"
-        },
-        "user": {
-            "activeban": "Active ban: ",
-            "activemute": "Active mute: ",
-            "attach": "Attachment {{uuid}} for restriction {{id}}\nAuthor: {{moder}}\n\n{{text}}",
-            "attachMedia": "Media from attachment {{uuid}}",
-            "attaches": "Attaches",
-            "body": {
-                "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
-                "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
-                "status": "Status in chat: {{status}}",
-                "warns": "Active warns: {{warns}} Total warns: {{total_warns}}"
-            },
-            "cancel": "Cancel",
-            "cancelled": "Restriction cancelled!",
-            "deleted": "Restiction deleted!",
-            "description": "Get information about user",
-            "edit_reason": "Edit reason",
-            "header": {
-                "chat": "Information about channel {{title}}:",
-                "user": "Information about user <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
-            },
-            "messages": "Messages: {{messages}}",
-            "noRestrictions": "No restrictions",
-            "reputation": "Reputation: ",
-            "restriction": "{{type}} №{{id}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\nAttaches: {{attaches}}\n{{canceled}}",
-            "restrictionNotFound": "Restiction not found!",
-            "showMedia": "Show media",
-            "showMessage": "Show message",
-            "uncancel": "Restore",
-            "uncanceled": "Restriction restored!",
-            "updateReason": "Send new reason for restriction, current: ",
-            "warns": "warns ",
-            "workers": "AI-Workers:"
-        },
-        "userreport": {
-            "description": "Creating a text report for the user",
-            "sent": "I've sent the info in private messages!"
-        },
-        "warn": {
-            "cancel": "{{moder}} removed {{user}}'s warn with the reason \"{{reason}}\"",
-            "description": "Warns user",
-            "onlyUsers": "You cannot give warn to other admin!"
-        }
-    },
-    "extends": "ru",
-    "general": {
-        "Create": "Create",
-        "Delete": "Delete",
-        "Disable": "Disable",
-        "Edit": "Edit",
-        "Enable": "Enable",
-        "Forever": "Forever",
-        "Trigger": "Trigger",
-        "add": "Add",
-        "all": "All",
-        "automoderation": "Automoderation",
-        "back": "Back",
-        "ban": "ban",
-        "ban_few": "bans",
-        "ban_many": "bans",
-        "ban_zero": "bans",
-        "bot": {
-            "description": "Imperium bot for moderation.\nDevelopment and support: @sleeplesscode\nNews channel: @imperium_guard",
-            "name": "Imperium Guard"
-        },
-        "canceled": "cancelled",
-        "captcha": {
-            "agree": "Agreed",
-            "emoji": "Emoji buttons",
-            "null": "Disabled"
-        },
-        "chatMemberStatus": {
-            "administrator": "administrator",
-            "creator": "creator",
-            "kicked": "kicked",
-            "left": "left",
-            "member": "member",
-            "null": "unknown",
-            "restricted": "restricted"
-        },
-        "close": "Close",
-        "command": "Command",
-        "confirm": "Confirm",
-        "delete": "Delete",
-        "disabled": "disabled",
-        "edit": "Edit",
-        "enabled": "enabled",
-        "errors": {
-            "cooldown": "You made too many requests, wait {{seconds}} seconds!",
-            "notAvaliable": "This command only works in supergroups!",
-            "pmlock": "",
-            "selfInteract": "You have specified me as a user; please verify that this is correct."
-        },
-        "infinity": "infinity",
-        "intervals": {
-            "M": "mon",
-            "d": "day",
-            "h": "hr",
-            "m": "min",
-            "y": "year"
-        },
-        "modRule": {
-            "ban": "Ban",
-            "delete": "Delete message",
-            "ignore": "Ignore",
-            "kick": "Kick",
-            "message": "Send message",
-            "mute": "Mute",
-            "notify": "Notify",
-            "null": "Not set",
-            "reputation": "Change reputation",
-            "undefined": "Not set",
-            "warn": "Delete with warn"
-        },
-        "notSet": "not set",
-        "notlinked": "not linked",
-        "permissions": {
-            "delete_messages": "Delete messages",
-            "manage_restrictions": "Manage restrictions",
-            "remove_restrictions": "Removing restrictions",
-            "reports": "Manage reports",
-            "restrict_ban": "Issuing bans",
-            "restrict_mute": "Issuing mutes",
-            "restrict_warn": "Issuing warns",
-            "settings": "Manage chat settings"
-        },
-        "restricted": "Insufficient rights to execute this command!",
-        "restrictionType": {
-            "ban": "ban",
-            "mute": "mute",
-            "note": "note",
-            "warn": "warn"
-        },
-        "restrictions": {
-            "adminCommand": "Administration command",
-            "aiReport": "Delete and report error",
-            "automod": "Automoderation",
-            "ban": "Moderator {{user}} banned user {{restricted}}",
-            "banChannel": "Moderator {{user}} has banned channel owner {{restricted}} from posting anonymously",
-            "chatAdminRequired": "I don't have enough permissions to perform this action, make sure you give me admin rights in chat.",
-            "duration": "for {{duration}}",
-            "kick": "Moderator {{user}} kicked user {{restricted}}",
-            "mute": "Moderator {{user}} muted user {{restricted}}",
-            "note": "Note for {{restricted}} with text \"{{reason}}\" created",
-            "participantId": "Failed to issue a ban at the Telegram API level, the blocking information is saved in the user card.",
-            "reason": "with reason \"{{reason}}\"",
-            "warn": "Moderator {{user}} warned user {{restricted}}",
-            "warnsLimit": "warns limit"
-        },
-        "save": "save",
-        "selector": {
-            "admins": "Administrators",
-            "all": "All users",
-            "disabled": "Disabled",
-            "owner": "Creator",
-            "undefined": "Not set"
-        },
-        "set": "set",
-        "settings": {
-            "audit": "Audit",
-            "automod": {
-                "cas": {
-                    "name": "Reaction on CAS-ban"
-                },
-                "contacts": {
-                    "name": "Contacts moderation"
-                },
-                "delStickers": {
-                    "name": "Sticker deletion"
-                },
-                "deleteCommands": {
-                    "name": "Delete others commands"
-                },
-                "flood": {
-                    "name": "Flood moderation"
-                },
-                "games": {
-                    "name": "Games moderation"
-                },
-                "gas": {
-                    "name": "Reaction on GAS-ban"
-                },
-                "header": "Automatic moderation settings in chat {{title}}",
-                "hideTriggerMessage": {
-                    "name": "Silent mode of triggers"
-                },
-                "location": {
-                    "name": "Location moderation"
-                },
-                "mediaCheck": {
-                    "detection": "Sent percent of unacceptable stickers in stickerpack or click on button to restrict when unacceptable sticker is sent.",
-                    "duration": "Sent duration of restriction in interval format",
-                    "name": "Media checking",
-                    "punishment": "Select user restriction",
-                    "sent": "Unacceptable media sent"
-                },
-                "mediaSpamCheck": {
-                    "count": {
-                        "name": "Maximum number of media in row"
-                    },
-                    "duration": {
-                        "name": "Duration of punishment for media spam"
-                    },
-                    "interval": {
-                        "name": "Media spam check interval"
-                    },
-                    "punishment": {
-                        "name": "Punishment for media spam"
-                    }
-                },
-                "muteOnPermission": {
-                    "name": "Mute duration when trying to use moderation commands"
-                },
-                "newbieRestrictions": {
-                    "name": "Duration of beginner's restrictions"
-                },
-                "raid": {
-                    "interval": {
-                        "name": "Raid check interval"
-                    },
-                    "threshold": {
-                        "name": "Raid system threshold"
-                    }
-                },
-                "reactionsUntilBan": {
-                    "name": "Reactions until ban"
-                },
-                "stickers": {
-                    "animal_abuse": {
-                        "description": "Images or materials depicting cruelty to animals, including scenes of violence or suffering.",
-                        "name": "Animal Abuse"
-                    },
-                    "blood": {
-                        "description": "Content containing scenes of violence or blood, including depictions of battle scenes or injuries.",
-                        "name": "Blood and Violence (All)"
-                    },
-                    "blood-blood": {
-                        "description": "Images focused specifically on blood, including streams, stains, and other manifestations.",
-                        "name": "Blood and Violence"
-                    },
-                    "blood-killing": {
-                        "description": "Content showing murder scenes, including attacks with weapons or other forms of violence.",
-                        "name": "Killing Scenes"
-                    },
-                    "crash": {
-                        "description": "Stickers that may cause a crash or other issues on the device.",
-                        "name": "Crash Stickers"
-                    },
-                    "epileptic": {
-                        "description": "Content potentially dangerous for people with epilepsy, including flashing or bright effects.",
-                        "name": "Epileptic"
-                    },
-                    "epileptic-scare": {
-                        "description": "Images that may cause feelings of anxiety or fear due to their sudden nature or content.",
-                        "name": "Disturbing Images"
-                    },
-                    "epileptic-seizure": {
-                        "description": "Materials with intense flashing or rapidly changing light effects, posing risks to people with epilepsy.",
-                        "name": "Photosensitive Content"
-                    },
-                    "politics": {
-                        "description": "Content related to political topics, movements, or events that may be controversial.",
-                        "name": "Politics"
-                    },
-                    "politics-flags": {
-                        "description": "Symbols of various countries, including flags and emblems, which may carry political context.",
-                        "name": "Country Symbols"
-                    },
-                    "politics-nazi": {
-                        "description": "Content featuring symbols associated with Nazism or references to its ideology.",
-                        "name": "Nazism"
-                    },
-                    "politics-presidents": {
-                        "description": "Images related to presidents or other country leaders, their actions, or statements.",
-                        "name": "Country Leaders"
-                    },
-                    "porn": {
-                        "description": "Materials containing scenes of a sexual nature, including nude images or pornography.",
-                        "name": "Pornography"
-                    },
-                    "porn-child": {
-                        "description": "Abusive materials containing scenes of violence or sexual exploitation of children.",
-                        "name": "Child Abuse"
-                    },
-                    "porn-nudity": {
-                        "description": "Materials showing nudity, including intimate or suggestive images.",
-                        "name": "Nudity"
-                    },
-                    "porn-sex": {
-                        "description": "Images or scenes of sexual acts, containing explicit sexual context.",
-                        "name": "Sexual Acts"
-                    },
-                    "porn-sexualize": {
-                        "description": "Content focusing on the sexualization of characters, images, or objects.",
-                        "name": "Sexualization"
-                    },
-                    "swearing": {
-                        "description": "Materials containing profanity or offensive language.",
-                        "name": "Profanity"
-                    }
-                },
-                "stories": {
-                    "name": "Moderation of stories"
-                },
-                "textSpamCheck": {
-                    "count": {
-                        "name": "Maximum number of same messages in row"
-                    },
-                    "duration": {
-                        "name": "Duration of punishment for same messages spam"
-                    },
-                    "interval": {
-                        "name": "Text spam check interval"
-                    },
-                    "punishment": {
-                        "name": "Punishment for same messages spam"
-                    }
-                },
-                "trigger": {
-                    "name": "Triggers"
-                }
-            },
-            "category": {
-                "automod": "Automoderation settings",
-                "customs": "Customization settings",
-                "language": "Language",
-                "permissions": "Permissions",
-                "privates": "General",
-                "reports": "Reporting settings",
-                "special": "Special",
-                "warns": "Warns settings"
-            },
-            "changingChat": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
-            "changingPM": "Changing the parameter “{{param}}”, current value: <code>{{current}}</code>",
-            "channels": {
-                "admins": "Admins chat",
-                "admins_selected": "Linking admins chat in chat {{title}}",
-                "logs": "Logs channel",
-                "logs_selected": "Linking logs channel in chat {{title}}",
-                "triggers": "Triggers channel",
-                "triggers_selected": "Linking triggers channel in chat {{title}}"
-            },
-            "customs": {
-                "acceptJoins": {
-                    "name": "Chat join accepting"
-                },
-                "admins": {
-                    "name": "/admins commands"
-                },
-                "anonPerm": {
-                    "menu": "Editing rights of anonymous admins!",
-                    "name": "Anonymous admins rights"
-                },
-                "anon_perms": {
-                    "restrict": "Users restriction"
-                },
-                "captcha": {
-                    "agree": "Agree",
-                    "name": "Captcha"
-                },
-                "channelPost": {
-                    "name": "First comment text"
-                },
-                "channels": {
-                    "menu": "Channels linking in chat {{menu}}.",
-                    "name": "Channel linking"
-                },
-                "command_restrictions": {
-                    "name": "Command restrictions"
-                },
-                "commands": {
-                    "name": "Custom commands"
-                },
-                "commands_mode": {
-                    "moderation": {
-                        "name": "Moderation commands reaction"
-                    },
-                    "others": {
-                        "name": "Other commands reaction"
-                    },
-                    "raid": {
-                        "name": "Raid command reaction"
-                    }
-                },
-                "disableNotifications": {
-                    "name": "System messages"
-                },
-                "extendedModtop": {
-                    "name": "Extended modtop"
-                },
-                "greeting": {
-                    "name": "Greeting"
-                },
-                "header": "Customization settings in chat {{title}}}",
-                "messagesAutoRemove": {
-                    "name": "Interval for deleting trigger messages"
-                },
-                "modtop": {
-                    "name": "Modtop access"
-                },
-                "notificationsTopic": {
-                    "name": "Topic for notifications"
-                },
-                "reactions": {
-                    "name": "Reactions callback"
-                },
-                "reputation": {
-                    "name": "Reputation system"
-                },
-                "statisticsRange": {
-                    "name": "Statistics range",
-                    "selected": "Enter interval for statistics showing in top commands, current value:"
-                },
-                "tokens": {
-                    "name": "Tokens"
-                }
-            },
-            "headerChat": "Settings of {{title}} chat",
-            "headerPM": "User settings",
-            "incorrect_interval": "Incorrect value, send interval",
-            "incorrect_number": "Incorrect value, send a number",
-            "inputChangingChat": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
-            "inputChangingPM": "Changing the “{{param}}” parameter, send the new value to the chat. Current value: <code>{{current}}</code>",
-            "language": {
-                "header": "Select language for the chat"
-            },
-            "permissions": {
-                "admins": {
-                    "add": "Add admin",
-                    "adding": "Select user(s)",
-                    "edit": {
-                        "change_group": "Chage group",
-                        "changing_group": "Select group for this admin",
-                        "header": "Editing admin {{name}}"
-                    },
-                    "group": "Select group for new admins",
-                    "header": "Admins permissions settings in chat {{title}}",
-                    "name": "Chat moders"
-                },
-                "advancedModers": {
-                    "name": "Advanced admins system"
-                },
-                "description": "WARNING, changing settings in this section may suspend your privileges, it is recommended to make changes from the account of the chat owner.",
-                "fake_group": "No group",
-                "groups": {
-                    "create": {
-                        "button": "Create group",
-                        "header": "Send group name:",
-                        "priority": "Specify the priority of the group, 0 - the highest one"
-                    },
-                    "edit": {
-                        "header": "Editing group {{name}}",
-                        "name": {
-                            "button": "Change name",
-                            "header": "Send new group name:"
-                        },
-                        "permissions": {
-                            "button": "Change permissions"
-                        },
-                        "priority": {
-                            "button": "Change priority",
-                            "header": "Send new group priority:"
-                        }
-                    },
-                    "header": "Group permissions settings in chat {{title}}",
-                    "name": "Permission groups",
-                    "permissions": "Permissions of group {{name}}:"
-                },
-                "header": "Permissions settings in chat {{title}}"
-            },
-            "privates": {
-                "header": "General user settings",
-                "timezone": {
-                    "name": "Time zone"
-                }
-            },
-            "reports": {
-                "deleteReports": {
-                    "name": "Minimum number of reports from users deleting messages"
-                },
-                "deleteReportsCount": {
-                    "name": "Minimum number of reports for a user to delete a message"
-                },
-                "deleteReportsRate": {
-                    "name": "Minimum rating of a person to delete a message"
-                },
-                "header": "Reposts settings in chat {{title}}",
-                "reportsSystem": {
-                    "name": "Reports system"
-                }
-            },
-            "special": {
-                "clear_deleted": {
-                    "button": "Remove deleted accounts",
-                    "description": "Allows you to remove deleted accounts from the list of participants and removed users.",
-                    "finished": "The purge of deleted accounts is complete!\nUndeleted admins: {{admins}}\nDeletion errors from Telegram: {{errors}}",
-                    "progress": "The process of cleaning up deleted accounts: {{progress}}%",
-                    "started": "The task of cleaning up deleted accounts has begun!"
-                },
-                "header": "Special actions for chat {{title}}\nBalance: {{balance}}",
-                "index_old": {
-                    "button": "Index old messages",
-                    "description": "Allows the guard to explore all messages before they are added to the chat.",
-                    "started": "The task of exploring the history of the chat has begun!"
-                },
-                "kick_inactive": {
-                    "button": "Remove inactive users",
-                    "description": "Removes all inactive participants from the chat for the selected period",
-                    "progress": "Removed {{progress}} from {{users}}!",
-                    "request": "Specify a minimum activity interval, all users with a larger one will be removed.",
-                    "request_confirm": "The interval {{interval}} is selected, {{users}} users will be removed!",
-                    "success": "Removal completed, removed {{users}}!"
-                },
-                "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
-                "price": "Price: ",
-                "start": "Start!",
-                "started": "The task is queued, you will be notified when it starts and ends!",
-                "topup": {
-                    "button": "Top up balance",
-                    "how_many": "How many stars do you want to transfer to your chat balance?",
-                    "pay": "Transfer",
-                    "positive": "Enter positive number!",
-                    "successful": "Transfer successful!",
-                    "title": "Transfer stars to chat {{title}}"
-                }
-            },
-            "timeZoneInfo": "To specify the time period, specify the required time shift in the format “UTC+N” or “GMT+N”. You can also use IANA format “Europe/Paris”, in this case the bot will automatically take into account summer and winter time, please note that the selected city will not be displayed publicly and will be automatically converted to GMT+N format.",
-            "warns": {
-                "cooldown": {
-                    "name": "Cooldown beetwen warns to one person"
-                },
-                "header": "Warn settings in chat {{title}}",
-                "maxWarns": {
-                    "name": "Number of warns before punishment is given"
-                },
-                "warnLength": {
-                    "name": "Warn duration"
-                },
-                "warnsResult": {
-                    "name": "Punishment for the maximum number of warns"
-                },
-                "warnsResultLength": {
-                    "name": "Duration of punishment for the maximum number of warns"
-                }
-            }
-        },
-        "spam": "Spam",
-        "token": "Token",
-        "unknown": {
-            "channel": "Unknown channel",
-            "user": "Unknown user"
-        },
-        "until": "until"
-    },
-    "handlers": {
-        "adminsChange": "Admin change detected, the admin list has been updated!",
-        "captcha": {
-            "again": "You already passed captcha!",
-            "agree": "Click the button below to enter the chat room!",
-            "agreed": "✅ I agree",
-            "correct": "Correct!",
-            "emoji": "To confirm that you are not a bot, click on: {{correct}}",
-            "wrongUser": "It's not your captcha!"
-        },
-        "chatJoin": {
-            "raid": "Raid detected! {{joins}} users have entered for {{interval}}. Raid mode is activated, use /raidmode to disable."
-        },
-        "file": {
-            "got": "Found unacceptable content \"{{type}}\" in chat {{title}}"
-        },
-        "hello": {
-            "full": "Thank you for adding me as an admin! I am now ready to go to work!",
-            "restricted": "Thanks for adding me to the chat! To get started, add me as an admin and give me permissions to delete posts and restrict users. After that I will be ready to work!"
-        },
-        "migrate": "The group has been migrated to a supergroup!",
-        "nativeBan": "Native ban",
-        "reactions": {
-            "notify": "{{user}} you can be banned for sending reactions during mute!",
-            "reason": "reactions while mute is active"
-        },
-        "reputation": {
-            "down": "Reputation decreased!",
-            "up": "Reputation increased!"
+        "textSpamCheck": {
+          "count": {
+            "name": "Maximum number of same messages in row"
+          },
+          "duration": {
+            "name": "Duration of punishment for same messages spam"
+          },
+          "interval": {
+            "name": "Text spam check interval"
+          },
+          "punishment": {
+            "name": "Punishment for same messages spam"
+          }
         },
         "trigger": {
-            "got": "The {{name}} triggered in the {{title}} chat: {{text}}"
+          "name": "Triggers"
         }
-    },
-    "scenes": {
-        "addAttach": {
-            "enter": "Send message which will attached to restriction!"
+      },
+      "category": {
+        "automod": "Automoderation settings",
+        "customs": "Customization settings",
+        "language": "Language",
+        "permissions": "Permissions",
+        "privates": "General",
+        "reports": "Reporting settings",
+        "special": "Special",
+        "warns": "Warns settings"
+      },
+      "changingChat": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
+      "changingPM": "Changing the parameter “{{param}}”, current value: <code>{{current}}</code>",
+      "channels": {
+        "admins": "Admins chat",
+        "admins_selected": "Linking admins chat in chat {{title}}",
+        "logs": "Logs channel",
+        "logs_selected": "Linking logs channel in chat {{title}}",
+        "triggers": "Triggers channel",
+        "triggers_selected": "Linking triggers channel in chat {{title}}"
+      },
+      "customs": {
+        "acceptJoins": {
+          "name": "Chat join accepting"
         },
-        "addCommand": {
-            "enterCommand": "Enter command:"
+        "admins": {
+          "name": "/admins commands"
         },
-        "addToken": {
-            "created": "Token {{name}} created!",
-            "enterName": "Enter token name:"
+        "anonPerm": {
+          "menu": "Editing rights of anonymous admins!",
+          "name": "Anonymous admins rights"
         },
-        "addTrigger": {
-            "condition": {
-                "badwordsRU": "Sweating (russian)",
-                "command": "Command",
-                "contains": "Contains text",
-                "match": "Exact match",
-                "regex": "Regular Expression"
-            },
-            "enterAction": "Select trigger action:",
-            "enterCommand": "Enter the command to be triggered by the trigger:",
-            "enterConditionType": "Select condition type for trigger:",
-            "enterContains": "Enter the text that the triggering message should contain:",
-            "enterDuration": "Enter restriction duration:",
-            "enterMatch": "Enter the text of the message to be triggered:",
-            "enterMessage": "Enter respond message:",
-            "enterName": "Enter trigger name:",
-            "enterRegex": "Enter regex for trigger (you can try it on regex101.com):",
-            "enterReputation": "Enter the amount of reputation to be added:",
-            "enterReputationGetter": "Select the recipient of the reputation:",
-            "enterSource": "Select text to check",
-            "enterTriggerAtEdit": "Check edited messages text?",
-            "reputation": {
-                "replier": "User receiving a reply",
-                "sender": "Message sender"
-            },
-            "source": {
-                "bio_text": "User's bio",
-                "linked_channel_text": "Title of linked channel",
-                "message_text": "Message text",
-                "name_text": "User's name"
-            }
+        "anon_perms": {
+          "restrict": "Users restriction"
         },
-        "announce": {
-            "done": "Done!",
-            "enter": "Select chat using button bellow",
-            "sendMessage": "Send message which will sent from bot's name! Use /stop to stop!"
+        "captcha": {
+          "agree": "Agree",
+          "name": "Captcha"
+        },
+        "channelPost": {
+          "name": "First comment text"
+        },
+        "channels": {
+          "menu": "Channels linking in chat {{menu}}.",
+          "name": "Channel linking"
         },
         "command_restrictions": {
-            "add_reports_reputation": "Add a report reputation requirement",
-            "add_reputation": "Add a chat reputation requirement",
-            "edit_reports_reputation": "Change the report reputation requirement",
-            "edit_reputation": "Change chat reputation",
-            "enter_command": "Enter command",
-            "enter_new_reports_reputation": "Enter the amount of report reputation required",
-            "enter_new_reputation": "Enter the amount of reputation required",
-            "enter_reports_reputation": "Enter the number of reports reputation required",
-            "enter_reputation": "Enter the amount of chat reputation required",
-            "header": "Command restrictions in chat {{title}}",
-            "info": "Command usage restrictions:",
-            "notFound": "Command restriction not found",
-            "remove_reports_reputation": "Don't demand report reputation",
-            "remove_reputation": "Don't demand a reputation",
-            "reports_reputation": "Reports reputation:",
-            "reputation": "Chat reputation:",
-            "skip_reports_reputation": "Skip",
-            "skip_reputation": "Skip"
+          "name": "Command restrictions"
         },
         "commands": {
-            "enterText": "Enter respond text:",
-            "header": "Commands in chat {{title}}:",
-            "notFound": "Command not found!"
+          "name": "Custom commands"
         },
-        "editCommand": {
-            "editAliases": "Edit aliases",
-            "editText": "Edit text",
-            "header": "Editing command - {{id}}\nAliases: {{aliases}}\n\n{{text}}"
+        "commands_mode": {
+          "moderation": {
+            "name": "Moderation commands reaction"
+          },
+          "others": {
+            "name": "Other commands reaction"
+          },
+          "raid": {
+            "name": "Raid command reaction"
+          }
         },
-        "editCommandAlias": {
-            "header": "Editing command - {{id}}\nTo add new alias, send it."
+        "disableNotifications": {
+          "name": "System messages"
         },
-        "editReason": {
-            "cancel": "Reason editing canceled!"
+        "extendedModtop": {
+          "name": "Extended modtop"
         },
-        "editTrigger": {
-            "header": "Enter new regex for a trigger:"
+        "greeting": {
+          "name": "Greeting"
         },
-        "general": {
-            "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
+        "header": "Customization settings in chat {{title}}}",
+        "messagesAutoRemove": {
+          "name": "Interval for deleting trigger messages"
         },
-        "mass": {
-            "done": "Mass action mode finished!",
-            "intro": {
-                "action": "Action: ",
-                "footer": "To stop, use command /stop",
-                "header": "Mass action mode enabled, this action will be used at all sent users:",
-                "interval": "Duration: ",
-                "reason": "Reason: "
-            },
-            "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!"
+        "modtop": {
+          "name": "Modtop access"
+        },
+        "notificationsTopic": {
+          "name": "Topic for notifications"
+        },
+        "reactions": {
+          "name": "Reactions callback"
+        },
+        "reputation": {
+          "name": "Reputation system"
+        },
+        "statisticsRange": {
+          "name": "Statistics range",
+          "selected": "Enter interval for statistics showing in top commands, current value:"
         },
         "tokens": {
-            "header": "Tokens in chat {{title}}",
-            "notFound": "Token not found!"
-        },
-        "trigger": {
-            "notFound": "Trigger not found!"
-        },
-        "triggers": {
-            "editAction": "Edit action",
-            "editCondition": "Edit trigger condition",
-            "editSource": "Edit text source",
-            "header": "Triggers in chat {{title}}"
+          "name": "Tokens"
         }
+      },
+      "headerChat": "Settings of {{title}} chat",
+      "headerPM": "User settings",
+      "incorrect_interval": "Incorrect value, send interval",
+      "incorrect_number": "Incorrect value, send a number",
+      "inputChangingChat": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
+      "inputChangingPM": "Changing the “{{param}}” parameter, send the new value to the chat. Current value: <code>{{current}}</code>",
+      "language": {
+        "header": "Select language for the chat"
+      },
+      "permissions": {
+        "admins": {
+          "add": "Add admin",
+          "adding": "Select user(s)",
+          "edit": {
+            "change_group": "Chage group",
+            "changing_group": "Select group for this admin",
+            "header": "Editing admin {{name}}"
+          },
+          "group": "Select group for new admins",
+          "header": "Admins permissions settings in chat {{title}}",
+          "name": "Chat moders"
+        },
+        "advancedModers": {
+          "name": "Advanced admins system"
+        },
+        "description": "WARNING, changing settings in this section may suspend your privileges, it is recommended to make changes from the account of the chat owner.",
+        "fake_group": "No group",
+        "groups": {
+          "create": {
+            "button": "Create group",
+            "header": "Send group name:",
+            "priority": "Specify the priority of the group, 0 - the highest one"
+          },
+          "edit": {
+            "header": "Editing group {{name}}",
+            "name": {
+              "button": "Change name",
+              "header": "Send new group name:"
+            },
+            "permissions": {
+              "button": "Change permissions"
+            },
+            "priority": {
+              "button": "Change priority",
+              "header": "Send new group priority:"
+            }
+          },
+          "header": "Group permissions settings in chat {{title}}",
+          "name": "Permission groups",
+          "permissions": "Permissions of group {{name}}:"
+        },
+        "header": "Permissions settings in chat {{title}}"
+      },
+      "privates": {
+        "header": "General user settings",
+        "timezone": {
+          "name": "Time zone"
+        }
+      },
+      "reports": {
+        "deleteReports": {
+          "name": "Minimum number of reports from users deleting messages"
+        },
+        "deleteReportsCount": {
+          "name": "Minimum number of reports for a user to delete a message"
+        },
+        "deleteReportsRate": {
+          "name": "Minimum rating of a person to delete a message"
+        },
+        "header": "Reposts settings in chat {{title}}",
+        "reportsSystem": {
+          "name": "Reports system"
+        }
+      },
+      "special": {
+        "clear_deleted": {
+          "button": "Remove deleted accounts",
+          "description": "Allows you to remove deleted accounts from the list of participants and removed users.",
+          "finished": "The purge of deleted accounts is complete!\nUndeleted admins: {{admins}}\nDeletion errors from Telegram: {{errors}}",
+          "progress": "The process of cleaning up deleted accounts: {{progress}}%",
+          "started": "The task of cleaning up deleted accounts has begun!"
+        },
+        "header": "Special actions for chat {{title}}\nBalance: {{balance}}",
+        "index_old": {
+          "button": "Index old messages",
+          "description": "Allows the guard to explore all messages before they are added to the chat.",
+          "started": "The task of exploring the history of the chat has begun!"
+        },
+        "kick_inactive": {
+          "button": "Remove inactive users",
+          "description": "Removes all inactive participants from the chat for the selected period",
+          "progress": "Removed {{progress}} from {{users}}!",
+          "request": "Specify a minimum activity interval, all users with a larger one will be removed.",
+          "request_confirm": "The interval {{interval}} is selected, {{users}} users will be removed!",
+          "success": "Removal completed, removed {{users}}!"
+        },
+        "not_enough_balance": "Insufficient ⭐️ on the chat balance!",
+        "price": "Price: ",
+        "start": "Start!",
+        "started": "The task is queued, you will be notified when it starts and ends!",
+        "topup": {
+          "button": "Top up balance",
+          "how_many": "How many stars do you want to transfer to your chat balance?",
+          "pay": "Transfer",
+          "positive": "Enter positive number!",
+          "successful": "Transfer successful!",
+          "title": "Transfer stars to chat {{title}}"
+        }
+      },
+      "timeZoneInfo": "To specify the time period, specify the required time shift in the format “UTC+N” or “GMT+N”. You can also use IANA format “Europe/Paris”, in this case the bot will automatically take into account summer and winter time, please note that the selected city will not be displayed publicly and will be automatically converted to GMT+N format.",
+      "warns": {
+        "cooldown": {
+          "name": "Cooldown beetwen warns to one person"
+        },
+        "header": "Warn settings in chat {{title}}",
+        "maxWarns": {
+          "name": "Number of warns before punishment is given"
+        },
+        "warnLength": {
+          "name": "Warn duration"
+        },
+        "warnsResult": {
+          "name": "Punishment for the maximum number of warns"
+        },
+        "warnsResultLength": {
+          "name": "Duration of punishment for the maximum number of warns"
+        }
+      }
+    },
+    "spam": "Spam",
+    "token": "Token",
+    "unknown": {
+      "channel": "Unknown channel",
+      "user": "Unknown user"
+    },
+    "until": "until"
+  },
+  "handlers": {
+    "adminsChange": "Admin change detected, the admin list has been updated!",
+    "captcha": {
+      "again": "You already passed captcha!",
+      "agree": "Click the button below to enter the chat room!",
+      "agreed": "✅ I agree",
+      "correct": "Correct!",
+      "emoji": "To confirm that you are not a bot, click on: {{correct}}",
+      "wrongUser": "It's not your captcha!"
+    },
+    "chatJoin": {
+      "raid": "Raid detected! {{joins}} users have entered for {{interval}}. Raid mode is activated, use /raidmode to disable."
+    },
+    "file": {
+      "got": "Found unacceptable content \"{{type}}\" in chat {{title}}"
+    },
+    "hello": {
+      "full": "Thank you for adding me as an admin! I am now ready to go to work!",
+      "restricted": "Thanks for adding me to the chat! To get started, add me as an admin and give me permissions to delete posts and restrict users. After that I will be ready to work!"
+    },
+    "migrate": "The group has been migrated to a supergroup!",
+    "nativeBan": "Native ban",
+    "reactions": {
+      "notify": "{{user}} you can be banned for sending reactions during mute!",
+      "reason": "reactions while mute is active"
+    },
+    "reputation": {
+      "down": "Reputation decreased!",
+      "up": "Reputation increased!"
+    },
+    "trigger": {
+      "got": "The {{name}} triggered in the {{title}} chat: {{text}}"
     }
+  },
+  "scenes": {
+    "addAttach": {
+      "enter": "Send message which will attached to restriction!"
+    },
+    "addCommand": {
+      "enterCommand": "Enter command:"
+    },
+    "addToken": {
+      "created": "Token {{name}} created!",
+      "enterName": "Enter token name:"
+    },
+    "addTrigger": {
+      "condition": {
+        "badwordsRU": "Sweating (russian)",
+        "command": "Command",
+        "contains": "Contains text",
+        "match": "Exact match",
+        "regex": "Regular Expression"
+      },
+      "enterAction": "Select trigger action:",
+      "enterCommand": "Enter the command to be triggered by the trigger:",
+      "enterConditionType": "Select condition type for trigger:",
+      "enterContains": "Enter the text that the triggering message should contain:",
+      "enterDuration": "Enter restriction duration:",
+      "enterMatch": "Enter the text of the message to be triggered:",
+      "enterMessage": "Enter respond message:",
+      "enterName": "Enter trigger name:",
+      "enterRegex": "Enter regex for trigger (you can try it on regex101.com):",
+      "enterReputation": "Enter the amount of reputation to be added:",
+      "enterReputationGetter": "Select the recipient of the reputation:",
+      "enterSource": "Select text to check",
+      "enterTriggerAtEdit": "Check edited messages text?",
+      "reputation": {
+        "replier": "User receiving a reply",
+        "sender": "Message sender"
+      },
+      "source": {
+        "bio_text": "User's bio",
+        "linked_channel_text": "Title of linked channel",
+        "message_text": "Message text",
+        "name_text": "User's name"
+      }
+    },
+    "announce": {
+      "done": "Done!",
+      "enter": "Select chat using button bellow",
+      "sendMessage": "Send message which will sent from bot's name! Use /stop to stop!"
+    },
+    "command_restrictions": {
+      "add_reports_reputation": "Add a report reputation requirement",
+      "add_reputation": "Add a chat reputation requirement",
+      "edit_reports_reputation": "Change the report reputation requirement",
+      "edit_reputation": "Change chat reputation",
+      "enter_command": "Enter command",
+      "enter_new_reports_reputation": "Enter the amount of report reputation required",
+      "enter_new_reputation": "Enter the amount of reputation required",
+      "enter_reports_reputation": "Enter the number of reports reputation required",
+      "enter_reputation": "Enter the amount of chat reputation required",
+      "header": "Command restrictions in chat {{title}}",
+      "info": "Command usage restrictions:",
+      "notFound": "Command restriction not found",
+      "remove_reports_reputation": "Don't demand report reputation",
+      "remove_reputation": "Don't demand a reputation",
+      "reports_reputation": "Reports reputation:",
+      "reputation": "Chat reputation:",
+      "skip_reports_reputation": "Skip",
+      "skip_reputation": "Skip"
+    },
+    "commands": {
+      "enterText": "Enter respond text:",
+      "header": "Commands in chat {{title}}:",
+      "notFound": "Command not found!"
+    },
+    "editCommand": {
+      "editAliases": "Edit aliases",
+      "editText": "Edit text",
+      "header": "Editing command - {{id}}\nAliases: {{aliases}}\n\n{{text}}"
+    },
+    "editCommandAlias": {
+      "header": "Editing command - {{id}}\nTo add new alias, send it."
+    },
+    "editReason": {
+      "cancel": "Reason editing canceled!"
+    },
+    "editTrigger": {
+      "header": "Enter new regex for a trigger:"
+    },
+    "general": {
+      "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
+    },
+    "mass": {
+      "done": "Mass action mode finished!",
+      "intro": {
+        "action": "Action: ",
+        "footer": "To stop, use command /stop",
+        "header": "Mass action mode enabled, this action will be used at all sent users:",
+        "interval": "Duration: ",
+        "reason": "Reason: "
+      },
+      "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!"
+    },
+    "tokens": {
+      "header": "Tokens in chat {{title}}",
+      "notFound": "Token not found!"
+    },
+    "trigger": {
+      "notFound": "Trigger not found!"
+    },
+    "triggers": {
+      "editAction": "Edit action",
+      "editCondition": "Edit trigger condition",
+      "editSource": "Edit text source",
+      "header": "Triggers in chat {{title}}"
+    }
+  }
 }
