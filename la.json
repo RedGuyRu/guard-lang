@@ -1,886 +1,900 @@
 {
-  "commands": {
-    "admins": {
-      "description": "Nom du chat administrateurs",
-      "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
-    },
-    "aicheck": {
-      "description": "Informationes praebet de statu neuronis"
-    },
-    "announce": {
-      "description": ""
-    },
-    "ban": {
-      "description": "A user movebo",
-      "onlyUsers": "Bannum alteri administratori ferre non potes!"
-    },
-    "check": {
-      "description": "Incipit reprehendo files"
-    },
-    "dban": {
-      "description": "Obstrue utentem et nuntium delere"
-    },
-    "delete": {
-      "description": ""
-    },
-    "dmute": {
-      "description": "Confundat user ac delere nuntium"
-    },
-    "dossier": {
-      "description": "Generare instrumentum lima pro usuario",
-      "noReason": "Non specificatur",
-      "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
-    },
-    "dwarn": {
-      "description": "Monitum usoris et nuntium delere"
-    },
-    "fulluser": {
-      "description": "Adepto plenam informationem sobre utente"
-    },
-    "gas": {
-      "description": "Addit GAS cincinno utentis"
-    },
-    "general": {
-      "approve": "Probo",
-      "canceledRestriction": "Restrictio levata est!",
-      "canceledRestriction_few": "{{count}} restrictiones levavi!",
-      "canceledRestriction_many": "{{count}} restrictiones levavi!",
-      "canceledRestriction_zero": "Nullae restrictiones elevatae sunt!",
-      "cooldown": "A user sub immunitet KD!",
-      "disabled": "Praeceptum debilitatum est in occasus chat!",
-      "message": "nuntium",
-      "message_few": "epistulae",
-      "message_many": "epistulae",
-      "message_zero": "epistulae",
-      "mute": "mutus",
-      "mute_few": "mutus",
-      "mute_many": "mutus",
-      "mute_zero": "mutus",
-      "no": "non",
-      "notFoundUser": "Telegram usor inveniri non potuit, si certus es te recte ingressum esse, hunc usorem roga ut epistulas nuntiis privatis bot's.",
-      "notSuperGroup": "",
-      "onlyPM": "Hoc mandatum solum in nuntiis privatis operatur!",
-      "open": "Open",
-      "openWebApp": "Apertum in WebApp",
-      "reject": "Falsus",
-      "report": "famam",
-      "report_few": "famam",
-      "report_many": "famam",
-      "report_zero": "famam",
-      "restriction": "poena",
-      "restriction_few": "poenae",
-      "restriction_many": "poenae",
-      "restriction_zero": "poenae",
-      "selectChannel": "Canalem eligere",
-      "selectChat": "Curabitur eligere",
-      "selectUser": "Lego a user",
-      "userNotFound": "Вы не указали пользователя, или я с ним не знаком!",
-      "warn": "monitum",
-      "warn_few": "monitum",
-      "warn_many": "monitum",
-      "warn_zero": "monitum",
-      "yes": "Ita"
-    },
-    "help": {
-      "commandList": "Index mandatorum:",
-      "description": "",
-      "docs": "Plura in documentis: https://docs.redguy.ru/igb/imperiumguardbot.html",
-      "duration": "<durationem>",
-      "durationHint": "Duratio indicatur in forma numeri + intervallum: 1m 2h 3d 4w 5M 6y",
-      "group": {
-        "admin": "",
-        "ai-moder": "",
-        "misc": "",
-        "owner": "Dominus",
-        "user": ""
-      },
-      "header": "",
-      "idUserReply": "<id/username/respondere>",
-      "reason": "<causa>",
-      "reply": "<responder>"
-    },
-    "id": {
-      "description": "Get id utentis, canalis, vel chat",
-      "send": "Usorem, canalem vel chat utens globulis infra mitte!"
-    },
-    "json": {
-      "description": ""
-    },
-    "mass": {
-      "description": ""
-    },
-    "modtop": {
-      "bans": "Top moderatores bans:",
-      "description": "Accipere summo moderatores",
-      "mutes": "Top per mutos moderatores:",
-      "total": "Top moderatoris:",
-      "warns": "Top moderatores per admonitiones:"
-    },
-    "modview": {
-      "description": ""
-    },
-    "msgtop": {
-      "description": "Получайте топ, отправляя сообщения в чат",
-      "header": "Top per numerum epistulae:"
-    },
-    "mute": {
-      "description": "Confundat user",
-      "onlyUsers": "Mutationem alteri administratori dare non potes!"
-    },
-    "note": {
-      "description": "Creare annotare de usuario",
-      "onlyUsers": "Nota de alio administratore relinquere non potes!"
-    },
-    "paysupport": {
-      "description": ""
-    },
-    "privacy": {
-      "description": ""
-    },
-    "raidmode": {
-      "description": "Admitte/disable dixisse modus",
-      "disabled": "Incursio modus debilitatus est!",
-      "enabled": "Incursio modus est enabled, omnes advenientis users erit statim excluduntur!"
-    },
-    "readonly": {
-      "description": "Admitte/inactivare legere solum modum",
-      "disabled": "Lege-solus modus debilitatus est!",
-      "enabled": "Lege-modo modo possit!"
-    },
-    "report": {
-      "accepted": "Querela probatus est!",
-      "alreadySent": "Iam relationem de hoc nuntio misisti!",
-      "deleted": "Nuntium deletum est propter magnum numerum relationum!",
-      "description": "Mitte querelam ad nuntium",
-      "got": "Accepit <a href=\"{{reportUrl}}\">querimonia</a> a <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> ad <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} nom du cha t<a href=\"{{messageUrl}}\">{{title}}</a>",
-      "rated": "Acta est fabula!",
-      "rejected": "Reclamatio repudiata est!",
-      "sent": "Reclamatum est!",
-      "sentForDelete": "Reclamatum est{{now}}/{{need}}"
-    },
-    "reptop": {
-      "description": "Get summo reporters",
-      "reports": "Top Reporters:",
-      "reputation": ""
-    },
-    "reset": {
-      "description": ""
-    },
-    "resetpack": {
-      "description": ""
-    },
-    "resttop": {
-      "description": "",
-      "header": ""
-    },
-    "settings": {
-      "anonymous": "",
-      "description": "Aperi occasus chat",
-      "notFound": "Curabitur non inventus est!",
-      "notSent": "",
-      "permission": "Non satis iura ad hoc mandatum exequendum, debes chat emendandi!",
-      "sent": "Uncinis privatis nuntiis missi sunt!"
-    },
-    "start": {
-      "activeRestrictions": "Habes restrictiones activae:",
-      "description": "Indicem violationum activarum in omnibus confabulationibus ostendit",
-      "footer": "Invenire potes de omnibus meis notis utens imperio /help",
-      "header": "Salve! Custos Imperialis sum, autor ad ordinem in chats servandum.",
-      "media": "",
-      "noActiveRestrictions": "Non habes restrictiones activae.",
-      "openUser": "User aperuit<a href=\"tg://user?id={{id}}\">{{name}}</a>",
-      "restriction": "• {{type}} \"{{reason}}\"ante{{end}}in chat\"{{title}}\""
-    },
-    "stats": {
-      "cache": {
-        "cas": "cache CAS",
-        "chats": "chat cache",
-        "members": "particeps cache",
-        "users": "cashe utilisateur"
-      },
-      "description": "Ut technica mutant",
-      "queue": {
-        "messages": "Mittens Nuntium Queue",
-        "updates": "Eventu Queue"
-      },
-      "uptime": "uptime"
-    },
-    "support": {
-      "description": "",
-      "header": "Informationes missi subsidii!"
-    },
-    "support_chat": {
-      "description": "",
-      "header": ""
-    },
-    "support_user": {
-      "description": "",
-      "header": ""
-    },
-    "sync": {
-      "complete": "Synchronisatio completa est!",
-      "description": "Synchronize chat moderatores"
-    },
-    "terms": {
-      "description": ""
-    },
-    "unban": {
-      "description": "Unblock utentis",
-      "notFoundRestrictions": "Usoris non impeditur!",
-      "ok": "A user unblocked!"
-    },
-    "unmute": {
-      "description": "Confusa del usuario",
-      "notFoundRestrictions": "A user non torquetur!",
-      "ok": "A user defatigatus est!"
-    },
-    "user": {
-      "activeban": "Bannum activum: ",
-      "activemute": "Active mutationem: ",
-      "attach": "",
-      "attachMedia": "",
-      "attaches": "",
-      "body": {
-        "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
-        "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",
-        "status": "",
-        "warns": "Activa monita:{{warns}} Общие предупреждения:{{total_warns}}"
-      },
-      "cancel": "Cancel",
-      "cancelled": "Restrictio elevata est!",
-      "deleted": "Restrictio remota!",
-      "description": "Adepto user notitia",
-      "edit_reason": "Edit causa",
-      "header": {
-        "chat": "Informazioni sul canale{{title}}:",
-        "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
-      },
-      "messages": "Epistulae: {{messages}}",
-      "noRestrictions": "Non restrictiones",
-      "reputation": "Reputatio: ",
-      "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
-      "restrictionNotFound": "Restrictio non inventa!",
-      "showMedia": "",
-      "showMessage": "Videre nuntium",
-      "uncancel": "Restituere",
-      "uncanceled": "Restrictio restituta est!",
-      "updateReason": "Intra novam causam restrictionis, hodiernam: ",
-      "warns": "Monitum ",
-      "workers": ""
-    },
-    "userreport": {
-      "description": "",
-      "sent": "Ego misit notitia in privatis epistulae!"
-    },
-    "warn": {
-      "cancel": "",
-      "description": "User admonitio ad normam",
-      "onlyUsers": "Monitum alteri administratori ferre non potes!"
-    }
-  },
-  "extends": "null",
-  "general": {
-    "Create": "Сreo",
-    "Delete": "Delere",
-    "Disable": "Unplug",
-    "Edit": "Edit",
-    "Enable": "Turn in",
-    "Forever": "Perpetuum",
-    "Trigger": "Trigger",
-    "add": "Addere",
-    "all": "",
-    "automoderation": "Auto-modum",
-    "back": "Retrorsum",
-    "ban": "bannum",
-    "ban_few": "bannum",
-    "ban_many": "bans",
-    "ban_zero": "bans",
-    "bot": {
-      "description": "Imperial bot pro moderatione.\nProgressus et firmamentum: @sleeplesscode\nChannel: @imperium_guard",
-      "name": "Custodia Imperialis"
-    },
-    "canceled": "annuler",
-    "captcha": {
-      "agree": "Concordia",
-      "emoji": "Emoji-bullae",
-      "null": "Disabled"
-    },
-    "chatMemberStatus": {
-      "administrator": "administrator",
-      "creator": "curabitur dominus",
-      "kicked": "excluduntur in chat",
-      "left": "not in the chat",
-      "member": "они участвуют в чате",
-      "null": "unknown",
-      "restricted": "limited"
-    },
-    "close": "Close",
-    "command": "Team",
-    "confirm": "✅ Consentire",
-    "delete": "Remove",
-    "disabled": "turned off",
-    "edit": "Edit",
-    "enabled": "enabled",
-    "errors": {
-      "cooldown": "",
-      "notAvaliable": "",
-      "pmlock": "",
-      "selfInteract": ""
-    },
-    "infinity": "forever",
-    "intervals": {
-      "M": "mensis",
-      "d": "days",
-      "h": "hora",
-      "m": "minuta",
-      "y": "annus"
-    },
-    "modRule": {
-      "ban": "Obstructionum",
-      "delete": "Delere nuntium",
-      "ignore": "Ignorare",
-      "kick": "Excludere",
-      "message": "",
-      "mute": "Muta",
-      "notify": "Certiorem",
-      "null": "non installatur",
-      "reputation": "",
-      "undefined": "",
-      "warn": "Delere per monitionem"
-    },
-    "notSet": "non installatur",
-    "notlinked": "non coniunctum",
-    "permissions": {
-      "delete_messages": "",
-      "manage_restrictions": "",
-      "remove_restrictions": "",
-      "reports": "",
-      "restrict_ban": "",
-      "restrict_mute": "",
-      "restrict_warn": "",
-      "settings": ""
-    },
-    "restricted": "Non satis sunt permissiones ad hoc mandatum faciendum!",
-    "restrictionType": {
-      "ban": "ban",
-      "mute": "mutus",
-      "note": "nota",
-      "warn": "monitum"
-    },
-    "restrictions": {
-      "adminCommand": "Administrativus quadrigis",
-      "aiReport": "",
-      "automod": "Automoderation",
-      "ban": "Moderator{{user}} interdictum a user {{restricted}} ratione \"{{reason}}\"",
-      "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",
-      "chatAdminRequired": "",
-      "duration": "",
-      "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
-      "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
-      "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
-      "participantId": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
-      "reason": "",
-      "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
-      "warnsLimit": "monitum terminum"
-    },
-    "save": "",
-    "selector": {
-      "admins": "Administratores",
-      "all": "Omnes participes",
-      "disabled": "Disabled",
-      "owner": "Dominus",
-      "undefined": "non installatur"
-    },
-    "set": "installed",
-    "settings": {
-      "audit": "Audit",
-      "automod": {
-        "cas": {
-          "name": "Reactionem ad CAS-ban"
+    "commands": {
+        "admins": {
+            "description": "Nom du chat administrateurs",
+            "header": "Vocatis ab administratoribus {{peerName}} #id{{peerId}}"
         },
-        "contacts": {
-          "name": "Contactus moderatio"
+        "aicheck": {
+            "description": "Informationes praebet de statu neuronis"
         },
-        "delStickers": {
-          "name": "Removere stickers"
+        "announce": {
+            "description": ""
         },
-        "deleteCommands": {
-          "name": "Alia mandata delere"
+        "ban": {
+            "description": "A user movebo",
+            "onlyUsers": "Bannum alteri administratori ferre non potes!"
         },
-        "flood": {
-          "name": "Spam moderatione"
+        "check": {
+            "description": "Incipit reprehendo files"
         },
-        "games": {
-          "name": "Ludus moderatio"
+        "dban": {
+            "description": "Obstrue utentem et nuntium delere"
+        },
+        "delete": {
+            "description": ""
+        },
+        "dmute": {
+            "description": "Confundat user ac delere nuntium"
+        },
+        "dossier": {
+            "description": "Generare instrumentum lima pro usuario",
+            "noReason": "Non specificatur",
+            "wait": "Notitias incepi parare, hoc aliquandiu capere potest."
+        },
+        "dwarn": {
+            "description": "Monitum usoris et nuntium delere"
+        },
+        "fulluser": {
+            "description": "Adepto plenam informationem sobre utente"
         },
         "gas": {
-          "name": "Reactionem ad GAS-bannum"
+            "description": "Addit GAS cincinno utentis"
         },
-        "header": "Lorem chat moderatio occasus {{title}}",
-        "hideTriggerMessage": {
-          "name": ""
+        "general": {
+            "approve": "Probo",
+            "canceledRestriction": "Restrictio levata est!",
+            "canceledRestriction_few": "{{count}} restrictiones levavi!",
+            "canceledRestriction_many": "{{count}} restrictiones levavi!",
+            "canceledRestriction_zero": "Nullae restrictiones elevatae sunt!",
+            "cooldown": "A user sub immunitet KD!",
+            "disabled": "Praeceptum debilitatum est in occasus chat!",
+            "message": "nuntium",
+            "message_few": "epistulae",
+            "message_many": "epistulae",
+            "message_zero": "epistulae",
+            "mute": "mutus",
+            "mute_few": "mutus",
+            "mute_many": "mutus",
+            "mute_zero": "mutus",
+            "no": "non",
+            "notFoundUser": "Telegram usor inveniri non potuit, si certus es te recte ingressum esse, hunc usorem roga ut epistulas nuntiis privatis bot's.",
+            "notSuperGroup": "",
+            "onlyPM": "Hoc mandatum solum in nuntiis privatis operatur!",
+            "open": "Open",
+            "openWebApp": "Apertum in WebApp",
+            "reject": "Falsus",
+            "report": "famam",
+            "report_few": "famam",
+            "report_many": "famam",
+            "report_zero": "famam",
+            "restriction": "poena",
+            "restriction_few": "poenae",
+            "restriction_many": "poenae",
+            "restriction_zero": "poenae",
+            "selectChannel": "Canalem eligere",
+            "selectChat": "Curabitur eligere",
+            "selectUser": "Lego a user",
+            "userNotFound": "Вы не указали пользователя, или я с ним не знаком!",
+            "warn": "monitum",
+            "warn_few": "monitum",
+            "warn_many": "monitum",
+            "warn_zero": "monitum",
+            "yes": "Ita"
         },
-        "location": {
-          "name": "Moderatio locorum"
+        "help": {
+            "commandList": "Index mandatorum:",
+            "description": "",
+            "docs": "Plura in documentis: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "duration": "<durationem>",
+            "durationHint": "Duratio indicatur in forma numeri + intervallum: 1m 2h 3d 4w 5M 6y",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "Dominus",
+                "user": ""
+            },
+            "header": "",
+            "idUserReply": "<id/username/respondere>",
+            "reason": "<causa>",
+            "reply": "<responder>"
         },
-        "mediaCheck": {
-          "detection": "",
-          "duration": "",
-          "name": "",
-          "punishment": "",
-          "sent": ""
+        "id": {
+            "description": "Get id utentis, canalis, vel chat",
+            "send": "Usorem, canalem vel chat utens globulis infra mitte!"
         },
-        "mediaSpamCheck": {
-          "count": {
-            "name": ""
-          },
-          "duration": {
-            "name": ""
-          },
-          "interval": {
-            "name": ""
-          },
-          "punishment": {
-            "name": ""
-          }
+        "json": {
+            "description": ""
         },
-        "muteOnPermission": {
-          "name": "Duratio restrictiones cum moderatione utens mandata"
-        },
-        "newbieRestrictions": {
-          "name": "Durationem inceptor restrictiones"
-        },
-        "raid": {
-          "interval": {
-            "name": ""
-          },
-          "threshold": {
-            "name": ""
-          }
-        },
-        "reactionsUntilBan": {
-          "name": "Reactiones ante banum"
-        },
-        "stickers": {
-          "blood-blood": {
-            "name": "Sanguis et violentia"
-          },
-          "crash": {
-            "name": "Crash-stickers"
-          },
-          "epileptic": {
-            "name": "Epilepticos"
-          },
-          "politics": {
-            "name": "Policy"
-          },
-          "politics-nazi": {
-            "name": "Nazismus"
-          },
-          "porn": {
-            "name": "Pornographia"
-          }
-        },
-        "stories": {
-          "name": "Moderatio fabulis"
-        },
-        "textSpamCheck": {
-          "count": {
-            "name": ""
-          },
-          "duration": {
-            "name": ""
-          },
-          "interval": {
-            "name": ""
-          },
-          "punishment": {
-            "name": ""
-          }
-        },
-        "trigger": {
-          "name": "Triggers"
-        }
-      },
-      "category": {
-        "automod": "Auto-modus occasus",
-        "customs": "Aliquam occasus",
-        "language": "Lingua",
-        "permissions": "",
-        "privates": "",
-        "reports": "Querimonia occasus",
-        "special": "Specialis",
-        "warns": "Mone occasus"
-      },
-      "changingChat": "",
-      "changingPM": "",
-      "channels": {
-        "admins": "Administratores chat",
-        "admins_selected": "Vinculum admin chat ad chat {{title}}",
-        "logs": "Fama channel",
-        "logs_selected": "Channel binding nom du chat {{title}}",
-        "triggers": "Trigger channel",
-        "triggers_selected": "Channel binding triggers in chat {{title}}"
-      },
-      "customs": {
-        "acceptJoins": {
-          "name": ""
-        },
-        "admins": {
-          "name": "Сommand !admins"
-        },
-        "anonPerm": {
-          "menu": "",
-          "name": "Iura anonymous administratores"
-        },
-        "anon_perms": {
-          "restrict": "Issuance limitations"
-        },
-        "captcha": {
-          "agree": "Concordia",
-          "name": "Captcha"
-        },
-        "channelPost": {
-          "name": "Textus sub poste"
-        },
-        "channels": {
-          "menu": "",
-          "name": "Channel binding"
-        },
-        "command_restrictions": {
-          "name": ""
-        },
-        "commands": {
-          "name": "Consuetudo commands"
-        },
-        "commands_mode": {
-          "moderation": {
-            "name": "Reactionem command moderatio"
-          },
-          "others": {
-            "name": "Reactionem aliorum commands"
-          },
-          "raid": {
-            "name": "Reactionem ad incursio commands"
-          }
-        },
-        "disableNotifications": {
-          "name": ""
-        },
-        "extendedModtop": {
-          "name": "Provectus modtop"
-        },
-        "greeting": {
-          "name": "Salvete"
-        },
-        "header": "Customization occasus in chat {{title}}",
-        "messagesAutoRemove": {
-          "name": ""
+        "mass": {
+            "description": ""
         },
         "modtop": {
-          "name": "Aditus ad modtop"
+            "bans": "Top moderatores bans:",
+            "description": "Accipere summo moderatores",
+            "mutes": "Top per mutos moderatores:",
+            "total": "Top moderatoris:",
+            "warns": "Top moderatores per admonitiones:"
         },
-        "notificationsTopic": {
-          "name": ""
+        "modview": {
+            "description": ""
         },
-        "reactions": {
-          "name": "Reactiones in responsione"
+        "msgtop": {
+            "description": "Получайте топ, отправляя сообщения в чат",
+            "header": "Top per numerum epistulae:"
         },
-        "reputation": {
-          "name": "Systema fama"
+        "mute": {
+            "description": "Confundat user",
+            "onlyUsers": "Mutationem alteri administratori dare non potes!"
         },
-        "statisticsRange": {
-          "name": "",
-          "selected": ""
+        "note": {
+            "description": "Creare annotare de usuario",
+            "onlyUsers": "Nota de alio administratore relinquere non potes!"
         },
-        "tokens": {
-          "name": "Signa"
-        }
-      },
-      "headerChat": "Chat occasus {{title}}",
-      "headerPM": "",
-      "incorrect_interval": "Valor invalidus, intrant intervallum",
-      "incorrect_number": "Valor invalidus, intra numerum",
-      "inputChangingChat": "",
-      "inputChangingPM": "",
-      "language": {
-        "header": "Linguam eligere ut in chat adhiberi"
-      },
-      "permissions": {
-        "admins": {
-          "add": "",
-          "adding": "",
-          "edit": {
-            "change_group": "",
-            "changing_group": "",
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
+        },
+        "raidmode": {
+            "description": "Admitte/disable dixisse modus",
+            "disabled": "Incursio modus debilitatus est!",
+            "enabled": "Incursio modus est enabled, omnes advenientis users erit statim excluduntur!"
+        },
+        "readonly": {
+            "description": "Admitte/inactivare legere solum modum",
+            "disabled": "Lege-solus modus debilitatus est!",
+            "enabled": "Lege-modo modo possit!"
+        },
+        "report": {
+            "accepted": "Querela probatus est!",
+            "alreadySent": "Iam relationem de hoc nuntio misisti!",
+            "deleted": "Nuntium deletum est propter magnum numerum relationum!",
+            "description": "Mitte querelam ad nuntium",
+            "got": "Accepit <a href=\"{{reportUrl}}\">querimonia</a> a <a href=\"tg://user?id={{fromId}}\">{{fromName}}</a> ad <a href=\"tg://user?id={{toId}}\">{{toName}}</a> #id{{toId}} nom du cha t<a href=\"{{messageUrl}}\">{{title}}</a>",
+            "rated": "Acta est fabula!",
+            "rejected": "Reclamatio repudiata est!",
+            "sent": "Reclamatum est!",
+            "sentForDelete": "Reclamatum est{{now}}/{{need}}"
+        },
+        "reptop": {
+            "description": "Get summo reporters",
+            "reports": "Top Reporters:",
+            "reputation": ""
+        },
+        "reset": {
+            "description": ""
+        },
+        "resetpack": {
+            "description": ""
+        },
+        "resttop": {
+            "description": "",
             "header": ""
-          },
-          "group": "",
-          "header": "",
-          "name": ""
         },
-        "advancedModers": {
-          "name": ""
+        "settings": {
+            "anonymous": "",
+            "description": "Aperi occasus chat",
+            "notFound": "Curabitur non inventus est!",
+            "notSent": "",
+            "permission": "Non satis iura ad hoc mandatum exequendum, debes chat emendandi!",
+            "sent": "Uncinis privatis nuntiis missi sunt!"
         },
-        "description": "",
-        "fake_group": "",
-        "groups": {
-          "create": {
-            "button": "",
-            "header": "",
-            "priority": ""
-          },
-          "edit": {
-            "header": "",
-            "name": {
-              "button": "",
-              "header": ""
+        "start": {
+            "activeRestrictions": "Habes restrictiones activae:",
+            "description": "Indicem violationum activarum in omnibus confabulationibus ostendit",
+            "footer": "Invenire potes de omnibus meis notis utens imperio /help",
+            "header": "Salve! Custos Imperialis sum, autor ad ordinem in chats servandum.",
+            "media": "",
+            "noActiveRestrictions": "Non habes restrictiones activae.",
+            "openUser": "User aperuit<a href=\"tg://user?id={{id}}\">{{name}}</a>",
+            "restriction": "• {{type}} \"{{reason}}\"ante{{end}}in chat\"{{title}}\""
+        },
+        "stats": {
+            "cache": {
+                "cas": "cache CAS",
+                "chats": "chat cache",
+                "members": "particeps cache",
+                "users": "cashe utilisateur"
+            },
+            "description": "Ut technica mutant",
+            "queue": {
+                "messages": "Mittens Nuntium Queue",
+                "updates": "Eventu Queue"
+            },
+            "uptime": "uptime"
+        },
+        "support": {
+            "description": "",
+            "header": "Informationes missi subsidii!"
+        },
+        "support_chat": {
+            "description": "",
+            "header": ""
+        },
+        "support_user": {
+            "description": "",
+            "header": ""
+        },
+        "sync": {
+            "complete": "Synchronisatio completa est!",
+            "description": "Synchronize chat moderatores"
+        },
+        "terms": {
+            "description": ""
+        },
+        "unban": {
+            "description": "Unblock utentis",
+            "notFoundRestrictions": "Usoris non impeditur!",
+            "ok": "A user unblocked!"
+        },
+        "unmute": {
+            "description": "Confusa del usuario",
+            "notFoundRestrictions": "A user non torquetur!",
+            "ok": "A user defatigatus est!"
+        },
+        "user": {
+            "activeban": "Bannum activum: ",
+            "activemute": "Active mutationem: ",
+            "attach": "",
+            "attachMedia": "",
+            "attaches": "",
+            "body": {
+                "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
+                "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",
+                "status": "",
+                "warns": "Activa monita:{{warns}} Общие предупреждения:{{total_warns}}"
+            },
+            "cancel": "Cancel",
+            "cancelled": "Restrictio elevata est!",
+            "deleted": "Restrictio remota!",
+            "description": "Adepto user notitia",
+            "edit_reason": "Edit causa",
+            "header": {
+                "chat": "Informazioni sul canale{{title}}:",
+                "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
+            },
+            "messages": "Epistulae: {{messages}}",
+            "noRestrictions": "Non restrictiones",
+            "reputation": "Reputatio: ",
+            "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
+            "restrictionNotFound": "Restrictio non inventa!",
+            "showMedia": "",
+            "showMessage": "Videre nuntium",
+            "uncancel": "Restituere",
+            "uncanceled": "Restrictio restituta est!",
+            "updateReason": "Intra novam causam restrictionis, hodiernam: ",
+            "warns": "Monitum ",
+            "workers": ""
+        },
+        "userreport": {
+            "description": "",
+            "sent": "Ego misit notitia in privatis epistulae!"
+        },
+        "warn": {
+            "cancel": "",
+            "description": "User admonitio ad normam",
+            "onlyUsers": "Monitum alteri administratori ferre non potes!"
+        }
+    },
+    "extends": "null",
+    "general": {
+        "Create": "Сreo",
+        "Delete": "Delere",
+        "Disable": "Unplug",
+        "Edit": "Edit",
+        "Enable": "Turn in",
+        "Forever": "Perpetuum",
+        "Trigger": "Trigger",
+        "add": "Addere",
+        "all": "",
+        "automoderation": "Auto-modum",
+        "back": "Retrorsum",
+        "ban": "bannum",
+        "ban_few": "bannum",
+        "ban_many": "bans",
+        "ban_zero": "bans",
+        "bot": {
+            "description": "Imperial bot pro moderatione.\nProgressus et firmamentum: @sleeplesscode\nChannel: @imperium_guard",
+            "name": "Custodia Imperialis"
+        },
+        "canceled": "annuler",
+        "captcha": {
+            "agree": "Concordia",
+            "emoji": "Emoji-bullae",
+            "null": "Disabled"
+        },
+        "chatMemberStatus": {
+            "administrator": "administrator",
+            "creator": "curabitur dominus",
+            "kicked": "excluduntur in chat",
+            "left": "not in the chat",
+            "member": "они участвуют в чате",
+            "null": "unknown",
+            "restricted": "limited"
+        },
+        "close": "Close",
+        "command": "Team",
+        "confirm": "✅ Consentire",
+        "delete": "Remove",
+        "disabled": "turned off",
+        "edit": "Edit",
+        "enabled": "enabled",
+        "errors": {
+            "cooldown": "",
+            "notAvaliable": "",
+            "pmlock": "",
+            "selfInteract": ""
+        },
+        "fileStatus": {
+            "approved": "",
+            "automated": "",
+            "denied": "",
+            "processing": ""
+        },
+        "infinity": "forever",
+        "intervals": {
+            "M": "mensis",
+            "d": "days",
+            "h": "hora",
+            "m": "minuta",
+            "y": "annus"
+        },
+        "modRule": {
+            "ban": "Obstructionum",
+            "delete": "Delere nuntium",
+            "ignore": "Ignorare",
+            "kick": "Excludere",
+            "message": "",
+            "mute": "Muta",
+            "notify": "Certiorem",
+            "null": "non installatur",
+            "reputation": "",
+            "undefined": "",
+            "warn": "Delere per monitionem"
+        },
+        "notSet": "non installatur",
+        "notlinked": "non coniunctum",
+        "permissions": {
+            "delete_messages": "",
+            "manage_restrictions": "",
+            "remove_restrictions": "",
+            "reports": "",
+            "restrict_ban": "",
+            "restrict_mute": "",
+            "restrict_warn": "",
+            "settings": ""
+        },
+        "restricted": "Non satis sunt permissiones ad hoc mandatum faciendum!",
+        "restrictionType": {
+            "ban": "ban",
+            "mute": "mutus",
+            "note": "nota",
+            "warn": "monitum"
+        },
+        "restrictions": {
+            "adminCommand": "Administrativus quadrigis",
+            "aiReport": "",
+            "automod": "Automoderation",
+            "ban": "Moderator{{user}} interdictum a user {{restricted}} ratione \"{{reason}}\"",
+            "banChannel": "Moderator {{user}} canalem dominum interdictum {{restricted}} epistulas incerti auctoris causa mitte \"{{reason}}\"",
+            "chatAdminRequired": "",
+            "duration": "",
+            "kick": "Moderator {{user}} calce de usuario {{restricted}} ratione \"{{reason}}\"",
+            "mute": "Moderator {{user}} confusa del usuario {{restricted}} ratione \"{{reason}}\"",
+            "note": "Nota for {{restricted}} cum textu \"{{reason}}\" creata",
+            "participantId": "Bannum in gradu Telegram API ferre non potuit, informationes de scandalo servatae sunt in charta usoris.",
+            "reason": "",
+            "warn": "Moderator {{user}} denuntiationem in usuario {{restricted}} ratione \"{{reason}}\" ({{warns}}/{{max_warns}})",
+            "warnsLimit": "monitum terminum"
+        },
+        "save": "",
+        "selector": {
+            "admins": "Administratores",
+            "all": "Omnes participes",
+            "disabled": "Disabled",
+            "owner": "Dominus",
+            "undefined": "non installatur"
+        },
+        "set": "installed",
+        "settings": {
+            "audit": "Audit",
+            "automod": {
+                "cas": {
+                    "name": "Reactionem ad CAS-ban"
+                },
+                "contacts": {
+                    "name": "Contactus moderatio"
+                },
+                "delStickers": {
+                    "name": "Removere stickers"
+                },
+                "deleteCommands": {
+                    "name": "Alia mandata delere"
+                },
+                "flood": {
+                    "name": "Spam moderatione"
+                },
+                "games": {
+                    "name": "Ludus moderatio"
+                },
+                "gas": {
+                    "name": "Reactionem ad GAS-bannum"
+                },
+                "header": "Lorem chat moderatio occasus {{title}}",
+                "hideTriggerMessage": {
+                    "name": ""
+                },
+                "location": {
+                    "name": "Moderatio locorum"
+                },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "interval": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
+                "muteOnPermission": {
+                    "name": "Duratio restrictiones cum moderatione utens mandata"
+                },
+                "newbieRestrictions": {
+                    "name": "Durationem inceptor restrictiones"
+                },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
+                "reactionsUntilBan": {
+                    "name": "Reactiones ante banum"
+                },
+                "stickers": {
+                    "blood-blood": {
+                        "name": "Sanguis et violentia"
+                    },
+                    "crash": {
+                        "name": "Crash-stickers"
+                    },
+                    "epileptic": {
+                        "name": "Epilepticos"
+                    },
+                    "null": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "politics": {
+                        "name": "Policy"
+                    },
+                    "politics-nazi": {
+                        "name": "Nazismus"
+                    },
+                    "porn": {
+                        "name": "Pornographia"
+                    }
+                },
+                "stories": {
+                    "name": "Moderatio fabulis"
+                },
+                "textSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "interval": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
+                "trigger": {
+                    "name": "Triggers"
+                }
+            },
+            "category": {
+                "automod": "Auto-modus occasus",
+                "customs": "Aliquam occasus",
+                "language": "Lingua",
+                "permissions": "",
+                "privates": "",
+                "reports": "Querimonia occasus",
+                "special": "Specialis",
+                "warns": "Mone occasus"
+            },
+            "changingChat": "",
+            "changingPM": "",
+            "channels": {
+                "admins": "Administratores chat",
+                "admins_selected": "Vinculum admin chat ad chat {{title}}",
+                "logs": "Fama channel",
+                "logs_selected": "Channel binding nom du chat {{title}}",
+                "triggers": "Trigger channel",
+                "triggers_selected": "Channel binding triggers in chat {{title}}"
+            },
+            "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
+                "admins": {
+                    "name": "Сommand !admins"
+                },
+                "anonPerm": {
+                    "menu": "",
+                    "name": "Iura anonymous administratores"
+                },
+                "anon_perms": {
+                    "restrict": "Issuance limitations"
+                },
+                "captcha": {
+                    "agree": "Concordia",
+                    "name": "Captcha"
+                },
+                "channelPost": {
+                    "name": "Textus sub poste"
+                },
+                "channels": {
+                    "menu": "",
+                    "name": "Channel binding"
+                },
+                "command_restrictions": {
+                    "name": ""
+                },
+                "commands": {
+                    "name": "Consuetudo commands"
+                },
+                "commands_mode": {
+                    "moderation": {
+                        "name": "Reactionem command moderatio"
+                    },
+                    "others": {
+                        "name": "Reactionem aliorum commands"
+                    },
+                    "raid": {
+                        "name": "Reactionem ad incursio commands"
+                    }
+                },
+                "disableNotifications": {
+                    "name": ""
+                },
+                "extendedModtop": {
+                    "name": "Provectus modtop"
+                },
+                "greeting": {
+                    "name": "Salvete"
+                },
+                "header": "Customization occasus in chat {{title}}",
+                "messagesAutoRemove": {
+                    "name": ""
+                },
+                "modtop": {
+                    "name": "Aditus ad modtop"
+                },
+                "notificationsTopic": {
+                    "name": ""
+                },
+                "reactions": {
+                    "name": "Reactiones in responsione"
+                },
+                "reputation": {
+                    "name": "Systema fama"
+                },
+                "statisticsRange": {
+                    "name": "",
+                    "selected": ""
+                },
+                "tokens": {
+                    "name": "Signa"
+                }
+            },
+            "headerChat": "Chat occasus {{title}}",
+            "headerPM": "",
+            "incorrect_interval": "Valor invalidus, intrant intervallum",
+            "incorrect_number": "Valor invalidus, intra numerum",
+            "inputChangingChat": "",
+            "inputChangingPM": "",
+            "language": {
+                "header": "Linguam eligere ut in chat adhiberi"
             },
             "permissions": {
-              "button": ""
+                "admins": {
+                    "add": "",
+                    "adding": "",
+                    "edit": {
+                        "change_group": "",
+                        "changing_group": "",
+                        "header": ""
+                    },
+                    "group": "",
+                    "header": "",
+                    "name": ""
+                },
+                "advancedModers": {
+                    "name": ""
+                },
+                "description": "",
+                "fake_group": "",
+                "groups": {
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "name": "",
+                    "permissions": ""
+                },
+                "header": ""
             },
-            "priority": {
-              "button": "",
-              "header": ""
+            "privates": {
+                "header": "",
+                "timezone": {
+                    "name": ""
+                }
+            },
+            "reports": {
+                "deleteReports": {
+                    "name": "Minimum numerus querelis per utentes deletis epistulae"
+                },
+                "deleteReportsCount": {
+                    "name": "Minimum numerum tradit a user habet nuntium delere"
+                },
+                "deleteReportsRate": {
+                    "name": "Minimum persona rating for delere nuntium"
+                },
+                "header": "Chat fama occasus {{title}}",
+                "reportsSystem": {
+                    "name": "Reporting system"
+                }
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "Patet delevit rationes",
+                    "description": "Permittit tibi rationes delere e indice participantium et usorum obstructorum.",
+                    "finished": "Purgatio rationum deleta completa est!\nAdmin delevit:{{admins}}\nErrores deletionis ex Parte Telegram:{{errors}}",
+                    "progress": "Purgato processus delevit rationum: {{progress}}%",
+                    "started": "Negotium purgatio rationum deleta incepit!"
+                },
+                "header": "Additional chat optiones {{title}}\nChat statera:{{balance}}",
+                "index_old": {
+                    "button": "Index vetus nuntia",
+                    "description": "Custodi permittit ut omnes nuntios examinare antequam eas ad chat addendo.",
+                    "started": "Munus discendi historiam chat incepit!"
+                },
+                "kick_inactive": {
+                    "button": "Excludere iners users",
+                    "description": "Omnes participes iners excludit a chat ad tempus electum",
+                    "progress": "Deletum {{progress}} in {{users}}!",
+                    "request": "Specificare minimam actionem intervallum, omnes utentes cum magno excludentur.",
+                    "request_confirm": "Intervallum electus est {{interval}}, exclusa est {{users}} users!",
+                    "success": "Deletionem perficitur, exclusa {{users}}!"
+                },
+                "not_enough_balance": "Non sufficit ⭐️ il tuo account chat!",
+                "price": "Pretium: ",
+                "start": "Incipias!",
+                "started": "Negotium queued, notitiam de principio et fine accipietis!",
+                "topup": {
+                    "button": "Summo sursum vestri statera",
+                    "how_many": "Quot stellae vis ad stateram chat transferre?",
+                    "pay": "Transferre",
+                    "positive": "Intra numerum positivum!",
+                    "successful": "Transferre feliciter perficitur!",
+                    "title": "Transferre of chat stars {{title}}"
+                }
+            },
+            "timeZoneInfo": "Ad tempus temporis specificare, tempus debitum specificare in forma \"UTC+N \"vel\"GMT+N\". Forma IANA \"Europa/Moscuae\" etiam uti potes, in hoc casu autocinetum automatice rationem diei temporis salutaris habebit, nota quaeso quod civitatem quam vis publice ostendi non erit et sponte ad formam convertetur GMT+N.",
+            "warns": {
+                "cooldown": {
+                    "name": "Cooldown varna ad unum hominem"
+                },
+                "header": "Occasus varna in chat {{title}}",
+                "maxWarns": {
+                    "name": "Numerus varns antequam poena editur"
+                },
+                "warnLength": {
+                    "name": "Durationem varna"
+                },
+                "warnsResult": {
+                    "name": "Poenam ad maximum amount varns"
+                },
+                "warnsResultLength": {
+                    "name": "Duratio poenae ad maximum numerum varns"
+                }
             }
-          },
-          "header": "",
-          "name": "",
-          "permissions": ""
         },
-        "header": ""
-      },
-      "privates": {
-        "header": "",
-        "timezone": {
-          "name": ""
+        "spam": "Spam",
+        "token": "Token",
+        "unknown": {
+            "channel": "Canale ignotum",
+            "user": "Ignota user"
+        },
+        "until": "ante"
+    },
+    "handlers": {
+        "adminsChange": "Mutatio administratorum detecta est, index administratorum renovatus est!",
+        "captcha": {
+            "again": "Iam expertus es!",
+            "agree": "Click a button inferius intrare curabitur in chat!",
+            "agreed": "✅ Consentire",
+            "correct": "Vernaux!",
+            "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
+            "wrongUser": "Non est tuum captcha!"
+        },
+        "chatJoin": {
+            "raid": "Inventa est expeditio! {{joins}} users initium {{interval}}. Incursio modus reducitur, utere /raidmode ut disable eam."
+        },
+        "file": {
+            "got": "Irritum contentus\" {{type}} in chat {{title}}}"
+        },
+        "hello": {
+            "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",
+            "restricted": "Gratias addit ad chat! Ut incipias, me administratoribus adde et iura mihi da epistulas delere et utentes restringere. Posteaquam paratus ero ire!"
+        },
+        "migrate": "Cohors migravit ad supergroup!",
+        "nativeBan": "Native bannum",
+        "reactions": {
+            "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
+            "reason": "motus in muta"
+        },
+        "reputation": {
+            "down": "Fama reducta!",
+            "up": "Fama auctus!"
+        },
+        "stickerInfo": {
+            "pack": "",
+            "single": ""
+        },
+        "trigger": {
+            "got": "Triggering {{name}} in chat {{title}}: {{text}}"
         }
-      },
-      "reports": {
-        "deleteReports": {
-          "name": "Minimum numerus querelis per utentes deletis epistulae"
+    },
+    "scenes": {
+        "addAttach": {
+            "enter": ""
         },
-        "deleteReportsCount": {
-          "name": "Minimum numerum tradit a user habet nuntium delere"
+        "addCommand": {
+            "enterCommand": "Intrant mandatum:"
         },
-        "deleteReportsRate": {
-          "name": "Minimum persona rating for delere nuntium"
+        "addToken": {
+            "created": "Token {{name}} generatae!",
+            "enterName": "Intrant token signum:"
         },
-        "header": "Chat fama occasus {{title}}",
-        "reportsSystem": {
-          "name": "Reporting system"
+        "addTrigger": {
+            "condition": {
+                "badwordsRU": "Lingua obscena(Russica)",
+                "command": "Command",
+                "contains": "Textum continet",
+                "match": "Prorsus compositus",
+                "regex": "Lusto expressio"
+            },
+            "enterAction": "Actionem felis eligere:",
+            "enterCommand": "Intra imperium quod felis erit:",
+            "enterConditionType": "Genus conditionis felis eligere:",
+            "enterContains": "Intrant textum ut nuntius ad expediendas contineat:",
+            "enterDuration": "Intrant durationem restrictionis:",
+            "enterMatch": "Intrant textum nuntii ad operandum cum:",
+            "enterMessage": "Intrant nuntium quem mittis:",
+            "enterName": "Intra nomen felis:",
+            "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):",
+            "enterReputation": "Intra quantitatem famae addere:",
+            "enterReputationGetter": "Eligite susceptorem famae:",
+            "enterSource": "",
+            "enterTriggerAtEdit": "",
+            "reputation": {
+                "replier": "User qui responsum accepit",
+                "sender": "Nuntius mittentis"
+            },
+            "source": {
+                "bio_text": "",
+                "linked_channel_text": "",
+                "message_text": "",
+                "name_text": ""
+            }
+        },
+        "announce": {
+            "done": "",
+            "enter": "",
+            "sendMessage": ""
+        },
+        "command_restrictions": {
+            "add_reports_reputation": "Fama postulationem addere",
+            "add_reputation": "Curabitur addere postulationem famae",
+            "edit_reports_reputation": "Mutare renuntiationes famae postulationem",
+            "edit_reputation": "Nom du chat",
+            "enter_command": "Intrant command",
+            "enter_new_reports_reputation": "Intra numerum requiritur fama tradit",
+            "enter_new_reputation": "Intra quantitatem famae requiritur",
+            "enter_reports_reputation": "Intra numerum requiritur fama tradit",
+            "enter_reputation": "Intrant quantitatem famae requisitae in chat",
+            "header": "Commands restrictiones in chat{{title}}",
+            "info": "Limitandi usum comands:",
+            "notFound": "Restrictio non inventa!",
+            "remove_reports_reputation": "Noli postulare famam renuntiationis",
+            "remove_reputation": "",
+            "reports_reputation": "",
+            "reputation": "",
+            "skip_reports_reputation": "",
+            "skip_reputation": ""
+        },
+        "commands": {
+            "enterText": "Intra responsum textum:",
+            "header": "Commands is chat {{title}}:",
+            "notFound": "Commands non inventum est!"
+        },
+        "editCommand": {
+            "editAliases": "Edit aliases",
+            "editText": "Edere textum",
+            "header": "Commands edere - {{id}}\nAlias:{{aliases}}\n\n{{text}}"
+        },
+        "editCommandAlias": {
+            "header": "Commands edere - {{id}}\nAddere alias, mitte ad chat."
+        },
+        "editReason": {
+            "cancel": ""
+        },
+        "editTrigger": {
+            "header": ""
+        },
+        "general": {
+            "placeholders": ""
+        },
+        "mass": {
+            "done": "",
+            "intro": {
+                "action": "",
+                "footer": "",
+                "header": "",
+                "interval": "",
+                "reason": ""
+            },
+            "invalidAction": ""
+        },
+        "tokens": {
+            "header": "",
+            "notFound": ""
+        },
+        "trigger": {
+            "notFound": ""
+        },
+        "triggers": {
+            "editAction": "",
+            "editCondition": "",
+            "editSource": "",
+            "header": "Curabitur triggers {{title}}"
         }
-      },
-      "special": {
-        "clear_deleted": {
-          "button": "Patet delevit rationes",
-          "description": "Permittit tibi rationes delere e indice participantium et usorum obstructorum.",
-          "finished": "Purgatio rationum deleta completa est!\nAdmin delevit:{{admins}}\nErrores deletionis ex Parte Telegram:{{errors}}",
-          "progress": "Purgato processus delevit rationum: {{progress}}%",
-          "started": "Negotium purgatio rationum deleta incepit!"
-        },
-        "header": "Additional chat optiones {{title}}\nChat statera:{{balance}}",
-        "index_old": {
-          "button": "Index vetus nuntia",
-          "description": "Custodi permittit ut omnes nuntios examinare antequam eas ad chat addendo.",
-          "started": "Munus discendi historiam chat incepit!"
-        },
-        "kick_inactive": {
-          "button": "Excludere iners users",
-          "description": "Omnes participes iners excludit a chat ad tempus electum",
-          "progress": "Deletum {{progress}} in {{users}}!",
-          "request": "Specificare minimam actionem intervallum, omnes utentes cum magno excludentur.",
-          "request_confirm": "Intervallum electus est {{interval}}, exclusa est {{users}} users!",
-          "success": "Deletionem perficitur, exclusa {{users}}!"
-        },
-        "not_enough_balance": "Non sufficit ⭐️ il tuo account chat!",
-        "price": "Pretium: ",
-        "start": "Incipias!",
-        "started": "Negotium queued, notitiam de principio et fine accipietis!",
-        "topup": {
-          "button": "Summo sursum vestri statera",
-          "how_many": "Quot stellae vis ad stateram chat transferre?",
-          "pay": "Transferre",
-          "positive": "Intra numerum positivum!",
-          "successful": "Transferre feliciter perficitur!",
-          "title": "Transferre of chat stars {{title}}"
-        }
-      },
-      "timeZoneInfo": "Ad tempus temporis specificare, tempus debitum specificare in forma \"UTC+N \"vel\"GMT+N\". Forma IANA \"Europa/Moscuae\" etiam uti potes, in hoc casu autocinetum automatice rationem diei temporis salutaris habebit, nota quaeso quod civitatem quam vis publice ostendi non erit et sponte ad formam convertetur GMT+N.",
-      "warns": {
-        "cooldown": {
-          "name": "Cooldown varna ad unum hominem"
-        },
-        "header": "Occasus varna in chat {{title}}",
-        "maxWarns": {
-          "name": "Numerus varns antequam poena editur"
-        },
-        "warnLength": {
-          "name": "Durationem varna"
-        },
-        "warnsResult": {
-          "name": "Poenam ad maximum amount varns"
-        },
-        "warnsResultLength": {
-          "name": "Duratio poenae ad maximum numerum varns"
-        }
-      }
-    },
-    "spam": "Spam",
-    "token": "Token",
-    "unknown": {
-      "channel": "Canale ignotum",
-      "user": "Ignota user"
-    },
-    "until": "ante"
-  },
-  "handlers": {
-    "adminsChange": "Mutatio administratorum detecta est, index administratorum renovatus est!",
-    "captcha": {
-      "again": "Iam expertus es!",
-      "agree": "Click a button inferius intrare curabitur in chat!",
-      "agreed": "✅ Consentire",
-      "correct": "Vernaux!",
-      "emoji": "Ad confirmandum te non esse bot, deprime: {{correct}}",
-      "wrongUser": "Non est tuum captcha!"
-    },
-    "chatJoin": {
-      "raid": "Inventa est expeditio! {{joins}} users initium {{interval}}. Incursio modus reducitur, utere /raidmode ut disable eam."
-    },
-    "file": {
-      "got": "Irritum contentus\" {{type}} in chat {{title}}}"
-    },
-    "hello": {
-      "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",
-      "restricted": "Gratias addit ad chat! Ut incipias, me administratoribus adde et iura mihi da epistulas delere et utentes restringere. Posteaquam paratus ero ire!"
-    },
-    "migrate": "Cohors migravit ad supergroup!",
-    "nativeBan": "Native bannum",
-    "reactions": {
-      "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
-      "reason": "motus in muta"
-    },
-    "reputation": {
-      "down": "Fama reducta!",
-      "up": "Fama auctus!"
-    },
-    "trigger": {
-      "got": "Triggering {{name}} in chat {{title}}: {{text}}"
     }
-  },
-  "scenes": {
-    "addAttach": {
-      "enter": ""
-    },
-    "addCommand": {
-      "enterCommand": "Intrant mandatum:"
-    },
-    "addToken": {
-      "created": "Token {{name}} generatae!",
-      "enterName": "Intrant token signum:"
-    },
-    "addTrigger": {
-      "condition": {
-        "badwordsRU": "Lingua obscena(Russica)",
-        "command": "Command",
-        "contains": "Textum continet",
-        "match": "Prorsus compositus",
-        "regex": "Lusto expressio"
-      },
-      "enterAction": "Actionem felis eligere:",
-      "enterCommand": "Intra imperium quod felis erit:",
-      "enterConditionType": "Genus conditionis felis eligere:",
-      "enterContains": "Intrant textum ut nuntius ad expediendas contineat:",
-      "enterDuration": "Intrant durationem restrictionis:",
-      "enterMatch": "Intrant textum nuntii ad operandum cum:",
-      "enterMessage": "Intrant nuntium quem mittis:",
-      "enterName": "Intra nomen felis:",
-      "enterRegex": "Intra iusto expressio pro felis (experiri in regex101.com):",
-      "enterReputation": "Intra quantitatem famae addere:",
-      "enterReputationGetter": "Eligite susceptorem famae:",
-      "enterSource": "",
-      "enterTriggerAtEdit": "",
-      "reputation": {
-        "replier": "User qui responsum accepit",
-        "sender": "Nuntius mittentis"
-      },
-      "source": {
-        "bio_text": "",
-        "linked_channel_text": "",
-        "message_text": "",
-        "name_text": ""
-      }
-    },
-    "announce": {
-      "done": "",
-      "enter": "",
-      "sendMessage": ""
-    },
-    "command_restrictions": {
-      "add_reports_reputation": "Fama postulationem addere",
-      "add_reputation": "Curabitur addere postulationem famae",
-      "edit_reports_reputation": "Mutare renuntiationes famae postulationem",
-      "edit_reputation": "Nom du chat",
-      "enter_command": "Intrant command",
-      "enter_new_reports_reputation": "Intra numerum requiritur fama tradit",
-      "enter_new_reputation": "Intra quantitatem famae requiritur",
-      "enter_reports_reputation": "Intra numerum requiritur fama tradit",
-      "enter_reputation": "Intrant quantitatem famae requisitae in chat",
-      "header": "Commands restrictiones in chat{{title}}",
-      "info": "Limitandi usum comands:",
-      "notFound": "Restrictio non inventa!",
-      "remove_reports_reputation": "Noli postulare famam renuntiationis",
-      "remove_reputation": "",
-      "reports_reputation": "",
-      "reputation": "",
-      "skip_reports_reputation": "",
-      "skip_reputation": ""
-    },
-    "commands": {
-      "enterText": "Intra responsum textum:",
-      "header": "Commands is chat {{title}}:",
-      "notFound": "Commands non inventum est!"
-    },
-    "editCommand": {
-      "editAliases": "Edit aliases",
-      "editText": "Edere textum",
-      "header": "Commands edere - {{id}}\nAlias:{{aliases}}\n\n{{text}}"
-    },
-    "editCommandAlias": {
-      "header": "Commands edere - {{id}}\nAddere alias, mitte ad chat."
-    },
-    "editReason": {
-      "cancel": ""
-    },
-    "editTrigger": {
-      "header": ""
-    },
-    "general": {
-      "placeholders": ""
-    },
-    "mass": {
-      "done": "",
-      "intro": {
-        "action": "",
-        "footer": "",
-        "header": "",
-        "interval": "",
-        "reason": ""
-      },
-      "invalidAction": ""
-    },
-    "tokens": {
-      "header": "",
-      "notFound": ""
-    },
-    "trigger": {
-      "notFound": ""
-    },
-    "triggers": {
-      "editAction": "",
-      "editCondition": "",
-      "editSource": "",
-      "header": "Curabitur triggers {{title}}"
-    }
-  }
 }
