@@ -835,6 +835,7 @@
     },
     "stickerInfo": {
       "pack": "Pack status {{name}}\nIndexed: {{date}}\n\n{{statuses}}",
+      "report": "Report a misstake",
       "single": "Sticker status: {{status}}\nCategory: {{nsfw}}"
     },
     "trigger": {

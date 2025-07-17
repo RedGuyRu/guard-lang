@@ -835,6 +835,7 @@
     },
     "stickerInfo": {
       "pack": "Статус пака {{name}}\nПроиндексирован: {{date}}\n\n{{statuses}}",
+      "report": "Сообщить об ошибке",
       "single": "Статус стикера: {{status}}\nКатегория: {{nsfw}}"
     },
     "trigger": {
