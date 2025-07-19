@@ -880,6 +880,8 @@
     },
     "mass": {
       "done": "",
+      "failed": "",
+      "ok": "",
       "intro": {
         "action": "",
         "footer": "",
