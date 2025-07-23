@@ -797,6 +797,7 @@
     },
     "spam": "Spam",
     "token": "Token",
+    "translitiration": "Translitiration",
     "unknown": {
       "channel": "Unknown channel",
       "user": "Unknown user"
@@ -935,7 +936,6 @@
     "mass": {
       "done": "Mass action mode finished!",
       "failed": "I couldn't set 👎 reaction and issue a restriction.",
-      "ok": "I couldn't set 👍 reaction, but all okay, the restriction has been issued.",
       "intro": {
         "action": "Action: ",
         "footer": "To stop, use command /stop",
@@ -943,7 +943,8 @@
         "interval": "Duration: ",
         "reason": "Reason: "
       },
-      "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!"
+      "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!",
+      "ok": "I couldn't set 👍 reaction, but all okay, the restriction has been issued."
     },
     "tokens": {
       "header": "Tokens in chat {{title}}",

@@ -727,6 +727,7 @@
     },
     "spam": "",
     "token": "",
+    "translitiration": "",
     "unknown": {
       "channel": "",
       "user": ""
@@ -865,7 +866,6 @@
     "mass": {
       "done": "",
       "failed": "",
-      "ok": "",
       "intro": {
         "action": "",
         "footer": "",
@@ -873,7 +873,8 @@
         "interval": "",
         "reason": ""
       },
-      "invalidAction": ""
+      "invalidAction": "",
+      "ok": ""
     },
     "tokens": {
       "header": "",

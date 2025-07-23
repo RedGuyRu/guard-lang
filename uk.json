@@ -731,6 +731,7 @@
     },
     "spam": "",
     "token": "Токен",
+    "translitiration": "",
     "unknown": {
       "channel": "Невідомий канал",
       "user": "Невідомий користувач"
@@ -869,7 +870,6 @@
     "mass": {
       "done": "",
       "failed": "",
-      "ok": "",
       "intro": {
         "action": "",
         "footer": "",
@@ -877,7 +877,8 @@
         "interval": "",
         "reason": ""
       },
-      "invalidAction": ""
+      "invalidAction": "",
+      "ok": ""
     },
     "tokens": {
       "header": "Токени у чаті {{title}}",

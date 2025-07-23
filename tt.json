@@ -797,6 +797,7 @@
     },
     "spam": "",
     "token": "Токеннар",
+    "translitiration": "",
     "unknown": {
       "channel": "Билгесез канал",
       "user": "Билгесез кулланучы"
@@ -935,7 +936,6 @@
     "mass": {
       "done": "",
       "failed": "",
-      "ok": "",
       "intro": {
         "action": "Гамәл: ",
         "footer": "Төгәлләү өчен /stop командасын кулланыгыз",
@@ -943,7 +943,8 @@
         "interval": "Дәвамлылыгы: ",
         "reason": "Сәбәп: "
       },
-      "invalidAction": "Дөрес булмаган гамәл, мөмкин: ban, mute, warn һәм note!"
+      "invalidAction": "Дөрес булмаган гамәл, мөмкин: ban, mute, warn һәм note!",
+      "ok": ""
     },
     "tokens": {
       "header": "Чаттагы токеннар {{title}}",
