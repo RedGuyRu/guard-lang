@@ -743,6 +743,7 @@
     },
     "spam": "Spam",
     "token": "Token",
+    "translitiration": "",
     "unknown": {
       "channel": "Canale ignotum",
       "user": "Ignota user"
@@ -881,7 +882,6 @@
     "mass": {
       "done": "",
       "failed": "",
-      "ok": "",
       "intro": {
         "action": "",
         "footer": "",
@@ -889,7 +889,8 @@
         "interval": "",
         "reason": ""
       },
-      "invalidAction": ""
+      "invalidAction": "",
+      "ok": ""
     },
     "tokens": {
       "header": "",
