@@ -902,6 +902,7 @@
       "enter_reputation": "Enter the amount of chat reputation required",
       "header": "Command restrictions in chat {{title}}",
       "info": "Command usage restrictions:",
+      "no_restrictions": "No restrictions been added",
       "notFound": "Command restriction not found",
       "remove_reports_reputation": "Don't demand report reputation",
       "remove_reputation": "Don't demand a reputation",
