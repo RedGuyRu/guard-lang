@@ -848,6 +848,7 @@
       "enter_reputation": "Intrant quantitatem famae requisitae in chat",
       "header": "Commands restrictiones in chat{{title}}",
       "info": "Limitandi usum comands:",
+      "no_restrictions": "",
       "notFound": "Restrictio non inventa!",
       "remove_reports_reputation": "Noli postulare famam renuntiationis",
       "remove_reputation": "",
