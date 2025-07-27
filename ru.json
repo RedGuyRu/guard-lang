@@ -464,6 +464,9 @@
         "reactionsUntilBan": {
           "name": "Реакций до блокировки"
         },
+        "spamLike": {
+          "name": "Спам"
+        },
         "stickers": {
           "animal_abuse": {
             "description": "Избиение, убийство или мучение животных; изображения зоофилии.",

@@ -464,6 +464,9 @@
         "reactionsUntilBan": {
           "name": ""
         },
+        "spamLike": {
+          "name": ""
+        },
         "stickers": {
           "animal_abuse": {
             "description": "",

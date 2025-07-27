@@ -464,6 +464,9 @@
         "reactionsUntilBan": {
           "name": "Reactiones ante banum"
         },
+        "spamLike": {
+          "name": ""
+        },
         "stickers": {
           "blood-blood": {
             "name": "Sanguis et violentia"

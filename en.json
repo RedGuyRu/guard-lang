@@ -464,6 +464,9 @@
         "reactionsUntilBan": {
           "name": "Reactions until ban"
         },
+        "spamLike": {
+          "name": "Spam"
+        },
         "stickers": {
           "animal_abuse": {
             "description": "Images or materials depicting cruelty to animals, including scenes of violence or suffering.",
