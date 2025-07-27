@@ -464,6 +464,9 @@
         "reactionsUntilBan": {
           "name": "Реакцій до бана"
         },
+        "spamLike": {
+          "name": ""
+        },
         "stickers": {
           "blood-blood": {
             "name": "Кров і насильство"
