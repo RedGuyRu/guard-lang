@@ -671,7 +671,7 @@
       },
       "headerChat": "Settings of {{title}} chat",
       "headerPM": "User settings",
-      "incorrect_interval": "Incorrect value, send interval",
+      "incorrect_interval": "Incorrect value {{value}}, send interval",
       "incorrect_number": "Incorrect value, send a number",
       "inputChangingChat": "Changing setting \"{{param}}\" in chat {{title}}, sent new value in chat. Current value: <code>{{current}}</code>",
       "inputChangingPM": "Changing the “{{param}}” parameter, send the new value to the chat. Current value: <code>{{current}}</code>",
