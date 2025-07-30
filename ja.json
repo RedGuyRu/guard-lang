@@ -1,966 +1,966 @@
 {
-  "commands": {
-    "admins": {
-      "description": "すべてのチャット管理者に連絡",
-      "header": ""
-    },
-    "aicheck": {
-      "description": ""
-    },
-    "announce": {
-      "description": ""
-    },
-    "ban": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "check": {
-      "description": ""
-    },
-    "dban": {
-      "description": ""
-    },
-    "delete": {
-      "description": ""
-    },
-    "dmute": {
-      "description": ""
-    },
-    "dossier": {
-      "description": "",
-      "noReason": "",
-      "wait": ""
-    },
-    "dwarn": {
-      "description": ""
-    },
-    "fulluser": {
-      "description": ""
-    },
-    "gas": {
-      "description": ""
-    },
-    "general": {
-      "approve": "",
-      "canceledRestriction": "",
-      "canceledRestriction_few": "",
-      "canceledRestriction_many": "",
-      "canceledRestriction_zero": "",
-      "cooldown": "",
-      "disabled": "",
-      "message": "",
-      "message_few": "",
-      "message_many": "",
-      "message_zero": "",
-      "mute": "",
-      "mute_few": "",
-      "mute_many": "",
-      "mute_zero": "",
-      "no": "",
-      "notFoundUser": "",
-      "notSuperGroup": "",
-      "onlyPM": "",
-      "open": "",
-      "openWebApp": "",
-      "reject": "",
-      "report": "",
-      "report_few": "",
-      "report_many": "",
-      "report_zero": "",
-      "restriction": "",
-      "restriction_few": "",
-      "restriction_many": "",
-      "restriction_zero": "",
-      "selectChannel": "",
-      "selectChat": "",
-      "selectUser": "",
-      "userNotFound": "",
-      "warn": "",
-      "warn_few": "",
-      "warn_many": "",
-      "warn_zero": "",
-      "yes": ""
-    },
-    "help": {
-      "commandList": "",
-      "description": "",
-      "docs": "",
-      "duration": "",
-      "durationHint": "",
-      "group": {
-        "admin": "",
-        "ai-moder": "",
-        "misc": "",
-        "owner": "",
-        "user": ""
-      },
-      "header": "",
-      "idUserReply": "",
-      "reason": "",
-      "reply": ""
-    },
-    "id": {
-      "description": "",
-      "send": ""
-    },
-    "json": {
-      "description": ""
-    },
-    "mass": {
-      "description": ""
-    },
-    "modtop": {
-      "bans": "",
-      "description": "",
-      "mutes": "",
-      "total": "",
-      "warns": ""
-    },
-    "modview": {
-      "description": ""
-    },
-    "msgtop": {
-      "description": "",
-      "header": ""
-    },
-    "mute": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "note": {
-      "description": "",
-      "onlyUsers": ""
-    },
-    "paysupport": {
-      "description": ""
-    },
-    "privacy": {
-      "description": ""
-    },
-    "raidmode": {
-      "description": "",
-      "disabled": "",
-      "enabled": ""
-    },
-    "readonly": {
-      "description": "",
-      "disabled": "",
-      "enabled": ""
-    },
-    "report": {
-      "accepted": "",
-      "alreadySent": "",
-      "deleted": "",
-      "description": "",
-      "got": "",
-      "rated": "",
-      "rejected": "",
-      "sent": "",
-      "sentForDelete": ""
-    },
-    "reptop": {
-      "description": "",
-      "reports": "",
-      "reputation": ""
-    },
-    "reset": {
-      "description": ""
-    },
-    "resttop": {
-      "description": "",
-      "header": ""
-    },
-    "settings": {
-      "anonymous": "",
-      "description": "",
-      "notFound": "",
-      "notSent": "",
-      "permission": "",
-      "sent": ""
-    },
-    "start": {
-      "activeRestrictions": "",
-      "description": "",
-      "footer": "",
-      "header": "",
-      "media": "",
-      "noActiveRestrictions": "",
-      "openUser": "",
-      "restriction": ""
-    },
-    "stats": {
-      "cache": {
-        "cas": "",
-        "chats": "",
-        "members": "",
-        "users": ""
-      },
-      "description": "",
-      "queue": {
-        "messages": "",
-        "updates": ""
-      },
-      "uptime": ""
-    },
-    "support": {
-      "description": "",
-      "header": ""
-    },
-    "support_chat": {
-      "description": "",
-      "header": ""
-    },
-    "support_user": {
-      "description": "",
-      "header": ""
-    },
-    "sync": {
-      "complete": "",
-      "description": ""
-    },
-    "terms": {
-      "description": ""
-    },
-    "unban": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "unmute": {
-      "description": "",
-      "notFoundRestrictions": "",
-      "ok": ""
-    },
-    "user": {
-      "activeban": "",
-      "activemute": "",
-      "attach": "",
-      "attachMedia": "",
-      "attaches": "",
-      "body": {
-        "bans": "",
-        "mutes": "",
-        "status": "",
-        "warns": ""
-      },
-      "cancel": "",
-      "cancelled": "",
-      "deleted": "",
-      "description": "",
-      "edit_reason": "",
-      "header": {
-        "chat": "",
-        "user": ""
-      },
-      "messages": "",
-      "noRestrictions": "",
-      "reputation": "",
-      "restriction": "",
-      "restrictionNotFound": "",
-      "showMedia": "",
-      "showMessage": "",
-      "uncancel": "",
-      "uncanceled": "",
-      "updateReason": "",
-      "warns": "",
-      "workers": ""
-    },
-    "userreport": {
-      "description": "",
-      "sent": ""
-    },
-    "warn": {
-      "cancel": "",
-      "description": "",
-      "onlyUsers": ""
-    }
-  },
-  "extends": "",
-  "general": {
-    "Create": "",
-    "Delete": "",
-    "Disable": "",
-    "Edit": "",
-    "Enable": "",
-    "Forever": "",
-    "Trigger": "",
-    "add": "",
-    "all": "",
-    "automoderation": "",
-    "back": "",
-    "ban": "",
-    "ban_few": "",
-    "ban_many": "",
-    "ban_zero": "",
-    "bot": {
-      "description": "",
-      "name": ""
-    },
-    "canceled": "",
-    "captcha": {
-      "agree": "",
-      "emoji": "",
-      "null": ""
-    },
-    "chatMemberStatus": {
-      "administrator": "",
-      "creator": "",
-      "kicked": "",
-      "left": "",
-      "member": "",
-      "null": "",
-      "restricted": ""
-    },
-    "close": "",
-    "command": "",
-    "confirm": "",
-    "delete": "",
-    "disabled": "",
-    "edit": "",
-    "enabled": "",
-    "errors": {
-      "cooldown": "",
-      "notAvaliable": "",
-      "pmlock": "",
-      "selfInteract": ""
-    },
-    "fileStatus": {
-      "approved": "",
-      "automated": "",
-      "denied": "",
-      "processing": ""
-    },
-    "infinity": "",
-    "intervals": {
-      "M": "",
-      "d": "",
-      "h": "",
-      "m": "",
-      "y": ""
-    },
-    "modRule": {
-      "ban": "",
-      "delete": "",
-      "ignore": "",
-      "kick": "",
-      "message": "",
-      "mute": "",
-      "notify": "",
-      "null": "",
-      "reputation": "",
-      "undefined": "",
-      "warn": ""
-    },
-    "notSet": "",
-    "notlinked": "",
-    "permissions": {
-      "delete_messages": "",
-      "manage_restrictions": "",
-      "remove_restrictions": "",
-      "reports": "",
-      "restrict_ban": "",
-      "restrict_mute": "",
-      "restrict_warn": "",
-      "settings": ""
-    },
-    "restricted": "",
-    "restrictionType": {
-      "ban": "",
-      "mute": "",
-      "note": "",
-      "warn": ""
-    },
-    "restrictions": {
-      "adminCommand": "",
-      "aiReport": "",
-      "automod": "",
-      "ban": "",
-      "banChannel": "",
-      "chatAdminRequired": "",
-      "duration": "",
-      "kick": "",
-      "mute": "",
-      "note": "",
-      "participantId": "",
-      "reason": "",
-      "warn": "",
-      "warnsLimit": ""
-    },
-    "save": "",
-    "selector": {
-      "admins": "",
-      "all": "",
-      "disabled": "",
-      "owner": "",
-      "undefined": ""
-    },
-    "set": "",
-    "settings": {
-      "audit": "",
-      "automod": {
-        "cas": {
-          "name": ""
+    "commands": {
+        "admins": {
+            "description": "すべてのチャット管理者に連絡",
+            "header": "{{peerName}}のすべての管理者への通知 #id{{peerId}}"
         },
-        "contacts": {
-          "name": ""
+        "aicheck": {
+            "description": "ニューラルネットワークの状態に関する情報を表示します"
         },
-        "delStickers": {
-          "name": ""
+        "announce": {
+            "description": "ボットの名前でメッセージを送信します"
         },
-        "deleteCommands": {
-          "name": ""
+        "ban": {
+            "description": "ユーザーを禁止します",
+            "onlyUsers": "他の管理者を禁止することは許可されていません!"
         },
-        "flood": {
-          "name": ""
+        "check": {
+            "description": "ファイルのスキャンを開始します"
         },
-        "games": {
-          "name": ""
+        "dban": {
+            "description": "ユーザーを禁止し、そのメッセージを削除します"
+        },
+        "delete": {
+            "description": "返信されたメッセージを削除します"
+        },
+        "dmute": {
+            "description": "ユーザーをミュートし、そのメッセージを削除します"
+        },
+        "dossier": {
+            "description": "",
+            "noReason": "",
+            "wait": ""
+        },
+        "dwarn": {
+            "description": ""
+        },
+        "fulluser": {
+            "description": ""
         },
         "gas": {
-          "name": ""
+            "description": ""
         },
-        "header": "",
-        "hideTriggerMessage": {
-          "name": ""
+        "general": {
+            "approve": "",
+            "canceledRestriction": "",
+            "canceledRestriction_few": "",
+            "canceledRestriction_many": "",
+            "canceledRestriction_zero": "",
+            "cooldown": "",
+            "disabled": "",
+            "message": "",
+            "message_few": "",
+            "message_many": "",
+            "message_zero": "",
+            "mute": "",
+            "mute_few": "",
+            "mute_many": "",
+            "mute_zero": "",
+            "no": "",
+            "notFoundUser": "",
+            "notSuperGroup": "",
+            "onlyPM": "",
+            "open": "",
+            "openWebApp": "",
+            "reject": "",
+            "report": "",
+            "report_few": "",
+            "report_many": "",
+            "report_zero": "",
+            "restriction": "",
+            "restriction_few": "",
+            "restriction_many": "",
+            "restriction_zero": "",
+            "selectChannel": "",
+            "selectChat": "",
+            "selectUser": "",
+            "userNotFound": "",
+            "warn": "",
+            "warn_few": "",
+            "warn_many": "",
+            "warn_zero": "",
+            "yes": ""
         },
-        "location": {
-          "name": ""
-        },
-        "mediaCheck": {
-          "detection": "",
-          "duration": "",
-          "name": "",
-          "punishment": "",
-          "sent": ""
-        },
-        "mediaSpamCheck": {
-          "count": {
-            "name": ""
-          },
-          "duration": {
-            "name": ""
-          },
-          "interval": {
-            "name": ""
-          },
-          "punishment": {
-            "name": ""
-          }
-        },
-        "muteOnPermission": {
-          "name": ""
-        },
-        "newbieRestrictions": {
-          "name": ""
-        },
-        "raid": {
-          "interval": {
-            "name": ""
-          },
-          "threshold": {
-            "name": ""
-          }
-        },
-        "reactionsUntilBan": {
-          "name": ""
-        },
-        "spamLike": {
-          "name": ""
-        },
-        "stickers": {
-          "animal_abuse": {
+        "help": {
+            "commandList": "",
             "description": "",
-            "name": ""
-          },
-          "blood": {
-            "description": "",
-            "name": ""
-          },
-          "blood-blood": {
-            "description": "",
-            "name": ""
-          },
-          "blood-killing": {
-            "description": "",
-            "name": ""
-          },
-          "clear": {
-            "description": "",
-            "name": ""
-          },
-          "crash": {
-            "description": "",
-            "name": ""
-          },
-          "epileptic": {
-            "description": "",
-            "name": ""
-          },
-          "epileptic-scare": {
-            "description": "",
-            "name": ""
-          },
-          "epileptic-seizure": {
-            "description": "",
-            "name": ""
-          },
-          "null": {
-            "description": "",
-            "name": ""
-          },
-          "politics": {
-            "description": "",
-            "name": ""
-          },
-          "politics-flags": {
-            "description": "",
-            "name": ""
-          },
-          "politics-nazi": {
-            "description": "",
-            "name": ""
-          },
-          "politics-presidents": {
-            "description": "",
-            "name": ""
-          },
-          "porn": {
-            "description": "",
-            "name": ""
-          },
-          "porn-child": {
-            "description": "",
-            "name": ""
-          },
-          "porn-nudity": {
-            "description": "",
-            "name": ""
-          },
-          "porn-sex": {
-            "description": "",
-            "name": ""
-          },
-          "porn-sexualize": {
-            "description": "",
-            "name": ""
-          },
-          "swearing": {
-            "description": "",
-            "name": ""
-          },
-          "unknown": {
-            "description": "",
-            "name": ""
-          }
+            "docs": "",
+            "duration": "",
+            "durationHint": "",
+            "group": {
+                "admin": "",
+                "ai-moder": "",
+                "misc": "",
+                "owner": "",
+                "user": ""
+            },
+            "header": "",
+            "idUserReply": "",
+            "reason": "",
+            "reply": ""
         },
-        "stories": {
-          "name": ""
+        "id": {
+            "description": "",
+            "send": ""
         },
-        "textSpamCheck": {
-          "count": {
-            "name": ""
-          },
-          "duration": {
-            "name": ""
-          },
-          "interval": {
-            "name": ""
-          },
-          "punishment": {
-            "name": ""
-          }
+        "json": {
+            "description": ""
         },
-        "trigger": {
-          "name": ""
-        }
-      },
-      "category": {
-        "automod": "",
-        "customs": "",
-        "language": "",
-        "permissions": "",
-        "privates": "",
-        "reports": "",
-        "special": "",
-        "warns": ""
-      },
-      "changingChat": "",
-      "changingPM": "",
-      "channels": {
-        "admins": "",
-        "admins_selected": "",
-        "logs": "",
-        "logs_selected": "",
-        "triggers": "",
-        "triggers_selected": ""
-      },
-      "customs": {
-        "acceptJoins": {
-          "name": ""
-        },
-        "admins": {
-          "name": ""
-        },
-        "anonPerm": {
-          "menu": "",
-          "name": ""
-        },
-        "anon_perms": {
-          "restrict": ""
-        },
-        "captcha": {
-          "agree": "",
-          "name": ""
-        },
-        "channelPost": {
-          "name": ""
-        },
-        "channels": {
-          "menu": "",
-          "name": ""
-        },
-        "command_restrictions": {
-          "name": ""
-        },
-        "commands": {
-          "name": ""
-        },
-        "commands_mode": {
-          "moderation": {
-            "name": ""
-          },
-          "others": {
-            "name": ""
-          },
-          "raid": {
-            "name": ""
-          }
-        },
-        "disableNotifications": {
-          "name": ""
-        },
-        "extendedModtop": {
-          "name": ""
-        },
-        "greeting": {
-          "name": ""
-        },
-        "header": "",
-        "messagesAutoRemove": {
-          "name": ""
+        "mass": {
+            "description": ""
         },
         "modtop": {
-          "name": ""
+            "bans": "",
+            "description": "",
+            "mutes": "",
+            "total": "",
+            "warns": ""
         },
-        "notificationsTopic": {
-          "name": ""
+        "modview": {
+            "description": ""
         },
-        "reactions": {
-          "name": ""
-        },
-        "reputation": {
-          "name": ""
-        },
-        "statisticsRange": {
-          "name": "",
-          "selected": ""
-        },
-        "tokens": {
-          "name": ""
-        }
-      },
-      "headerChat": "",
-      "headerPM": "",
-      "incorrect_interval": "",
-      "incorrect_number": "",
-      "inputChangingChat": "",
-      "inputChangingPM": "",
-      "language": {
-        "header": ""
-      },
-      "permissions": {
-        "admins": {
-          "add": "",
-          "adding": "",
-          "edit": {
-            "change_group": "",
-            "changing_group": "",
+        "msgtop": {
+            "description": "",
             "header": ""
-          },
-          "group": "",
-          "header": "",
-          "name": ""
         },
-        "advancedModers": {
-          "name": ""
+        "mute": {
+            "description": "",
+            "onlyUsers": ""
         },
-        "description": "",
-        "fake_group": "",
-        "groups": {
-          "create": {
-            "button": "",
+        "note": {
+            "description": "",
+            "onlyUsers": ""
+        },
+        "paysupport": {
+            "description": ""
+        },
+        "privacy": {
+            "description": ""
+        },
+        "raidmode": {
+            "description": "",
+            "disabled": "",
+            "enabled": ""
+        },
+        "readonly": {
+            "description": "",
+            "disabled": "",
+            "enabled": ""
+        },
+        "report": {
+            "accepted": "",
+            "alreadySent": "",
+            "deleted": "",
+            "description": "",
+            "got": "",
+            "rated": "",
+            "rejected": "",
+            "sent": "",
+            "sentForDelete": ""
+        },
+        "reptop": {
+            "description": "",
+            "reports": "",
+            "reputation": ""
+        },
+        "reset": {
+            "description": ""
+        },
+        "resttop": {
+            "description": "",
+            "header": ""
+        },
+        "settings": {
+            "anonymous": "",
+            "description": "",
+            "notFound": "",
+            "notSent": "",
+            "permission": "",
+            "sent": ""
+        },
+        "start": {
+            "activeRestrictions": "",
+            "description": "",
+            "footer": "",
             "header": "",
-            "priority": ""
-          },
-          "edit": {
-            "header": "",
-            "name": {
-              "button": "",
-              "header": ""
+            "media": "",
+            "noActiveRestrictions": "",
+            "openUser": "",
+            "restriction": ""
+        },
+        "stats": {
+            "cache": {
+                "cas": "",
+                "chats": "",
+                "members": "",
+                "users": ""
+            },
+            "description": "",
+            "queue": {
+                "messages": "",
+                "updates": ""
+            },
+            "uptime": ""
+        },
+        "support": {
+            "description": "",
+            "header": ""
+        },
+        "support_chat": {
+            "description": "",
+            "header": ""
+        },
+        "support_user": {
+            "description": "",
+            "header": ""
+        },
+        "sync": {
+            "complete": "",
+            "description": ""
+        },
+        "terms": {
+            "description": ""
+        },
+        "unban": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "unmute": {
+            "description": "",
+            "notFoundRestrictions": "",
+            "ok": ""
+        },
+        "user": {
+            "activeban": "",
+            "activemute": "",
+            "attach": "",
+            "attachMedia": "",
+            "attaches": "",
+            "body": {
+                "bans": "",
+                "mutes": "",
+                "status": "",
+                "warns": ""
+            },
+            "cancel": "",
+            "cancelled": "",
+            "deleted": "",
+            "description": "",
+            "edit_reason": "",
+            "header": {
+                "chat": "",
+                "user": ""
+            },
+            "messages": "",
+            "noRestrictions": "",
+            "reputation": "",
+            "restriction": "",
+            "restrictionNotFound": "",
+            "showMedia": "",
+            "showMessage": "",
+            "uncancel": "",
+            "uncanceled": "",
+            "updateReason": "",
+            "warns": "",
+            "workers": ""
+        },
+        "userreport": {
+            "description": "",
+            "sent": ""
+        },
+        "warn": {
+            "cancel": "",
+            "description": "",
+            "onlyUsers": ""
+        }
+    },
+    "extends": "",
+    "general": {
+        "Create": "",
+        "Delete": "",
+        "Disable": "",
+        "Edit": "",
+        "Enable": "",
+        "Forever": "",
+        "Trigger": "",
+        "add": "",
+        "all": "",
+        "automoderation": "",
+        "back": "",
+        "ban": "",
+        "ban_few": "",
+        "ban_many": "",
+        "ban_zero": "",
+        "bot": {
+            "description": "",
+            "name": ""
+        },
+        "canceled": "",
+        "captcha": {
+            "agree": "",
+            "emoji": "",
+            "null": ""
+        },
+        "chatMemberStatus": {
+            "administrator": "",
+            "creator": "",
+            "kicked": "",
+            "left": "",
+            "member": "",
+            "null": "",
+            "restricted": ""
+        },
+        "close": "",
+        "command": "",
+        "confirm": "",
+        "delete": "",
+        "disabled": "",
+        "edit": "",
+        "enabled": "",
+        "errors": {
+            "cooldown": "",
+            "notAvaliable": "",
+            "pmlock": "",
+            "selfInteract": ""
+        },
+        "fileStatus": {
+            "approved": "",
+            "automated": "",
+            "denied": "",
+            "processing": ""
+        },
+        "infinity": "",
+        "intervals": {
+            "M": "",
+            "d": "",
+            "h": "",
+            "m": "",
+            "y": ""
+        },
+        "modRule": {
+            "ban": "",
+            "delete": "",
+            "ignore": "",
+            "kick": "",
+            "message": "",
+            "mute": "",
+            "notify": "",
+            "null": "",
+            "reputation": "",
+            "undefined": "",
+            "warn": ""
+        },
+        "notSet": "",
+        "notlinked": "",
+        "permissions": {
+            "delete_messages": "",
+            "manage_restrictions": "",
+            "remove_restrictions": "",
+            "reports": "",
+            "restrict_ban": "",
+            "restrict_mute": "",
+            "restrict_warn": "",
+            "settings": ""
+        },
+        "restricted": "",
+        "restrictionType": {
+            "ban": "",
+            "mute": "",
+            "note": "",
+            "warn": ""
+        },
+        "restrictions": {
+            "adminCommand": "",
+            "aiReport": "",
+            "automod": "",
+            "ban": "",
+            "banChannel": "",
+            "chatAdminRequired": "",
+            "duration": "",
+            "kick": "",
+            "mute": "",
+            "note": "",
+            "participantId": "",
+            "reason": "",
+            "warn": "",
+            "warnsLimit": ""
+        },
+        "save": "",
+        "selector": {
+            "admins": "",
+            "all": "",
+            "disabled": "",
+            "owner": "",
+            "undefined": ""
+        },
+        "set": "",
+        "settings": {
+            "audit": "",
+            "automod": {
+                "cas": {
+                    "name": ""
+                },
+                "contacts": {
+                    "name": ""
+                },
+                "delStickers": {
+                    "name": ""
+                },
+                "deleteCommands": {
+                    "name": ""
+                },
+                "flood": {
+                    "name": ""
+                },
+                "games": {
+                    "name": ""
+                },
+                "gas": {
+                    "name": ""
+                },
+                "header": "",
+                "hideTriggerMessage": {
+                    "name": ""
+                },
+                "location": {
+                    "name": ""
+                },
+                "mediaCheck": {
+                    "detection": "",
+                    "duration": "",
+                    "name": "",
+                    "punishment": "",
+                    "sent": ""
+                },
+                "mediaSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "interval": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
+                "muteOnPermission": {
+                    "name": ""
+                },
+                "newbieRestrictions": {
+                    "name": ""
+                },
+                "raid": {
+                    "interval": {
+                        "name": ""
+                    },
+                    "threshold": {
+                        "name": ""
+                    }
+                },
+                "reactionsUntilBan": {
+                    "name": ""
+                },
+                "spamLike": {
+                    "name": ""
+                },
+                "stickers": {
+                    "animal_abuse": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "blood": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "blood-blood": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "blood-killing": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "clear": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "crash": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "epileptic": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "epileptic-scare": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "epileptic-seizure": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "null": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "politics": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "politics-flags": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "politics-nazi": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "politics-presidents": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "porn": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "porn-child": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "porn-nudity": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "porn-sex": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "porn-sexualize": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "swearing": {
+                        "description": "",
+                        "name": ""
+                    },
+                    "unknown": {
+                        "description": "",
+                        "name": ""
+                    }
+                },
+                "stories": {
+                    "name": ""
+                },
+                "textSpamCheck": {
+                    "count": {
+                        "name": ""
+                    },
+                    "duration": {
+                        "name": ""
+                    },
+                    "interval": {
+                        "name": ""
+                    },
+                    "punishment": {
+                        "name": ""
+                    }
+                },
+                "trigger": {
+                    "name": ""
+                }
+            },
+            "category": {
+                "automod": "",
+                "customs": "",
+                "language": "",
+                "permissions": "",
+                "privates": "",
+                "reports": "",
+                "special": "",
+                "warns": ""
+            },
+            "changingChat": "",
+            "changingPM": "",
+            "channels": {
+                "admins": "",
+                "admins_selected": "",
+                "logs": "",
+                "logs_selected": "",
+                "triggers": "",
+                "triggers_selected": ""
+            },
+            "customs": {
+                "acceptJoins": {
+                    "name": ""
+                },
+                "admins": {
+                    "name": ""
+                },
+                "anonPerm": {
+                    "menu": "",
+                    "name": ""
+                },
+                "anon_perms": {
+                    "restrict": ""
+                },
+                "captcha": {
+                    "agree": "",
+                    "name": ""
+                },
+                "channelPost": {
+                    "name": ""
+                },
+                "channels": {
+                    "menu": "",
+                    "name": ""
+                },
+                "command_restrictions": {
+                    "name": ""
+                },
+                "commands": {
+                    "name": ""
+                },
+                "commands_mode": {
+                    "moderation": {
+                        "name": ""
+                    },
+                    "others": {
+                        "name": ""
+                    },
+                    "raid": {
+                        "name": ""
+                    }
+                },
+                "disableNotifications": {
+                    "name": ""
+                },
+                "extendedModtop": {
+                    "name": ""
+                },
+                "greeting": {
+                    "name": ""
+                },
+                "header": "",
+                "messagesAutoRemove": {
+                    "name": ""
+                },
+                "modtop": {
+                    "name": ""
+                },
+                "notificationsTopic": {
+                    "name": ""
+                },
+                "reactions": {
+                    "name": ""
+                },
+                "reputation": {
+                    "name": ""
+                },
+                "statisticsRange": {
+                    "name": "",
+                    "selected": ""
+                },
+                "tokens": {
+                    "name": ""
+                }
+            },
+            "headerChat": "",
+            "headerPM": "",
+            "incorrect_interval": "",
+            "incorrect_number": "",
+            "inputChangingChat": "",
+            "inputChangingPM": "",
+            "language": {
+                "header": ""
             },
             "permissions": {
-              "button": ""
+                "admins": {
+                    "add": "",
+                    "adding": "",
+                    "edit": {
+                        "change_group": "",
+                        "changing_group": "",
+                        "header": ""
+                    },
+                    "group": "",
+                    "header": "",
+                    "name": ""
+                },
+                "advancedModers": {
+                    "name": ""
+                },
+                "description": "",
+                "fake_group": "",
+                "groups": {
+                    "create": {
+                        "button": "",
+                        "header": "",
+                        "priority": ""
+                    },
+                    "edit": {
+                        "header": "",
+                        "name": {
+                            "button": "",
+                            "header": ""
+                        },
+                        "permissions": {
+                            "button": ""
+                        },
+                        "priority": {
+                            "button": "",
+                            "header": ""
+                        }
+                    },
+                    "header": "",
+                    "name": "",
+                    "permissions": ""
+                },
+                "header": ""
             },
-            "priority": {
-              "button": "",
-              "header": ""
+            "privates": {
+                "header": "",
+                "timezone": {
+                    "name": ""
+                }
+            },
+            "reports": {
+                "deleteReports": {
+                    "name": ""
+                },
+                "deleteReportsCount": {
+                    "name": ""
+                },
+                "deleteReportsRate": {
+                    "name": ""
+                },
+                "header": "",
+                "reportsSystem": {
+                    "name": ""
+                }
+            },
+            "special": {
+                "clear_deleted": {
+                    "button": "",
+                    "description": "",
+                    "finished": "",
+                    "progress": "",
+                    "started": ""
+                },
+                "header": "",
+                "index_old": {
+                    "button": "",
+                    "description": "",
+                    "started": ""
+                },
+                "kick_inactive": {
+                    "button": "",
+                    "description": "",
+                    "progress": "",
+                    "request": "",
+                    "request_confirm": "",
+                    "success": ""
+                },
+                "not_enough_balance": "",
+                "price": "",
+                "start": "",
+                "started": "",
+                "topup": {
+                    "button": "",
+                    "how_many": "",
+                    "pay": "",
+                    "positive": "",
+                    "successful": "",
+                    "title": ""
+                }
+            },
+            "timeZoneInfo": "",
+            "warns": {
+                "cooldown": {
+                    "name": ""
+                },
+                "header": "",
+                "maxWarns": {
+                    "name": ""
+                },
+                "warnLength": {
+                    "name": ""
+                },
+                "warnsResult": {
+                    "name": ""
+                },
+                "warnsResultLength": {
+                    "name": ""
+                }
             }
-          },
-          "header": "",
-          "name": "",
-          "permissions": ""
         },
-        "header": ""
-      },
-      "privates": {
-        "header": "",
-        "timezone": {
-          "name": ""
+        "spam": "",
+        "token": "",
+        "unknown": {
+            "channel": "",
+            "user": ""
+        },
+        "until": ""
+    },
+    "handlers": {
+        "adminsChange": "",
+        "captcha": {
+            "again": "",
+            "agree": "",
+            "agreed": "",
+            "correct": "",
+            "emoji": "",
+            "wrongUser": ""
+        },
+        "chatJoin": {
+            "raid": ""
+        },
+        "file": {
+            "got": ""
+        },
+        "hello": {
+            "full": "",
+            "restricted": ""
+        },
+        "migrate": "",
+        "nativeBan": "",
+        "reactions": {
+            "notify": "",
+            "reason": ""
+        },
+        "reputation": {
+            "down": "",
+            "up": ""
+        },
+        "stickerInfo": {
+            "pack": "",
+            "report": "",
+            "single": ""
+        },
+        "trigger": {
+            "got": ""
         }
-      },
-      "reports": {
-        "deleteReports": {
-          "name": ""
+    },
+    "scenes": {
+        "addAttach": {
+            "enter": ""
         },
-        "deleteReportsCount": {
-          "name": ""
+        "addCommand": {
+            "enterCommand": ""
         },
-        "deleteReportsRate": {
-          "name": ""
+        "addToken": {
+            "created": "",
+            "enterName": ""
         },
-        "header": "",
-        "reportsSystem": {
-          "name": ""
+        "addTrigger": {
+            "condition": {
+                "badwordsRU": "",
+                "command": "",
+                "contains": "",
+                "match": "",
+                "regex": ""
+            },
+            "enterAction": "",
+            "enterCommand": "",
+            "enterConditionType": "",
+            "enterContains": "",
+            "enterDuration": "",
+            "enterMatch": "",
+            "enterMessage": "",
+            "enterName": "",
+            "enterRegex": "",
+            "enterReputation": "",
+            "enterReputationGetter": "",
+            "enterSource": "",
+            "enterTriggerAtEdit": "",
+            "reputation": {
+                "replier": "",
+                "sender": ""
+            },
+            "source": {
+                "bio_text": "",
+                "linked_channel_text": "",
+                "message_text": "",
+                "name_text": ""
+            }
+        },
+        "announce": {
+            "done": "",
+            "enter": "",
+            "sendMessage": ""
+        },
+        "command_restrictions": {
+            "add_reports_reputation": "",
+            "add_reputation": "",
+            "edit_reports_reputation": "",
+            "edit_reputation": "",
+            "enter_command": "",
+            "enter_new_reports_reputation": "",
+            "enter_new_reputation": "",
+            "enter_reports_reputation": "",
+            "enter_reputation": "",
+            "header": "",
+            "info": "",
+            "no_restrictions": "",
+            "notFound": "",
+            "remove_reports_reputation": "",
+            "remove_reputation": "",
+            "reports_reputation": "",
+            "reputation": "",
+            "skip_reports_reputation": "",
+            "skip_reputation": ""
+        },
+        "commands": {
+            "enterText": "",
+            "header": "",
+            "notFound": ""
+        },
+        "editCommand": {
+            "editAliases": "",
+            "editText": "",
+            "header": ""
+        },
+        "editCommandAlias": {
+            "header": ""
+        },
+        "editReason": {
+            "cancel": ""
+        },
+        "editTrigger": {
+            "header": ""
+        },
+        "general": {
+            "placeholders": ""
+        },
+        "mass": {
+            "done": "",
+            "failed": "",
+            "intro": {
+                "action": "",
+                "footer": "",
+                "header": "",
+                "interval": "",
+                "reason": ""
+            },
+            "invalidAction": "",
+            "ok": ""
+        },
+        "tokens": {
+            "header": "",
+            "notFound": ""
+        },
+        "trigger": {
+            "notFound": ""
+        },
+        "triggers": {
+            "editAction": "",
+            "editCondition": "",
+            "editSource": "",
+            "header": ""
         }
-      },
-      "special": {
-        "clear_deleted": {
-          "button": "",
-          "description": "",
-          "finished": "",
-          "progress": "",
-          "started": ""
-        },
-        "header": "",
-        "index_old": {
-          "button": "",
-          "description": "",
-          "started": ""
-        },
-        "kick_inactive": {
-          "button": "",
-          "description": "",
-          "progress": "",
-          "request": "",
-          "request_confirm": "",
-          "success": ""
-        },
-        "not_enough_balance": "",
-        "price": "",
-        "start": "",
-        "started": "",
-        "topup": {
-          "button": "",
-          "how_many": "",
-          "pay": "",
-          "positive": "",
-          "successful": "",
-          "title": ""
-        }
-      },
-      "timeZoneInfo": "",
-      "warns": {
-        "cooldown": {
-          "name": ""
-        },
-        "header": "",
-        "maxWarns": {
-          "name": ""
-        },
-        "warnLength": {
-          "name": ""
-        },
-        "warnsResult": {
-          "name": ""
-        },
-        "warnsResultLength": {
-          "name": ""
-        }
-      }
-    },
-    "spam": "",
-    "token": "",
-    "unknown": {
-      "channel": "",
-      "user": ""
-    },
-    "until": ""
-  },
-  "handlers": {
-    "adminsChange": "",
-    "captcha": {
-      "again": "",
-      "agree": "",
-      "agreed": "",
-      "correct": "",
-      "emoji": "",
-      "wrongUser": ""
-    },
-    "chatJoin": {
-      "raid": ""
-    },
-    "file": {
-      "got": ""
-    },
-    "hello": {
-      "full": "",
-      "restricted": ""
-    },
-    "migrate": "",
-    "nativeBan": "",
-    "reactions": {
-      "notify": "",
-      "reason": ""
-    },
-    "reputation": {
-      "down": "",
-      "up": ""
-    },
-    "stickerInfo": {
-      "pack": "",
-      "report": "",
-      "single": ""
-    },
-    "trigger": {
-      "got": ""
     }
-  },
-  "scenes": {
-    "addAttach": {
-      "enter": ""
-    },
-    "addCommand": {
-      "enterCommand": ""
-    },
-    "addToken": {
-      "created": "",
-      "enterName": ""
-    },
-    "addTrigger": {
-      "condition": {
-        "badwordsRU": "",
-        "command": "",
-        "contains": "",
-        "match": "",
-        "regex": ""
-      },
-      "enterAction": "",
-      "enterCommand": "",
-      "enterConditionType": "",
-      "enterContains": "",
-      "enterDuration": "",
-      "enterMatch": "",
-      "enterMessage": "",
-      "enterName": "",
-      "enterRegex": "",
-      "enterReputation": "",
-      "enterReputationGetter": "",
-      "enterSource": "",
-      "enterTriggerAtEdit": "",
-      "reputation": {
-        "replier": "",
-        "sender": ""
-      },
-      "source": {
-        "bio_text": "",
-        "linked_channel_text": "",
-        "message_text": "",
-        "name_text": ""
-      }
-    },
-    "announce": {
-      "done": "",
-      "enter": "",
-      "sendMessage": ""
-    },
-    "command_restrictions": {
-      "add_reports_reputation": "",
-      "add_reputation": "",
-      "edit_reports_reputation": "",
-      "edit_reputation": "",
-      "enter_command": "",
-      "enter_new_reports_reputation": "",
-      "enter_new_reputation": "",
-      "enter_reports_reputation": "",
-      "enter_reputation": "",
-      "header": "",
-      "info": "",
-      "no_restrictions": "",
-      "notFound": "",
-      "remove_reports_reputation": "",
-      "remove_reputation": "",
-      "reports_reputation": "",
-      "reputation": "",
-      "skip_reports_reputation": "",
-      "skip_reputation": ""
-    },
-    "commands": {
-      "enterText": "",
-      "header": "",
-      "notFound": ""
-    },
-    "editCommand": {
-      "editAliases": "",
-      "editText": "",
-      "header": ""
-    },
-    "editCommandAlias": {
-      "header": ""
-    },
-    "editReason": {
-      "cancel": ""
-    },
-    "editTrigger": {
-      "header": ""
-    },
-    "general": {
-      "placeholders": ""
-    },
-    "mass": {
-      "done": "",
-      "failed": "",
-      "intro": {
-        "action": "",
-        "footer": "",
-        "header": "",
-        "interval": "",
-        "reason": ""
-      },
-      "invalidAction": "",
-      "ok": ""
-    },
-    "tokens": {
-      "header": "",
-      "notFound": ""
-    },
-    "trigger": {
-      "notFound": ""
-    },
-    "triggers": {
-      "editAction": "",
-      "editCondition": "",
-      "editSource": "",
-      "header": ""
-    }
-  }
 }
