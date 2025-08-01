@@ -321,6 +321,7 @@
         "errors": {
             "cooldown": "Сез бик күп сораулар бирәсез, {{seconds}} секундлар көтегез!",
             "notAvaliable": "",
+            "notEnoughRights": "",
             "pmlock": "",
             "selfInteract": ""
         },
