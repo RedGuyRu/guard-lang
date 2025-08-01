@@ -321,6 +321,7 @@
         "errors": {
             "cooldown": "",
             "notAvaliable": "",
+            "notEnoughRights": "",
             "pmlock": "",
             "selfInteract": ""
         },

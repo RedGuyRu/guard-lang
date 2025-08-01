@@ -321,6 +321,7 @@
         "errors": {
             "cooldown": "You made too many requests, wait {{seconds}} seconds!",
             "notAvaliable": "This command only works in supergroups!",
+            "notEnoughRights": "I don't have enough rights for this action!",
             "pmlock": "I couldn't write in private messages, send the command /start to me in private messages.",
             "selfInteract": "You have specified me as a user; please verify that this is correct."
         },
