@@ -319,6 +319,7 @@
         "edit": "Edit",
         "enabled": "enabled",
         "errors": {
+            "chatNotFound": "Chat not found!",
             "cooldown": "You made too many requests, wait {{seconds}} seconds!",
             "notAvaliable": "This command only works in supergroups!",
             "notEnoughRights": "I don't have enough rights for this action!",

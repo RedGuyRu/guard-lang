@@ -319,6 +319,7 @@
         "edit": "Редакцияләү",
         "enabled": "кушылган",
         "errors": {
+            "chatNotFound": "",
             "cooldown": "Сез бик күп сораулар бирәсез, {{seconds}} секундлар көтегез!",
             "notAvaliable": "",
             "notEnoughRights": "",

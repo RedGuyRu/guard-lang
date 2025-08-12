@@ -318,6 +318,7 @@
         "edit": "",
         "enabled": "",
         "errors": {
+            "chatNotFound": "",
             "cooldown": "",
             "notAvaliable": "",
             "notEnoughRights": "",

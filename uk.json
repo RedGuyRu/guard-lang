@@ -319,6 +319,7 @@
         "edit": "Редагувати",
         "enabled": "увімкнено",
         "errors": {
+            "chatNotFound": "",
             "cooldown": "",
             "notAvaliable": "",
             "notEnoughRights": "",
