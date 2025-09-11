@@ -48,7 +48,7 @@
             "canceledRestriction_zero": "",
             "cooldown": "",
             "disabled": "",
-            "message": "",
+            "message": "メッセージ",
             "message_few": "",
             "message_many": "",
             "message_zero": "",
@@ -341,7 +341,7 @@
             "y": ""
         },
         "modRule": {
-            "ban": "",
+            "ban": "禁止します",
             "delete": "",
             "ignore": "",
             "kick": "",
