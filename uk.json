@@ -236,7 +236,7 @@
             "activemute": "Активний мут: ",
             "attach": "",
             "attachMedia": "",
-            "attaches": "",
+            "attaches": "Додаток",
             "body": {
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
                 "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
