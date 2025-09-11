@@ -319,7 +319,7 @@
         "edit": "Edit",
         "enabled": "enabled",
         "errors": {
-            "chatNotFound": "",
+            "chatNotFound": "Curabitur non inventus est!",
             "cooldown": "",
             "notAvaliable": "",
             "notEnoughRights": "",
@@ -467,7 +467,7 @@
                     "name": "Reactiones ante banum"
                 },
                 "spamLike": {
-                    "name": ""
+                    "name": "Spam"
                 },
                 "stickers": {
                     "blood-blood": {
