@@ -694,10 +694,7 @@
             "special": {
                 "clear_deleted": {
                     "button": "Patet delevit rationes",
-                    "description": "Permittit tibi rationes delere e indice participantium et usorum obstructorum.",
-                    "finished": "Purgatio rationum deleta completa est!\nAdmin delevit:{{admins}}\nErrores deletionis ex Parte Telegram:{{errors}}",
-                    "progress": "Purgato processus delevit rationum: {{progress}}%",
-                    "started": "Negotium purgatio rationum deleta incepit!"
+                    "description": "Permittit tibi rationes delere e indice participantium et usorum obstructorum."
                 },
                 "header": "Additional chat optiones {{title}}\nChat statera:{{balance}}",
                 "index_old": {
@@ -791,6 +788,14 @@
         },
         "trigger": {
             "got": "Triggering {{name}} in chat {{title}}: {{text}}"
+        }
+    },
+    "native": {
+        "clear_deleted": {
+            "clearing": "",
+            "collecting": "",
+            "finished": "Purgatio rationum deleta completa est!\nAdmin delevit:{{admins}}\nErrores deletionis ex Parte Telegram:{{errors}}",
+            "started": "Negotium purgatio rationum deleta incepit!"
         }
     },
     "scenes": {
