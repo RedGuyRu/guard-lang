@@ -748,10 +748,7 @@
             "special": {
                 "clear_deleted": {
                     "button": "",
-                    "description": "",
-                    "finished": "",
-                    "progress": "",
-                    "started": ""
+                    "description": ""
                 },
                 "header": "",
                 "index_old": {
@@ -845,6 +842,14 @@
         },
         "trigger": {
             "got": ""
+        }
+    },
+    "native": {
+        "clear_deleted": {
+            "clearing": "",
+            "collecting": "",
+            "finished": "",
+            "started": ""
         }
     },
     "scenes": {

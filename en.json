@@ -748,10 +748,7 @@
             "special": {
                 "clear_deleted": {
                     "button": "Remove deleted accounts",
-                    "description": "Allows you to remove deleted accounts from the list of participants and removed users.",
-                    "finished": "The purge of deleted accounts is complete!\nUndeleted admins: {{admins}}\nDeletion errors from Telegram: {{errors}}",
-                    "progress": "The process of cleaning up deleted accounts: {{progress}}%",
-                    "started": "The task of cleaning up deleted accounts has begun!"
+                    "description": "Allows you to remove deleted accounts from the list of participants and removed users."
                 },
                 "header": "Special actions for chat {{title}}\nBalance: {{balance}}",
                 "index_old": {
@@ -845,6 +842,14 @@
         },
         "trigger": {
             "got": "The {{name}} triggered in the {{title}} chat: {{text}}"
+        }
+    },
+    "native": {
+        "clear_deleted": {
+            "clearing": "Cleaning deleted accounts: {{progress}}%",
+            "collecting": "Search for deleted accounts: {{progress}}%",
+            "finished": "Deleted accounts cleanup complete!\nDeleted accounts: {{deleted}}\nDeletion errors on Telegram's side: {{errors}}",
+            "started": "The task of cleaning up deleted accounts has begun!"
         }
     },
     "scenes": {
