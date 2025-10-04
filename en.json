@@ -353,6 +353,18 @@
             "undefined": "Not set",
             "warn": "Delete with warn"
         },
+        "nativeTask": {
+            "name": {
+                "clear_deleted": "Clearing of deleted accounts"
+            },
+            "status": {
+                "0": "In queue",
+                "1": "In progress",
+                "2": "Done",
+                "3": "Errored",
+                "4": "Canceled"
+            }
+        },
         "notSet": "not set",
         "notlinked": "not linked",
         "permissions": {
@@ -768,6 +780,9 @@
                 "price": "Price: ",
                 "start": "Start!",
                 "started": "The task is queued, you will be notified when it starts and ends!",
+                "tasks": {
+                    "button": "Active tasks"
+                },
                 "topup": {
                     "button": "Top up balance",
                     "how_many": "How many stars do you want to transfer to your chat balance?",
