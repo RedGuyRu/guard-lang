@@ -353,6 +353,18 @@
             "undefined": "",
             "warn": "Видаляти з попередженням"
         },
+        "nativeTask": {
+            "name": {
+                "clear_deleted": ""
+            },
+            "status": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        },
         "notSet": "не встановлено",
         "notlinked": "не прив'язано",
         "permissions": {
@@ -702,6 +714,9 @@
                 "price": "",
                 "start": "",
                 "started": "",
+                "tasks": {
+                    "button": ""
+                },
                 "topup": {
                     "button": "",
                     "how_many": "",

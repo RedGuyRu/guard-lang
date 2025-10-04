@@ -353,6 +353,18 @@
             "undefined": "",
             "warn": "Delere per monitionem"
         },
+        "nativeTask": {
+            "name": {
+                "clear_deleted": ""
+            },
+            "status": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        },
         "notSet": "non installatur",
         "notlinked": "non coniunctum",
         "permissions": {
@@ -714,6 +726,9 @@
                 "price": "Pretium: ",
                 "start": "Incipias!",
                 "started": "Negotium queued, notitiam de principio et fine accipietis!",
+                "tasks": {
+                    "button": ""
+                },
                 "topup": {
                     "button": "Summo sursum vestri statera",
                     "how_many": "Quot stellae vis ad stateram chat transferre?",
