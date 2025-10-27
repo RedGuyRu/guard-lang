@@ -786,6 +786,9 @@
             "full": "Gratias addendo mihi ut admin! Nunc paratus sum ad operandum!",
             "restricted": "Gratias addit ad chat! Ut incipias, me administratoribus adde et iura mihi da epistulas delere et utentes restringere. Posteaquam paratus ero ire!"
         },
+        "linksChecker": {
+            "reason": ""
+        },
         "migrate": "Cohors migravit ad supergroup!",
         "nativeBan": "Native bannum",
         "reactions": {

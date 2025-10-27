@@ -840,6 +840,9 @@
             "full": "Thank you for adding me as an admin! I am now ready to go to work!",
             "restricted": "Thanks for adding me to the chat! To get started, add me as an admin and give me permissions to delete posts and restrict users. After that I will be ready to work!"
         },
+        "linksChecker": {
+            "reason": "Sending unallowed links"
+        },
         "migrate": "The group has been migrated to a supergroup!",
         "nativeBan": "Native ban",
         "reactions": {
