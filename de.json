@@ -770,6 +770,9 @@
             "full": "",
             "restricted": ""
         },
+        "linksChecker": {
+            "reason": ""
+        },
         "migrate": "",
         "nativeBan": "",
         "reactions": {
