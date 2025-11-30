@@ -275,7 +275,7 @@
             "onlyUsers": "Monitum alteri administratori ferre non potes!"
         }
     },
-    "extends": "null",
+    "extends": "en",
     "general": {
         "Create": "Сreo",
         "Delete": "Delere",
