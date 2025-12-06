@@ -325,7 +325,8 @@
             "notAvaliable": "This command only works in supergroups!",
             "notEnoughRights": "I don't have enough rights for this action!",
             "pmlock": "I couldn't write in private messages, send the command /start to me in private messages.",
-            "selfInteract": "You have specified me as a user; please verify that this is correct."
+            "selfInteract": "You have specified me as a user; please verify that this is correct.",
+            "telegramRestrictedSending": "Due to Telegram restrictions, the message cannot be sent!"
         },
         "fileStatus": {
             "approved": "Confirmed by the moderation team",
