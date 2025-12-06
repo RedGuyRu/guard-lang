@@ -382,9 +382,9 @@
         "restricted": "",
         "restrictionType": {
             "ban": "",
-            "mute": "",
+            "mute": "ミュート",
             "note": "",
-            "warn": ""
+            "warn": "警告"
         },
         "restrictions": {
             "adminCommand": "",
