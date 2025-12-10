@@ -582,8 +582,8 @@
                     "others": {
                         "name": "Реакція інших команд"
                     },
-                    "raid": {
-                        "name": "Реакція команд рейду"
+                    "user": {
+                        "name": ""
                     }
                 },
                 "disableNotifications": {
