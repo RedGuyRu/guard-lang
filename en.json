@@ -648,8 +648,8 @@
                     "others": {
                         "name": "Other commands reaction"
                     },
-                    "raid": {
-                        "name": "Raid command reaction"
+                    "user": {
+                        "name": "Users command reaction"
                     }
                 },
                 "disableNotifications": {

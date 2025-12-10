@@ -594,8 +594,8 @@
                     "others": {
                         "name": "Reactionem aliorum commands"
                     },
-                    "raid": {
-                        "name": "Reactionem ad incursio commands"
+                    "user": {
+                        "name": ""
                     }
                 },
                 "disableNotifications": {
