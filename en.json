@@ -937,7 +937,7 @@
             "enter_new_reports_reputation": "Enter the amount of report reputation required",
             "enter_new_reputation": "Enter the amount of reputation required",
             "enter_permission": "Specify, who can use this command.\nSelect using the buttons or send the priority until which it will be available.",
-            "enter_reports_reputation": "Enter the number of reports reputation required",
+            "enter_reports_reputation": "Enter the amount of report reputation required",
             "enter_reputation": "Enter the amount of chat reputation required",
             "header": "Command restrictions in chat {{title}}",
             "info": "Command usage restrictions:",
