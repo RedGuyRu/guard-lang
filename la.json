@@ -348,6 +348,7 @@
             "m": "minuta",
             "y": "annus"
         },
+        "links": "",
         "modRule": {
             "ban": "Obstructionum",
             "delete": "Delere nuntium",

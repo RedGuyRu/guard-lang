@@ -348,6 +348,7 @@
             "m": "min",
             "y": "year"
         },
+        "links": "Links",
         "modRule": {
             "ban": "Ban",
             "delete": "Delete message",
@@ -972,6 +973,26 @@
         },
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
+        },
+        "links_list": {
+            "back": "Back",
+            "enter_link": "Send link to add to list:\n\nDomain: <code>example.com</code>\nPages: <code>example.com/page/*</code>\nPages with specific parameters: <code>example.com?redirect=true</code>\nPages with any value of parameter: <code>example.com?param=*</code>",
+            "header": "Links filter settings in chat {{title}}",
+            "invalid_link": "Invalid link!",
+            "link_added": "Link added!",
+            "link_deleted": "Link deleted!",
+            "mode": "Mode: {{mode}}",
+            "restriction": "Punishment: {{restriction}}",
+            "duration": "Duration: {{duration}}",
+            "duration_btn": "Duration",
+            "enter_duration": "Send punishment duration (e.g., 10m, 1h, 1d):",
+            "invalid_duration": "Invalid duration!",
+            "modes": {
+                "blacklist": "Blacklist",
+                "disabled": "Disabled",
+                "whitelist": "Whitelist"
+            },
+            "no_links": "Links list is empty"
         },
         "mass": {
             "done": "Mass action mode finished!",
