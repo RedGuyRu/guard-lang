@@ -933,6 +933,9 @@
             "editCondition": "",
             "editSource": "",
             "header": "Тригери у чаті {{title}}"
+        },
+        "links_list": {
+            "back": "Назад"
         }
     }
 }
