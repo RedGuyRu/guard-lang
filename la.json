@@ -945,6 +945,9 @@
             "editCondition": "",
             "editSource": "",
             "header": "Curabitur triggers {{title}}"
+        },
+        "links_list": {
+            "back": "Retrorsum"
         }
     }
 }
