@@ -79,7 +79,8 @@
             "warn_few": "warns",
             "warn_many": "warns",
             "warn_zero": "warns",
-            "yes": "true"
+            "yes": "true",
+            "links": "Links"
         },
         "help": {
             "commandList": "Commands:",

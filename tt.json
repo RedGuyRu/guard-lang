@@ -999,6 +999,10 @@
             "editCondition": "",
             "editSource": "",
             "header": "Чаттагы триггерлар {{title}}"
+        },
+        "links_list": {
+            "back": "Элек",
+            "duration_btn": "Дәвамлылыгы:"
         }
     }
 }
