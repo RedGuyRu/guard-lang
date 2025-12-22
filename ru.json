@@ -643,7 +643,7 @@
                     "name": "Текст под постом"
                 },
                 "channels": {
-                    "menu": "Привязка каналов в чате {{menu}}.",
+                    "menu": "Привязка каналов в чате {{title}}.",
                     "name": "Привязка каналов"
                 },
                 "command_restrictions": {
@@ -980,23 +980,23 @@
         },
         "links_list": {
             "back": "Назад",
+            "duration": "Длительность: {{duration}}",
+            "duration_btn": "Длительность",
+            "enter_duration": "Отправьте длительность наказания (например, 10m, 1h, 1d):",
             "enter_link": "Отправьте ссылку для добавления в список:\n\nДомен: <code>example.com</code>\nСтраницы: <code>example.com/page/*</code>\nСтраницы с определёнными параметрами: <code>example.com?redirect=true</code>\nСтраницы с любым значением параметра: <code>example.com?param=*</code>",
             "header": "Настройка фильтра ссылок в чате {{title}}",
+            "invalid_duration": "Некорректная длительность!",
             "invalid_link": "Некорректная ссылка!",
             "link_added": "Ссылка добавлена!",
             "link_deleted": "Ссылка удалена!",
             "mode": "Режим: {{mode}}",
-            "restriction": "Наказание: {{restriction}}",
-            "duration": "Длительность: {{duration}}",
-            "duration_btn": "Длительность",
-            "enter_duration": "Отправьте длительность наказания (например, 10m, 1h, 1d):",
-            "invalid_duration": "Некорректная длительность!",
             "modes": {
                 "blacklist": "Черный список",
                 "disabled": "Выключен",
                 "whitelist": "Белый список"
             },
-            "no_links": "Список ссылок пуст"
+            "no_links": "Список ссылок пуст",
+            "restriction": "Наказание: {{restriction}}"
         },
         "mass": {
             "done": "Режим массового действия завершён!",
