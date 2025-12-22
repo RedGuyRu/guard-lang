@@ -639,7 +639,7 @@
                     "name": "First comment text"
                 },
                 "channels": {
-                    "menu": "Channels linking in chat {{menu}}.",
+                    "menu": "Channels linking in chat {{title}}.",
                     "name": "Channel linking"
                 },
                 "command_restrictions": {
@@ -976,23 +976,23 @@
         },
         "links_list": {
             "back": "Back",
+            "duration": "Duration: {{duration}}",
+            "duration_btn": "Duration",
+            "enter_duration": "Send punishment duration (e.g., 10m, 1h, 1d):",
             "enter_link": "Send link to add to list:\n\nDomain: <code>example.com</code>\nPages: <code>example.com/page/*</code>\nPages with specific parameters: <code>example.com?redirect=true</code>\nPages with any value of parameter: <code>example.com?param=*</code>",
             "header": "Links filter settings in chat {{title}}",
+            "invalid_duration": "Invalid duration!",
             "invalid_link": "Invalid link!",
             "link_added": "Link added!",
             "link_deleted": "Link deleted!",
             "mode": "Mode: {{mode}}",
-            "restriction": "Punishment: {{restriction}}",
-            "duration": "Duration: {{duration}}",
-            "duration_btn": "Duration",
-            "enter_duration": "Send punishment duration (e.g., 10m, 1h, 1d):",
-            "invalid_duration": "Invalid duration!",
             "modes": {
                 "blacklist": "Blacklist",
                 "disabled": "Disabled",
                 "whitelist": "Whitelist"
             },
-            "no_links": "Links list is empty"
+            "no_links": "Links list is empty",
+            "restriction": "Punishment: {{restriction}}"
         },
         "mass": {
             "done": "Mass action mode finished!",
