@@ -596,6 +596,9 @@
                 },
                 "trigger": {
                     "name": "Triggers"
+                },
+                "linksList": {
+                    "name": "Links white list"
                 }
             },
             "category": {
