@@ -48,6 +48,7 @@
             "canceledRestriction_zero": "There are no restrictions to be removed!",
             "cooldown": "This user is protected by cooldown!",
             "disabled": "This command disabled in chat settings!",
+            "links": "Links",
             "message": "message",
             "message_few": "messages",
             "message_many": "messages",
@@ -79,8 +80,7 @@
             "warn_few": "warns",
             "warn_many": "warns",
             "warn_zero": "warns",
-            "yes": "true",
-            "links": "Links"
+            "yes": "true"
         },
         "help": {
             "commandList": "Commands:",
@@ -121,8 +121,11 @@
             "description": "Opens WebApp with members profiles"
         },
         "msgtop": {
+            "all": "For all time",
+            "day": "For today",
             "description": "Get top by messages in chat",
-            "header": "Top by messages count:"
+            "header": "Top by messages count:",
+            "week": "For week"
         },
         "mute": {
             "description": "Mute user",
