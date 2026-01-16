@@ -242,6 +242,7 @@
             "attaches": "Додаток",
             "body": {
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
+                "join": "",
                 "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",
                 "status": "",
                 "warns": "Активні попередження: {{warns}} Загальне попередження: {{total_warns}}"

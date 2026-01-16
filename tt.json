@@ -242,6 +242,7 @@
             "attaches": "",
             "body": {
                 "bans": "Актив бан: {{bans}} Барлык банов: {{total_bans}}",
+                "join": "",
                 "mutes": "Актив мут: {{mutes}} Барлык Мутлар: {{total_mutes}}",
                 "status": "",
                 "warns": "Актив кисәтүләр: {{warns}} барлык кисәтүләр: {{total_warns}}"
