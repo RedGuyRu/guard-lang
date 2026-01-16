@@ -242,6 +242,7 @@
             "attaches": "",
             "body": {
                 "bans": "",
+                "join": "",
                 "mutes": "",
                 "status": "",
                 "warns": ""

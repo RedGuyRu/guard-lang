@@ -242,6 +242,7 @@
             "attaches": "",
             "body": {
                 "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
+                "join": "",
                 "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",
                 "status": "",
                 "warns": "Activa monita:{{warns}} Общие предупреждения:{{total_warns}}"

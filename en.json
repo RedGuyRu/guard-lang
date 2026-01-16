@@ -243,6 +243,7 @@
             "attaches": "Attaches",
             "body": {
                 "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
+                "join": "In chat since {{date}}",
                 "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
                 "status": "Status in chat: {{status}}",
                 "warns": "Active warns: {{warns}} Total warns: {{total_warns}}"
@@ -450,6 +451,9 @@
                 "hideTriggerMessage": {
                     "name": "Silent mode of triggers"
                 },
+                "linksList": {
+                    "name": "Links white list"
+                },
                 "location": {
                     "name": "Location moderation"
                 },
@@ -599,9 +603,6 @@
                 },
                 "trigger": {
                     "name": "Triggers"
-                },
-                "linksList": {
-                    "name": "Links white list"
                 }
             },
             "category": {
