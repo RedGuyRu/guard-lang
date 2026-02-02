@@ -609,6 +609,12 @@
                 "modtop": {
                     "name": ""
                 },
+                "nightModeDisableTime": {
+                    "name": ""
+                },
+                "nightModeEnableTime": {
+                    "name": ""
+                },
                 "notificationsTopic": {
                     "name": ""
                 },
@@ -788,6 +794,10 @@
         },
         "migrate": "",
         "nativeBan": "",
+        "nightMode": {
+            "disable": "",
+            "enable": ""
+        },
         "reactions": {
             "notify": "",
             "reason": ""
