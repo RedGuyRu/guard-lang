@@ -683,6 +683,12 @@
                 "modtop": {
                     "name": "Modtop access"
                 },
+                "nightModeDisableTime": {
+                    "name": "Night mode disabling time"
+                },
+                "nightModeEnableTime": {
+                    "name": "Night mode enabling time"
+                },
                 "notificationsTopic": {
                     "name": "Topic for notifications"
                 },
@@ -862,6 +868,10 @@
         },
         "migrate": "The group has been migrated to a supergroup!",
         "nativeBan": "Native ban",
+        "nightMode": {
+            "disable": "Night mode disabled!",
+            "enable": "Night mode activated!"
+        },
         "reactions": {
             "notify": "{{user}} you can be banned for sending reactions during mute!",
             "reason": "reactions while mute is active"

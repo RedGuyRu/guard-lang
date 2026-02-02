@@ -679,6 +679,12 @@
                 "modtop": {
                     "name": "Модтопка керү мөмкинлеге"
                 },
+                "nightModeDisableTime": {
+                    "name": ""
+                },
+                "nightModeEnableTime": {
+                    "name": ""
+                },
                 "notificationsTopic": {
                     "name": ""
                 },
@@ -858,6 +864,10 @@
         },
         "migrate": "Төркем супертөркемне үзгәртте!",
         "nativeBan": "Туган бан",
+        "nightMode": {
+            "disable": "",
+            "enable": ""
+        },
         "reactions": {
             "notify": "{{user}} мут вакытында реакцияләр җибәргән өчен сезне тыеп калырга мөмкин!",
             "reason": "муттагы реакцияләр"

@@ -625,6 +625,12 @@
                 "modtop": {
                     "name": "Aditus ad modtop"
                 },
+                "nightModeDisableTime": {
+                    "name": ""
+                },
+                "nightModeEnableTime": {
+                    "name": ""
+                },
                 "notificationsTopic": {
                     "name": ""
                 },
@@ -804,6 +810,10 @@
         },
         "migrate": "Cohors migravit ad supergroup!",
         "nativeBan": "Native bannum",
+        "nightMode": {
+            "disable": "",
+            "enable": ""
+        },
         "reactions": {
             "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
             "reason": "motus in muta"

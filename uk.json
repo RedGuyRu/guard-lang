@@ -613,6 +613,12 @@
                 "modtop": {
                     "name": "Доступ до модтопу"
                 },
+                "nightModeDisableTime": {
+                    "name": ""
+                },
+                "nightModeEnableTime": {
+                    "name": ""
+                },
                 "notificationsTopic": {
                     "name": ""
                 },
@@ -792,6 +798,10 @@
         },
         "migrate": "Групу мігрували у супергрупу!",
         "nativeBan": "Нативний бан",
+        "nightMode": {
+            "disable": "",
+            "enable": ""
+        },
         "reactions": {
             "notify": "{{user}} за відправлення реакцій під час мута ви можете бути забанені!",
             "reason": "реакції у муті"
