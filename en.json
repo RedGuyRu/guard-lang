@@ -271,8 +271,29 @@
             "workers": "AI-Workers:"
         },
         "userreport": {
+            "chatJoin": "Joined Chat",
+            "chatStatus": "Chat status",
             "description": "Creating a text report for the user",
-            "sent": "I've sent the info in private messages!"
+            "firstName": "First name",
+            "header": "Complete information about user {{first_name}} in chat {{title}}",
+            "messages": "Messages Sent",
+            "reports": {
+                "count": "Reports Sent",
+                "element": "Report #{{id}} from {{date}} ({{quality}})",
+                "rate": "Actual reports: {{sum}} reports ({{avg}})"
+            },
+            "restrictions": {
+                "issued": {
+                    "empty": "User didn't issue any restrictions",
+                    "list": "Punishments Issued"
+                },
+                "received": {
+                    "empty": "User didn't received any restrictions",
+                    "list": "Rreceived punishments"
+                }
+            },
+            "sent": "I've sent the info in private messages!",
+            "username": "Username"
         },
         "warn": {
             "cancel": "{{moder}} removed {{user}}'s warn with the reason \"{{reason}}\"",
@@ -354,6 +375,7 @@
             "y": "year"
         },
         "links": "Links",
+        "media": "Media",
         "modRule": {
             "ban": "Ban",
             "delete": "Delete message",

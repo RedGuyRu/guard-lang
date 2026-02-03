@@ -270,8 +270,29 @@
             "workers": ""
         },
         "userreport": {
+            "chatJoin": "",
+            "chatStatus": "",
             "description": "",
-            "sent": "Я відправив інформацію в особисті повідомлення!"
+            "firstName": "",
+            "header": "",
+            "messages": "",
+            "reports": {
+                "count": "",
+                "element": "",
+                "rate": ""
+            },
+            "restrictions": {
+                "issued": {
+                    "empty": "",
+                    "list": ""
+                },
+                "received": {
+                    "empty": "",
+                    "list": ""
+                }
+            },
+            "sent": "Я відправив інформацію в особисті повідомлення!",
+            "username": ""
         },
         "warn": {
             "cancel": "",
@@ -353,6 +374,7 @@
             "y": "рік"
         },
         "links": "",
+        "media": "",
         "modRule": {
             "ban": "Заблокувати",
             "delete": "Видалити повідомлення",

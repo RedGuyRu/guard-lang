@@ -270,8 +270,29 @@
             "workers": "AI-Воркерлар:"
         },
         "userreport": {
+            "chatJoin": "",
+            "chatStatus": "",
             "description": "",
-            "sent": "Мин Мәгълүматны Шәхси хәбәрләргә җибәрдем!"
+            "firstName": "",
+            "header": "",
+            "messages": "",
+            "reports": {
+                "count": "",
+                "element": "",
+                "rate": ""
+            },
+            "restrictions": {
+                "issued": {
+                    "empty": "",
+                    "list": ""
+                },
+                "received": {
+                    "empty": "",
+                    "list": ""
+                }
+            },
+            "sent": "Мин Мәгълүматны Шәхси хәбәрләргә җибәрдем!",
+            "username": ""
         },
         "warn": {
             "cancel": "{{moder}} \"{{reason}} \" сәбәбе белән варн {{user}} ны алып ташлады",
@@ -353,6 +374,7 @@
             "y": "ел"
         },
         "links": "",
+        "media": "",
         "modRule": {
             "ban": "Блокировкалау",
             "delete": "Хәбәрне бетерергә",

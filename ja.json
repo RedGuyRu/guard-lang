@@ -270,8 +270,29 @@
             "workers": ""
         },
         "userreport": {
+            "chatJoin": "",
+            "chatStatus": "",
             "description": "",
-            "sent": ""
+            "firstName": "",
+            "header": "",
+            "messages": "",
+            "reports": {
+                "count": "",
+                "element": "",
+                "rate": ""
+            },
+            "restrictions": {
+                "issued": {
+                    "empty": "",
+                    "list": ""
+                },
+                "received": {
+                    "empty": "",
+                    "list": ""
+                }
+            },
+            "sent": "",
+            "username": ""
         },
         "warn": {
             "cancel": "",
@@ -353,6 +374,7 @@
             "y": ""
         },
         "links": "",
+        "media": "",
         "modRule": {
             "ban": "禁止します",
             "delete": "",
