@@ -270,8 +270,29 @@
             "workers": ""
         },
         "userreport": {
+            "chatJoin": "",
+            "chatStatus": "",
             "description": "",
-            "sent": "Ego misit notitia in privatis epistulae!"
+            "firstName": "",
+            "header": "",
+            "messages": "",
+            "reports": {
+                "count": "",
+                "element": "",
+                "rate": ""
+            },
+            "restrictions": {
+                "issued": {
+                    "empty": "",
+                    "list": ""
+                },
+                "received": {
+                    "empty": "",
+                    "list": ""
+                }
+            },
+            "sent": "Ego misit notitia in privatis epistulae!",
+            "username": ""
         },
         "warn": {
             "cancel": "",
@@ -353,6 +374,7 @@
             "y": "annus"
         },
         "links": "",
+        "media": "",
         "modRule": {
             "ban": "Obstructionum",
             "delete": "Delere nuntium",
