@@ -275,9 +275,9 @@
             "description": "",
             "firstName": "",
             "header": "",
-            "messages": "",
+            "messages": "メッセージ",
             "reports": {
-                "count": "",
+                "count": "レポート",
                 "element": "",
                 "rate": ""
             },
