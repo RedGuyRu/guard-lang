@@ -84,7 +84,7 @@
         "help": {
             "commandList": "Index mandatorum:",
             "description": "",
-            "docs": "Plura in documentis: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "Plura in documentis: https://docs.redguy.ru/igb/",
             "duration": "<durationem>",
             "durationHint": "Duratio indicatur in forma numeri + intervallum: 1m 2h 3d 4w 5M 6y",
             "group": {

@@ -84,7 +84,7 @@
         "help": {
             "commandList": "Liste der Befehle:",
             "description": "",
-            "docs": "Weitere Informationen finden Sie in der Dokumentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "Weitere Informationen finden Sie in der Dokumentation: https://docs.redguy.ru/igb/",
             "duration": "<Dauer>",
             "durationHint": "Die Dauer wird im Format Zahl+Intervall angegeben: 1m 2h 3d 4w 5M 6y",
             "group": {

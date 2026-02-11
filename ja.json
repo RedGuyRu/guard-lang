@@ -84,7 +84,7 @@
         "help": {
             "commandList": "コマンド一覧：",
             "description": "ボットのヘルプ",
-            "docs": "詳細はこちらのドキュメントをご参照ください： https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "詳細はこちらのドキュメントをご参照ください： https://docs.redguy.ru/igb/",
             "duration": "<期間>",
             "durationHint": "期間は「数値＋区間」の形式で指定します：1m 2h 3d 4w 5M 6y",
             "group": {
