@@ -84,7 +84,7 @@
         "help": {
             "commandList": "Командалар исемлеге:",
             "description": "",
-            "docs": "Документациядә төгәлрәк: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "Документациядә төгәлрәк: https://docs.redguy.ru/igb/",
             "duration": "< дәвамлылыгы>",
             "durationHint": "Озынлыгы Сан+интервал: 1M 2H 3D 4w 5M 6y форматында күрсәтелә",
             "group": {

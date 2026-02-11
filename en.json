@@ -85,7 +85,7 @@
         "help": {
             "commandList": "Commands:",
             "description": "Bot Help",
-            "docs": "More in documentation: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "More in documentation: https://docs.redguy.ru/igb/",
             "duration": "<duration>",
             "durationHint": "Duration is specified in number+interval format: 1m 2h 3d 4w 5M 6y",
             "group": {

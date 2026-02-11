@@ -84,7 +84,7 @@
         "help": {
             "commandList": "Список команд:",
             "description": "",
-            "docs": "Детальніше в документації: https://docs.redguy.ru/igb/imperiumguardbot.html",
+            "docs": "Детальніше в документації: https://docs.redguy.ru/igb/",
             "duration": "<тривалість>",
             "durationHint": "Тривалість вказується в форматі число+інтервал: 1m 2h 3d 4w 5M 6y",
             "group": {
