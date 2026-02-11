@@ -275,9 +275,9 @@
             "description": "",
             "firstName": "",
             "header": "",
-            "messages": "",
+            "messages": "Nachrichten",
             "reports": {
-                "count": "",
+                "count": "berichten",
                 "element": "",
                 "rate": ""
             },
