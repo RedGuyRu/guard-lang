@@ -561,7 +561,7 @@
                 "privates": "",
                 "reports": "",
                 "special": "",
-                "warns": ""
+                "warns": "Warnungen"
             },
             "changingChat": "",
             "changingPM": "",
@@ -776,7 +776,7 @@
                     "name": ""
                 },
                 "warnsResult": {
-                    "name": ""
+                    "name": "Strafe"
                 },
                 "warnsResultLength": {
                     "name": ""
