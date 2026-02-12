@@ -792,7 +792,7 @@
                     "name": "Durationem varna"
                 },
                 "warnsResult": {
-                    "name": "Poenam ad maximum amount varns"
+                    "name": "poena"
                 },
                 "warnsResultLength": {
                     "name": "Duratio poenae ad maximum numerum varns"
