@@ -628,14 +628,14 @@
                 }
             },
             "category": {
-                "automod": "Automoderation settings",
-                "customs": "Customization settings",
+                "automod": "Automoderation",
+                "customs": "Customization",
                 "language": "Language",
                 "permissions": "Permissions",
                 "privates": "General",
-                "reports": "Reporting settings",
+                "reports": "Reporting",
                 "special": "Special",
-                "warns": "Warns settings"
+                "warns": "Warnings"
             },
             "changingChat": "Changing parameter \"{{param}}\" in chat {{title}}, current value: <code>{{current}}</code>",
             "changingPM": "Changing the parameter “{{param}}”, current value: <code>{{current}}</code>",
@@ -840,20 +840,20 @@
             "timeZoneInfo": "To specify the time period, specify the required time shift in the format “UTC+N” or “GMT+N”. You can also use IANA format “Europe/Paris”, in this case the bot will automatically take into account summer and winter time, please note that the selected city will not be displayed publicly and will be automatically converted to GMT+N format.",
             "warns": {
                 "cooldown": {
-                    "name": "Cooldown beetwen warns to one person"
+                    "name": "Cooldown"
                 },
                 "header": "Warn settings in chat {{title}}",
                 "maxWarns": {
-                    "name": "Number of warns before punishment is given"
+                    "name": "Limit before punishment"
                 },
                 "warnLength": {
-                    "name": "Warn duration"
+                    "name": "Duration"
                 },
                 "warnsResult": {
-                    "name": "Punishment for the maximum number of warns"
+                    "name": "Punishment"
                 },
                 "warnsResultLength": {
-                    "name": "Duration of punishment for the maximum number of warns"
+                    "name": "Duration of punishment"
                 }
             }
         },
