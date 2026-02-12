@@ -570,7 +570,7 @@
                 }
             },
             "category": {
-                "automod": "Auto-modus occasus",
+                "automod": "Automoderation",
                 "customs": "Aliquam occasus",
                 "language": "Lingua",
                 "permissions": "",
