@@ -651,11 +651,17 @@
                 "modtop": {
                     "name": "Aditus ad modtop"
                 },
+                "nightMode": {
+                    "name": ""
+                },
                 "nightModeDisableTime": {
                     "name": ""
                 },
                 "nightModeEnableTime": {
                     "name": ""
+                },
+                "night_mode": {
+                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""

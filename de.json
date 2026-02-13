@@ -635,11 +635,17 @@
                 "modtop": {
                     "name": ""
                 },
+                "nightMode": {
+                    "name": ""
+                },
                 "nightModeDisableTime": {
                     "name": ""
                 },
                 "nightModeEnableTime": {
                     "name": ""
+                },
+                "night_mode": {
+                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""

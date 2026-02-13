@@ -705,11 +705,17 @@
                 "modtop": {
                     "name": "Модтопка керү мөмкинлеге"
                 },
+                "nightMode": {
+                    "name": ""
+                },
                 "nightModeDisableTime": {
                     "name": ""
                 },
                 "nightModeEnableTime": {
                     "name": ""
+                },
+                "night_mode": {
+                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""

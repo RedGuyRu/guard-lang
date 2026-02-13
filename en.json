@@ -709,11 +709,17 @@
                 "modtop": {
                     "name": "Modtop access"
                 },
+                "nightMode": {
+                    "name": "Night mode"
+                },
                 "nightModeDisableTime": {
                     "name": "Night mode disabling time"
                 },
                 "nightModeEnableTime": {
                     "name": "Night mode enabling time"
+                },
+                "night_mode": {
+                    "header": "Night mode settings in chat {{title}}"
                 },
                 "notificationsTopic": {
                     "name": "Topic for notifications"

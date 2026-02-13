@@ -639,11 +639,17 @@
                 "modtop": {
                     "name": "Доступ до модтопу"
                 },
+                "nightMode": {
+                    "name": ""
+                },
                 "nightModeDisableTime": {
                     "name": ""
                 },
                 "nightModeEnableTime": {
                     "name": ""
+                },
+                "night_mode": {
+                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""
