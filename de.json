@@ -636,6 +636,7 @@
                     "name": ""
                 },
                 "nightMode": {
+                    "header": "",
                     "name": ""
                 },
                 "nightModeDisableTime": {
@@ -643,9 +644,6 @@
                 },
                 "nightModeEnableTime": {
                     "name": ""
-                },
-                "night_mode": {
-                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""

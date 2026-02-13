@@ -652,6 +652,7 @@
                     "name": "Aditus ad modtop"
                 },
                 "nightMode": {
+                    "header": "",
                     "name": ""
                 },
                 "nightModeDisableTime": {
@@ -659,9 +660,6 @@
                 },
                 "nightModeEnableTime": {
                     "name": ""
-                },
-                "night_mode": {
-                    "header": ""
                 },
                 "notificationsTopic": {
                     "name": ""

@@ -710,6 +710,7 @@
                     "name": "Modtop access"
                 },
                 "nightMode": {
+                    "header": "Night mode settings in chat {{title}}",
                     "name": "Night mode"
                 },
                 "nightModeDisableTime": {
@@ -717,9 +718,6 @@
                 },
                 "nightModeEnableTime": {
                     "name": "Night mode enabling time"
-                },
-                "night_mode": {
-                    "header": "Night mode settings in chat {{title}}"
                 },
                 "notificationsTopic": {
                     "name": "Topic for notifications"
