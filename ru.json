@@ -710,6 +710,7 @@
                     "name": "Доступ к модтопу"
                 },
                 "nightMode": {
+                    "header": "Настройки ночного режима в чате {{title}}",
                     "name": "Ночной режим"
                 },
                 "nightModeDisableTime": {
@@ -717,9 +718,6 @@
                 },
                 "nightModeEnableTime": {
                     "name": "Время включения ночного режима"
-                },
-                "night_mode": {
-                    "header": "Настройки ночного режима в чате {{title}}"
                 },
                 "notificationsTopic": {
                     "name": "Топик для уведомлений"
