@@ -635,7 +635,7 @@
                 "privates": "",
                 "reports": "",
                 "special": "",
-                "warns": ""
+                "warns": "警告"
             },
             "changingChat": "",
             "changingPM": "",
@@ -850,7 +850,7 @@
                     "name": ""
                 },
                 "warnsResult": {
-                    "name": ""
+                    "name": "制限"
                 },
                 "warnsResultLength": {
                     "name": ""
