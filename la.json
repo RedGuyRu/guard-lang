@@ -574,14 +574,14 @@
                 }
             },
             "category": {
-                "automod": "Auto-modus occasus",
+                "automod": "Automoderation",
                 "customs": "Aliquam occasus",
                 "language": "Lingua",
                 "permissions": "",
                 "privates": "",
                 "reports": "Querimonia occasus",
                 "special": "Specialis",
-                "warns": "Mone occasus"
+                "warns": "monitum"
             },
             "changingChat": "",
             "changingPM": "",
@@ -796,7 +796,7 @@
                     "name": "Durationem varna"
                 },
                 "warnsResult": {
-                    "name": "Poenam ad maximum amount varns"
+                    "name": "poena"
                 },
                 "warnsResultLength": {
                     "name": "Duratio poenae ad maximum numerum varns"
