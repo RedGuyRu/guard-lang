@@ -721,6 +721,10 @@
                 "nightModeEnableTime": {
                     "name": "Night mode enabling time"
                 },
+                "notifications": {
+                    "header": "Notification settings in chat {{title}}",
+                    "name": "Notifications"
+                },
                 "notificationsTopic": {
                     "name": "Topic for notifications"
                 },
@@ -731,7 +735,7 @@
                     "name": "Reputation system"
                 },
                 "statistics": {
-                    "header": "Statistics settings in chat {{chat}}",
+                    "header": "Statistics settings in chat {{title}}",
                     "name": "Statistics"
                 },
                 "statisticsRange": {
