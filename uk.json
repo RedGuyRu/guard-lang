@@ -613,6 +613,7 @@
                     "name": "Кастомні команди"
                 },
                 "commands_mode": {
+                    "header": "",
                     "moderation": {
                         "name": "Реакція команд модерації"
                     },
@@ -620,7 +621,6 @@
                     "others": {
                         "name": "Реакція інших команд"
                     },
-                    "title": "",
                     "user": {
                         "name": ""
                     }
@@ -659,6 +659,10 @@
                 },
                 "reputation": {
                     "name": "Система репутації"
+                },
+                "statistics": {
+                    "header": "",
+                    "name": ""
                 },
                 "statisticsRange": {
                     "name": "",

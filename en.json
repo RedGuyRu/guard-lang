@@ -683,6 +683,7 @@
                     "name": "Custom commands"
                 },
                 "commands_mode": {
+                    "header": "Access to commands in chat {{title}}",
                     "moderation": {
                         "name": "Moderation commands"
                     },
@@ -690,7 +691,6 @@
                     "others": {
                         "name": "Other commands"
                     },
-                    "title": "Access to commands in chat {{title}}",
                     "user": {
                         "name": "Users commands"
                     }
@@ -729,6 +729,10 @@
                 },
                 "reputation": {
                     "name": "Reputation system"
+                },
+                "statistics": {
+                    "header": "Statistics settings in chat {{chat}}",
+                    "name": "Statistics"
                 },
                 "statisticsRange": {
                     "name": "Statistics range",
