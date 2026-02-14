@@ -721,6 +721,10 @@
                 "nightModeEnableTime": {
                     "name": "Время включения ночного режима"
                 },
+                "notifications": {
+                    "header": "Настройки уведомлений в чате {{title}}",
+                    "name": "Уведомления"
+                },
                 "notificationsTopic": {
                     "name": "Топик для уведомлений"
                 },
@@ -731,7 +735,7 @@
                     "name": "Система репутации"
                 },
                 "statistics": {
-                    "header": "Настройки статистики в чате {{chat}}",
+                    "header": "Настройки статистики в чате {{title}}",
                     "name": "Статистика"
                 },
                 "statisticsRange": {

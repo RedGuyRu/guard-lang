@@ -647,6 +647,10 @@
                 "nightModeEnableTime": {
                     "name": ""
                 },
+                "notifications": {
+                    "header": "",
+                    "name": ""
+                },
                 "notificationsTopic": {
                     "name": ""
                 },
