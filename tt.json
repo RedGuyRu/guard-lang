@@ -679,6 +679,7 @@
                     "name": "Кастом командалары"
                 },
                 "commands_mode": {
+                    "header": "",
                     "moderation": {
                         "name": "Модерация командаларының реакциясе"
                     },
@@ -686,7 +687,6 @@
                     "others": {
                         "name": "Башка командаларның реакциясе"
                     },
-                    "title": "",
                     "user": {
                         "name": ""
                     }
@@ -725,6 +725,10 @@
                 },
                 "reputation": {
                     "name": "Репутация системасы"
+                },
+                "statistics": {
+                    "header": "",
+                    "name": ""
                 },
                 "statisticsRange": {
                     "name": "Статистика чоры",

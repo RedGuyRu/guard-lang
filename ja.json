@@ -679,6 +679,7 @@
                     "name": ""
                 },
                 "commands_mode": {
+                    "header": "",
                     "moderation": {
                         "name": ""
                     },
@@ -686,7 +687,6 @@
                     "others": {
                         "name": ""
                     },
-                    "title": "",
                     "user": {
                         "name": ""
                     }
@@ -724,6 +724,10 @@
                     "name": ""
                 },
                 "reputation": {
+                    "name": ""
+                },
+                "statistics": {
+                    "header": "",
                     "name": ""
                 },
                 "statisticsRange": {
