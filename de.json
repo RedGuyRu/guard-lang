@@ -612,9 +612,11 @@
                     "moderation": {
                         "name": ""
                     },
+                    "name": "",
                     "others": {
                         "name": ""
                     },
+                    "title": "",
                     "user": {
                         "name": ""
                     }
