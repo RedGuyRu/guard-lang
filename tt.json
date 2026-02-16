@@ -500,6 +500,10 @@
                         "name": ""
                     }
                 },
+                "messageModeration": {
+                    "header": "",
+                    "name": ""
+                },
                 "muteOnPermission": {
                     "name": "Модерация командаларын кулланганда мут озынлыгы"
                 },

@@ -500,6 +500,10 @@
                         "name": ""
                     }
                 },
+                "messageModeration": {
+                    "header": "",
+                    "name": ""
+                },
                 "muteOnPermission": {
                     "name": "Duratio restrictiones cum moderatione utens mandata"
                 },

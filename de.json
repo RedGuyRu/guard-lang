@@ -499,6 +499,10 @@
                         "name": ""
                     }
                 },
+                "messageModeration": {
+                    "header": "",
+                    "name": ""
+                },
                 "muteOnPermission": {
                     "name": ""
                 },
