@@ -456,7 +456,7 @@
                     "name": "Reaction on CAS-ban"
                 },
                 "contacts": {
-                    "name": "Contacts moderation"
+                    "name": "Contacts"
                 },
                 "delStickers": {
                     "name": "Sticker deletion"
@@ -468,7 +468,7 @@
                     "name": "Flood moderation"
                 },
                 "games": {
-                    "name": "Games moderation"
+                    "name": "Games"
                 },
                 "gas": {
                     "name": "Reaction on GAS-ban"
@@ -481,7 +481,7 @@
                     "name": "Links white list"
                 },
                 "location": {
-                    "name": "Location moderation"
+                    "name": "Locations"
                 },
                 "mediaCheck": {
                     "detection": "Sent percent of unacceptable stickers in stickerpack or click on button to restrict when unacceptable sticker is sent.",
@@ -503,6 +503,10 @@
                     "punishment": {
                         "name": "Punishment for media spam"
                     }
+                },
+                "messageModeration": {
+                    "header": "Message types moderation in chat {{title}}",
+                    "name": "Message types moderation"
                 },
                 "muteOnPermission": {
                     "name": "Mute duration when trying to use moderation commands"
@@ -611,7 +615,7 @@
                     }
                 },
                 "stories": {
-                    "name": "Moderation of stories"
+                    "name": "Stories"
                 },
                 "textSpamCheck": {
                     "count": {

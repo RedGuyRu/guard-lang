@@ -500,6 +500,10 @@
                         "name": ""
                     }
                 },
+                "messageModeration": {
+                    "header": "",
+                    "name": ""
+                },
                 "muteOnPermission": {
                     "name": "Тривалість мута при використанні команд модерації"
                 },
