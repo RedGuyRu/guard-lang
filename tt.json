@@ -499,7 +499,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "исем"
                     }
                 },
                 "messageModeration": {
@@ -628,7 +628,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "исем"
                     }
                 },
                 "trigger": {
