@@ -492,16 +492,18 @@
                 },
                 "mediaSpamCheck": {
                     "count": {
-                        "name": "Maximum number of media in row"
+                        "name": "Maximum number in row"
                     },
                     "duration": {
-                        "name": "Duration of punishment for media spam"
+                        "name": "Duration of punishment"
                     },
+                    "header": "Settings of media spam moderation in chat {{title}}",
                     "interval": {
-                        "name": "Media spam check interval"
+                        "name": "Сheck interval"
                     },
+                    "name": "Media spam moderation",
                     "punishment": {
-                        "name": "Punishment for media spam"
+                        "name": "Punishment"
                     }
                 },
                 "messageModeration": {
@@ -622,13 +624,15 @@
                         "name": "Maximum number of same messages in row"
                     },
                     "duration": {
-                        "name": "Duration of punishment for same messages spam"
+                        "name": "Duration of punishment"
                     },
+                    "header": "Settings of same messages moderation in chat {{title}}",
                     "interval": {
-                        "name": "Text spam check interval"
+                        "name": "Check interval"
                     },
+                    "name": "Moderation of same message spam",
                     "punishment": {
-                        "name": "Punishment for same messages spam"
+                        "name": "Punishment"
                     }
                 },
                 "trigger": {

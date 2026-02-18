@@ -493,9 +493,11 @@
                     "duration": {
                         "name": ""
                     },
+                    "header": "",
                     "interval": {
                         "name": ""
                     },
+                    "name": "",
                     "punishment": {
                         "name": ""
                     }
@@ -566,9 +568,11 @@
                     "duration": {
                         "name": ""
                     },
+                    "header": "",
                     "interval": {
                         "name": ""
                     },
+                    "name": "",
                     "punishment": {
                         "name": ""
                     }
