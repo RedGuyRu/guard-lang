@@ -513,9 +513,11 @@
                     "name": ""
                 },
                 "raid": {
+                    "header": "",
                     "interval": {
                         "name": ""
                     },
+                    "name": "",
                     "threshold": {
                         "name": ""
                     }

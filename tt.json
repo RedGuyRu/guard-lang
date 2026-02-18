@@ -513,9 +513,11 @@
                     "name": "Яңа уенчының чикләүләр дәвамлылыгы"
                 },
                 "raid": {
+                    "header": "",
                     "interval": {
                         "name": ""
                     },
+                    "name": "",
                     "threshold": {
                         "name": ""
                     }
