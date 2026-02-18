@@ -517,11 +517,13 @@
                     "name": "Duration of beginner's restrictions"
                 },
                 "raid": {
+                    "header": "Settings of anti-raid system in chat {{title}}",
                     "interval": {
-                        "name": "Raid check interval"
+                        "name": "Check interval"
                     },
+                    "name": "Anti-raid",
                     "threshold": {
-                        "name": "Raid system threshold"
+                        "name": "Threshold"
                     }
                 },
                 "reactionsUntilBan": {

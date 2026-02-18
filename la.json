@@ -513,9 +513,11 @@
                     "name": "Durationem inceptor restrictiones"
                 },
                 "raid": {
+                    "header": "",
                     "interval": {
                         "name": ""
                     },
+                    "name": "",
                     "threshold": {
                         "name": ""
                     }
