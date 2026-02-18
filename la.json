@@ -499,7 +499,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "poena"
                     }
                 },
                 "messageModeration": {
@@ -574,7 +574,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "poena"
                     }
                 },
                 "trigger": {
