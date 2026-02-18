@@ -499,7 +499,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "制限"
                     }
                 },
                 "messageModeration": {
@@ -630,7 +630,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "制限"
                     }
                 },
                 "trigger": {

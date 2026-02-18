@@ -498,7 +498,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "Strafe"
                     }
                 },
                 "messageModeration": {
@@ -560,7 +560,7 @@
                     },
                     "name": "",
                     "punishment": {
-                        "name": ""
+                        "name": "Strafe"
                     }
                 },
                 "trigger": {
