@@ -450,6 +450,10 @@
         "settings": {
             "audit": "",
             "automod": {
+                "bansSystems": {
+                    "header": "",
+                    "name": ""
+                },
                 "cas": {
                     "name": ""
                 },

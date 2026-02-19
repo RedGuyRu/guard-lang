@@ -452,8 +452,12 @@
         "settings": {
             "audit": "Аудит",
             "automod": {
+                "bansSystems": {
+                    "header": "Настройки баз банов в чате {{title}}",
+                    "name": "Базы банов"
+                },
                 "cas": {
-                    "name": "Реакция на CAS-блокировку"
+                    "name": "Combot Anti Spam"
                 },
                 "contacts": {
                     "name": "Контакты"
@@ -471,7 +475,7 @@
                     "name": "Игры"
                 },
                 "gas": {
-                    "name": "Реакция на GAS-блокировку"
+                    "name": "Guard Anti Spam"
                 },
                 "header": "Настройки автоматической модерации в чате {{title}}",
                 "hideTriggerMessage": {

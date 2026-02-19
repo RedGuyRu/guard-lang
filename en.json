@@ -452,8 +452,12 @@
         "settings": {
             "audit": "Audit",
             "automod": {
+                "bansSystems": {
+                    "header": "Settings of bans bases in chat {{title}}",
+                    "name": "Bans bases"
+                },
                 "cas": {
-                    "name": "Reaction on CAS-ban"
+                    "name": "Combot Anti Spam"
                 },
                 "contacts": {
                     "name": "Contacts"
@@ -471,7 +475,7 @@
                     "name": "Games"
                 },
                 "gas": {
-                    "name": "Reaction on GAS-ban"
+                    "name": "Guard Anti Spam"
                 },
                 "header": "Automatic moderation settings in chat {{title}}",
                 "hideTriggerMessage": {

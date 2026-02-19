@@ -451,6 +451,10 @@
         "settings": {
             "audit": "Audit",
             "automod": {
+                "bansSystems": {
+                    "header": "",
+                    "name": ""
+                },
                 "cas": {
                     "name": "Reactionem ad CAS-ban"
                 },
