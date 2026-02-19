@@ -569,6 +569,10 @@
                 },
                 "trigger": {
                     "name": ""
+                },
+                "triggers": {
+                    "header": "",
+                    "name": ""
                 }
             },
             "category": {
