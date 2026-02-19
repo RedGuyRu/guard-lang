@@ -643,6 +643,10 @@
                 },
                 "trigger": {
                     "name": "Triggers"
+                },
+                "triggers": {
+                    "header": "Settings of triggers and commands in chat {{title}}",
+                    "name": "Triggers"
                 }
             },
             "category": {

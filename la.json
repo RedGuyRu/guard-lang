@@ -585,6 +585,10 @@
                 },
                 "trigger": {
                     "name": "Triggers"
+                },
+                "triggers": {
+                    "header": "",
+                    "name": ""
                 }
             },
             "category": {

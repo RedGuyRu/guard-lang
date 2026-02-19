@@ -639,6 +639,10 @@
                 },
                 "trigger": {
                     "name": "Триггерлар"
+                },
+                "triggers": {
+                    "header": "",
+                    "name": ""
                 }
             },
             "category": {

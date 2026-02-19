@@ -573,6 +573,10 @@
                 },
                 "trigger": {
                     "name": "Тригери"
+                },
+                "triggers": {
+                    "header": "",
+                    "name": ""
                 }
             },
             "category": {
