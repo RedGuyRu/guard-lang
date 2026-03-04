@@ -245,6 +245,7 @@
             "attachMedia": "",
             "attaches": "",
             "body": {
+                "aloneGlobalBan": "",
                 "bans": "",
                 "join": "",
                 "mutes": "",

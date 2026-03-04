@@ -245,6 +245,7 @@
             "attachMedia": "",
             "attaches": "",
             "body": {
+                "aloneGlobalBan": "",
                 "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
                 "join": "",
                 "mutes": "Active mutus: {{mutes}} Mutov totalis: {{total_mutes}}",

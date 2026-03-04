@@ -245,6 +245,7 @@
             "attachMedia": "",
             "attaches": "Додаток",
             "body": {
+                "aloneGlobalBan": "",
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
                 "join": "",
                 "mutes": "Активний мут: {{mutes}} Мутс все: {{total_mutes}}",

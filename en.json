@@ -246,6 +246,7 @@
             "attachMedia": "Media from attachment {{uuid}}",
             "attaches": "Attaches",
             "body": {
+                "aloneGlobalBan": "The user has a global ban!",
                 "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
                 "join": "In chat since {{date}}",
                 "mutes": "Active mute: {{mutes}} Total mutes: {{total_mutes}}",
