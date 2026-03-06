@@ -879,7 +879,7 @@
                 "cooldown": {
                     "name": "Cooldown"
                 },
-                "header": "Warn settings in chat {{title}}",
+                "header": "Warnings settings in chat {{title}}",
                 "maxWarns": {
                     "name": "Limit before punishment"
                 },
