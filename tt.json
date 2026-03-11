@@ -360,6 +360,7 @@
             "cooldown": "Сез бик күп сораулар бирәсез, {{seconds}} секундлар көтегез!",
             "notAvaliable": "",
             "notEnoughRights": "",
+            "notEnoughRightsToRestrict": "",
             "pmlock": "",
             "selfInteract": "",
             "telegramRestrictedSending": ""

@@ -359,6 +359,7 @@
             "cooldown": "",
             "notAvaliable": "",
             "notEnoughRights": "",
+            "notEnoughRightsToRestrict": "",
             "pmlock": "",
             "selfInteract": "",
             "telegramRestrictedSending": ""
