@@ -361,6 +361,7 @@
             "cooldown": "You made too many requests, wait {{seconds}} seconds!",
             "notAvaliable": "This command only works in supergroups!",
             "notEnoughRights": "I don't have enough rights for this action!",
+            "notEnoughRightsToRestrict": "I couldn't apply the restriction because I don't have enough permissions in the chat. Check the audit for details!",
             "pmlock": "I couldn't write in private messages, send the command /start to me in private messages.",
             "selfInteract": "You have specified me as a user; please verify that this is correct.",
             "telegramRestrictedSending": "Due to Telegram restrictions, the message cannot be sent!"
