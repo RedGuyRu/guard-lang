@@ -623,6 +623,10 @@
                 "stories": {
                     "name": "Тарихлар модерациясе"
                 },
+                "telega": {
+                    "description": "",
+                    "name": ""
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": ""

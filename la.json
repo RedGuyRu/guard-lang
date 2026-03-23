@@ -569,6 +569,10 @@
                 "stories": {
                     "name": "Moderatio fabulis"
                 },
+                "telega": {
+                    "description": "",
+                    "name": ""
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": ""

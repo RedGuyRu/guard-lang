@@ -627,6 +627,10 @@
                 "stories": {
                     "name": "Истории"
                 },
+                "telega": {
+                    "description": "Реагирует на пользователей правительственного spyware форка Telega, подробнее: https://dontusetelega.lol/analysis",
+                    "name": "Пользователи Telega"
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": "Максимальное количество одинаковых сообщений в ряд"

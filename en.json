@@ -627,6 +627,10 @@
                 "stories": {
                     "name": "Stories"
                 },
+                "telega": {
+                    "description": "Triggers on users, who use governmental spyware fork Telega, more: https://dontusetelega.lol/analysis",
+                    "name": "Telega users"
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": "Maximum number of same messages in row"
