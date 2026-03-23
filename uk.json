@@ -557,6 +557,10 @@
                 "stories": {
                     "name": "Модерація історій"
                 },
+                "telega": {
+                    "description": "",
+                    "name": ""
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": ""

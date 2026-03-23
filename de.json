@@ -553,6 +553,10 @@
                 "stories": {
                     "name": ""
                 },
+                "telega": {
+                    "description": "",
+                    "name": ""
+                },
                 "textSpamCheck": {
                     "count": {
                         "name": ""
