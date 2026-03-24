@@ -17,6 +17,10 @@
         "check": {
             "description": "Incipit reprehendo files"
         },
+        "checktelega": {
+            "false": "",
+            "true": ""
+        },
         "dban": {
             "description": "Obstrue utentem et nuntium delere"
         },

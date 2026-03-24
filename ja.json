@@ -17,6 +17,10 @@
         "check": {
             "description": "ファイルのスキャンを開始します"
         },
+        "checktelega": {
+            "false": "",
+            "true": ""
+        },
         "dban": {
             "description": "ユーザーを禁止し、そのメッセージを削除します"
         },

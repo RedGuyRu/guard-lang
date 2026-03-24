@@ -17,6 +17,10 @@
         "check": {
             "description": "Starts a file check"
         },
+        "checktelega": {
+            "false": "User {{user}} don't use Telega.",
+            "true": "User {{user}} is using Telega now or in past."
+        },
         "dban": {
             "description": "Bans a user and deletes their message"
         },
