@@ -474,6 +474,9 @@
                 "deleteCommands": {
                     "name": "Башка командаларны бетерү"
                 },
+                "external_bans_exceptions": {
+                    "name": ""
+                },
                 "flood": {
                     "name": "Флуд модерациясе"
                 },

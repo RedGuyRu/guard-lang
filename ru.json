@@ -475,6 +475,9 @@
                 "deleteCommands": {
                     "name": "Удалять прочие команды"
                 },
+                "external_bans_exceptions": {
+                    "name": "Исключения"
+                },
                 "flood": {
                     "name": "Модерация флуда"
                 },

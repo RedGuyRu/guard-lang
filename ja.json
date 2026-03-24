@@ -474,6 +474,9 @@
                 "deleteCommands": {
                     "name": ""
                 },
+                "external_bans_exceptions": {
+                    "name": ""
+                },
                 "flood": {
                     "name": ""
                 },

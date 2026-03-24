@@ -475,6 +475,9 @@
                 "deleteCommands": {
                     "name": "Delete others commands"
                 },
+                "external_bans_exceptions": {
+                    "name": "Exceptions"
+                },
                 "flood": {
                     "name": "Flood moderation"
                 },
