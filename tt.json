@@ -17,6 +17,10 @@
         "check": {
             "description": ""
         },
+        "checktelega": {
+            "false": "",
+            "true": ""
+        },
         "dban": {
             "description": "Кулланучыны блокларга һәм Хәбәрне бетерергә"
         },

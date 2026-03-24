@@ -17,6 +17,10 @@
         "check": {
             "description": ""
         },
+        "checktelega": {
+            "false": "",
+            "true": ""
+        },
         "dban": {
             "description": "Einen Benutzer sperren und eine Nachricht löschen"
         },
