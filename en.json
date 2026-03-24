@@ -18,6 +18,7 @@
             "description": "Starts a file check"
         },
         "checktelega": {
+            "description": "Checks, if user uses \"Telega\" fork.",
             "false": "User {{user}} don't use Telega.",
             "true": "User {{user}} is using Telega now or in past."
         },
@@ -1056,6 +1057,15 @@
         },
         "editTrigger": {
             "header": "Enter new regex for a trigger:"
+        },
+        "external_bans_exceptions": {
+            "added_by": "added by: {{author}}",
+            "enter_user": "Send user to add to exceptions:\n\nSupported formats:\n- User ID\n- @username\n- User link\n- #id format",
+            "error_parsing": "Could not find user!",
+            "header": "External bans exceptions in chat {{title}}",
+            "invalid_user": "Invalid user!",
+            "list_header": "Exceptions",
+            "no_exceptions": "Exception list is empty"
         },
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"

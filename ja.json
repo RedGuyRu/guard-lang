@@ -18,6 +18,7 @@
             "description": "ファイルのスキャンを開始します"
         },
         "checktelega": {
+            "description": "",
             "false": "",
             "true": ""
         },
