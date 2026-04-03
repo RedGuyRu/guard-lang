@@ -623,6 +623,9 @@
                 "anon_perms": {
                     "restrict": ""
                 },
+                "autoModeration": {
+                    "name": ""
+                },
                 "captcha": {
                     "agree": "",
                     "name": ""
@@ -653,9 +656,6 @@
                         "name": ""
                     }
                 },
-                "disableNotifications": {
-                    "name": ""
-                },
                 "extendedModtop": {
                     "name": ""
                 },
@@ -663,7 +663,13 @@
                     "name": ""
                 },
                 "header": "",
+                "insufficientPermissions": {
+                    "name": ""
+                },
                 "messagesAutoRemove": {
+                    "name": ""
+                },
+                "moderation": {
                     "name": ""
                 },
                 "modtop": {
@@ -684,6 +690,9 @@
                     "name": ""
                 },
                 "notificationsTopic": {
+                    "name": ""
+                },
+                "permissionsSync": {
                     "name": ""
                 },
                 "reactions": {

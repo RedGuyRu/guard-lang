@@ -489,7 +489,7 @@
                 },
                 "header": "Automatic moderation settings in chat {{title}}",
                 "hideTriggerMessage": {
-                    "name": "Silent mode of triggers"
+                    "name": "Sending trigger messages"
                 },
                 "linksList": {
                     "name": "Links white list"
@@ -697,6 +697,9 @@
                 "anon_perms": {
                     "restrict": "Users restriction"
                 },
+                "autoModeration": {
+                    "name": "Restrictions issued by auto-moderation"
+                },
                 "captcha": {
                     "agree": "Agree",
                     "name": "Captcha"
@@ -727,9 +730,6 @@
                         "name": "Users commands"
                     }
                 },
-                "disableNotifications": {
-                    "name": "System messages"
-                },
                 "extendedModtop": {
                     "name": "Extended modtop"
                 },
@@ -737,8 +737,14 @@
                     "name": "Greeting"
                 },
                 "header": "Customization settings in chat {{title}}}",
+                "insufficientPermissions": {
+                    "name": "Insufficient permissions messages"
+                },
                 "messagesAutoRemove": {
                     "name": "Interval for deleting trigger messages"
+                },
+                "moderation": {
+                    "name": "Restrictions issued by moderators"
                 },
                 "modtop": {
                     "name": "Modtop access"
@@ -759,6 +765,9 @@
                 },
                 "notificationsTopic": {
                     "name": "Topic for notifications"
+                },
+                "permissionsSync": {
+                    "name": "Permissions sync"
                 },
                 "reactions": {
                     "name": "Reactions callback"
