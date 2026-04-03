@@ -639,6 +639,9 @@
                 "anon_perms": {
                     "restrict": "Issuance limitations"
                 },
+                "autoModeration": {
+                    "name": ""
+                },
                 "captcha": {
                     "agree": "Concordia",
                     "name": "Captcha"
@@ -669,9 +672,6 @@
                         "name": ""
                     }
                 },
-                "disableNotifications": {
-                    "name": ""
-                },
                 "extendedModtop": {
                     "name": "Provectus modtop"
                 },
@@ -679,7 +679,13 @@
                     "name": "Salvete"
                 },
                 "header": "Customization occasus in chat {{title}}",
+                "insufficientPermissions": {
+                    "name": ""
+                },
                 "messagesAutoRemove": {
+                    "name": ""
+                },
+                "moderation": {
                     "name": ""
                 },
                 "modtop": {
@@ -700,6 +706,9 @@
                     "name": ""
                 },
                 "notificationsTopic": {
+                    "name": ""
+                },
+                "permissionsSync": {
                     "name": ""
                 },
                 "reactions": {

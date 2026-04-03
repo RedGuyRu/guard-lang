@@ -627,6 +627,9 @@
                 "anon_perms": {
                     "restrict": "Видача обмежень"
                 },
+                "autoModeration": {
+                    "name": ""
+                },
                 "captcha": {
                     "agree": "Згода",
                     "name": "Капча"
@@ -657,9 +660,6 @@
                         "name": ""
                     }
                 },
-                "disableNotifications": {
-                    "name": ""
-                },
                 "extendedModtop": {
                     "name": "Розширений модтоп"
                 },
@@ -667,7 +667,13 @@
                     "name": "Привітання"
                 },
                 "header": "Налаштування кастомізації в чаті {{title}}",
+                "insufficientPermissions": {
+                    "name": ""
+                },
                 "messagesAutoRemove": {
+                    "name": ""
+                },
+                "moderation": {
                     "name": ""
                 },
                 "modtop": {
@@ -688,6 +694,9 @@
                     "name": ""
                 },
                 "notificationsTopic": {
+                    "name": ""
+                },
+                "permissionsSync": {
                     "name": ""
                 },
                 "reactions": {

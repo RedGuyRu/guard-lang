@@ -693,6 +693,9 @@
                 "anon_perms": {
                     "restrict": "Чикләүләр бирү"
                 },
+                "autoModeration": {
+                    "name": ""
+                },
                 "captcha": {
                     "agree": "Татулык",
                     "name": "кешегә тикшерү"
@@ -723,9 +726,6 @@
                         "name": ""
                     }
                 },
-                "disableNotifications": {
-                    "name": "Системалы белдерүләр"
-                },
                 "extendedModtop": {
                     "name": "Киңәйтелгән модтоп"
                 },
@@ -733,7 +733,13 @@
                     "name": "Сәлам"
                 },
                 "header": "Чатта көйләүләр {{title}}",
+                "insufficientPermissions": {
+                    "name": ""
+                },
                 "messagesAutoRemove": {
+                    "name": ""
+                },
+                "moderation": {
                     "name": ""
                 },
                 "modtop": {
@@ -754,6 +760,9 @@
                     "name": ""
                 },
                 "notificationsTopic": {
+                    "name": ""
+                },
+                "permissionsSync": {
                     "name": ""
                 },
                 "reactions": {
