@@ -936,6 +936,7 @@
                 "badwordsRU": "Lingua obscena(Russica)",
                 "command": "Command",
                 "contains": "Textum continet",
+                "language": "",
                 "match": "Prorsus compositus",
                 "regex": "Lusto expressio"
             },
@@ -944,6 +945,7 @@
             "enterConditionType": "Genus conditionis felis eligere:",
             "enterContains": "Intrant textum ut nuntius ad expediendas contineat:",
             "enterDuration": "Intrant durationem restrictionis:",
+            "enterLanguage": "",
             "enterMatch": "Intrant textum nuntii ad operandum cum:",
             "enterMessage": "Intrant nuntium quem mittis:",
             "enterName": "Intra nomen felis:",
@@ -952,6 +954,12 @@
             "enterReputationGetter": "Eligite susceptorem famae:",
             "enterSource": "",
             "enterTriggerAtEdit": "",
+            "language": {
+                "arabic": "",
+                "chinese": "",
+                "japanese": "",
+                "korean": ""
+            },
             "reputation": {
                 "replier": "User qui responsum accepit",
                 "sender": "Nuntius mittentis"
