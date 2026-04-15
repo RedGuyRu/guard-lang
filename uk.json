@@ -924,6 +924,7 @@
                 "badwordsRU": "Нецензурна лексика (російська)",
                 "command": "",
                 "contains": "",
+                "language": "",
                 "match": "",
                 "regex": ""
             },
@@ -932,6 +933,7 @@
             "enterConditionType": "",
             "enterContains": "",
             "enterDuration": "",
+            "enterLanguage": "",
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "Введіть назву тригера:",
@@ -940,6 +942,12 @@
             "enterReputationGetter": "",
             "enterSource": "",
             "enterTriggerAtEdit": "",
+            "language": {
+                "arabic": "",
+                "chinese": "",
+                "japanese": "",
+                "korean": ""
+            },
             "reputation": {
                 "replier": "",
                 "sender": ""

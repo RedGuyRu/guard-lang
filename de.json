@@ -920,6 +920,7 @@
                 "badwordsRU": "",
                 "command": "",
                 "contains": "",
+                "language": "",
                 "match": "",
                 "regex": ""
             },
@@ -928,6 +929,7 @@
             "enterConditionType": "",
             "enterContains": "",
             "enterDuration": "",
+            "enterLanguage": "",
             "enterMatch": "",
             "enterMessage": "",
             "enterName": "",
@@ -936,6 +938,12 @@
             "enterReputationGetter": "",
             "enterSource": "",
             "enterTriggerAtEdit": "",
+            "language": {
+                "arabic": "",
+                "chinese": "",
+                "japanese": "",
+                "korean": ""
+            },
             "reputation": {
                 "replier": "",
                 "sender": ""

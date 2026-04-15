@@ -994,6 +994,7 @@
                 "badwordsRU": "Sweating (russian)",
                 "command": "Command",
                 "contains": "Contains text",
+                "language": "Contains language",
                 "match": "Exact match",
                 "regex": "Regular Expression"
             },
@@ -1002,6 +1003,7 @@
             "enterConditionType": "Select condition type for trigger:",
             "enterContains": "Enter the text that the triggering message should contain:",
             "enterDuration": "Enter restriction duration:",
+            "enterLanguage": "Select a language:",
             "enterMatch": "Enter the text of the message to be triggered:",
             "enterMessage": "Enter respond message:",
             "enterName": "Enter trigger name:",
@@ -1010,6 +1012,12 @@
             "enterReputationGetter": "Select the recipient of the reputation:",
             "enterSource": "Select text to check:",
             "enterTriggerAtEdit": "Check edited messages text?",
+            "language": {
+                "arabic": "Arabian",
+                "chinese": "Chinese",
+                "japanese": "Japanese",
+                "korean": "Korean"
+            },
             "reputation": {
                 "replier": "User receiving a reply",
                 "sender": "Message sender"
