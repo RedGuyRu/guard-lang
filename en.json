@@ -655,6 +655,22 @@
                         "name": "Punishment"
                     }
                 },
+                "reactionsSpamCheck": {
+                    "count": {
+                        "name": "Maximum number of reactions in a row"
+                    },
+                    "duration": {
+                        "name": "Duration of the penalty"
+                    },
+                    "header": "Reaction spam moderation settings for chat {{title}}",
+                    "interval": {
+                        "name": "Check interval"
+                    },
+                    "name": "Reaction spam moderation",
+                    "punishment": {
+                        "name": "Penalty"
+                    }
+                },
                 "trigger": {
                     "name": "Triggers"
                 },
@@ -955,7 +971,8 @@
         },
         "reactions": {
             "notify": "{{user}} you can be banned for sending reactions during mute!",
-            "reason": "reactions while mute is active"
+            "reason": "reactions while mute is active",
+            "spamReason": "reactions spam"
         },
         "reputation": {
             "down": "Reputation decreased!",

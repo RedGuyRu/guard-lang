@@ -951,7 +951,8 @@
         },
         "reactions": {
             "notify": "",
-            "reason": ""
+            "reason": "",
+            "spamReason": ""
         },
         "reputation": {
             "down": "",

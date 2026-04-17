@@ -897,7 +897,8 @@
         },
         "reactions": {
             "notify": "{{user}} pro mittendis mutationibus per mutos interdictum esse potes!",
-            "reason": "motus in muta"
+            "reason": "motus in muta",
+            "spamReason": ""
         },
         "reputation": {
             "down": "Fama reducta!",
