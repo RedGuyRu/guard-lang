@@ -657,6 +657,11 @@
                 "triggers": {
                     "header": "",
                     "name": "Триггерлар"
+                },
+                "reactionsSpamCheck": {
+                    "punishment": {
+                        "name": "исем"
+                    }
                 }
             },
             "category": {
