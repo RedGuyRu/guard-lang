@@ -603,6 +603,11 @@
                 "triggers": {
                     "header": "",
                     "name": "Triggers"
+                },
+                "reactionsSpamCheck": {
+                    "punishment": {
+                        "name": "poena"
+                    }
                 }
             },
             "category": {
