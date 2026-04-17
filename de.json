@@ -587,6 +587,11 @@
                 "triggers": {
                     "header": "",
                     "name": ""
+                },
+                "reactionsSpamCheck": {
+                    "punishment": {
+                        "name": "Strafe"
+                    }
                 }
             },
             "category": {
