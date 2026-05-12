@@ -335,7 +335,7 @@
         "canceled": "скасовано",
         "captcha": {
             "agree": "Згода",
-            "custom_emoji": "",
+            "custom-emoji": "",
             "emoji": "Емодзі-кнопки",
             "null": "Вимкнено"
         },
