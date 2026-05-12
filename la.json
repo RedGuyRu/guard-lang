@@ -335,7 +335,7 @@
         "canceled": "annuler",
         "captcha": {
             "agree": "Concordia",
-            "custom_emoji": "",
+            "custom-emoji": "",
             "emoji": "Emoji-bullae",
             "null": "Disabled"
         },

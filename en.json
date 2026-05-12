@@ -336,7 +336,7 @@
         "canceled": "cancelled",
         "captcha": {
             "agree": "Agreed",
-            "custom_emoji": "Premium emoji buttons",
+            "custom-emoji": "Premium emoji buttons",
             "emoji": "Emoji buttons",
             "null": "Disabled"
         },
