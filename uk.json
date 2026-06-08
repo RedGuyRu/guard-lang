@@ -680,6 +680,9 @@
                 "modtop": {
                     "name": "Доступ до модтопу"
                 },
+                "networks": {
+                    "name": ""
+                },
                 "nightMode": {
                     "header": "",
                     "name": ""
