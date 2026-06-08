@@ -766,6 +766,9 @@
                 "modtop": {
                     "name": "Доступ к модтопу"
                 },
+                "networks": {
+                    "name": "Сетевые ограничения"
+                },
                 "nightMode": {
                     "header": "Настройки ночного режима в чате {{title}}",
                     "name": "Ночной режим"
@@ -805,7 +808,7 @@
                 }
             },
             "headerChat": "Настройки чата {{title}}",
-            "headerPM": "Настройки пользователя",
+            "headerPM": "Приватные настройки",
             "incorrect_interval": "Неверное значение {{value}}, введите интервал",
             "incorrect_number": "Неверное значение, введите число",
             "inputChangingChat": "Изменение параметра \"{{param}}\" в чате {{title}}, отправьте новое значение в чат. Текущее значение: <code>{{current}}</code>",
@@ -1104,6 +1107,47 @@
             "invalid_user": "Некорректный пользователь!",
             "list_header": "Исключения",
             "no_exceptions": "Список исключений пуст"
+        },
+        "networks": {
+            "header": "Сетевые блокировки в чате {{title}}",
+            "manage_chat": "Управление сетями чата",
+            "manage_admin": "Управление администрируемыми сетями",
+            "join_network": "Присоединиться к сети",
+            "create_network": "Создать сеть",
+            "enter_invite": "Введите код приглашения для подключения к сети:",
+            "enter_name": "Введите название для новой сети:",
+            "network_created": "Сеть \"{{name}}\" создана!\nКод приглашения: <code>{{invite_id}}</code>",
+            "chat_networks_header": "Сети подключенные к чату {{title}}",
+            "no_chat_networks": "Чат не подключен ни к одной сети",
+            "administered_networks_header": "Сети под вашим управлением",
+            "no_administered_networks": "У вас нет собственных сетей",
+            "administered_network_info": "Сеть: <b>{{name}}</b>\nКод приглашения: <code>{{invite_id}}</code>",
+            "import_question": "Импортировать ли имеющиеся ограничения в сети?",
+            "network_info": "Сеть: <b>{{name}}</b>\nКоличество ограничений: {{restrictions}}\n\nВаши права в сети:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}\n- Автоимпорт: {{can_autoimport}}",
+            "autoimport_enabled_status": "Автоимпорт включен: {{enabled}}",
+            "autoimport_toggle": "Автоимпорт",
+            "leave_network": "Выйти из сети",
+            "chats_list": "Список чатов",
+            "transfer": "Передать владение",
+            "regenerate_invite": "Перевыпустить код приглашения",
+            "delete_network": "Удалить сеть",
+            "delete_confirm": "Вы уверены, что хотите удалить сеть \"{{name}}\"?",
+            "network_deleted": "Сеть удалена",
+            "invite_regenerated": "Новый код приглашения: <code>{{invite_id}}</code>",
+            "chats_header": "Чаты в сети \"{{name}}\"",
+            "chat_info": "Чат: {{title}}\nID: <code>{{id}}</code>\nВступил: {{date}}",
+            "kick_chat": "Исключить чат",
+            "rights": "Права чата:",
+            "can_issue": "Выдача блокировок",
+            "can_cancel": "Отмена блокировок",
+            "can_autoimport": "Автоимпорт",
+            "transfer_header": "Введите ID пользователя или @username кому передать сеть:",
+            "transfer_success": "Сеть передана!",
+            "invalid_invite": "Неверный код приглашения!",
+            "already_joined": "Чат уже подключен к этой сети!",
+            "network_not_found": "Сеть не найдена!",
+            "back_to_network": "Назад к сети",
+            "back_to_chats": "К списку чатов"
         },
         "general": {
             "placeholders": "{mention} - упоминание пользователя вызвавшего команду\n{title} - название чата\n{random_mention} - упоминание случайного пользователя\n{replied_mention} - упоминание пользователя на чьё сообщение ответили при вызове команды"

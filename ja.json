@@ -751,6 +751,9 @@
                 "modtop": {
                     "name": ""
                 },
+                "networks": {
+                    "name": ""
+                },
                 "nightMode": {
                     "header": "",
                     "name": ""

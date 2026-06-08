@@ -751,6 +751,9 @@
                 "modtop": {
                     "name": "Модтопка керү мөмкинлеге"
                 },
+                "networks": {
+                    "name": ""
+                },
                 "nightMode": {
                     "header": "",
                     "name": ""
