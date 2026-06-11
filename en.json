@@ -805,6 +805,9 @@
                 },
                 "tokens": {
                     "name": "Tokens"
+                },
+                "apps": {
+                    "name": "Linked Applications"
                 }
             },
             "headerChat": "Settings of {{title}} chat",
@@ -862,6 +865,9 @@
             },
             "privates": {
                 "header": "General user settings",
+                "apps": {
+                    "name": "My applications"
+                },
                 "timezone": {
                     "name": "Time zone"
                 }
@@ -1148,6 +1154,49 @@
             "network_not_found": "Network not found!",
             "back_to_network": "Back to network",
             "back_to_chats": "Back to chats"
+        },
+        "app_chat_link": {
+            "header": "Application linking to chat\n\nApplication: <b>{{app_name}}</b>\nChat: <b>{{chat_title}}</b>\n\nSelect permissions you want to grant to the application in this chat:",
+            "confirm": "Confirm linking",
+            "success": "Application successfully linked to the chat!",
+            "app_not_found": "Application not found!",
+            "not_admin": "You must be a chat administrator to link an application!"
+        },
+        "apps": {
+            "header": "Your applications",
+            "no_apps": "You don't have any applications created yet",
+            "create": "Create application",
+            "enter_name": "Enter a name for the application:",
+            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\n\nTo link to a chat, send to the chat:\n<code>/settings applink {{id}}</code>",
+            "tokens_list": "Tokens list",
+            "no_tokens": "No tokens",
+            "manage_permissions": "Manage permissions",
+            "issue_token": "Issue token",
+            "delete_app": "Delete application",
+            "delete_confirm": "Are you sure you want to delete application \"{{name}}\"? This will also revoke all its tokens.",
+            "app_deleted": "Application deleted",
+            "permissions_header": "Permissions for application \"{{name}}\"",
+            "token_name_prompt": "Enter a name for the new token:",
+            "token_permissions_header": "Select permissions for token \"{{name}}\"",
+            "token_created": "Token created!\nName: <b>{{name}}</b>\nValue: <code>{{value}}</code>\n\n<b>WARNING:</b> The token is shown only once, make sure to save it!",
+            "token_info": "Token: <b>{{name}}</b>\nID: <code>{{id}}</code>\nPermissions: {{permissions}}",
+            "delete_token": "Delete token",
+            "token_deleted": "Token deleted",
+            "permission_names": {
+                "file-report": "File report",
+                "file-manual-review": "Manual file review",
+                "push-new-texts-for-checks": "Push texts for checks",
+                "users-get-info": "Get users info",
+                "users-get-restrictions": "Get users restrictions"
+            }
+        },
+        "chat_apps": {
+            "header": "Applications linked to chat {{title}}",
+            "no_apps": "No applications linked to this chat",
+            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\nLinked at: {{date}}\n\nPermissions: {{permissions}}",
+            "unlink": "Unlink application",
+            "unlink_confirm": "Are you sure you want to unlink application \"{{name}}\"? This will revoke its access to manage this chat.",
+            "unlinked": "Application unlinked"
         },
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
