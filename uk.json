@@ -1044,6 +1044,11 @@
             "editCondition": "",
             "editSource": "",
             "header": "Тригери у чаті {{title}}"
+        },
+        "apps": {
+            "create": "Створити додаток",
+            "issue_token": "Випустити токен",
+            "delete_app": "Видалити додаток"
         }
     }
 }
