@@ -271,6 +271,7 @@
             "reputation": "Репутація: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Обмеження не знайдено!",
+            "selectUser": "",
             "showMedia": "",
             "showMessage": "Переглянути повідомлення",
             "uncancel": "Відновити",

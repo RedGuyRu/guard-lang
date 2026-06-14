@@ -272,6 +272,7 @@
             "reputation": "Репутация: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\nПриложений: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",
+            "selectUser": "Найдено несколько совпадений",
             "showMedia": "Показать медиа",
             "showMessage": "Посмотреть сообщение",
             "uncancel": "Восстановить",
@@ -714,6 +715,9 @@
                 "anon_perms": {
                     "restrict": "Выдача ограничений"
                 },
+                "apps": {
+                    "name": "Привязанные приложения"
+                },
                 "autoModeration": {
                     "name": "Выдача ограничений автомодерацией"
                 },
@@ -805,9 +809,6 @@
                 },
                 "tokens": {
                     "name": "Токены"
-                },
-                "apps": {
-                    "name": "Привязанные приложения"
                 }
             },
             "headerChat": "Настройки чата {{title}}",
@@ -864,10 +865,10 @@
                 "header": "Настройки прав в чате {{title}}"
             },
             "privates": {
-                "header": "Основные настройки пользователя",
                 "apps": {
                     "name": "Мои приложения"
                 },
+                "header": "Основные настройки пользователя",
                 "timezone": {
                     "name": "Часовой пояс"
                 }
@@ -1061,6 +1062,49 @@
             "enter": "Выберите чат используя кнопку ниже",
             "sendMessage": "Отправьте сообщение которое будет отправлено от имени бота! Используйте /stop для завершения!"
         },
+        "app_chat_link": {
+            "app_not_found": "Приложение не найдено!",
+            "confirm": "Подтвердить привязку",
+            "header": "Привязка приложения к чату\n\nПриложение: <b>{{app_name}}</b>\nЧат: <b>{{chat_title}}</b>\n\nВыберите разрешения, которые вы хотите предоставить приложению в этом чате:",
+            "not_admin": "Вы должны быть администратором чата для привязки приложения!",
+            "success": "Приложение успешно привязано к чату!"
+        },
+        "apps": {
+            "app_deleted": "Приложение удалено",
+            "app_info": "Приложение: <b>{{name}}</b>\nID: <code>{{id}}</code>\n\nДля подключения к чату отправьте в чат:\n<code>/settings applink {{id}}</code>",
+            "create": "Создать приложение",
+            "delete_app": "Удалить приложение",
+            "delete_confirm": "Вы уверены, что хотите удалить приложение \"{{name}}\"? Это также аннулирует все его токены.",
+            "delete_token": "Удалить токен",
+            "enter_name": "Введите название для приложения:",
+            "header": "Ваши приложения",
+            "issue_token": "Выпустить токен",
+            "manage_permissions": "Управление разрешениями",
+            "no_apps": "У вас пока нет созданных приложений",
+            "no_tokens": "Токенов нет",
+            "permission_names": {
+                "file-manual-review": "Ручная проверка файлов",
+                "file-report": "Репорт файлов",
+                "push-new-texts-for-checks": "Отправка текстов на проверку",
+                "users-get-info": "Получение информации о пользователях",
+                "users-get-restrictions": "Получение ограничений пользователей"
+            },
+            "permissions_header": "Разрешения для приложения \"{{name}}\"",
+            "token_created": "Токен создан!\nНазвание: <b>{{name}}</b>\nЗначение: <code>{{value}}</code>\n\n<b>ВНИМАНИЕ:</b> Токен показывается только один раз, обязательно сохраните его!",
+            "token_deleted": "Токен удален",
+            "token_info": "Токен: <b>{{name}}</b>\nID: <code>{{id}}</code>\nРазрешения: {{permissions}}",
+            "token_name_prompt": "Введите название для нового токена:",
+            "token_permissions_header": "Выберите разрешения для токена \"{{name}}\"",
+            "tokens_list": "Список токенов"
+        },
+        "chat_apps": {
+            "app_info": "Приложение: <b>{{name}}</b>\nID: <code>{{id}}</code>\nПривязано: {{date}}\n\nРазрешения: {{permissions}}",
+            "header": "Приложения, привязанные к чату {{title}}",
+            "no_apps": "К этому чату не привязано ни одного приложения",
+            "unlink": "Отвязать приложение",
+            "unlink_confirm": "Вы уверены, что хотите отвязать приложение \"{{name}}\"? Это лишит его доступа к управлению в этом чате.",
+            "unlinked": "Приложение отвязано"
+        },
         "command_restrictions": {
             "add_permissions": "Добавить требование прав",
             "add_reports_reputation": "Добавить требование репутации репортов",
@@ -1114,90 +1158,6 @@
             "list_header": "Исключения",
             "no_exceptions": "Список исключений пуст"
         },
-        "networks": {
-            "header": "Сетевые блокировки в чате {{title}}",
-            "manage_chat": "Управление сетями чата",
-            "manage_admin": "Управление администрируемыми сетями",
-            "join_network": "Присоединиться к сети",
-            "create_network": "Создать сеть",
-            "enter_invite": "Введите код приглашения для подключения к сети:",
-            "enter_name": "Введите название для новой сети:",
-            "network_created": "Сеть \"{{name}}\" создана!\nКод приглашения: <code>{{invite_id}}</code>",
-            "chat_networks_header": "Сети подключенные к чату {{title}}",
-            "no_chat_networks": "Чат не подключен ни к одной сети",
-            "administered_networks_header": "Сети под вашим управлением",
-            "no_administered_networks": "У вас нет собственных сетей",
-            "administered_network_info": "Сеть: <b>{{name}}</b>\nКод приглашения: <code>{{invite_id}}</code>",
-            "import_question": "Импортировать ли имеющиеся ограничения в сети?",
-            "network_info": "Сеть: <b>{{name}}</b>\nКоличество ограничений: {{restrictions}}\n\nВаши права в сети:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}\n- Автоимпорт: {{can_autoimport}}",
-            "autoimport_enabled_status": "Автоимпорт включен: {{enabled}}",
-            "autoimport_toggle": "Автоимпорт",
-            "leave_network": "Выйти из сети",
-            "chats_list": "Список чатов",
-            "transfer": "Передать владение",
-            "regenerate_invite": "Перевыпустить код приглашения",
-            "delete_network": "Удалить сеть",
-            "delete_confirm": "Вы уверены, что хотите удалить сеть \"{{name}}\"?",
-            "network_deleted": "Сеть удалена",
-            "invite_regenerated": "Новый код приглашения: <code>{{invite_id}}</code>",
-            "chats_header": "Чаты в сети \"{{name}}\"",
-            "chat_info": "Чат: {{title}}\nID: <code>{{id}}</code>\nВступил: {{date}}",
-            "kick_chat": "Исключить чат",
-            "rights": "Права чата:",
-            "can_issue": "Выдача блокировок",
-            "can_cancel": "Отмена блокировок",
-            "can_autoimport": "Автоимпорт",
-            "transfer_header": "Введите ID пользователя или @username кому передать сеть:",
-            "transfer_success": "Сеть передана!",
-            "invalid_invite": "Неверный код приглашения!",
-            "already_joined": "Чат уже подключен к этой сети!",
-            "network_not_found": "Сеть не найдена!",
-            "back_to_network": "Назад к сети",
-            "back_to_chats": "К списку чатов"
-        },
-        "app_chat_link": {
-            "header": "Привязка приложения к чату\n\nПриложение: <b>{{app_name}}</b>\nЧат: <b>{{chat_title}}</b>\n\nВыберите разрешения, которые вы хотите предоставить приложению в этом чате:",
-            "confirm": "Подтвердить привязку",
-            "success": "Приложение успешно привязано к чату!",
-            "app_not_found": "Приложение не найдено!",
-            "not_admin": "Вы должны быть администратором чата для привязки приложения!"
-        },
-        "apps": {
-            "header": "Ваши приложения",
-            "no_apps": "У вас пока нет созданных приложений",
-            "create": "Создать приложение",
-            "enter_name": "Введите название для приложения:",
-            "app_info": "Приложение: <b>{{name}}</b>\nID: <code>{{id}}</code>\n\nДля подключения к чату отправьте в чат:\n<code>/settings applink {{id}}</code>",
-            "tokens_list": "Список токенов",
-            "no_tokens": "Токенов нет",
-            "manage_permissions": "Управление разрешениями",
-            "issue_token": "Выпустить токен",
-            "delete_app": "Удалить приложение",
-            "delete_confirm": "Вы уверены, что хотите удалить приложение \"{{name}}\"? Это также аннулирует все его токены.",
-            "app_deleted": "Приложение удалено",
-            "permissions_header": "Разрешения для приложения \"{{name}}\"",
-            "token_name_prompt": "Введите название для нового токена:",
-            "token_permissions_header": "Выберите разрешения для токена \"{{name}}\"",
-            "token_created": "Токен создан!\nНазвание: <b>{{name}}</b>\nЗначение: <code>{{value}}</code>\n\n<b>ВНИМАНИЕ:</b> Токен показывается только один раз, обязательно сохраните его!",
-            "token_info": "Токен: <b>{{name}}</b>\nID: <code>{{id}}</code>\nРазрешения: {{permissions}}",
-            "delete_token": "Удалить токен",
-            "token_deleted": "Токен удален",
-            "permission_names": {
-                "file-report": "Репорт файлов",
-                "file-manual-review": "Ручная проверка файлов",
-                "push-new-texts-for-checks": "Отправка текстов на проверку",
-                "users-get-info": "Получение информации о пользователях",
-                "users-get-restrictions": "Получение ограничений пользователей"
-            }
-        },
-        "chat_apps": {
-            "header": "Приложения, привязанные к чату {{title}}",
-            "no_apps": "К этому чату не привязано ни одного приложения",
-            "app_info": "Приложение: <b>{{name}}</b>\nID: <code>{{id}}</code>\nПривязано: {{date}}\n\nРазрешения: {{permissions}}",
-            "unlink": "Отвязать приложение",
-            "unlink_confirm": "Вы уверены, что хотите отвязать приложение \"{{name}}\"? Это лишит его доступа к управлению в этом чате.",
-            "unlinked": "Приложение отвязано"
-        },
         "general": {
             "placeholders": "{mention} - упоминание пользователя вызвавшего команду\n{title} - название чата\n{random_mention} - упоминание случайного пользователя\n{replied_mention} - упоминание пользователя на чьё сообщение ответили при вызове команды"
         },
@@ -1233,6 +1193,47 @@
             },
             "invalidAction": "Некорректное действие, доступны: ban, mute, warn и note!",
             "ok": "Я не смог установить реакцию 👍, но всё хорошо, ограничение выдано."
+        },
+        "networks": {
+            "administered_network_info": "Сеть: <b>{{name}}</b>\nКод приглашения: <code>{{invite_id}}</code>",
+            "administered_networks_header": "Сети под вашим управлением",
+            "already_joined": "Чат уже подключен к этой сети!",
+            "autoimport_enabled_status": "Автоимпорт включен: {{enabled}}",
+            "autoimport_toggle": "Автоимпорт",
+            "back_to_chats": "К списку чатов",
+            "back_to_network": "Назад к сети",
+            "can_autoimport": "Автоимпорт",
+            "can_cancel": "Отмена блокировок",
+            "can_issue": "Выдача блокировок",
+            "chat_info": "Чат: {{title}}\nID: <code>{{id}}</code>\nВступил: {{date}}",
+            "chat_networks_header": "Сети подключенные к чату {{title}}",
+            "chats_header": "Чаты в сети \"{{name}}\"",
+            "chats_list": "Список чатов",
+            "create_network": "Создать сеть",
+            "delete_confirm": "Вы уверены, что хотите удалить сеть \"{{name}}\"?",
+            "delete_network": "Удалить сеть",
+            "enter_invite": "Введите код приглашения для подключения к сети:",
+            "enter_name": "Введите название для новой сети:",
+            "header": "Сетевые блокировки в чате {{title}}",
+            "import_question": "Импортировать ли имеющиеся ограничения в сети?",
+            "invalid_invite": "Неверный код приглашения!",
+            "invite_regenerated": "Новый код приглашения: <code>{{invite_id}}</code>",
+            "join_network": "Присоединиться к сети",
+            "kick_chat": "Исключить чат",
+            "leave_network": "Выйти из сети",
+            "manage_admin": "Управление администрируемыми сетями",
+            "manage_chat": "Управление сетями чата",
+            "network_created": "Сеть \"{{name}}\" создана!\nКод приглашения: <code>{{invite_id}}</code>",
+            "network_deleted": "Сеть удалена",
+            "network_info": "Сеть: <b>{{name}}</b>\nКоличество ограничений: {{restrictions}}\n\nВаши права в сети:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}\n- Автоимпорт: {{can_autoimport}}",
+            "network_not_found": "Сеть не найдена!",
+            "no_administered_networks": "У вас нет собственных сетей",
+            "no_chat_networks": "Чат не подключен ни к одной сети",
+            "regenerate_invite": "Перевыпустить код приглашения",
+            "rights": "Права чата:",
+            "transfer": "Передать владение",
+            "transfer_header": "Введите ID пользователя или @username кому передать сеть:",
+            "transfer_success": "Сеть передана!"
         },
         "tokens": {
             "header": "Токены в чате {{title}}",

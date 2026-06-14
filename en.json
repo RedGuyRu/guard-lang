@@ -272,6 +272,7 @@
             "reputation": "Reputation: ",
             "restriction": "{{type}} №{{id}} until {{until}}\nUser: {{restricted}}\nReason: {{reason}}\nIssued: {{issue_date}}\nModer: {{moder}}\nAttaches: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Restiction not found!",
+            "selectUser": "Multiple results found",
             "showMedia": "Show media",
             "showMessage": "Show message",
             "uncancel": "Restore",
@@ -714,6 +715,9 @@
                 "anon_perms": {
                     "restrict": "Users restriction"
                 },
+                "apps": {
+                    "name": "Linked Applications"
+                },
                 "autoModeration": {
                     "name": "Restrictions issued by auto-moderation"
                 },
@@ -805,9 +809,6 @@
                 },
                 "tokens": {
                     "name": "Tokens"
-                },
-                "apps": {
-                    "name": "Linked Applications"
                 }
             },
             "headerChat": "Settings of {{title}} chat",
@@ -864,10 +865,10 @@
                 "header": "Permissions settings in chat {{title}}"
             },
             "privates": {
-                "header": "General user settings",
                 "apps": {
                     "name": "My applications"
                 },
+                "header": "General user settings",
                 "timezone": {
                     "name": "Time zone"
                 }
@@ -1061,6 +1062,49 @@
             "enter": "Select chat using button bellow",
             "sendMessage": "Send message which will sent from bot's name! Use /stop to stop!"
         },
+        "app_chat_link": {
+            "app_not_found": "Application not found!",
+            "confirm": "Confirm linking",
+            "header": "Application linking to chat\n\nApplication: <b>{{app_name}}</b>\nChat: <b>{{chat_title}}</b>\n\nSelect permissions you want to grant to the application in this chat:",
+            "not_admin": "You must be a chat administrator to link an application!",
+            "success": "Application successfully linked to the chat!"
+        },
+        "apps": {
+            "app_deleted": "Application deleted",
+            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\n\nTo link to a chat, send to the chat:\n<code>/settings applink {{id}}</code>",
+            "create": "Create application",
+            "delete_app": "Delete application",
+            "delete_confirm": "Are you sure you want to delete application \"{{name}}\"? This will also revoke all its tokens.",
+            "delete_token": "Delete token",
+            "enter_name": "Enter a name for the application:",
+            "header": "Your applications",
+            "issue_token": "Issue token",
+            "manage_permissions": "Manage permissions",
+            "no_apps": "You don't have any applications created yet",
+            "no_tokens": "No tokens",
+            "permission_names": {
+                "file-manual-review": "Manual file review",
+                "file-report": "File report",
+                "push-new-texts-for-checks": "Push texts for checks",
+                "users-get-info": "Get users info",
+                "users-get-restrictions": "Get users restrictions"
+            },
+            "permissions_header": "Permissions for application \"{{name}}\"",
+            "token_created": "Token created!\nName: <b>{{name}}</b>\nValue: <code>{{value}}</code>\n\n<b>WARNING:</b> The token is shown only once, make sure to save it!",
+            "token_deleted": "Token deleted",
+            "token_info": "Token: <b>{{name}}</b>\nID: <code>{{id}}</code>\nPermissions: {{permissions}}",
+            "token_name_prompt": "Enter a name for the new token:",
+            "token_permissions_header": "Select permissions for token \"{{name}}\"",
+            "tokens_list": "Tokens list"
+        },
+        "chat_apps": {
+            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\nLinked at: {{date}}\n\nPermissions: {{permissions}}",
+            "header": "Applications linked to chat {{title}}",
+            "no_apps": "No applications linked to this chat",
+            "unlink": "Unlink application",
+            "unlink_confirm": "Are you sure you want to unlink application \"{{name}}\"? This will revoke its access to manage this chat.",
+            "unlinked": "Application unlinked"
+        },
         "command_restrictions": {
             "add_permissions": "Add permission requirement",
             "add_reports_reputation": "Add a report reputation requirement",
@@ -1114,90 +1158,6 @@
             "list_header": "Exceptions",
             "no_exceptions": "Exception list is empty"
         },
-        "networks": {
-            "header": "Network bans in chat {{title}}",
-            "manage_chat": "Manage chat networks",
-            "manage_admin": "Manage administered networks",
-            "join_network": "Join network",
-            "create_network": "Create network",
-            "enter_invite": "Enter invite code to join network:",
-            "enter_name": "Enter name for new network:",
-            "network_created": "Network \"{{name}}\" created!\nInvite code: <code>{{invite_id}}</code>",
-            "chat_networks_header": "Networks connected to chat {{title}}",
-            "no_chat_networks": "Chat is not connected to any network",
-            "administered_networks_header": "Networks under your management",
-            "no_administered_networks": "You have no networks of your own",
-            "administered_network_info": "Network: <b>{{name}}</b>\nInvite code: <code>{{invite_id}}</code>",
-            "import_question": "Import existing restrictions to the network?",
-            "network_info": "Network: <b>{{name}}</b>\nRestrictions count: {{restrictions}}\n\nYour rights in network:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}\n- Autoimport: {{can_autoimport}}",
-            "autoimport_enabled_status": "Autoimport enabled: {{enabled}}",
-            "autoimport_toggle": "Autoimport",
-            "leave_network": "Leave network",
-            "chats_list": "Chats list",
-            "transfer": "Transfer ownership",
-            "regenerate_invite": "Regenerate invite code",
-            "delete_network": "Delete network",
-            "delete_confirm": "Are you sure you want to delete network \"{{name}}\"?",
-            "network_deleted": "Network deleted",
-            "invite_regenerated": "New invite code: <code>{{invite_id}}</code>",
-            "chats_header": "Chats in network \"{{name}}\"",
-            "chat_info": "Chat: {{title}}\nID: <code>{{id}}</code>\nJoined: {{date}}",
-            "kick_chat": "Kick chat",
-            "rights": "Chat rights:",
-            "can_issue": "Issue bans",
-            "can_cancel": "Cancel bans",
-            "can_autoimport": "Autoimport",
-            "transfer_header": "Enter User ID or @username to transfer network to:",
-            "transfer_success": "Network transferred!",
-            "invalid_invite": "Invalid invite code!",
-            "already_joined": "Chat is already connected to this network!",
-            "network_not_found": "Network not found!",
-            "back_to_network": "Back to network",
-            "back_to_chats": "Back to chats"
-        },
-        "app_chat_link": {
-            "header": "Application linking to chat\n\nApplication: <b>{{app_name}}</b>\nChat: <b>{{chat_title}}</b>\n\nSelect permissions you want to grant to the application in this chat:",
-            "confirm": "Confirm linking",
-            "success": "Application successfully linked to the chat!",
-            "app_not_found": "Application not found!",
-            "not_admin": "You must be a chat administrator to link an application!"
-        },
-        "apps": {
-            "header": "Your applications",
-            "no_apps": "You don't have any applications created yet",
-            "create": "Create application",
-            "enter_name": "Enter a name for the application:",
-            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\n\nTo link to a chat, send to the chat:\n<code>/settings applink {{id}}</code>",
-            "tokens_list": "Tokens list",
-            "no_tokens": "No tokens",
-            "manage_permissions": "Manage permissions",
-            "issue_token": "Issue token",
-            "delete_app": "Delete application",
-            "delete_confirm": "Are you sure you want to delete application \"{{name}}\"? This will also revoke all its tokens.",
-            "app_deleted": "Application deleted",
-            "permissions_header": "Permissions for application \"{{name}}\"",
-            "token_name_prompt": "Enter a name for the new token:",
-            "token_permissions_header": "Select permissions for token \"{{name}}\"",
-            "token_created": "Token created!\nName: <b>{{name}}</b>\nValue: <code>{{value}}</code>\n\n<b>WARNING:</b> The token is shown only once, make sure to save it!",
-            "token_info": "Token: <b>{{name}}</b>\nID: <code>{{id}}</code>\nPermissions: {{permissions}}",
-            "delete_token": "Delete token",
-            "token_deleted": "Token deleted",
-            "permission_names": {
-                "file-report": "File report",
-                "file-manual-review": "Manual file review",
-                "push-new-texts-for-checks": "Push texts for checks",
-                "users-get-info": "Get users info",
-                "users-get-restrictions": "Get users restrictions"
-            }
-        },
-        "chat_apps": {
-            "header": "Applications linked to chat {{title}}",
-            "no_apps": "No applications linked to this chat",
-            "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\nLinked at: {{date}}\n\nPermissions: {{permissions}}",
-            "unlink": "Unlink application",
-            "unlink_confirm": "Are you sure you want to unlink application \"{{name}}\"? This will revoke its access to manage this chat.",
-            "unlinked": "Application unlinked"
-        },
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
         },
@@ -1233,6 +1193,47 @@
             },
             "invalidAction": "Incorrect action, avaliable: ban, mute, warn and note!",
             "ok": "I couldn't set 👍 reaction, but all okay, the restriction has been issued."
+        },
+        "networks": {
+            "administered_network_info": "Network: <b>{{name}}</b>\nInvite code: <code>{{invite_id}}</code>",
+            "administered_networks_header": "Networks under your management",
+            "already_joined": "Chat is already connected to this network!",
+            "autoimport_enabled_status": "Autoimport enabled: {{enabled}}",
+            "autoimport_toggle": "Autoimport",
+            "back_to_chats": "Back to chats",
+            "back_to_network": "Back to network",
+            "can_autoimport": "Autoimport",
+            "can_cancel": "Cancel bans",
+            "can_issue": "Issue bans",
+            "chat_info": "Chat: {{title}}\nID: <code>{{id}}</code>\nJoined: {{date}}",
+            "chat_networks_header": "Networks connected to chat {{title}}",
+            "chats_header": "Chats in network \"{{name}}\"",
+            "chats_list": "Chats list",
+            "create_network": "Create network",
+            "delete_confirm": "Are you sure you want to delete network \"{{name}}\"?",
+            "delete_network": "Delete network",
+            "enter_invite": "Enter invite code to join network:",
+            "enter_name": "Enter name for new network:",
+            "header": "Network bans in chat {{title}}",
+            "import_question": "Import existing restrictions to the network?",
+            "invalid_invite": "Invalid invite code!",
+            "invite_regenerated": "New invite code: <code>{{invite_id}}</code>",
+            "join_network": "Join network",
+            "kick_chat": "Kick chat",
+            "leave_network": "Leave network",
+            "manage_admin": "Manage administered networks",
+            "manage_chat": "Manage chat networks",
+            "network_created": "Network \"{{name}}\" created!\nInvite code: <code>{{invite_id}}</code>",
+            "network_deleted": "Network deleted",
+            "network_info": "Network: <b>{{name}}</b>\nRestrictions count: {{restrictions}}\n\nYour rights in network:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}\n- Autoimport: {{can_autoimport}}",
+            "network_not_found": "Network not found!",
+            "no_administered_networks": "You have no networks of your own",
+            "no_chat_networks": "Chat is not connected to any network",
+            "regenerate_invite": "Regenerate invite code",
+            "rights": "Chat rights:",
+            "transfer": "Transfer ownership",
+            "transfer_header": "Enter User ID or @username to transfer network to:",
+            "transfer_success": "Network transferred!"
         },
         "tokens": {
             "header": "Tokens in chat {{title}}",
