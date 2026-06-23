@@ -268,6 +268,8 @@
             },
             "messages": "Повідомлень: {{messages}}",
             "noRestrictions": "Немає обмежень",
+            "profileHistory": "",
+            "profileHistoryHeader": "",
             "reputation": "Репутація: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nКористувач: {{restricted}}\nПричина: {{reason}}\nВидано: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Обмеження не знайдено!",
@@ -970,6 +972,11 @@
             "enter": "",
             "sendMessage": ""
         },
+        "apps": {
+            "create": "Створити додаток",
+            "delete_app": "Видалити додаток",
+            "issue_token": "Випустити токен"
+        },
         "command_restrictions": {
             "add_permissions": "",
             "add_reports_reputation": "",
@@ -1045,11 +1052,6 @@
             "editCondition": "",
             "editSource": "",
             "header": "Тригери у чаті {{title}}"
-        },
-        "apps": {
-            "create": "Створити додаток",
-            "issue_token": "Випустити токен",
-            "delete_app": "Видалити додаток"
         }
     }
 }

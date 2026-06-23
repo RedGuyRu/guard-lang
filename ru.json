@@ -269,6 +269,8 @@
             },
             "messages": "Сообщений: {{messages}}",
             "noRestrictions": "Нет ограничений",
+            "profileHistory": "История изменения профиля",
+            "profileHistoryHeader": "Изменения профиля {{id}}:",
             "reputation": "Репутация: ",
             "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\nПриложений: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",

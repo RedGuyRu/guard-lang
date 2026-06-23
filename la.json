@@ -268,6 +268,8 @@
             },
             "messages": "Epistulae: {{messages}}",
             "noRestrictions": "Non restrictiones",
+            "profileHistory": "",
+            "profileHistoryHeader": "",
             "reputation": "Reputatio: ",
             "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Restrictio non inventa!",
