@@ -975,7 +975,10 @@
         "apps": {
             "create": "Створити додаток",
             "delete_app": "Видалити додаток",
-            "issue_token": "Випустити токен"
+            "issue_token": "Випустити токен",
+            "permission_names": {
+                "users-delete-restrictions": ""
+            }
         },
         "command_restrictions": {
             "add_permissions": "",
