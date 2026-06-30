@@ -1088,6 +1088,7 @@
                 "file-manual-review": "Manual file review",
                 "file-report": "File report",
                 "push-new-texts-for-checks": "Push texts for checks",
+                "users-delete-restrictions": "Deletion of users restrictions",
                 "users-get-info": "Get users info",
                 "users-get-restrictions": "Get users restrictions"
             },

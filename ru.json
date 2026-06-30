@@ -1088,6 +1088,7 @@
                 "file-manual-review": "Ручная проверка файлов",
                 "file-report": "Репорт файлов",
                 "push-new-texts-for-checks": "Отправка текстов на проверку",
+                "users-delete-restrictions": "Удаление ограничений пользователей",
                 "users-get-info": "Получение информации о пользователях",
                 "users-get-restrictions": "Получение ограничений пользователей"
             },

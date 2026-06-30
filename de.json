@@ -973,6 +973,11 @@
             "enter": "",
             "sendMessage": ""
         },
+        "apps": {
+            "permission_names": {
+                "users-delete-restrictions": ""
+            }
+        },
         "command_restrictions": {
             "add_permissions": "",
             "add_reports_reputation": "",
