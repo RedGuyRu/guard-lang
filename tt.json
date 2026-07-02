@@ -1124,6 +1124,9 @@
             "editCondition": "",
             "editSource": "",
             "header": "Чаттагы триггерлар {{title}}"
+        },
+        "networks": {
+            "role_owner": "Ия"
         }
     }
 }
