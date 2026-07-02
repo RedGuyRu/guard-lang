@@ -1199,7 +1199,11 @@
         },
         "networks": {
             "administered_network_info": "Network: <b>{{name}}</b>\nInvite code: <code>{{invite_id}}</code>",
+            "administered_network_info_delegate": "Network: <b>{{name}}</b>\nRole: {{role}}\n\nYour rights:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}",
+            "administered_network_info_owner": "Network: <b>{{name}}</b>\nRole: {{role}}\nInvite code: <code>{{invite_id}}</code>\n\nYour rights:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}",
             "administered_networks_header": "Networks under your management",
+            "add_user": "Add user",
+            "add_user_header": "Enter User ID or @username to grant network rights:",
             "already_joined": "Chat is already connected to this network!",
             "autoimport_enabled_status": "Autoimport enabled: {{enabled}}",
             "autoimport_toggle": "Autoimport",
@@ -1232,11 +1236,19 @@
             "network_not_found": "Network not found!",
             "no_administered_networks": "You have no networks of your own",
             "no_chat_networks": "Chat is not connected to any network",
+            "no_users": "No delegated users yet",
             "regenerate_invite": "Regenerate invite code",
+            "remove_user": "Remove user",
+            "role_delegate": "Delegate",
+            "role_owner": "Owner",
             "rights": "Chat rights:",
             "transfer": "Transfer ownership",
             "transfer_header": "Enter User ID or @username to transfer network to:",
-            "transfer_success": "Network transferred!"
+            "transfer_success": "Network transferred!",
+            "user_info": "User: <b>{{user}}</b>\nID: <code>{{id}}</code>\n\nRights:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}",
+            "user_is_owner": "This user already owns the network",
+            "users_header": "Users in network \"{{name}}\"",
+            "users_list": "Users"
         },
         "tokens": {
             "header": "Tokens in chat {{title}}",

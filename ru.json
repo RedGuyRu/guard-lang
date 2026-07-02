@@ -1236,7 +1236,19 @@
             "rights": "Права чата:",
             "transfer": "Передать владение",
             "transfer_header": "Введите ID пользователя или @username кому передать сеть:",
-            "transfer_success": "Сеть передана!"
+            "transfer_success": "Сеть передана!",
+            "administered_network_info_delegate": "Сеть: <b>{{name}}</b>\nРоль: {{role}}\n\nВаши права:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}",
+            "administered_network_info_owner": "Сеть: <b>{{name}}</b>\nРоль: {{role}}\nКод приглашения: <code>{{invite_id}}</code>\n\nВаши права:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}",
+            "add_user": "Добавить пользователя",
+            "add_user_header": "Введите ID пользователя или @username, чтобы выдать права в сети:",
+            "no_users": "Делегированных пользователей пока нет",
+            "remove_user": "Удалить пользователя",
+            "role_delegate": "Делегат",
+            "role_owner": "Владелец",
+            "user_info": "Пользователь: <b>{{user}}</b>\nID: <code>{{id}}</code>\n\nПрава:\n- Выдача блокировок: {{can_issue}}\n- Отмена блокировок: {{can_cancel}}",
+            "user_is_owner": "Этот пользователь уже владелец сети",
+            "users_header": "Пользователи сети \"{{name}}\"",
+            "users_list": "Пользователи"
         },
         "tokens": {
             "header": "Токены в чате {{title}}",
