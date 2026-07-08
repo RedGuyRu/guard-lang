@@ -991,6 +991,7 @@
         },
         "apps": {
             "permission_names": {
+                "users-create-restrictions": "",
                 "users-delete-restrictions": ""
             }
         },
@@ -1057,6 +1058,9 @@
             "invalidAction": "",
             "ok": ""
         },
+        "networks": {
+            "role_owner": "Dominus"
+        },
         "tokens": {
             "header": "",
             "notFound": ""
@@ -1069,9 +1073,6 @@
             "editCondition": "",
             "editSource": "",
             "header": "Curabitur triggers {{title}}"
-        },
-        "networks": {
-            "role_owner": "Dominus"
         }
     }
 }

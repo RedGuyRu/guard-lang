@@ -1088,6 +1088,7 @@
                 "file-manual-review": "Manual file review",
                 "file-report": "File report",
                 "push-new-texts-for-checks": "Push texts for checks",
+                "users-create-restrictions": "Issue restrictions",
                 "users-delete-restrictions": "Deletion of users restrictions",
                 "users-get-info": "Get users info",
                 "users-get-restrictions": "Get users restrictions"
@@ -1198,12 +1199,12 @@
             "ok": "I couldn't set 👍 reaction, but all okay, the restriction has been issued."
         },
         "networks": {
+            "add_user": "Add user",
+            "add_user_header": "Enter User ID or @username to grant network rights:",
             "administered_network_info": "Network: <b>{{name}}</b>\nInvite code: <code>{{invite_id}}</code>",
             "administered_network_info_delegate": "Network: <b>{{name}}</b>\nRole: {{role}}\n\nYour rights:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}",
             "administered_network_info_owner": "Network: <b>{{name}}</b>\nRole: {{role}}\nInvite code: <code>{{invite_id}}</code>\n\nYour rights:\n- Issue bans: {{can_issue}}\n- Cancel bans: {{can_cancel}}",
             "administered_networks_header": "Networks under your management",
-            "add_user": "Add user",
-            "add_user_header": "Enter User ID or @username to grant network rights:",
             "already_joined": "Chat is already connected to this network!",
             "autoimport_enabled_status": "Autoimport enabled: {{enabled}}",
             "autoimport_toggle": "Autoimport",
@@ -1239,9 +1240,9 @@
             "no_users": "No delegated users yet",
             "regenerate_invite": "Regenerate invite code",
             "remove_user": "Remove user",
+            "rights": "Chat rights:",
             "role_delegate": "Delegate",
             "role_owner": "Owner",
-            "rights": "Chat rights:",
             "transfer": "Transfer ownership",
             "transfer_header": "Enter User ID or @username to transfer network to:",
             "transfer_success": "Network transferred!",

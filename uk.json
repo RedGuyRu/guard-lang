@@ -977,6 +977,7 @@
             "delete_app": "Видалити додаток",
             "issue_token": "Випустити токен",
             "permission_names": {
+                "users-create-restrictions": "",
                 "users-delete-restrictions": ""
             }
         },

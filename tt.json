@@ -1045,6 +1045,7 @@
         },
         "apps": {
             "permission_names": {
+                "users-create-restrictions": "",
                 "users-delete-restrictions": ""
             }
         },
@@ -1112,6 +1113,9 @@
             "invalidAction": "Дөрес булмаган гамәл, мөмкин: ban, mute, warn һәм note!",
             "ok": ""
         },
+        "networks": {
+            "role_owner": "Ия"
+        },
         "tokens": {
             "header": "Чаттагы токеннар {{title}}",
             "notFound": "Токен табылмады!"
@@ -1124,9 +1128,6 @@
             "editCondition": "",
             "editSource": "",
             "header": "Чаттагы триггерлар {{title}}"
-        },
-        "networks": {
-            "role_owner": "Ия"
         }
     }
 }

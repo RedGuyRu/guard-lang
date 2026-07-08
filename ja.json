@@ -1045,6 +1045,7 @@
         },
         "apps": {
             "permission_names": {
+                "users-create-restrictions": "",
                 "users-delete-restrictions": ""
             }
         },
