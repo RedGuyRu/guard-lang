@@ -274,6 +274,7 @@
             "restriction": "{{type}} №{{id}} до {{until}}\nКулланучы: {{restricted}}\nСәбәбе: {{reason}}\nБирелгән: {{issue_date}}\nМодератор: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Чикләү табылмады!",
             "selectUser": "",
+            "sendAll": "",
             "showMedia": "",
             "showMessage": "Хәбәрне карарга",
             "uncancel": "Торгызу",

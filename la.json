@@ -274,6 +274,7 @@
             "restriction": "{{type}} №{{id}} ante {{until}}\nUsor: {{restricted}}\nCausa: {{reason}}\nEditiones: {{issue_date}}\nModerator: {{moder}}\n{{canceled}}",
             "restrictionNotFound": "Restrictio non inventa!",
             "selectUser": "",
+            "sendAll": "",
             "showMedia": "",
             "showMessage": "Videre nuntium",
             "uncancel": "Restituere",

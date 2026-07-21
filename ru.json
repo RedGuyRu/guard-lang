@@ -275,6 +275,7 @@
             "restriction": "{{type}} №{{id}} до {{until}}\nПользователь: {{restricted}}\nПричина: {{reason}}\nВыдан: {{issue_date}}\nМодератор: {{moder}}\nПриложений: {{attaches}}\n{{canceled}}",
             "restrictionNotFound": "Ограничение не найдено!",
             "selectUser": "Найдено несколько совпадений",
+            "sendAll": "Отправить всё",
             "showMedia": "Показать медиа",
             "showMessage": "Посмотреть сообщение",
             "uncancel": "Восстановить",
