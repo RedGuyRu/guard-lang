@@ -992,7 +992,7 @@
         },
         "apps": {
             "permission_names": {
-                "users-create-restrictions": "",
+                "users-create-restrictions": "Issuance limitations",
                 "users-delete-restrictions": ""
             }
         },
