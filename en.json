@@ -464,6 +464,13 @@
         "settings": {
             "audit": "Audit",
             "automod": {
+                "anonChannels": {
+                    "mode": {
+                        "known": "Allow channels with known owner",
+                        "none": "Allow moders channels"
+                    },
+                    "name": "Anonomous channels moderation"
+                },
                 "bansSystems": {
                     "header": "Settings of bans bases in chat {{title}}",
                     "name": "Bans bases"
@@ -871,10 +878,10 @@
                 "apps": {
                     "name": "My applications"
                 },
+                "header": "General user settings",
                 "linkedChannels": {
                     "name": "Link personal channels"
                 },
-                "header": "General user settings",
                 "timezone": {
                     "name": "Time zone"
                 }
@@ -1105,22 +1112,6 @@
             "token_permissions_header": "Select permissions for token \"{{name}}\"",
             "tokens_list": "Tokens list"
         },
-        "linkedChannels": {
-            "add": "Link channel",
-            "alreadyLinked": "This channel is already linked to another user.",
-            "alreadyLinkedByYou": "This channel is already linked to your profile.",
-            "channelNotFound": "The channel was not found or is unavailable to the bot.",
-            "check": "Check",
-            "codeNotFound": "The code <code>{{code}}</code> was not found in the channel description, and the channel is not set as your personal channel.",
-            "deleteConfirm": "Unlink the channel <b>{{channel}}</b>?",
-            "empty": "You do not have any linked channels yet.",
-            "enterChannel": "Send the @username or link of a public channel.",
-            "header": "Link personal channels",
-            "invalidChannel": "Enter a valid @username or link to a public channel.",
-            "requestExpired": "The request was not found or the verification code has expired. Start linking again.",
-            "requestExists": "Another user already has an active request for this channel. Try again later.",
-            "verification": "To verify <b>{{channel}}</b>, add the code <code>{{code}}</code> to its description and then press “Check”.\n\nIf the channel is already set as your personal channel in Telegram, simply press “Check”. The code is valid for 15 minutes."
-        },
         "chat_apps": {
             "app_info": "Application: <b>{{name}}</b>\nID: <code>{{id}}</code>\nLinked at: {{date}}\n\nPermissions: {{permissions}}",
             "header": "Applications linked to chat {{title}}",
@@ -1184,6 +1175,22 @@
         },
         "general": {
             "placeholders": "{mention} - mentiones a user, who sent this command\n{title} - chat name\n{random_mention} - mentiones random user\n{replied_mention} - mentiones a user, who sent replied message"
+        },
+        "linkedChannels": {
+            "add": "Link channel",
+            "alreadyLinked": "This channel is already linked to another user.",
+            "alreadyLinkedByYou": "This channel is already linked to your profile.",
+            "channelNotFound": "The channel was not found or is unavailable to the bot.",
+            "check": "Check",
+            "codeNotFound": "The code <code>{{code}}</code> was not found in the channel description, and the channel is not set as your personal channel.",
+            "deleteConfirm": "Unlink the channel <b>{{channel}}</b>?",
+            "empty": "You do not have any linked channels yet.",
+            "enterChannel": "Send the @username or link of a public channel.",
+            "header": "Link personal channels",
+            "invalidChannel": "Enter a valid @username or link to a public channel.",
+            "requestExists": "Another user already has an active request for this channel. Try again later.",
+            "requestExpired": "The request was not found or the verification code has expired. Start linking again.",
+            "verification": "To verify <b>{{channel}}</b>, add the code <code>{{code}}</code> to its description and then press “Check”.\n\nIf the channel is already set as your personal channel in Telegram, simply press “Check”. The code is valid for 15 minutes."
         },
         "links_list": {
             "back": "Back",

@@ -463,6 +463,13 @@
         "settings": {
             "audit": "Тикшерү",
             "automod": {
+                "anonChannels": {
+                    "mode": {
+                        "known": "",
+                        "none": ""
+                    },
+                    "name": ""
+                },
                 "bansSystems": {
                     "header": "",
                     "name": ""

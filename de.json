@@ -462,6 +462,13 @@
         "settings": {
             "audit": "",
             "automod": {
+                "anonChannels": {
+                    "mode": {
+                        "known": "",
+                        "none": ""
+                    },
+                    "name": ""
+                },
                 "bansSystems": {
                     "header": "",
                     "name": ""
