@@ -469,7 +469,8 @@
                         "known": "Allow channels with known owner",
                         "none": "Allow moders channels"
                     },
-                    "name": "Anonomous channels moderation"
+                    "name": "Anonomous channels moderation",
+                    "reason": "Anonymous channel"
                 },
                 "bansSystems": {
                     "header": "Settings of bans bases in chat {{title}}",
