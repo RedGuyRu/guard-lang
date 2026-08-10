@@ -468,7 +468,8 @@
                         "known": "",
                         "none": ""
                     },
-                    "name": ""
+                    "name": "",
+                    "reason": ""
                 },
                 "bansSystems": {
                     "header": "",
