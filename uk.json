@@ -373,7 +373,8 @@
             "notEnoughRightsToRestrict": "",
             "pmlock": "",
             "selfInteract": "",
-            "telegramRestrictedSending": ""
+            "telegramRestrictedSending": "",
+            "userIsAdmin": ""
         },
         "fileStatus": {
             "approved": "",
