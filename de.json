@@ -373,7 +373,8 @@
             "pmlock": "",
             "selfInteract": "",
             "telegramRestrictedSending": "",
-            "userIsAdmin": ""
+            "userIsAdmin": "",
+            "userIsAnonymousAdmin": ""
         },
         "fileStatus": {
             "approved": "",
