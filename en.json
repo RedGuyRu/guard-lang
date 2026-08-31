@@ -250,6 +250,7 @@
             "attach": "Attachment {{uuid}} for restriction {{id}}\nAuthor: {{moder}}\n\n{{text}}",
             "attachMedia": "Media from attachment {{uuid}}",
             "attaches": "Attaches",
+            "bans": "Bans:",
             "body": {
                 "aloneGlobalBan": "The user has a global ban!",
                 "bans": "Active ban: {{bans}} Total bans: {{total_bans}}",
@@ -268,6 +269,7 @@
                 "user": "Information about user <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Messages: {{messages}}",
+            "mutes": "Mutes:",
             "noRestrictions": "No restrictions",
             "profileHistory": "Profile changes history",
             "profileHistoryHeader": "Changes of profile {{id}}:",
@@ -281,7 +283,7 @@
             "uncancel": "Restore",
             "uncanceled": "Restriction restored!",
             "updateReason": "Send new reason for restriction, current: ",
-            "warns": "warns ",
+            "warns": "Warns:",
             "workers": "AI-Workers:"
         },
         "userreport": {

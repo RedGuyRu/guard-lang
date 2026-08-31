@@ -249,6 +249,7 @@
             "attach": "",
             "attachMedia": "",
             "attaches": "",
+            "bans": "",
             "body": {
                 "aloneGlobalBan": "",
                 "bans": "Актив бан: {{bans}} Барлык банов: {{total_bans}}",
@@ -267,6 +268,7 @@
                 "user": "кулланучылар турында мәгълүмат <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Хәбәрләр: {{messages}}",
+            "mutes": "",
             "noRestrictions": "Чикләүләр юк",
             "profileHistory": "",
             "profileHistoryHeader": "",
@@ -280,7 +282,7 @@
             "uncancel": "Торгызу",
             "uncanceled": "Чикләүләр торгызылды!",
             "updateReason": "Чикләү өчен яңа сәбәп кертегез, агымдагы: ",
-            "warns": "Кисәтмә: ",
+            "warns": "Кисәтмә:",
             "workers": "AI-Воркерлар:"
         },
         "userreport": {

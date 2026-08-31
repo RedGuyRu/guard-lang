@@ -249,6 +249,7 @@
             "attach": "",
             "attachMedia": "",
             "attaches": "",
+            "bans": "",
             "body": {
                 "aloneGlobalBan": "",
                 "bans": "",
@@ -267,6 +268,7 @@
                 "user": ""
             },
             "messages": "",
+            "mutes": "",
             "noRestrictions": "",
             "profileHistory": "",
             "profileHistoryHeader": "",
@@ -280,7 +282,7 @@
             "uncancel": "",
             "uncanceled": "",
             "updateReason": "",
-            "warns": "Warnungen ",
+            "warns": "Warnungen:",
             "workers": ""
         },
         "userreport": {
