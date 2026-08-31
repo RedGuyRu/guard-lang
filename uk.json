@@ -249,6 +249,7 @@
             "attach": "",
             "attachMedia": "",
             "attaches": "Додаток",
+            "bans": "",
             "body": {
                 "aloneGlobalBan": "",
                 "bans": "Активна заборона: {{bans}} Заборона все: {{total_bans}}",
@@ -267,6 +268,7 @@
                 "user": "Інформація про користувача <a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Повідомлень: {{messages}}",
+            "mutes": "",
             "noRestrictions": "Немає обмежень",
             "profileHistory": "",
             "profileHistoryHeader": "",
@@ -280,7 +282,7 @@
             "uncancel": "Відновити",
             "uncanceled": "Обмеження відновлено!",
             "updateReason": "Введіть нову причину для обмеження, поточна: ",
-            "warns": "Попереджень: ",
+            "warns": "Попереджень:",
             "workers": ""
         },
         "userreport": {

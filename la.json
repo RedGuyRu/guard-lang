@@ -249,6 +249,7 @@
             "attach": "",
             "attachMedia": "",
             "attaches": "",
+            "bans": "",
             "body": {
                 "aloneGlobalBan": "",
                 "bans": "Bannum activum:{{bans}} Summa bans: {{total_bans}}",
@@ -267,6 +268,7 @@
                 "user": "User Notitia<a href=\"tg://user?id={{id}}\">{{name}}</a>:"
             },
             "messages": "Epistulae: {{messages}}",
+            "mutes": "",
             "noRestrictions": "Non restrictiones",
             "profileHistory": "",
             "profileHistoryHeader": "",
@@ -280,7 +282,7 @@
             "uncancel": "Restituere",
             "uncanceled": "Restrictio restituta est!",
             "updateReason": "Intra novam causam restrictionis, hodiernam: ",
-            "warns": "Monitum ",
+            "warns": "Monitum:",
             "workers": ""
         },
         "userreport": {
