@@ -159,6 +159,9 @@
             "disabled": "",
             "enabled": ""
         },
+        "removekeyboard": {
+            "text": ""
+        },
         "report": {
             "accepted": "",
             "alreadySent": "",

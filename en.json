@@ -160,6 +160,9 @@
             "disabled": "Read only mode is diabled!",
             "enabled": "Read only mode enabled!"
         },
+        "removekeyboard": {
+            "text": "Keyboard removed!"
+        },
         "report": {
             "accepted": "Report approved!",
             "alreadySent": "You already reported this message!",
