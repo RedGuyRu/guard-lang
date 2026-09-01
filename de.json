@@ -490,6 +490,9 @@
                 "deleteCommands": {
                     "name": ""
                 },
+                "earlyCommentsDeletion": {
+                    "name": "Frühe Kommentare löschen"
+                },
                 "external_bans_exceptions": {
                     "name": ""
                 },

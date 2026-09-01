@@ -491,6 +491,9 @@
                 "deleteCommands": {
                     "name": "Башка командаларны бетерү"
                 },
+                "earlyCommentsDeletion": {
+                    "name": "Иртә комментарийларны бетерү"
+                },
                 "external_bans_exceptions": {
                     "name": ""
                 },
