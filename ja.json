@@ -491,6 +491,9 @@
                 "deleteCommands": {
                     "name": ""
                 },
+                "earlyCommentsDeletion": {
+                    "name": "早期コメントを削除"
+                },
                 "external_bans_exceptions": {
                     "name": ""
                 },

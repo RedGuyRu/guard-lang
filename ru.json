@@ -492,6 +492,9 @@
                 "deleteCommands": {
                     "name": "Удалять прочие команды"
                 },
+                "earlyCommentsDeletion": {
+                    "name": "Удалять ранние комментарии"
+                },
                 "external_bans_exceptions": {
                     "name": "Исключения"
                 },

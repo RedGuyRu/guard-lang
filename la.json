@@ -491,6 +491,9 @@
                 "deleteCommands": {
                     "name": "Alia mandata delere"
                 },
+                "earlyCommentsDeletion": {
+                    "name": "Commentaria prima delere"
+                },
                 "external_bans_exceptions": {
                     "name": ""
                 },

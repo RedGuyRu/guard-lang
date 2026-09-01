@@ -491,6 +491,9 @@
                 "deleteCommands": {
                     "name": "Видаляти інші команди"
                 },
+                "earlyCommentsDeletion": {
+                    "name": "Видаляти ранні коментарі"
+                },
                 "external_bans_exceptions": {
                     "name": ""
                 },
