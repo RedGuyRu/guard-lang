@@ -159,6 +159,9 @@
             "disabled": "Lege-solus modus debilitatus est!",
             "enabled": "Lege-modo modo possit!"
         },
+        "removekeyboard": {
+            "text": ""
+        },
         "report": {
             "accepted": "Querela probatus est!",
             "alreadySent": "Iam relationem de hoc nuntio misisti!",
