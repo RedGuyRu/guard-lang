@@ -160,6 +160,7 @@
             "enabled": ""
         },
         "removekeyboard": {
+            "description": "",
             "text": ""
         },
         "report": {

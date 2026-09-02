@@ -160,6 +160,7 @@
             "enabled": "Режим тільки для читання увімкнено!"
         },
         "removekeyboard": {
+            "description": "",
             "text": ""
         },
         "report": {

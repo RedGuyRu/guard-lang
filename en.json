@@ -161,6 +161,7 @@
             "enabled": "Read only mode enabled!"
         },
         "removekeyboard": {
+            "description": "Removes a keyboard in chat",
             "text": "Keyboard removed!"
         },
         "report": {
