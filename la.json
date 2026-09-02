@@ -160,6 +160,7 @@
             "enabled": "Lege-modo modo possit!"
         },
         "removekeyboard": {
+            "description": "",
             "text": ""
         },
         "report": {
