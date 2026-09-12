@@ -799,6 +799,9 @@
                 "header": ""
             },
             "privates": {
+                "emailLinking": {
+                    "name": ""
+                },
                 "header": "",
                 "timezone": {
                     "name": ""
@@ -1042,6 +1045,16 @@
         },
         "editTrigger": {
             "header": ""
+        },
+        "emailLink": {
+            "currentEmail": "",
+            "header": "",
+            "link": "",
+            "noActiveEmail": "",
+            "sendCode": "",
+            "sendEmail": "",
+            "unlink": "",
+            "wrongCode": ""
         },
         "general": {
             "placeholders": ""

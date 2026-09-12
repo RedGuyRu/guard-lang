@@ -798,6 +798,9 @@
                 "header": ""
             },
             "privates": {
+                "emailLinking": {
+                    "name": ""
+                },
                 "header": "",
                 "timezone": {
                     "name": ""
@@ -1044,6 +1047,16 @@
         },
         "editTrigger": {
             "header": "Введіть новий регулярний вираз для тригера:"
+        },
+        "emailLink": {
+            "currentEmail": "",
+            "header": "",
+            "link": "",
+            "noActiveEmail": "",
+            "sendCode": "",
+            "sendEmail": "",
+            "unlink": "",
+            "wrongCode": ""
         },
         "general": {
             "placeholders": "{mention} - згадка користувача, що викликав команду\n{title} - назва чату\n{random_mention} - згадка випадкового користувача\n{replied_mention} - згадка користувача, на чиє повідомлення відповіли при виклику команди"

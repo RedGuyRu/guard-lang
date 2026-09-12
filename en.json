@@ -890,6 +890,9 @@
                 "apps": {
                     "name": "My applications"
                 },
+                "emailLinking": {
+                    "name": "Email linking"
+                },
                 "header": "General user settings",
                 "linkedChannels": {
                     "name": "Link personal channels"
@@ -1175,6 +1178,16 @@
         },
         "editTrigger": {
             "header": "Enter new regex for a trigger:"
+        },
+        "emailLink": {
+            "currentEmail": "Current email: ",
+            "header": "Email is used to link external services, send notifications, and access certain features.",
+            "link": "Link email",
+            "noActiveEmail": "Email not linked!",
+            "sendCode": "Code has been sent to your email, check them and send code to this chat!",
+            "sendEmail": "Send your email in chat!",
+            "unlink": "Unlink",
+            "wrongCode": "Entered incorrect code!"
         },
         "external_bans_exceptions": {
             "added_by": "added by: {{author}}",
