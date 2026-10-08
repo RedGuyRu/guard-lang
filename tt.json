@@ -510,6 +510,9 @@
                 "gas": {
                     "name": "GAS-банга Реакция"
                 },
+                "guestBot": {
+                    "name": ""
+                },
                 "header": "Чатта автоматик модерация көйләүләре {{title}}",
                 "hideTriggerMessage": {
                     "name": ""

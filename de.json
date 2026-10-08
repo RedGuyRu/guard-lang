@@ -509,6 +509,9 @@
                 "gas": {
                     "name": ""
                 },
+                "guestBot": {
+                    "name": ""
+                },
                 "header": "",
                 "hideTriggerMessage": {
                     "name": ""

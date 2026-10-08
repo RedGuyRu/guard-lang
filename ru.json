@@ -511,6 +511,9 @@
                 "gas": {
                     "name": "Guard Anti Spam"
                 },
+                "guestBot": {
+                    "name": "Сообщения гостевых ботов"
+                },
                 "header": "Настройки автоматической модерации в чате {{title}}",
                 "hideTriggerMessage": {
                     "name": "Отправка сообщений триггеров"

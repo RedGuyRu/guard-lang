@@ -510,6 +510,9 @@
                 "gas": {
                     "name": "Reactionem ad GAS-bannum"
                 },
+                "guestBot": {
+                    "name": ""
+                },
                 "header": "Lorem chat moderatio occasus {{title}}",
                 "hideTriggerMessage": {
                     "name": ""
