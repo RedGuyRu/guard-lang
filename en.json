@@ -52,6 +52,7 @@
             "canceledRestriction_many": "{{count}} restrictions canceled!",
             "canceledRestriction_zero": "There are no restrictions to be removed!",
             "cooldown": "This user is protected by cooldown!",
+            "date": "Date",
             "disabled": "This command disabled in chat settings!",
             "links": "Links",
             "message": "message",

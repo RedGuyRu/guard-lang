@@ -52,6 +52,7 @@
             "canceledRestriction_many": "{{count}} 件の制限が解除されました！",
             "canceledRestriction_zero": "解除できる制限はありません！",
             "cooldown": "このユーザーはクールダウン保護下にあります！",
+            "date": "",
             "disabled": "このコマンドはチャット設定で無効化されています！",
             "message": "メッセージ",
             "message_few": "メッセージ",

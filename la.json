@@ -52,6 +52,7 @@
             "canceledRestriction_many": "{{count}} restrictiones levavi!",
             "canceledRestriction_zero": "Nullae restrictiones elevatae sunt!",
             "cooldown": "A user sub immunitet KD!",
+            "date": "",
             "disabled": "Praeceptum debilitatum est in occasus chat!",
             "message": "nuntium",
             "message_few": "epistulae",

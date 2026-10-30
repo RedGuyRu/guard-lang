@@ -52,6 +52,7 @@
             "canceledRestriction_many": "{{count}} Beschränkungen wurden aufgehoben!",
             "canceledRestriction_zero": "Keine Beschränkungen aufgehoben!",
             "cooldown": "",
+            "date": "",
             "disabled": "Der Befehl ist in den Chat-Einstellungen deaktiviert!",
             "message": "Meldung",
             "message_few": "Meldungen",

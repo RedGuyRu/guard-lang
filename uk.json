@@ -52,6 +52,7 @@
             "canceledRestriction_many": "Знято {{count}} обмежень!",
             "canceledRestriction_zero": "Немає знятих обмежень!",
             "cooldown": "Користувач знаходиться під захистом КД!",
+            "date": "",
             "disabled": "Команда вимкнена в налаштуваннях чату!",
             "message": "Повідомлення",
             "message_few": "повідомлення",

@@ -52,6 +52,7 @@
             "canceledRestriction_many": "{{count}} чикләүләр төшерелгән!",
             "canceledRestriction_zero": "Чикләүләр юк!",
             "cooldown": "Кулланучы КД яклавы астында тора!",
+            "date": "",
             "disabled": "Команда чат көйләүләрендә сүндерелгән!",
             "message": "хәбәр",
             "message_few": "хәбәр",
